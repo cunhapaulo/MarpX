@@ -13,7 +13,7 @@ You can use this directive to create a standardised start slide for your present
 
 ### Example code and result:
 
-
+[Back to top](#references)
 ### Transitions
 
         <!-- _class: biblio           -->
