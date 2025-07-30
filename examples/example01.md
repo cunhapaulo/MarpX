@@ -31,4 +31,18 @@ marp: true
 
 # New Time
 
-Begins another time
+- Begins another time
+
+<div class="callout quote">
+
+# Information
+
+Texto escrito
+
+</div>
+
+---
+
+# New Slide
+
+Text
