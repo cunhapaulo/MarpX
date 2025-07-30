@@ -2,7 +2,15 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../marpstyle"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"markdown.marp.themes": [
+			"./themes/_marpx.css",
+			"./themes/marpx.css",
+		]
+	}
 }
