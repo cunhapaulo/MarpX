@@ -4,7 +4,7 @@ description: Marp Presentation Example
 author: Paulo Cunha
 header: MarpX example
 footer: Introduction to MarpX
-lang: de
+lang: pt-br
 size: 16:9
 paginate: true
 theme: _marpx
@@ -464,3 +464,22 @@ footer::before {
  content: "Version: GITREVISION | © ";
 }
 </style>
+
+---
+
+ |    Code    |                                   Color                                   |
+ | :--------: | :-----------------------------------------------------------------------: |
+ | `#ffb600;` | <div style="width: 50px; height: 25px; background-color: #ffb600;"></div> |
+ | `#C9DAF8;` | <div style="width: 50px; height: 25px; background-color: #C9DAF8;"></div> |
+ | `#A4C2F4;` | <div style="width: 50px; height: 25px; background-color: #A4C2F4;"></div> |
+ | `#9FC5E8;` | <div style="width: 50px; height: 25px; background-color: #9FC5E8;"></div> |
+ | `#CFE2F3;` | <div style="width: 50px; height: 25px; background-color: #CFE2F3;"></div> |
+ | `#f3f1ec;` | <div style="width: 50px; height: 25px; background-color: #f3f1ec;"></div> |
+ | `#f3f1ec;` | <div style="width: 50px; height: 25px; background-color: #f3f1ec;"></div> |
+ | `#7389c4;` | <div style="width: 50px; height: 25px; background-color: #7389c4;"></div> |
+ | `#3e6ceb;` | <div style="width: 50px; height: 25px; background-color: #3e6ceb;"></div> |
+ | `#8aa1e2;` | <div style="width: 50px; height: 25px; background-color: #8aa1e2;"></div> |
+ | `#b8c2f9;` | <div style="width: 50px; height: 25px; background-color: #b8c2f9;"></div> |
+ | `#bbc7e7;` | <div style="width: 50px; height: 25px; background-color: #bbc7e7;"></div> |
+ | `#d8e2ec;` | <div style="width: 50px; height: 25px; background-color: #d8e2ec;"></div> |
+ | `#ebf0fc;` | <div style="width: 50px; height: 25px; background-color: #ebf0fc;"></div> |
