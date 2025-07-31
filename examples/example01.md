@@ -2,7 +2,7 @@
 title: Introduction
 description: Marp Presentation Example
 author: Paulo Cunha
-header: MarpX example
+header: Instructions onthe use of MarpX
 footer: Introduction to MarpX
 lang: pt-br
 size: 16:9
@@ -426,7 +426,9 @@ Text in the inner callout.
 </div>
 
 ---
+
 <!-- _class: end -->
+
 # Vielen Dank
 
 **Max Muster**
@@ -467,19 +469,161 @@ footer::before {
 
 ---
 
+
+# Figures and caption in multicolumn
+
+
+
+<div class="multicolumn" align="center">
+
+![h:350](/images/zeus.png) 
+<span class="figcap">Deus Zeus</span>
+
+![ h:350](/images/afrodite.png)
+<span class="highlight">Afrodite</span>
+
+![ h:350](/images/dionisio.png)
+<span class="figcap">Dionísio</span>
+
+![ h:350](/images/era.png)
+<span class="figcap">Era</span>
+
+</div>
+
+---
+
+# Figures and caption in multicolumn
+
+
+-  `align="center"` in `<div class="multicolumn" align="center">`
+-  `class="figcap"` in `<span class="figcap">God Zeus.</span>`
+-  `class="highlight"` in `<span class="highlight">Afrodite</span>`
+&nbsp;
+
+<div class="multicolumn" align="center">
+
+![h:250](/images/zeus.png) 
+<span class="figcap">God Zeus.</span>
+
+![h:250](/images/afrodite.png)
+<span class="highlight">Afrodite</span>
+
+<div align="left">
+
+```css
+
+<div class="multicolumn" align="center">
+
+![h:350](/images/zeus.png) 
+<span class="figcap">God Zeus.</span>
+
+![h:350](/images/afrodite.png)
+<span class="highlight">Afrodite</span>
+
+</div>
+
+</div>
+
+``` 
+
+</div>
+
+---
+
+# Colors
+<div class="multicolumn" align="center">
+
  |    Code    |                                   Color                                   |
  | :--------: | :-----------------------------------------------------------------------: |
  | `#ffb600;` | <div style="width: 50px; height: 25px; background-color: #ffb600;"></div> |
- | `#C9DAF8;` | <div style="width: 50px; height: 25px; background-color: #C9DAF8;"></div> |
  | `#A4C2F4;` | <div style="width: 50px; height: 25px; background-color: #A4C2F4;"></div> |
  | `#9FC5E8;` | <div style="width: 50px; height: 25px; background-color: #9FC5E8;"></div> |
+ | `#C9DAF8;` | <div style="width: 50px; height: 25px; background-color: #C9DAF8;"></div> |
  | `#CFE2F3;` | <div style="width: 50px; height: 25px; background-color: #CFE2F3;"></div> |
  | `#f3f1ec;` | <div style="width: 50px; height: 25px; background-color: #f3f1ec;"></div> |
  | `#f3f1ec;` | <div style="width: 50px; height: 25px; background-color: #f3f1ec;"></div> |
- | `#7389c4;` | <div style="width: 50px; height: 25px; background-color: #7389c4;"></div> |
+ |            |                                                                           |
+
+
+ |    Code    |                                   Color                                   |
+ | :--------: | :-----------------------------------------------------------------------: |
  | `#3e6ceb;` | <div style="width: 50px; height: 25px; background-color: #3e6ceb;"></div> |
+ | `#7389c4;` | <div style="width: 50px; height: 25px; background-color: #7389c4;"></div> |
  | `#8aa1e2;` | <div style="width: 50px; height: 25px; background-color: #8aa1e2;"></div> |
  | `#b8c2f9;` | <div style="width: 50px; height: 25px; background-color: #b8c2f9;"></div> |
  | `#bbc7e7;` | <div style="width: 50px; height: 25px; background-color: #bbc7e7;"></div> |
  | `#d8e2ec;` | <div style="width: 50px; height: 25px; background-color: #d8e2ec;"></div> |
  | `#ebf0fc;` | <div style="width: 50px; height: 25px; background-color: #ebf0fc;"></div> |
+ |            |                                                                           |
+
+</div>
+
+---
+
+<style scoped>
+
+section {
+    font-size: 16pt;
+    /* font-family: 'Courier New', monospace; */
+}
+
+</style>
+
+
+# Itens de Parametrização
+
+<center>
+
+| Item                       | Parâmetro                 | Description                 | Valor      |
+| -------------------------- | ------------------------- | --------------------------- | ---------- |
+|                            | `--marpx-theme-color`     | General color for the theme | #3e6ceb    |
+|                            | `--marpx-theme-color-alt` | Color for Chapter slides    | #fa6400ff  |
+| `<code>`                   | `--code-color`            | Background color            | #ffb70052  |
+| `<span class="highlight">` | `--text-highlight`        | Highlight text              | #ffef0878  |
+| `<span class="figcap">`    | `--figure-captiontext`    | Caption text for figures    | "Fig.: "   |
+| `<span class="tabcap">`    | `--table-captiontext`     | Caption text for table      | "Tabela: " |
+|                            |                           |                             |            |
+
+<div class="tabcap"> Itens de parametrização no MarpX.</div>
+
+</center>
+
+
+<style>
+    :root{
+
+        --marpx-theme-color: #3e6ceb;
+        --marpx-theme-color-alt: #fa6400ff;
+
+        --code-bg: #006eff1e;
+        --text-highlight: #ffef0878;
+        --figure-captiontext: "Fig.: ";
+        --table-captiontext: "Tabela: ";
+    }
+    
+    .figcap, .tabcap{
+        font-size: 16.5pt;
+        color: black;
+    }
+
+    .figcap::before{
+        color: var(--marpx-theme-color);
+        content: var(--figure-captiontext);
+    }   
+
+    .tabcap::before{
+        color: var(--marpx-theme-color);
+        content: var(--table-captiontext);
+    }   
+
+    .highlight{
+        padding: 0.2em 0.3em;
+        background-color: var(--text-highlight);
+
+    }
+
+    code{
+        background-color: var(--code-bg);
+    }
+
+</style>

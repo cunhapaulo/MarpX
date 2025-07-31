@@ -41,17 +41,18 @@ You can use this directive to create a standardised start slide for your present
 |  `<blockquote>` | `<quote>`                         |
 |        `<cite>` | `<quote>`                         |
 |       `<cite2>` | `<quote>`                         |
-|     `<columns>` | `<div class="multicolumn"></div>` |
-|    `<columns3>` | `<!-- _class: multicolumn -->`    |
 |   `<cool>-list` | `<cool-list>`                     |
 |  `<cool>-list2` | `<cool-list>`                     |
+|              -- | `<figure>`                        |
 |       `<table>` | `<table>`                         |
 |  `<title>-page` | `<title>`                         |
+|                 | `<div class="callout warning">`   |
+|     `<columns>` | `<div class="multicolumn"></div>` |
+|    `<columns3>` | `<!-- _class: multicolumn -->`    |
 |  `<transition>` | `<!-- _class: chapter -->`        |
 | `<transition2>` | `<!-- _class: subsection -->`     |
-|              -- | `<figure>`                        |
+|                 | `<!-- _class: end -->`            |
 |              -- | `<!-- _class: blank -->`          |
-|                 | `<div class="callout warning">`   |
 |                 |                                   |
 
 ### Callouts

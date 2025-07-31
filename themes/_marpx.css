@@ -15,7 +15,7 @@
 :root {
 
     --marpx-theme-color: #3e6ceb;
-    --marpx-theme-color-alternative: orangered;
+    --marpx-theme-color-alt: orangered;
     --marpx-light-grey: #a6a6a6;
     --marpx-dark-grey: #000000;
 }
@@ -329,7 +329,7 @@ section.chapter {
     padding-left: 80px;
     background-image: none;
     background-color: var(--marpx-theme-color);
-    background-color: var(--marpx-theme-color-alternative);
+    background-color: var(--marpx-theme-color-alt);
 }
 
 
@@ -447,6 +447,7 @@ section[lang~="en-US"].agenda::before {
 section.end,
 section.end-bg {
     color: white;
+    background-color: var(--marpx-theme-color);
     padding-right: 515px;
     padding-left: 90px;
     padding-top: 185px;
