@@ -82,19 +82,14 @@ marp: true
 
 # More Special Slides
 
-- Agenda slide
-  - `<!-- _class: agenda -->`
-- Chapter slide
-  - `<!-- _class: chapter -->`
+- Agenda slide: `<!-- _class: agenda -->`
+- Chapter slide: `<!-- _class: chapter -->`
 - Thanks or End slide without and with background image
   - `<!-- _class: end -->`
   - `<!-- _class: end-bg -->`
-- Slide with several columns
-  - `<!-- _class: multicolumn -->`
-- A blank slide
-  - `<!-- _class: blank -->`
-- A nearly blank slide
-  - `<!-- _class: nobrand -->`
+- Slide with several columns: `<!-- _class: multicolumn -->`
+- A blank slide: `<!-- _class: blank -->`
+- A nearly blank slide: `<!-- _class: nobrand -->`
 
 ---
 <!-- _class: title -->
@@ -469,6 +464,49 @@ footer::before {
 
 ---
 
+# Figures and caption in one column
+  
+<div class="multicolumn">
+
+<center>
+
+![h:400](/images/zeus.png) 
+<figcaption>God Zeus</figcaption>
+
+</center>
+
+---
+
+# Figures and caption in one column
+
+- When it is necessary to use one figure and its caption, use `<figcaption>`
+&nbsp;
+
+<div class="multicolumn">
+
+<center>
+
+![h:250](/images/zeus.png) 
+<figcaption>God Zeus</figcaption>
+
+</center>
+
+
+```markdown
+
+<div class="multicolumn">
+
+<center>
+
+![h:350](/images/zeus.png) 
+<figcaption>God Zeus</figcaption>
+
+</center>
+
+```
+
+---
+
 
 # Figures and caption in multicolumn
 
@@ -477,16 +515,16 @@ footer::before {
 <div class="multicolumn" align="center">
 
 ![h:350](/images/zeus.png) 
-<span class="figcap">Deus Zeus</span>
+<span class="figcaption">God Zeus</span>
 
 ![ h:350](/images/afrodite.png)
 <span class="highlight">Afrodite</span>
 
 ![ h:350](/images/dionisio.png)
-<span class="figcap">Dionísio</span>
+<span class="figcaption">Dionísio</span>
 
 ![ h:350](/images/era.png)
-<span class="figcap">Era</span>
+<span class="figcaption">Era</span>
 
 </div>
 
@@ -496,14 +534,14 @@ footer::before {
 
 
 -  `align="center"` in `<div class="multicolumn" align="center">`
--  `class="figcap"` in `<span class="figcap">God Zeus.</span>`
+-  `class="figcaption"` in `<span class="figcaption">God Zeus.</span>`
 -  `class="highlight"` in `<span class="highlight">Afrodite</span>`
 &nbsp;
 
 <div class="multicolumn" align="center">
 
 ![h:250](/images/zeus.png) 
-<span class="figcap">God Zeus.</span>
+<span class="figcaption">God Zeus.</span>
 
 ![h:250](/images/afrodite.png)
 <span class="highlight">Afrodite</span>
@@ -515,7 +553,7 @@ footer::before {
 <div class="multicolumn" align="center">
 
 ![h:350](/images/zeus.png) 
-<span class="figcap">God Zeus.</span>
+<span class="figcaption">God Zeus.</span>
 
 ![h:350](/images/afrodite.png)
 <span class="highlight">Afrodite</span>
@@ -574,44 +612,67 @@ section {
 
 <center>
 
-| Item                       | Parâmetro                 | Description                 | Valor      |
-| -------------------------- | ------------------------- | --------------------------- | ---------- |
-|                            | `--marpx-theme-color`     | General color for the theme | #3e6ceb    |
-|                            | `--marpx-theme-color-alt` | Color for Chapter slides    | #fa6400ff  |
-| `<code>`                   | `--code-color`            | Background color            | #ffb70052  |
-| `<span class="highlight">` | `--text-highlight`        | Highlight text              | #ffef0878  |
-| `<span class="figcap">`    | `--figure-captiontext`    | Caption text for figures    | "Fig.: "   |
-| `<span class="tabcap">`    | `--table-captiontext`     | Caption text for table      | "Tabela: " |
-|                            |                           |                             |            |
+| Parâmetro                 | Item                       | Description                  | Valor     |
+| ------------------------- | -------------------------- | ---------------------------- | --------- |
+| `--marpx-theme-color`     |                            | General color for the theme  | #3e6ceb   |
+| `--marpx-theme-color-alt` |                            | Color for Chapter slides     | #fa6400ff |
+| `--code-color`            | `<code>`                   | Background color             | #ffb70052 |
+| `--text-highlight`        | `<span class="highlight">` | Highlight text inside a line | #ffef0878 |
+| `--figure-captiontext`    | `<span class="figcaption">`    | Caption text for figures     | "Fig.: "  |
+| `--table-captiontext`     | `<span class="tabcap">`    | Caption text for table       | "Table: " |
+|                           |                            |                              |           |
 
-<div class="tabcap"> Itens de parametrização no MarpX.</div>
+<tabcaption>Itens de parametrização no MarpX.</tabcaption>
 
 </center>
 
 
 <style>
     :root{
+        counter-reset: figura;
 
         --marpx-theme-color: #3e6ceb;
-        --marpx-theme-color-alt: #fa6400ff;
+        --marpx-theme-color-alt: #fa002aff;
 
         --code-bg: #006eff1e;
         --text-highlight: #ffef0878;
-        --figure-captiontext: "Fig.: ";
-        --table-captiontext: "Tabela: ";
+        --figure-captiontext: "Fig. ";
+        --table-captiontext: "Table: ";
     }
     
-    .figcap, .tabcap{
+    figcaption, tabcaption{
+        font-size: 16.5pt;
+        font-weight: 100;
+        color: black;
+    }
+
+    figcaption::before{
+        counter-increment: figura; 
+        font-weight: bold;
+        color: var(--marpx-theme-color);
+        content: var(--figure-captiontext) counter(figura) ": ";
+    }  
+
+    tabcaption::before{
+        font-weight: bold;
+        color: var(--marpx-theme-color);
+        content: var(--table-captiontext);
+    } 
+
+    .figcaption, .tabcaption{
         font-size: 16.5pt;
         color: black;
     }
 
-    .figcap::before{
+    .figcaption::before{
+        counter-increment: figura; 
+        font-weight: bold;
         color: var(--marpx-theme-color);
-        content: var(--figure-captiontext);
+        content: var(--figure-captiontext) counter(figura) ": ";
     }   
 
-    .tabcap::before{
+    .tabcaption::before{
+        font-weight: bold;
         color: var(--marpx-theme-color);
         content: var(--table-captiontext);
     }   

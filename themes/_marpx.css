@@ -161,11 +161,6 @@ section>figure.center {
     max-height: calc(100% - 48px);
 }
 
-figcaption {
-    font-size: 10.5pt;
-    color: var(--marpx-theme-color);
-}
-
 footnote {
     border-top: 0.1em solid #555;
     border-left: 0;
