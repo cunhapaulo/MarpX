@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Numeração Automática de Figuras</title>
+  <style>
+    /* 1. Define e reseta o contador chamado "figura" no início do corpo */
+    body {
+      counter-reset: figura;
+      font-family: sans-serif;
+      max-width: 600px;
+      margin: 2em auto;
+    }
+
+    /* 2. Estilo da tag <figure> */
+    figure {
+      margin: 2em 0;
+      padding: 1em;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+
+    figure img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto 0.5em auto;
+    }
+
+    /* 3. Estilo da legenda com numeração automática */
+    figcaption::before {
+      counter-increment: figura;
+      content: "Figura " counter(figura) ": ";
+      font-weight: bold;
+      color: #2a2a2a;
+    }
+
+    figcaption {
+      text-align: center;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Exemplo de Numeração Automática de Figuras com CSS</h1>
+
+  <figure>
+    <img src="https://via.placeholder.com/300x150?text=Imagem+1" alt="Imagem 1">
+    <figcaption>Descrição da primeira imagem.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://via.placeholder.com/300x150?text=Imagem+2" alt="Imagem 2">
+    <figcaption>Descrição da segunda imagem.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://via.placeholder.com/300x150?text=Imagem+3" alt="Imagem 3">
+    <figcaption>Descrição da terceira imagem.</figcaption>
+  </figure>
+
+</body>
+</html>
