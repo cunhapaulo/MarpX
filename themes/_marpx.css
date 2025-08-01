@@ -4,7 +4,7 @@
 * @auto-scaling true
 * @size fullHD 1920px 1080px
 * @size 16:9 1280px 720px
-* @size 4:3 1024px 768px
+* @size 4:3 960px 720px
 *
 */
 
@@ -41,8 +41,9 @@ img[alt~="title-bg"] {
 }
 
 section {
+    --page-number: attr(data-marpit-pagination); /*paulo.cunha*/
     background: white;
-    font-family: Bookerly, 'Open Sans', sans-serif;
+    font-family: 'Fira Sans Light', Bookerly, 'Open Sans', sans-serif;
     font-size: 18pt;
     font-size: 22pt;
     font-weight: 400;
@@ -56,9 +57,9 @@ section::after {
     border-radius: 100px;
     bottom: 22px;
     color: var(--marpx-theme-color);
-    content: attr(data-marpit-pagination);
+    content: attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
     font-size: 14pt;
-    left: 72px;
+    left: 50px;
     margin: 0;
     padding: 2px 8px;
     position: absolute;
@@ -101,8 +102,9 @@ footer::before {
     content: "© ";
 }
 
+/* BRAND LOGO */
 footer::after {
-    content: " Hochschule Mittweida";
+    content: var(--brandlogo);
 }
 
 h1 {
@@ -624,6 +626,7 @@ div.callout>h1::before {
     margin-right: 4pt;
 }
 
+/* logo */
 div.callout>h1::before,
 div.callout>h1.info::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-info%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22info.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2212%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Ccircle%0A%20%20%20%20%20cx%3D%2212%22%0A%20%20%20%20%20cy%3D%2212%22%0A%20%20%20%20%20r%3D%2210%22%0A%20%20%20%20%20id%3D%22circle1%22%0A%20%20%20%20%20style%3D%22stroke:%2369a7eb%3Bstroke-opacity:1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M12%2016v-4M12%208h.01%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%2369a7eb%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
@@ -640,6 +643,7 @@ div.callout.info {
     border-color: #bcd8f6;
 }
 
+/* logo */
 div.callout.warning>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-alert-triangle%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22warning.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2212.014724%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221265%22%0A%20%20%20%20%20inkscape:window-height%3D%221017%22%0A%20%20%20%20%20inkscape:window-x%3D%22651%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%220%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22m%2021.73%2C18%20-8%2C-14%20a%202%2C2%200%200%200%20-3.48%2C0%20l%20-8%2C14%20A%202%2C2%200%200%200%204%2C21%20h%2016%20a%202%2C2%200%200%200%201.73%2C-3%20z%20M%2012%2C9%20v%204%20m%200%2C4%20h%200.01%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20inkscape:highlight-color%3D%22%2307aaaa%22%0A%20%20%20%20%20style%3D%22fill-rule:evenodd%3Bstroke:%23f08e2f%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -653,6 +657,7 @@ div.callout.warning {
     border-color: #ffd9b3;
 }
 
+/* logo */
 div.callout.note>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-pencil%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22note.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22m18%202%204%204M7.5%2020.5%2019%209l-4-4L3.5%2016.5%202%2022z%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%23086ddd%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -666,6 +671,7 @@ div.callout.note {
     border-color: #b5d6fc;
 }
 
+/* logo */
 div.callout.abstract>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-clipboard-list%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22abstract.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Crect%0A%20%20%20%20%20width%3D%228%22%0A%20%20%20%20%20height%3D%224%22%0A%20%20%20%20%20x%3D%228%22%0A%20%20%20%20%20y%3D%222%22%0A%20%20%20%20%20rx%3D%221%22%0A%20%20%20%20%20ry%3D%221%22%0A%20%20%20%20%20id%3D%22rect1%22%0A%20%20%20%20%20style%3D%22stroke:%2316c4c2%3Bstroke-opacity:1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M16%204h2a2%202%200%200%201%202%202v14a2%202%200%200%201-2%202H6a2%202%200%200%201-2-2V6a2%202%200%200%201%202-2h2M12%2011h4M12%2016h4M8%2011h.01M8%2016h.01%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%2316c4c2%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -679,6 +685,7 @@ div.callout.abstract {
     border-color: #baf7f6;
 }
 
+/* logo */
 div.callout.todo>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-check-circle-2%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg2%22%0A%20%20%20sodipodi:docname%3D%22todo.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs2%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview2%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2212.014724%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221444%22%0A%20%20%20%20%20inkscape:window-height%3D%221047%22%0A%20%20%20%20%20inkscape:window-x%3D%22472%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%220%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg2%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M12%2022c5.523%200%2010-4.477%2010-10S17.523%202%2012%202%202%206.477%202%2012s4.477%2010%2010%2010z%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%2369a7eb%3Bstroke-opacity:1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22m9%2012%202%202%204-4%22%0A%20%20%20%20%20id%3D%22path2%22%0A%20%20%20%20%20style%3D%22stroke:%2369a7eb%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -692,6 +699,7 @@ div.callout.todo {
     border-color: #bcd8f6;
 }
 
+/* logo */
 div.callout.tip>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-flame%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22tip.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M8.5%2014.5A2.5%202.5%200%200%200%2011%2012c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054%202-6%20.5%202.5%202%204.9%204%206.5%202%201.6%203%203.5%203%205.5a7%207%200%201%201-14%200c0-1.153.433-2.294%201-3a2.5%202.5%200%200%200%202.5%202.5z%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%2316c4c2%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -705,6 +713,7 @@ div.callout.tip {
     border-color: #baf7f6;
 }
 
+/* logo */
 div.callout.success>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-check%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22success.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M20%206%209%2017l-5-5%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%2322c061%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -718,6 +727,7 @@ div.callout.success {
     border-color: #bef4d3;
 }
 
+/* logo */
 div.callout.question>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-help-circle%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22question.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Ccircle%0A%20%20%20%20%20cx%3D%2212%22%0A%20%20%20%20%20cy%3D%2212%22%0A%20%20%20%20%20r%3D%2210%22%0A%20%20%20%20%20id%3D%22circle1%22%0A%20%20%20%20%20style%3D%22stroke:%23e5b92a%3Bstroke-opacity:1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M9.09%209a3%203%200%200%201%205.83%201c0%202-3%203-3%203M12%2017h.01%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%23e5b92a%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -731,6 +741,7 @@ div.callout.question {
     border-color: #f7e9bb;
 }
 
+/* logo */
 div.callout.failure>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-x%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22failure.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M18%206%206%2018M6%206l12%2012%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%23e93147%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -744,6 +755,7 @@ div.callout.failure {
     border-color: #f8bac1;
 }
 
+/* logo */
 div.callout.danger>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-zap%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22danger.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M13%202%203%2014h9l-1%208%2010-12h-9l1-8z%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%23e93147%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -757,6 +769,7 @@ div.callout.danger {
     border-color: #f8bac1;
 }
 
+/* logo */
 div.callout.bug>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-bug%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22bug.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Crect%0A%20%20%20%20%20width%3D%228%22%0A%20%20%20%20%20height%3D%2214%22%0A%20%20%20%20%20x%3D%228%22%0A%20%20%20%20%20y%3D%226%22%0A%20%20%20%20%20rx%3D%224%22%0A%20%20%20%20%20id%3D%22rect1%22%0A%20%20%20%20%20style%3D%22stroke:%23e93147%3Bstroke-opacity:1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22m19%207-3%202M5%207l3%202M19%2019l-3-2M5%2019l3-2M20%2013h-4M4%2013h4M10%204l1%202M14%204l-1%202%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%23e93147%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -770,6 +783,7 @@ div.callout.bug {
     border-color: #f8bac1;
 }
 
+/* logo */
 div.callout.example>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-list%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22example.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M8%206h13M8%2012h13M8%2018h13M3%206h.01M3%2012h.01M3%2018h.01%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%237852ee%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -783,6 +797,7 @@ div.callout.example {
     border-color: #c9b9f8;
 }
 
+/* logo */
 div.callout.quote>h1::before {
     content: url("data:image/svg+xml,%3Csvg%0A%20%20%20width%3D%2224%22%0A%20%20%20height%3D%2224%22%0A%20%20%20fill%3D%22none%22%0A%20%20%20stroke%3D%22currentColor%22%0A%20%20%20stroke-linecap%3D%22round%22%0A%20%20%20stroke-linejoin%3D%22round%22%0A%20%20%20stroke-width%3D%222%22%0A%20%20%20class%3D%22svg-icon%20lucide-quote%22%0A%20%20%20version%3D%221.1%22%0A%20%20%20id%3D%22svg1%22%0A%20%20%20sodipodi:docname%3D%22quote.svg%22%0A%20%20%20inkscape:version%3D%221.3%20%280e150ed6c4%2C%202023-07-21%29%22%0A%20%20%20xmlns:inkscape%3D%22http://www.inkscape.org/namespaces/inkscape%22%0A%20%20%20xmlns:sodipodi%3D%22http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%0A%20%20%20xmlns%3D%22http://www.w3.org/2000/svg%22%0A%20%20%20xmlns:svg%3D%22http://www.w3.org/2000/svg%22%3E%0A%20%20%3Cdefs%0A%20%20%20%20%20id%3D%22defs1%22%20/%3E%0A%20%20%3Csodipodi:namedview%0A%20%20%20%20%20id%3D%22namedview1%22%0A%20%20%20%20%20pagecolor%3D%22%23ffffff%22%0A%20%20%20%20%20bordercolor%3D%22%23000000%22%0A%20%20%20%20%20borderopacity%3D%220.25%22%0A%20%20%20%20%20inkscape:showpageshadow%3D%222%22%0A%20%20%20%20%20inkscape:pageopacity%3D%220.0%22%0A%20%20%20%20%20inkscape:pagecheckerboard%3D%220%22%0A%20%20%20%20%20inkscape:deskcolor%3D%22%23d1d1d1%22%0A%20%20%20%20%20inkscape:zoom%3D%2233.958333%22%0A%20%20%20%20%20inkscape:cx%3D%2211.985276%22%0A%20%20%20%20%20inkscape:cy%3D%2212%22%0A%20%20%20%20%20inkscape:window-width%3D%221920%22%0A%20%20%20%20%20inkscape:window-height%3D%221019%22%0A%20%20%20%20%20inkscape:window-x%3D%220%22%0A%20%20%20%20%20inkscape:window-y%3D%220%22%0A%20%20%20%20%20inkscape:window-maximized%3D%221%22%0A%20%20%20%20%20inkscape:current-layer%3D%22svg1%22%20/%3E%0A%20%20%3Cpath%0A%20%20%20%20%20d%3D%22M3%2021c3%200%207-1%207-8V5c0-1.25-.756-2.017-2-2H4c-1.25%200-2%20.75-2%201.972V11c0%201.25.75%202%202%202%201%200%201%200%201%201v1c0%201-1%202-2%202s-1%20.008-1%201.031V20c0%201%200%201%201%201zM15%2021c3%200%207-1%207-8V5c0-1.25-.757-2.017-2-2h-4c-1.25%200-2%20.75-2%201.972V11c0%201.25.75%202%202%202h.75c0%202.25.25%204-2.75%204v3c0%201%200%201%201%201z%22%0A%20%20%20%20%20id%3D%22path1%22%0A%20%20%20%20%20style%3D%22stroke:%23a7a7a7%3Bstroke-opacity:1%22%20/%3E%0A%3C/svg%3E%0A");
 }
@@ -799,3 +814,75 @@ div.callout.quote {
 /* ################ Bespoke Progress Bar ################ */
 
 @import url('data:text/css, .bespoke-marp-parent { top: 0 !important; } .bespoke-progress-parent { position: absolute; bottom: 0 !important; z-index:100; background:none !important; height:3px !important; }');
+
+
+/*
+ * ----------------------------------------------------
+ *              NEW STYLE BEGINS HERE...
+ * ----------------------------------------------------
+*/
+  :root{
+        --marpx-theme-color: #3e6ceb;
+        --marpx-theme-color-alt: #fa002aff;
+
+        --code-bg: #006eff1e;
+        --text-highlight: #ffef0878;
+        --figure-captiontext: "Fig. ";
+        --table-captiontext: "Table ";
+        --brandlogo: " - MarpX by Paulo Cunha.";
+
+        container-type: normal;
+        counter-reset: figure_cnt table_cnt;
+    }
+    
+    figcaption, 
+    .figcaption, 
+    tabcaption, 
+    .tabcaption{
+        font-size: 16.5pt;
+        font-weight: 100;
+        color: black;
+        font-style:
+    }
+    
+    figcaption::before{
+        counter-increment: figure_cnt; 
+        font-weight: bold;
+        color: var(--marpx-theme-color);
+        /* content: var(--figure-captiontext) attr(data-marpit-pagination) '.' counter(figure_cnt) ": "; */
+        content: var(--figure-captiontext) var(--page-number) '.' counter(figure_cnt) ": ";
+    }  
+
+    .figcaption::before{
+        counter-increment: figure_cnt; 
+        font-weight: bold;
+        color: var(--marpx-theme-color);
+        /* content: var(--figure-captiontext) attr(data-marpit-pagination) '.' counter(figure_cnt) ": "; */
+        content: var(--figure-captiontext) var(--page-number) '.' counter(figure_cnt) ": ";
+
+    }   
+
+    tabcaption::before{
+        counter-increment: table_cnt; 
+        font-weight: bold;
+        color: var(--marpx-theme-color);
+        content: var(--table-captiontext) var(--page-number) '.' counter(table_cnt) ": "
+    } 
+
+    .tabcaption::before{
+        font-weight: bold;
+        color: var(--marpx-theme-color);
+        content: var(--table-captiontext);
+    }   
+
+    .highlight{
+        padding: 0.2em 0.3em;
+        background-color: var(--text-highlight);
+
+    }
+
+    code{
+        background-color: var(--code-bg);
+    }
+
+
