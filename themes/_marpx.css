@@ -1,6 +1,7 @@
 /*  MarpX System Base Theme - Paulo Cunha 2025
 * 
 * @theme _marpx
+*
 * @auto-scaling true
 * @size fullHD 1920px 1080px
 * @size 16:9 1280px 720px
@@ -831,21 +832,22 @@ div.callout.quote {
         --table-captiontext: "Table ";
         --brandlogo: " - MarpX by Paulo Cunha.";
 
-        container-type: normal;
+        container-type: normal; /* WARNING: Be very careful here with this command, which disables some features! */
         counter-reset: figure_cnt table_cnt;
     }
     
     figcaption, 
-    .figcaption, 
     tabcaption, 
-    .tabcaption{
+    .figcaption, 
+    .tabcaption {
         font-size: 16.5pt;
         font-weight: 100;
         color: black;
         font-style:
     }
     
-    figcaption::before{
+    figcaption::before, 
+    .figcaption::before{
         counter-increment: figure_cnt; 
         font-weight: bold;
         color: var(--marpx-theme-color);
@@ -853,27 +855,15 @@ div.callout.quote {
         content: var(--figure-captiontext) var(--page-number) '.' counter(figure_cnt) ": ";
     }  
 
-    .figcaption::before{
-        counter-increment: figure_cnt; 
-        font-weight: bold;
-        color: var(--marpx-theme-color);
-        /* content: var(--figure-captiontext) attr(data-marpit-pagination) '.' counter(figure_cnt) ": "; */
-        content: var(--figure-captiontext) var(--page-number) '.' counter(figure_cnt) ": ";
+  
 
-    }   
-
-    tabcaption::before{
+    tabcaption::before,
+    .tabcaption::before{
         counter-increment: table_cnt; 
         font-weight: bold;
         color: var(--marpx-theme-color);
         content: var(--table-captiontext) var(--page-number) '.' counter(table_cnt) ": "
     } 
-
-    .tabcaption::before{
-        font-weight: bold;
-        color: var(--marpx-theme-color);
-        content: var(--table-captiontext);
-    }   
 
     .highlight{
         padding: 0.2em 0.3em;
