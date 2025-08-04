@@ -1,5 +1,36 @@
-/*  MarpX System Base Theme - Paulo Cunha 2025
-* 
+/* ================================================================================ 
+*
+*    MIT License
+*
+*    Copyright (c) 2025 Paulo Cunha - MarpX
+*
+*    Permission is hereby granted, free of charge, to any person obtaining a copy
+*    of this software and associated documentation files (the "Software"), to deal
+*    in the Software without restriction, including without limitation the rights
+*    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+*    copies of the Software, and to permit persons to whom the Software is
+*    furnished to do so, subject to the following conditions:
+*
+*    The above copyright notice and this permission notice shall be included in all
+*    copies or substantial portions of the Software.
+*
+*    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+*    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+*    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+*    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+*    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+*    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+*    SOFTWARE.
+*
+================================================================================ */
+/*  
+ * MarpX System Base Theme 
+ * Paulo Cunha 
+ * Created: jul.2025
+ * Last update: 04.ago.2025
+ */
+
+/* 
 * @theme _marpx
 *
 * @auto-scaling true
@@ -10,17 +41,18 @@
 */
 
 @import "default";
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700@display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
 
 
 :root {
 
-    --marpx-theme-color: #3e6ceb;
-    --marpx-theme-color-alt: orangered;
     --marpx-light-grey: #a6a6a6;
     --marpx-dark-grey: #000000;
 }
+
 
 img[alt~="center"] {
     display: block;
@@ -42,9 +74,13 @@ img[alt~="title-bg"] {
 }
 
 section {
+
     --page-number: attr(data-marpit-pagination); /*paulo.cunha*/
+    --page-number-total: attr(data-marpit-pagination-total); /*paulo.cunha*/
+
+
     background: white;
-    font-family: 'Fira Sans Light', Bookerly, 'Open Sans', sans-serif;
+    font-family: var(--marpx-font-family);
     font-size: 18pt;
     font-size: 22pt;
     font-weight: 400;
@@ -139,8 +175,14 @@ h3 {
     margin-bottom: 8px;
 }
 
+h1>strong::before,
 h1>strong::after {
     content: "\00a0";
+}
+
+h1>strong {
+    color: var(--text-bold-color);
+    font-weight: bold !important;
 }
 
 li::marker {
@@ -327,7 +369,6 @@ section.title-bg>footer {
 section.chapter {
     padding-left: 80px;
     background-image: none;
-    background-color: var(--marpx-theme-color);
     background-color: var(--marpx-theme-color-alt);
 }
 
@@ -819,20 +860,24 @@ div.callout.quote {
 
 /*
  * ----------------------------------------------------
- *              NEW STYLE BEGINS HERE...
+ *              NEW STYLE 
  * ----------------------------------------------------
 */
   :root{
         --marpx-theme-color: #3e6ceb;
-        --marpx-theme-color-alt: #fa002aff;
+        --marpx-theme-color-alt: rgb(168, 200, 241);
+        --marpx-font-family: 'Fira Sans Light', Bookerly, sans-serif;
 
         --code-bg: #006eff1e;
-        --text-highlight: #ffef0878;
-        --figure-captiontext: "Fig. ";
-        --table-captiontext: "Table ";
-        --brandlogo: " - MarpX by Paulo Cunha.";
+        --text-bold-color: #0044ff;
 
-        container-type: normal; /* WARNING: Be very careful here with this command, which disables some features! */
+        --figure-captiontext: "Fig. ";
+        --table-captiontext:  "Table ";
+        --brandlogo: " - Created with Marp e MarpX.";
+
+        /** WARNING: Used to enable copying of environmental values  */
+        /**          like page number. It may cause side-effects!    */
+        container-type: normal; 
         counter-reset: figure_cnt table_cnt;
     }
     
@@ -841,9 +886,8 @@ div.callout.quote {
     .figcaption, 
     .tabcaption {
         font-size: 16.5pt;
-        font-weight: 100;
+        font-weight: lighter;
         color: black;
-        font-style:
     }
     
     figcaption::before, 
@@ -876,3 +920,6 @@ div.callout.quote {
     }
 
 
+    section strong {
+        color: var(--text-bold-color);
+    }
