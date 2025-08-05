@@ -1,5 +1,24 @@
-/*  MarpX System Theme - Paulo Cunha 2025
-* 
-* @theme marpx 
-*
-*/
+/* @theme marpx */
+
+@import "_marpx";
+
+
+:root {
+  
+  --marpx-font-family: 'Fira Sans Light', Bookerly, sans-serif;
+  --marpx-captiontext-figure: "Figura ";
+  --marpx-captiontext-table: "Tabela ";
+  --marpx-brandlogo: " - Centro Espírita Yvon Costa (Belém-PA/Brasil).";
+  
+  --marpx-color-light-grey: #a6a6a6;
+  --marpx-color-dark-grey: #000000;
+  
+  --marpx-color-theme: #4f7cf7;
+  --marpx-color-theme-alt: rgb(118, 185, 216);
+  --marpx-color-slide-background: rgb(255, 255, 255);
+  
+  --marpx-color-text-bold: #0044ff;
+  --marpx-color-footnote-mark: red;
+  --marpx-color-code: rgba(248, 246, 109, 0.596);
+  --marpx-color-highlight: #ff0;    
+}

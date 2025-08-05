@@ -1,4 +1,4 @@
-/* ================================================================================ 
+/* *================================================================================ 
 *
 *    MIT License
 *
@@ -22,13 +22,15 @@
 *    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 *    SOFTWARE.
 *
-================================================================================ */
-/*  
- * MarpX System Base Theme 
- * Paulo Cunha 
- * Created: jul.2025
- * Last update: 04.ago.2025
- */
+* ================================================================================
+*
+*    MarpX Base Theme System
+*    Paulo Cunha 
+*    Created: jul.2025
+*    Last update: 04.ago.2025
+*
+* ================================================================================
+*/
 
 /* 
 * @theme _marpx
@@ -39,7 +41,6 @@
 * @size 4:3 960px 720px
 *
 */
-
 @import "default";
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700@display=swap');
@@ -49,8 +50,53 @@
 
 :root {
 
-    --marpx-light-grey: #a6a6a6;
-    --marpx-dark-grey: #000000;
+
+    /** WARNING: Used to enable copying of environmental values  */
+    /**          like page number. It may cause side-effects!    */
+    container-type: normal;
+    counter-reset: figure_cnt table_cnt;
+
+
+    --marpx-font-family: 'Fira Sans Light', Bookerly, sans-serif;
+    --marpx-captiontext-figure: "Fig. ";
+    --marpx-captiontext-table: "Table ";
+    --marpx-brandlogo: " - Created with Marp e MarpX.";
+
+    --marpx-color-light-grey: #a6a6a6;
+    --marpx-color-dark-grey: #000000;
+
+    --marpx-color-theme: #3e6ceb;
+    /* 
+    --marpx-color-theme-alt: #b8c2f9;
+    --marpx-color-theme-alt: #7389c4;
+    --marpx-color-theme-alt: #8aa1e2; 
+    */
+    --marpx-color-theme-alt: #9aade2;
+
+    --marpx-color-slide-background: #ffffff;
+
+    --marpx-color-subtitle: #5d616d;
+    
+    --marpx-color-text-bold: #0044ff;
+    --marpx-color-text-bold: #6462f1;
+    
+    --marpx-color-h1-bold: #ff3c00;
+    --marpx-color-footnote-mark: #ff0000;
+    --marpx-color-code: #ffff00;
+    --marpx-color-highlight: #ffff00;
+    
+    --maprx-color-references-bold: #3e6ceb;
+    --marpx-color-references-background: #eff4fa;
+    --marpx-color-reference-header: #539dd3;
+
+    /*------------ TABLE COLORS --------------------------*/
+    --table-header-color: rgb(28, 36, 43);
+    --table-header-font-color: white;
+    --table-border-top: rgb(97, 96, 96);
+    --table-border-bottom: rgba(97, 97, 96, 0.315);
+    --table-nth-child-color: #eef1f3;
+    --table-hover-color: black;
+    --table-hover-background-color: rgb(252, 216, 11);
 }
 
 
@@ -75,9 +121,10 @@ img[alt~="title-bg"] {
 
 section {
 
-    --page-number: attr(data-marpit-pagination); /*paulo.cunha*/
-    --page-number-total: attr(data-marpit-pagination-total); /*paulo.cunha*/
-
+    --page-number: attr(data-marpit-pagination);
+    /* Works only with Chrome */
+    --page-number-total: attr(data-marpit-pagination-total);
+    /* Works only with Chrome */
 
     background: white;
     font-family: var(--marpx-font-family);
@@ -93,7 +140,7 @@ section::after {
     background-color: #ffffffbd;
     border-radius: 100px;
     bottom: 22px;
-    color: var(--marpx-theme-color);
+    color: var(--marpx-color-theme);
     content: attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
     font-size: 14pt;
     left: 50px;
@@ -111,7 +158,7 @@ header {
     padding: 0px;
     text-align: end;
     left: 130px;
-    color: var(--marpx-theme-color);
+    color: var(--marpx-color-theme);
     font-weight: 700;
     font-size: 10.5pt;
     vertical-align: bottom;
@@ -124,7 +171,7 @@ header {
 /* date */
 footer {
     position: absolute;
-    color: var(--marpx-light-grey);
+    color: var(--marpx-color-light-grey);
     font-size: 8pt;
     font-weight: 700;
     margin: 0px;
@@ -141,20 +188,19 @@ footer::before {
 
 /* BRAND LOGO */
 footer::after {
-    content: var(--brandlogo);
+    content: var(--marpx-brandlogo);
 }
 
 h1 {
     top: 20px;
     position: absolute;
-    color: var(--marpx-theme-color);
+    color: var(--marpx-color-theme);
     font-size: 36pt;
     font-weight: 700;
     height: 130px;
     max-width: calc(100% - 160px);
 
     /* border-bottom: 1px solid #fd0d0d; */
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -166,7 +212,7 @@ h1[data-auto-scaling] {
 }
 
 h2 {
-    color: var(--marpx-theme-color);
+    color: var(--marpx-color-theme);
 }
 
 h2,
@@ -181,12 +227,12 @@ h1>strong::after {
 }
 
 h1>strong {
-    color: var(--text-bold-color);
+    color: var(--marpx-color-h1-bold);
     font-weight: bold !important;
 }
 
 li::marker {
-    color: var(--marpx-theme-color);
+    color: var(--marpx-color-theme);
 }
 
 section>video {
@@ -207,6 +253,18 @@ section>figure.center {
     max-height: calc(100% - 48px);
 }
 
+/* 
+!============================================================
+ ? * ############### <FOOTNOTE> ############### 
+!============================================================
+*/
+section sup,
+footnote li::marker,
+.footnote li::marker {
+
+    color: var(--marpx-color-footnote-mark);
+}
+
 footnote {
     border-top: 0.1em solid #555;
     border-left: 0;
@@ -218,8 +276,11 @@ footnote>ol {
     margin-bottom: 0;
 }
 
-/* ################ slide layouts ################ */
-
+/* 
+!============================================================
+? * ############### SLIDE LAYOUTS ############### 
+!============================================================
+*/
 /* TODO: depricate the old version and remove it */
 section>div.multicolumn,
 section.multicolumn {
@@ -236,7 +297,7 @@ section.cols {
 }
 
 /* Layout for individual column areas in normal slides */
-section > div.cols {
+section>div.cols {
     display: flex;
     gap: 1rem;
     flex-direction: row;
@@ -244,7 +305,7 @@ section > div.cols {
 
 /* Optional: same column behavior */
 /*.cols > .col { */
-.cols > div {
+.cols>div {
     flex: 1 1 0;
 }
 
@@ -264,25 +325,36 @@ section>div.rows {
 
 /* grid layouts */
 section>div.grid-tlr,
-section.grid-tlr{
-    display:grid;
-    grid-template-areas:'top top' 'left right';
+section.grid-tlr {
+    display: grid;
+    grid-template-areas: 'top top' 'left right';
     grid-template-columns: 1fr 1fr;
-    gap:5px 10px;
+    gap: 5px 10px;
 }
 
 section>div.grid-lrb,
-section.grid-lrb{
-    display:grid;
-    grid-template-areas:'left right' 'bottom bottom';
+section.grid-lrb {
+    display: grid;
+    grid-template-areas: 'left right' 'bottom bottom';
     grid-template-columns: 1fr 1fr;
-    gap:5px 10px;
+    gap: 5px 10px;
 }
 
-.gtop{grid-area:top;}
-.gbot{grid-area:bottom;}
-.glft{grid-area:left;}
-.grgt{grid-area:right;}
+.gtop {
+    grid-area: top;
+}
+
+.gbot {
+    grid-area: bottom;
+}
+
+.glft {
+    grid-area: left;
+}
+
+.grgt {
+    grid-area: right;
+}
 
 /* adjust h1 for the flex elements */
 section.multicolumn>h1,
@@ -293,8 +365,11 @@ section.grid>h1 {
 }
 
 
-/* ################ Title ################ */
-
+/* 
+!============================================================
+ ? * ############### TITLE ############### 
+!============================================================
+*/
 section.title,
 section.title-bg {
     padding-left: 80px;
@@ -310,7 +385,7 @@ section.title-bg>h1 {
     padding: 0px;
     font-size: 42pt;
     line-height: normal;
-    color: var(--marpx-theme-color);
+    color: var(--marpx-color-theme);
     font-weight: 700;
 
     display: flex;
@@ -324,8 +399,8 @@ section.title-bg>h2 {
     top: 65.27%;
     margin: 0px;
     padding: 0px;
-    font-size: 32pt;
-    color: var(--marpx-theme-color);
+    font-size: 30pt;
+    color: var(--marpx-color-subtitle);
     font-weight: 700;
 }
 
@@ -352,7 +427,7 @@ section.title-bg>header {
     padding: 0px;
     left: 80px;
     font-size: 20pt;
-    color: var(--marpx-dark-grey);
+    color: var(--marpx-color-dark-grey);
     font-weight: 200;
 }
 
@@ -364,18 +439,24 @@ section.title-bg>footer {
 
 
 
-/* ######### Chapter ################ */
-
+/* 
+!============================================================
+ ? * ############### CHAPTER ############### 
+!============================================================
+*/
 section.chapter {
     padding-left: 80px;
     background-image: none;
-    background-color: var(--marpx-theme-color-alt);
+    background-color: var(--marpx-color-theme-alt);
 }
 
 
 
-/* ################ Chapter (alternative) ## */
-
+/* 
+!============================================================
+ ? * ############### CHAPTER (ALTERNATIVE) ############### 
+!============================================================
+*/
 section.chapter-alt {
     padding-left: 80px;
     background-image: none;
@@ -396,8 +477,11 @@ section.chapter-alt>h1 {
     align-items: flex-end;
 }
 
-/* ########### Chapter and Section ######### */
-
+/* 
+!============================================================
+ ? * ############### CHAPTER AND SECTION ############### 
+!============================================================
+*/
 /* Autor, Akad. Grad */
 section.chapter-alt>header,
 section.chapter>header {
@@ -449,8 +533,11 @@ section.chapter::after {
     opacity: 0;
 }
 
-/* ################ Agenda ################ */
-
+/* 
+!============================================================
+ ? * ############### AGENDA ############### 
+!============================================================
+*/
 section.agenda {
     padding-left: 430px;
     padding-top: 60px;
@@ -474,7 +561,7 @@ section.agenda::before {
     font-weight: 700;
 
     color: white;
-    background-color: var(--marpx-theme-color);
+    background-color: var(--marpx-color-theme);
     content: "Agenda";
 }
 
@@ -482,12 +569,15 @@ section[lang~="en-US"].agenda::before {
     content: "Outline";
 }
 
-/* ################ Vielen Dank ################ */
-
+/* 
+!============================================================
+ ? * ############### THANKS ############### 
+!============================================================
+*/
 section.end,
 section.end-bg {
     color: white;
-    background-color: var(--marpx-theme-color);
+    background-color: var(--marpx-color-theme);
     padding-right: 515px;
     padding-left: 90px;
     padding-top: 185px;
@@ -530,10 +620,13 @@ section.end>footer {
     visibility: hidden;
 }
 
-/* ################ Total Pages ################ */
-
+/* 
+!============================================================
+ ? * ############### TOTAL PAGES ############### 
+!============================================================
+*/
 section.totalpages::after {
-    color: var(--marpx-theme-color);
+    color: var(--marpx-color-theme);
     font-size: 14pt;
     content: attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
     position: absolute;
@@ -544,16 +637,22 @@ section.totalpages::after {
     margin: 0px;
 }
 
-/* ################ Title > Copyright ################ */
-
+/* 
+!============================================================
+? * ############### TITLE > COPYRIGHT ############### 
+!============================================================
+*/
 section.copyright>footer {
     opacity: 100%;
     bottom: 1%;
     left: 1%;
 }
 
-/* ################ Title > Additional-Logos ################ */
-
+/* 
+!============================================================
+? * ############### TITLE > ADDITIONAL-LOGOS ############### 
+!============================================================
+*/
 section.logos>div.additional-logos {
     background-color: #FFFFFF;
     display: block;
@@ -592,8 +691,11 @@ section.logos>div.additional-logos>p>img {
     background-color: #ffffff;
 }
 
-/* ################ Blank / NoBrand Slide ################ */
-
+/* 
+!============================================================
+? * ############### BLANK / NOBRAND SLIDE ############### 
+!============================================================
+*/
 section.blank,
 section.nobrand {
     background: none;
@@ -623,14 +725,18 @@ section.nobrand::after {
     visibility: hidden;
 }
 
-/* ################ Callouts ################ */
-
+/* 
+!============================================================
+ ? * ############### CALLOUTS ############### 
+!============================================================
+*/
 div.callout {
     overflow: hidden;
     border-style: solid;
     border-width: 1.25px;
     border-radius: 6px;
-    margin: 12px 0; /* top+bottom right+left */
+    margin: 12px 0;
+    /* top+bottom right+left */
     padding: 8px 8px 8px 16px;
     mix-blend-mode: darken;
 }
@@ -853,73 +959,135 @@ div.callout.quote {
     border-color: #d9d9d9;
 }
 
-/* ################ Bespoke Progress Bar ################ */
-
+/* 
+!============================================================
+ ? * ############### BESPOKE PROGRESS BAR ############### 
+!============================================================
+*/
 @import url('data:text/css, .bespoke-marp-parent { top: 0 !important; } .bespoke-progress-parent { position: absolute; bottom: 0 !important; z-index:100; background:none !important; height:3px !important; }');
 
 
 /*
  * ----------------------------------------------------
- *              NEW STYLE 
+ *                      NEW STYLE 
  * ----------------------------------------------------
 */
-  :root{
-        --marpx-theme-color: #3e6ceb;
-        --marpx-theme-color-alt: rgb(168, 200, 241);
-        --marpx-font-family: 'Fira Sans Light', Bookerly, sans-serif;
+/*
+!============================================================
+ ? * ############### FIGCAPTION and TABCAPTION ############### 
+!============================================================
+*/
+figcaption,
+tabcaption,
+.figcaption,
+.tabcaption {
+    font-size: 16.5pt;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+}
 
-        --code-bg: #006eff1e;
-        --text-bold-color: #0044ff;
+figcaption::before,
+.figcaption::before {
+    counter-increment: figure_cnt;
+    font-weight: bold;
+    color: var(--marpx-color-theme);
+    /* content: var(--figure-captiontext) attr(data-marpit-pagination) '.' counter(figure_cnt) ": "; */
+    content: var(--marpx-captiontext-figure) var(--page-number) '.' counter(figure_cnt) ": ";
+}
 
-        --figure-captiontext: "Fig. ";
-        --table-captiontext:  "Table ";
-        --brandlogo: " - Created with Marp e MarpX.";
+tabcaption::before,
+.tabcaption::before {
+    counter-increment: table_cnt;
+    font-weight: bold;
+    color: var(--marpx-color-theme);
+    content: var(--marpx-captiontext-table) var(--page-number) '.' counter(table_cnt) ": "
+}
 
-        /** WARNING: Used to enable copying of environmental values  */
-        /**          like page number. It may cause side-effects!    */
-        container-type: normal; 
-        counter-reset: figure_cnt table_cnt;
-    }
-    
-    figcaption, 
-    tabcaption, 
-    .figcaption, 
-    .tabcaption {
-        font-size: 16.5pt;
-        font-weight: lighter;
-        color: black;
-    }
-    
-    figcaption::before, 
-    .figcaption::before{
-        counter-increment: figure_cnt; 
-        font-weight: bold;
-        color: var(--marpx-theme-color);
-        /* content: var(--figure-captiontext) attr(data-marpit-pagination) '.' counter(figure_cnt) ": "; */
-        content: var(--figure-captiontext) var(--page-number) '.' counter(figure_cnt) ": ";
-    }  
+.highlight {
+    padding: 0.2em 0.3em;
+    background-color: var(--marpx-color-highlight);
 
-  
+}
 
-    tabcaption::before,
-    .tabcaption::before{
-        counter-increment: table_cnt; 
-        font-weight: bold;
-        color: var(--marpx-theme-color);
-        content: var(--table-captiontext) var(--page-number) '.' counter(table_cnt) ": "
-    } 
+section code {
+    font-family: inherit;
+    background-color: var(--marpx-color-code);
+    font-weight: bold;
+    border-radius: 11px 11px 11px 11px;
+}
 
-    .highlight{
-        padding: 0.2em 0.3em;
-        background-color: var(--text-highlight);
+section strong {
+    color: var(--marpx-color-text-bold);
+}
 
-    }
+/*
+!============================================================
+ ? * ############### QUOTE ############### 
+!============================================================
+*/
 
-    code{
-        background-color: var(--code-bg);
-    }
+section.quote {
+  background-color: white !important;
+}
+
+section.quote p {
+  color: rgb(34, 34, 48) !important;
+  background-color: rgb(255, 255, 255);
+  letter-spacing: 0.1pt;
+  font-size: 1.45em !important;
+  text-align: center;
+  line-height: 1.2em;
+  font-family: Cambria, Times, serif !important;
+  /*  font-style: oblique; */
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+section.quote strong {
+  font-style: italic;
+  color: #6462f1 !important;
+}
 
 
-    section strong {
-        color: var(--text-bold-color);
-    }
+/*
+!============================================================
+ ? * ############### REFERENCES ############### 
+!============================================================
+*/
+section.references {
+    background: var(--marpx-color-references-background);
+    color: #303235;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.6em;
+    padding: 150px 48px;
+    line-height: 1.15;
+}
+
+section.references li {
+    margin-bottom: 0.7em !important; /* ajuste o valor conforme desejar */
+}
+
+section.references strong {
+    font-weight: 500;
+    color: var(--maprx-color-references-bold);
+}
+
+section.references h1,
+section.references h2 {
+    color: var(--marpx-color-reference-header);
+    margin-bottom: 16px;
+    font-family: 'Fira Sans Light', sans-serif;
+    font-weight: 600;
+    /* border-bottom: 1px solid #0606ee; */
+}
+
+section.references .multicolumn {
+    column-gap: 8px;
+}
+
+section.references .multicolumn>div {
+    padding: 0 10px;
+}
