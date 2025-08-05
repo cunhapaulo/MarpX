@@ -92,8 +92,82 @@ When the neet to make strong assertions becomes inevitable:
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 
 ---
+# Images in Two Columns
 
-# Multicolumn Environment
+<div class="multicolumn" align="center">
+
+<div>
+
+![h:350px drop-shadow:4px,5px,15px,#010101](./images/books/book003.jpg)
+<figcaption>Göthe, Suhrkamp (2011).</figcaption>
+
+</div>
+
+<div>
+
+![h:350px drop-shadow:4px,5px,15px,#010101](./images/books/book004.jpg)
+<figcaption>Sophokles, Suhrkamp (2015).</figcaption>
+
+</div>
+</div>
+
+---
+
+# Image and text on the same slide
+
+<div class="multicolumn">
+
+<div>
+
+![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/hegel001.jpg)
+<figcaption align="center">Hegel´s <i>Phänomenologie des Geistes</i> Oxford edition (1979).</figcaption>
+
+</div>
+<div>
+
+## **Hegels** Phänomenologie
+Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem Autor: G.W.F. Hegel.
+
+- Das 1807 veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
+- In diesem Buch entwickelt Hegel seine Konzepte der Dialektik.
+
+<footnote>
+
+> [Price at Amazon used to be](https://www.amazon.com/gp/product/0198245971/ref=ox_sc_act_image_2?smid=A1ZZFT5FULY4LN&psc=1): $ 17.83. Almost sure it has increased!
+</footnote>
+
+</div>
+</div>
+
+---
+
+# Image and text on the same slide
+
+<div class="multicolumn">
+
+<div>
+
+## Kant, Leibniz & Newton
+
+Philosophy and the sciences were closely linked in the age of Leibniz, Newton, and Kant.
+
+This addresses the transformations of metaphysics as a discipline, the emergence of analytical mechanics, the diverging avenues of 18th-century Newtonianism, the body-mind problem, and philosophical principles of classification in the life sciences.
+
+> [Price at Amazon used to be:](https://www.amazon.de/Between-Leibniz-Newton-Kant-Philosophy/dp/3031343395/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=16F5PCQR437M7&keywords=Kant+Springer&qid=1689169670&s=books&sprefix=kant+springer%2Cstripbooks%2C204&sr=1-1) 128,39 €
+
+</div>
+
+<div>
+
+![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/book007.jpg)
+<figcaption align="center">Springer edition (2023).</figcaption>
+
+</div>
+</div>
+
+---
+
+# Multi-images  Environment
 
 <div class="multicolumn" align="center">
 
@@ -116,7 +190,8 @@ When the neet to make strong assertions becomes inevitable:
 
 ---
 
-# Multicolumn Environment
+# Multi-images  Environment
+
 
 <div class="multicolumn" align="center">
 
@@ -130,7 +205,7 @@ When the neet to make strong assertions becomes inevitable:
 
 </div>
 
-![h:400](./images/math/math004.gif)
+![h:390](./images/math/math004.gif)
 <span class="figcaption">Math003.</span>
 
 
@@ -204,36 +279,13 @@ $$c=\sqrt{\frac{1}{\mu \epsilon}}$$
 
 ---
 
-# Image and text on the same slide
+<!-- _class: "quote" -->
 
-<div class="multicolumn">
-
-<div>
-
-![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/hegel001.jpg)
-
-<figcaption align="center">Hegel´s <i>Phänomenologie des Geistes</i> Oxford edition (1979).</figcaption>
-
-</div>
-<div>
-
-## **Hegels** Phänomenologie
-Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem Autor: G.W.F. Hegel.
-
-- Das 1807 veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
-- In diesem Buch entwickelt Hegel seine Konzepte der Dialektik.
-
-<footnote>
-
-> [Price at Amazon used to be](https://www.amazon.com/gp/product/0198245971/ref=ox_sc_act_image_2?smid=A1ZZFT5FULY4LN&psc=1): $ 17.83. Almost sure it has increased!
-</footnote>
-
-</div>
-</div>
+"There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
 
 ---
 
-<!-- _class: "quote" -->
+<!-- _class: "quote2" -->
 
 "There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
 

@@ -45,7 +45,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700@display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
 
 
 :root {
@@ -1037,8 +1037,8 @@ section.quote p {
   letter-spacing: 0.1pt;
   font-size: 1.45em !important;
   text-align: center;
-  line-height: 1.2em;
-  font-family: Cambria, Times, serif !important;
+  line-height: 1.15em;
+  font-family: Bookerly, Times, serif !important;
   /*  font-style: oblique; */
   padding-top: auto;
   padding-bottom: auto;
@@ -1050,6 +1050,52 @@ section.quote strong {
   font-style: italic;
   color: #6462f1 !important;
 }
+
+section.quote footer,
+section.quote header {
+  display: none;
+}
+
+
+/*
+!============================================================
+ ? * ############### QUOTE2 ############### 
+!============================================================
+*/
+
+section.quote2 {
+  background-color: #9aade2 !important;
+}
+
+section.quote2 p {
+
+
+  color: rgb(34, 34, 48) !important;
+  font-family: 'Faustina';
+  font-weight: 600;
+  font-size: 34pt !important;
+      
+  background-color: #9aade2;
+  letter-spacing: 0.1pt;
+  text-align: center;
+  line-height: 1.09em;
+
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-left: 85px;
+  padding-right: 85px;
+
+}
+
+section.quote2 strong {
+  color: #f8f8f7 !important;
+}
+
+section.quote2 footer,
+section.quote2 header {
+  display: none;
+}
+
 
 
 /*
