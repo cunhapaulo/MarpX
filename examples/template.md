@@ -4,11 +4,11 @@ description: Description
 author: Author
 keywords: [keyword1, keyword2, keyword3, keyword4]
 
-header: header in JSON header
-footer: footer in JSON header
+header: This is header in JSON
+footer: This is footer in JSON
 
 theme: _marpx
-lang: pt-br
+lang: en-US
 size: 16:9
 math: mathjax
 paginate: true
@@ -21,8 +21,8 @@ marp: true
 <!-- ![bg left:30% w:100%](./images/gods/greek001.png) -->
 ![bg left:30% h:100%](./images/gods/greek002.jpg)
 
-#  Title in title _class  
-## Subtitle in title _class
+#  This is Title in class  `title`
+## This is Subtitle in class  `title`
 
 ---
 
@@ -45,7 +45,7 @@ marp: true
 
 # Is Algebraic Graph Knowledge a **Possibility**?
 
-Research has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
+`Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
 
 - Model Cheking and theorem prooving are viable paths.
 
@@ -223,6 +223,26 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
+# Figures and caption in&nbsp;*multicolumn*
+
+<div class="multicolumn" align="center">
+
+![h:300](./images/gods/zeus.png)
+<span class="figcaption">God Zeus</span>
+
+![h:300](./images/gods/afrodite.png)
+<span class="figcaption">Afrodite</span>
+
+![h:300](./images/gods/dionisio.png)
+<span class="figcaption">Dionísio</span>
+
+![h:300](./images/gods/era.png)
+<span class="figcaption">Era</span>
+
+</div>
+
+---
+
 # **Ordered** and **unordered** lists 
 
 <div class="multicolumn">
@@ -282,7 +302,7 @@ $$c=\sqrt{\frac{1}{\mu \epsilon}}$$
 
 # Electromagnetic Field (Differential form)
 
-Below, in modern vector notation, in *differential form*, are Maxwell's four equations governing the electromagnetic field.
+Below, in modern vector notation, in *differential form*, are Maxwell's four equations governing the `electromagnetic field`.
 
 $$
 \begin{align}
@@ -445,6 +465,51 @@ plt.show()
 
 ---
 
+<!-- class: references -->
+
+# Padrões (1)
+
+<center>
+
+ | Seção CSS           | Descrição/Propósito                | Classe Markdown (exemplo)      |
+ | ------------------- | ---------------------------------- | ------------------------------ |
+ | section             | Slide padrão                       | `<!-- _class: section -->`     |
+ | section.title       | Slide de título                    | `<!-- _class: title -->`       |
+ | section.title-bg    | Slide de título com fundo          | `<!-- _class: title-bg -->`    |
+ | section.chapter     | Slide de capítulo                  | `<!-- _class: chapter -->`     |
+ | section.chapter-alt | Capítulo alternativo               | `<!-- _class: chapter-alt -->` |
+ | section.agenda      | Slide de agenda/conteúdo           | `<!-- _class: agenda -->`      |
+ | section.end         | Slide de agradecimento             | `<!-- _class: end -->`         |
+ | section.end-bg      | Agradecimento com fundo            | `<!-- _class: end-bg -->`      |
+ | section.totalpages  | Slide mostrando total de páginas   | `<!-- _class: totalpages -->`  |
+ | section.copyright   | Slide de copyright                 | `<!-- _class: copyright -->`   |
+ | section.logos       | Slide com logos adicionais         | `<!-- _class: logos -->`       |
+
+</center>
+
+---
+
+# Padrões (2)
+
+<center>
+
+ | Seção CSS           | Descrição/Propósito                | Classe Markdown (exemplo)      |
+ | ------------------- | ---------------------------------- | ------------------------------ |
+ | section.blank       | Slide em branco                    | `<!-- _class: blank -->`       |
+ | section.nobrand     | Slide sem marca                    | `<!-- _class: nobrand -->`     |
+ | section.multicolumn | Slide com múltiplas colunas        | `<!-- _class: multicolumn -->` |
+ | section.cols        | Slide com colunas flexíveis        | `<!-- _class: cols -->`        |
+ | section.rows        | Slide com linhas flexíveis         | `<!-- _class: rows -->`        |
+ | section.grid-tlr    | Grid: top, left, right             | `<!-- _class: grid-tlr -->`    |
+ | section.grid-lrb    | Grid: left, right, bottom          | `<!-- _class: grid-lrb -->`    |
+ | section.quote       | Slide de citação (quote unificado) | `<!-- _class: quote -->`       |
+ | section.quote.dark  | Citação alternativa (antes quote2) | `<!-- _class: quote dark -->`  |
+ | section.references  | Slide de referências/bibliografia  | `<!-- _class: references -->`  |
+
+</center>
+
+---
+
 <!-- class: "references" -->
 
 # References 
@@ -483,14 +548,11 @@ plt.show()
 <div>
 
   1. Cover image: Flute Player. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
-  2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
-
- 
 
 </div>
 <div>
 
- 
+  1. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
 
 </div>
 </div>

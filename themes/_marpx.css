@@ -50,54 +50,38 @@
 
 :root {
 
-
-    /** WARNING: Used to enable copying of environmental values  */
-    /**          like page number. It may cause side-effects!    */
+    /** ----------------------------------------------------------------------------------------------- */
+    /** WARNING: The parameter (container-type: normal) was used to allow the numbering of figures      */
+    /**          and tables. Be warned that it may produce side effects in browsers other than Chrome!  */
+    /** ----------------------------------------------------------------------------------------------- */
     container-type: normal;
     counter-reset: figure_cnt table_cnt;
-
-
-    --marpx-font-family: 'Fira Sans Light', Bookerly, Faustina, sans-serif;
-    --marpx-captiontext-figure: "Fig. ";
-    --marpx-captiontext-table: "Table ";
-    --marpx-brandlogo: " - Created with Marp e MarpX.";
 
     --marpx-color-light-grey: #a6a6a6;
     --marpx-color-dark-grey: #000000;
 
-    /* 
-    --marpx-color-theme-alt: #b8c2f9;
-    --marpx-color-theme-alt: #7389c4;
-    --marpx-color-theme-alt: #8aa1e2; 
-    */
-    --marpx-color-theme: #3e6ceb;
-    --marpx-color-theme-alt: #9aade2;
+    /*------------ Overall theme parameters --------------------------*/
 
-    --marpx-color-slide-background: #ffffff;
+    --marpx-theme-font-family: 'Fira Sans Light', Bookerly, Faustina, sans-serif;
+    --marpx-theme-captiontext-figure: "Fig. ";
+    --marpx-theme-captiontext-table: "Table ";
+    --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
+    --marpx-theme-color: #3e6ceb;
+    --marpx-theme-color-alt: #9aade2;
+    --marpx-theme-color-background: #ffffff;
+    --marpx-theme-color-bold: #6462f1;
 
     --marpx-color-subtitle: #5d616d;
-
-    --marpx-color-text-bold: #0044ff;
-    --marpx-color-text-bold: #6462f1;
-
     --marpx-color-h1-bold: #ff3c00;
     --marpx-color-footnote-mark: #ff0000;
-    --marpx-color-code: #ffff00;
+    --marpx-color-code: rgb(233, 233, 233);
     --marpx-color-highlight: #ffff00;
+
+    /*------------ Parameters used in `REFERENCES` --------------------------*/
 
     --maprx-color-references-bold: #3e6ceb;
     --marpx-color-references-background: #eff4fa;
     --marpx-color-reference-header: #539dd3;
-
-    /*------------ Parameters used in `TABLE` --------------------------*/
-
-    --marpx-color-table-header: rgb(28, 36, 43);
-    --marpx-color-table-header-font: white;
-    --marpx-color-table-border-top: rgb(97, 96, 96);
-    --marpx-color-table-border-bottom: rgba(97, 97, 96, 0.315);
-    --marpx-color-table-nth-child-color: #eef1f3;
-    --marpx-color-table-hover-color: black;
-    --marpx-color-table-hover-background-color: rgb(252, 216, 11);
 
     /*------------ Parameters used in `QUOTE` --------------------------*/
 
@@ -110,6 +94,16 @@
     --marpx-color-quote-dark-paragraph-background: #9aade2;
     --marpx-color-quote-dark-strong: #f8f8f7;
     --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
+
+    /*------------ Parameters used in `TABLE` --------------------------*/
+
+    --marpx-color-table-header: #1c242b;
+    --marpx-color-table-header-font: white;
+    --marpx-color-table-border-top: #616060;
+    --marpx-color-table-border-bottom: #61616050;
+    --marpx-color-table-nth-child-color: #eef1f3;
+    --marpx-color-table-hover-color: black;
+    --marpx-color-table-hover-background-color: #fcd80b;
 
 }
 
@@ -140,8 +134,8 @@ section {
     --page-number-total: attr(data-marpit-pagination-total);
     /* Works only with Chrome */
 
-    background: white;
-    font-family: var(--marpx-font-family);
+    background: var(--marpx-theme-color-background);
+    font-family: var(--marpx-theme-font-family);
     font-size: 18pt;
     font-size: 22pt;
     font-weight: 400;
@@ -154,7 +148,7 @@ section::after {
     background-color: #ffffffbd;
     border-radius: 100px;
     bottom: 22px;
-    color: var(--marpx-color-theme);
+    color: var(--marpx-theme-color);
     content: attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
     font-size: 14pt;
     left: 50px;
@@ -172,7 +166,7 @@ header {
     padding: 0px;
     text-align: end;
     left: 130px;
-    color: var(--marpx-color-theme);
+    color: var(--marpx-theme-color);
     font-weight: 700;
     font-size: 10.5pt;
     vertical-align: bottom;
@@ -202,13 +196,13 @@ footer::before {
 
 /* BRAND LOGO */
 footer::after {
-    content: var(--marpx-brandlogo);
+    content: var(--marpx-theme-brandlogo);
 }
 
 h1 {
     top: 20px;
     position: absolute;
-    color: var(--marpx-color-theme);
+    color: var(--marpx-theme-color);
     font-size: 36pt;
     font-weight: 700;
     height: 130px;
@@ -226,7 +220,7 @@ h1[data-auto-scaling] {
 }
 
 h2 {
-    color: var(--marpx-color-theme);
+    color: var(--marpx-theme-color);
 }
 
 h2,
@@ -246,7 +240,7 @@ h1>strong {
 }
 
 li::marker {
-    color: var(--marpx-color-theme);
+    color: var(--marpx-theme-color);
 }
 
 section>video {
@@ -399,7 +393,7 @@ section.title-bg>h1 {
     padding: 0px;
     font-size: 42pt;
     line-height: normal;
-    color: var(--marpx-color-theme);
+    color: var(--marpx-theme-color);
     font-weight: 700;
 
     display: flex;
@@ -461,7 +455,7 @@ section.title-bg>footer {
 section.chapter {
     padding-left: 80px;
     background-image: none;
-    background-color: var(--marpx-color-theme-alt);
+    background-color: var(--marpx-theme-color-alt);
 }
 
 
@@ -575,7 +569,7 @@ section.agenda::before {
     font-weight: 700;
 
     color: white;
-    background-color: var(--marpx-color-theme);
+    background-color: var(--marpx-theme-color);
     content: "Agenda";
 }
 
@@ -595,7 +589,7 @@ section[lang~="pt-BR"].agenda::before {
 section.end,
 section.end-bg {
     color: white;
-    background-color: var(--marpx-color-theme);
+    background-color: var(--marpx-theme-color);
     padding-right: 515px;
     padding-left: 90px;
     padding-top: 185px;
@@ -644,7 +638,7 @@ section.end>footer {
 !============================================================
 */
 section.totalpages::after {
-    color: var(--marpx-color-theme);
+    color: var(--marpx-theme-color);
     font-size: 14pt;
     content: attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
     position: absolute;
@@ -1009,17 +1003,17 @@ figcaption::before,
 .figcaption::before {
     counter-increment: figure_cnt;
     font-weight: bold;
-    color: var(--marpx-color-theme);
+    color: var(--marpx-theme-color);
     /* content: var(--figure-captiontext) attr(data-marpit-pagination) '.' counter(figure_cnt) ": "; */
-    content: var(--marpx-captiontext-figure) var(--page-number) '.' counter(figure_cnt) ": ";
+    content: var(--marpx-theme-captiontext-figure) var(--page-number) '.' counter(figure_cnt) ": ";
 }
 
 tabcaption::before,
 .tabcaption::before {
     counter-increment: table_cnt;
     font-weight: bold;
-    color: var(--marpx-color-theme);
-    content: var(--marpx-captiontext-table) var(--page-number) '.' counter(table_cnt) ": "
+    color: var(--marpx-theme-color);
+    content: var(--marpx-theme-captiontext-table) var(--page-number) '.' counter(table_cnt) ": "
 }
 
 .highlight {
@@ -1036,7 +1030,7 @@ section code {
 }
 
 section strong {
-    color: var(--marpx-color-text-bold);
+    color: var(--marpx-theme-color-bold);
 }
 
 /*
