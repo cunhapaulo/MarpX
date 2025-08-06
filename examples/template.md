@@ -1,41 +1,42 @@
 ---
 title: Header Title
 description: Description
-
 author: Author
 keywords: [keyword1, keyword2, keyword3, keyword4]
 
 header: header in JSON header
 footer: footer in JSON header
 
+theme: _marpx
 lang: pt-br
 size: 16:9
-paginate: true
-theme: _marpx
-transition: fade
 math: mathjax
+paginate: true
+transition: fade
+
 marp: true
 ---
 
 <!-- _class: title -->
-![bg left:30% w:155%](./images/cartoon/shawn000.jpg)
+<!-- ![bg left:30% w:100%](./images/gods/greek001.png) -->
+![bg left:30% h:100%](./images/gods/greek002.jpg)
 
 #  Title in title _class  
 ## Subtitle in title _class
 
 ---
 
-<!-- _class: "blank" -->
+<!-- _class: blank -->
 
 ![bg center h:85%](./images/cartoon/shawn001.jpg)
 
 ---
 
-<!-- _class: "agenda"  -->
+<!-- _class: agenda  -->
 
 ---
 
-<!-- _class: "chapter" -->
+<!-- _class: chapter -->
 
 # Transition Slide
 ## Aditional Text about what´s  ahead
@@ -88,11 +89,11 @@ When the neet to make strong assertions becomes inevitable:
 # One image slide
 
 
-![h:400 center](./images/math/puebk.png)
+![h:350 center](./images/math/puebk.png)
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 
 ---
-# Images in Two Columns
+# Two images fit into two columns
 
 <div class="multicolumn" align="center">
 
@@ -279,19 +280,172 @@ $$c=\sqrt{\frac{1}{\mu \epsilon}}$$
 
 ---
 
-<!-- _class: "quote" -->
+# Electromagnetic Field (Differential form)
+
+Below, in modern vector notation, in *differential form*, are Maxwell's four equations governing the electromagnetic field.
+
+$$
+\begin{align}
+\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} 
+        &&\text{(Gauss's law)}\\
+\nabla \cdot \mathbf{B} &= 0
+        &&\text{(No magnetic monopoles)}\\
+\nabla \times \mathbf{E} &= -\,\frac{\partial \mathbf{B}}{\partial t}
+        &&\text{(Faraday-Lenz law)}\\
+\nabla \times \mathbf{B} &= \mu_0 \mathbf{J} 
+        + \mu_0 \varepsilon_0\,\frac{\partial \mathbf{E}}{\partial t}
+        &&\text{(Ampere-Maxwell Law)}
+\end{align}
+$$
+
+---
+
+# Electromagnetic Field (Integral form)
+
+Below, in modern vector notation, in *integral form*, are Maxwell's four equations governing the electromagnetic field.
+
+$$
+\begin{align}
+\oint_{\Sigma} \mathbf{E}\cdot d\mathbf{S}
+      &= \frac{Q_{\text{enc}}}{\varepsilon_0}
+        &\text{(Gauss's law)}\\
+\oint_{\Sigma} \mathbf{B}\cdot d\mathbf{S}
+      &= 0
+        &\text{(No magnetic monopoles)}\\
+\oint_{\partial\Sigma} \mathbf{E}\cdot d\mathbf{l}
+      &= -\,\frac{d}{dt}\int_{\Sigma}\mathbf{B}\cdot d\mathbf{S}
+        &\text{(Faraday-Lenz law)}\\
+\oint_{\partial\Sigma} \mathbf{B}\cdot d\mathbf{l}
+      &= \mu_0 I_{\text{enc}}
+      + \mu_0 \varepsilon_0\,\frac{d}{dt}
+        \int_{\Sigma}\mathbf{E}\cdot d\mathbf{S}
+        &\text{(Ampere-Maxwell Law)}
+\end{align}
+$$
+
+---
+
+<!-- _class: nobrand -->
+
+# Python programs
+
+<div class="multicolumn">
+
+<div>
+
+```python
+"""
+O programa traça, em 2D, os perfis instantâneos do
+campo elétrico E (y) e do campo magnético B (z), 
+ambos perpendiculares ao eixo de propagação x.
+"""
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Constantes e parâmetros
+c = 3e8
+E0 = 1.0
+lambda_ = 1.0
+k = 2 * np.pi / lambda_
+omega = 2 * np.pi * c / lambda_
+x = np.linspace(0, 2 * lambda_, 1000)
+t = 0
+E = E0 * np.sin(k * x - omega * t)
+B = (E0 / c) * np.sin(k * x - omega * t)
+B_scaled = c * B  # para visualização
+
+plt.plot(x, E, label='E(x, t=0)')
+plt.plot(x, B_scaled, label='c·B(x, t=0)')
+plt.xlabel('x (m)')
+plt.ylabel('Amplitude (u.a.)')
+plt.title('Propagação de onda eletromagnética no vácuo (instantâneo)')
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+
+<figcaption> First program.</figcaption>
+
+
+</div>
+<div>
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D   # registra o proj. 3-D
+
+# --------------------- parâmetros físicos ----------------------
+c   = 3.0e8                      # velocidade da luz (m s⁻¹)
+E0  = 1.0                        # amplitude arbitrária do campo elétrico (V m⁻¹)
+lam = 1.0                        # comprimento de onda (m)
+k = 2*np.pi/lam                  # número de onda
+ω = 2*np.pi*c/lam                # frequência angular
+# domínios espacial e temporal
+x = np.linspace(0, 2*lam, 1000)  # duas ondas completas
+t = 0.0                          # instante “congelado”
+# --------------------- campos E e B ----------------------------
+E =  E0 * np.sin(k*x - ω*t)      # componente em y
+B = (E0/c) * np.sin(k*x - ω*t)   # componente em z (antes do escalonamento)
+B_plot = c * B                   # escala-se por c para comparar a E
+# --------------------- figura 3-D ------------------------------
+fig = plt.figure(figsize=(8, 4))
+ax  = fig.add_subplot(111, projection='3d')
+
+# linha do campo elétrico: (x, E, 0)
+ax.plot(x, E, np.zeros_like(x), label='E(x, t=0)')
+# linha do campo magnético escalonado: (x, 0, c B)
+ax.plot(x, np.zeros_like(x), B_plot, label='c·B(x, t=0)')
+# rótulos e estética
+ax.set_xlabel('x (m)')
+ax.set_ylabel('E (V/m)')
+ax.set_zlabel('c·B (V/m)')
+ax.set_title('Propagação de uma onda eletromagnética no vácuo (instantâneo 3-D)')
+ax.legend()
+plt.tight_layout()
+plt.show()
+```
+
+<figcaption> Second program.</figcaption>
+
+
+</div>
+
+</div>
+
+---
+<!-- _class: nobrand -->
+
+# Electromagnetic wave propagation (1)
+
+[![h:420 center](./images/graphs/eletromag-plot01.png)](../programs/eletromag-plot01.py)
+<figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
+
+---
+
+<!-- _class: nobrand -->
+
+# Electromagnetic wave propagation (2)
+
+[![h:500 center](./images/graphs/eletromag-plot03.png)](../programs/eletromag-plot03.py)
+<figcaption>Result of the 3D rendering of the program electromag-plot03.py.</figcaption>
+
+---
+
+
+<!-- _class: quote -->
 
 "There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
 
 ---
 
-<!-- _class: "quote2" -->
+<!-- _class: quote dark -->
 
 "There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
 
 ---
 
-<!-- _class: "references" -->
+<!-- class: "references" -->
 
 # References 
 
@@ -316,6 +470,29 @@ $$c=\sqrt{\frac{1}{\mu \epsilon}}$$
   11. KARDEC, Allan. **Das Buch der Geister**. Übersetzung: Edith Burkhard. 3. ed. Brasília, DF: Internationaler Spiritistischer Rat, 2011. 
   12. PLATO. **Plato Republic**. Tradução: C. D. C. Reeve. Indianapolis, IN, USA: Hackett Publishing Company, 2004. 
 
+</div>
+</div>
+
+---
+
+# Credits
+
+
+<div class="multicolumn">
+
+<div>
+
+  1. Cover image: Flute Player. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
+  2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
+
+ 
+
+</div>
+<div>
+
+ 
 
 </div>
 </div>
+
+

@@ -57,7 +57,7 @@
     counter-reset: figure_cnt table_cnt;
 
 
-    --marpx-font-family: 'Fira Sans Light', Bookerly, sans-serif;
+    --marpx-font-family: 'Fira Sans Light', Bookerly, Faustina, sans-serif;
     --marpx-captiontext-figure: "Fig. ";
     --marpx-captiontext-table: "Table ";
     --marpx-brandlogo: " - Created with Marp e MarpX.";
@@ -65,38 +65,52 @@
     --marpx-color-light-grey: #a6a6a6;
     --marpx-color-dark-grey: #000000;
 
-    --marpx-color-theme: #3e6ceb;
     /* 
     --marpx-color-theme-alt: #b8c2f9;
     --marpx-color-theme-alt: #7389c4;
     --marpx-color-theme-alt: #8aa1e2; 
     */
+    --marpx-color-theme: #3e6ceb;
     --marpx-color-theme-alt: #9aade2;
 
     --marpx-color-slide-background: #ffffff;
 
     --marpx-color-subtitle: #5d616d;
-    
+
     --marpx-color-text-bold: #0044ff;
     --marpx-color-text-bold: #6462f1;
-    
+
     --marpx-color-h1-bold: #ff3c00;
     --marpx-color-footnote-mark: #ff0000;
     --marpx-color-code: #ffff00;
     --marpx-color-highlight: #ffff00;
-    
+
     --maprx-color-references-bold: #3e6ceb;
     --marpx-color-references-background: #eff4fa;
     --marpx-color-reference-header: #539dd3;
 
-    /*------------ TABLE COLORS --------------------------*/
-    --table-header-color: rgb(28, 36, 43);
-    --table-header-font-color: white;
-    --table-border-top: rgb(97, 96, 96);
-    --table-border-bottom: rgba(97, 97, 96, 0.315);
-    --table-nth-child-color: #eef1f3;
-    --table-hover-color: black;
-    --table-hover-background-color: rgb(252, 216, 11);
+    /*------------ Parameters used in `TABLE` --------------------------*/
+
+    --marpx-color-table-header: rgb(28, 36, 43);
+    --marpx-color-table-header-font: white;
+    --marpx-color-table-border-top: rgb(97, 96, 96);
+    --marpx-color-table-border-bottom: rgba(97, 97, 96, 0.315);
+    --marpx-color-table-nth-child-color: #eef1f3;
+    --marpx-color-table-hover-color: black;
+    --marpx-color-table-hover-background-color: rgb(252, 216, 11);
+
+    /*------------ Parameters used in `QUOTE` --------------------------*/
+
+    --marpx-color-quote-background: #ffffff;
+    --marpx-color-quote-paragraph-background: #ffffff;
+    --marpx-color-quote-strong: #6462f1;
+    --marpx-font-quote: Bookerly, Faustina, Times, serif;
+
+    --marpx-color-quote-dark-background: #9aade2;
+    --marpx-color-quote-dark-paragraph-background: #9aade2;
+    --marpx-color-quote-dark-strong: #f8f8f7;
+    --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
+
 }
 
 
@@ -569,6 +583,10 @@ section[lang~="en-US"].agenda::before {
     content: "Outline";
 }
 
+section[lang~="pt-BR"].agenda::before {
+    content: "Conteúdo";
+}
+
 /* 
 !============================================================
  ? * ############### THANKS ############### 
@@ -981,7 +999,7 @@ figcaption,
 tabcaption,
 .figcaption,
 .tabcaption {
-    font-size: 16.5pt;
+    font-size: 15.5pt;
     font-weight: lighter;
     color: black;
     text-align: center;
@@ -1023,78 +1041,64 @@ section strong {
 
 /*
 !============================================================
- ? * ############### QUOTE ############### 
+ ? * ############### QUOTE (UNIFIED) ############### 
 !============================================================
 */
 
 section.quote {
-  background-color: white !important;
+    background-color: var(--marpx-color-quote-background) !important;
 }
 
 section.quote p {
-  color: rgb(34, 34, 48) !important;
-  background-color: rgb(255, 255, 255);
-  letter-spacing: 0.1pt;
-  font-size: 1.45em !important;
-  text-align: center;
-  line-height: 1.15em;
-  font-family: Bookerly, Times, serif !important;
-  /*  font-style: oblique; */
-  padding-top: auto;
-  padding-bottom: auto;
-  padding-left: 100px;
-  padding-right: 100px;
+    color: rgb(34, 34, 48) !important;
+    background-color: var(--marpx-color-quote-paragraph-background);
+    letter-spacing: 0.1pt;
+    font-size: 1.45em !important;
+    text-align: center;
+    line-height: 1.12em;
+    font-family: var(--marpx-font-quote) !important;
+    /*  font-style: oblique; */
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 section.quote strong {
-  font-style: italic;
-  color: #6462f1 !important;
+    font-style: italic;
+    color: var(--marpx-color-quote-strong) !important;
 }
 
 section.quote footer,
 section.quote header {
-  display: none;
+    display: none;
 }
 
-
-/*
-!============================================================
- ? * ############### QUOTE2 ############### 
-!============================================================
-*/
-
-section.quote2 {
-  background-color: #9aade2 !important;
+/* Alternative style (used to be quote2, now quote dark) */
+section.quote.dark {
+    background-color: #9aade2 !important;
 }
 
-section.quote2 p {
-
-
-  color: rgb(34, 34, 48) !important;
-  font-family: 'Faustina';
-  font-weight: 600;
-  font-size: 34pt !important;
-      
-  background-color: #9aade2;
-  letter-spacing: 0.1pt;
-  text-align: center;
-  line-height: 1.09em;
-
-  padding-top: auto;
-  padding-bottom: auto;
-  padding-left: 85px;
-  padding-right: 85px;
-
+section.quote.dark p {
+    color: rgb(34, 34, 48) !important;
+    font-family: var(--marpx-font-quote-dark) !important;
+    font-weight: 600;
+    font-size: 34pt !important;
+    background-color: var(--marpx-color-quote-dark-background);
+    letter-spacing: 0.1pt;
+    text-align: center;
+    line-height: 1.09em;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
-section.quote2 strong {
-  color: #f8f8f7 !important;
+section.quote.dark strong {
+    color: var(--marpx-color-quote-dark-strong) !important;
+    font-style: normal;
 }
 
-section.quote2 footer,
-section.quote2 header {
-  display: none;
-}
 
 
 
@@ -1113,7 +1117,8 @@ section.references {
 }
 
 section.references li {
-    margin-bottom: 0.7em !important; /* ajuste o valor conforme desejar */
+    margin-bottom: 0.7em !important;
+    /* ajuste o valor conforme desejar */
 }
 
 section.references strong {
@@ -1131,9 +1136,14 @@ section.references h2 {
 }
 
 section.references .multicolumn {
-    column-gap: 8px;
+    display: grid;
+    column-gap: 18px;
+    /* Align items to the top */
+    align-items: start;
 }
 
 section.references .multicolumn>div {
-    padding: 0 10px;
+    padding: 0 0px;
+    /* Ensures content is aligned with the top */
+    vertical-align: top;
 }
