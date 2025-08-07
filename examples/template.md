@@ -8,7 +8,7 @@ header: This is header in JSON
 footer: This is footer in JSON
 
 marp: true
-theme: himmel
+theme: marpx
 
 lang: en-US
 size: 16:9
@@ -523,8 +523,8 @@ plt.show()
 
 # Electromagnetic wave propagation (2)
 
-[![h:500 center](./images/graphs/eletromag-plot03.png)](./programs/eletromag-plot03.py)
-<figcaption>Result of the 3D rendering of the program electromag-plot03.py.</figcaption>
+[![h:500 center](./images/graphs/eletromag-plot-3d.gif)](./programs/eletromag-plot04-animate.py)
+<figcaption>3D animation of an electromagnetic wave propagation.</figcaption>
 
 ---
 
