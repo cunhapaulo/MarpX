@@ -18,16 +18,14 @@
     /*------------ Overall theme parameters --------------------------*/
 
     --marpx-theme-font-family:  Faustina, 'Fira Sans Light',sans-serif;
-    --marpx-theme-captiontext-figure: "Fig. ";
+    --marpx-theme-captiontext-figure: "Figure ";
     --marpx-theme-captiontext-table: "Table ";
     --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
     
     --marpx-theme-color: #174be7;
-    --marpx-theme-color-alt: #9aade2;
     --marpx-theme-color-alt: #4f628b;
     --marpx-theme-color-font: #191a1d;
-    --marpx-theme-color-background: #dfe8ff;
-    --marpx-theme-color-background: #ffffff;
+    --marpx-theme-color-background: #eff4fa;
     --marpx-theme-color-bold: #6462f1;
 
 
@@ -39,8 +37,8 @@
 
     /*------------ Parameters used in `REFERENCES` --------------------------*/
 
+    --marpx-color-references-background: #e0eeff;
     --maprx-color-references-bold: #3e6ceb;
-    --marpx-color-references-background: #eff4fa;
     --marpx-color-reference-header: #539dd3;
 
     /*------------ Parameters used in `QUOTE` --------------------------*/
@@ -64,6 +62,10 @@
     --marpx-color-table-nth-child-color: #eef1f3;
     --marpx-color-table-hover-color: black;
     --marpx-color-table-hover-background-color: rgb(252, 216, 11);
+
+    --marpx-font-table-size: 22px;
+    --marpx-font-table-family:  'Fira Sans', 'Open Sans', sans-serif;
+
 
 }
 

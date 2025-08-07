@@ -17,24 +17,29 @@ paginate: true
 transition: fade
 ---
 
+
+
 <!-- _class: title -->
-<!-- ![bg left:30% w:100%](./images/gods/greek001.png) -->
-![bg left:30% h:100%](./images/gods/greek002.jpg)
 
 #  This is Title in class  `title`
 ## This is Subtitle in class  `title`
 
 ---
 
-<!-- _class: agenda  -->
+<!-- _class: blank -->
+
+<div class="vcenter">
+
+![h:550 center](./images/cartoon/shawn001b.png)
+
+</div>
 
 ---
 
-<!-- _class: nobrand -->
 
-# Let there be **party**!
+<!-- _class: agenda  -->
 
-![bg center h:85%](./images/cartoon/shawn001.jpg)
+
 
 ---
 
@@ -118,7 +123,7 @@ When the neet to make strong assertions becomes inevitable:
 
 # Image and text on the same slide
 
-<div class="multicolumn">
+<div class="multicolumn vcenter">
 
 <div>
 
@@ -146,7 +151,7 @@ Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem A
 
 # Image and text on the same slide
 
-<div class="multicolumn">
+<div class="multicolumn vcenter">
 
 <div>
 
@@ -229,16 +234,16 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <div class="multicolumn" align="center">
 
-![h:300](./images/gods/zeus.png)
+![h:250](./images/gods/zeus.png)
 <span class="figcaption">God Zeus</span>
 
-![h:300](./images/gods/afrodite.png)
+![h:250](./images/gods/afrodite.png)
 <span class="figcaption">Afrodite</span>
 
-![h:300](./images/gods/dionisio.png)
+![h:250](./images/gods/dionisio.png)
 <span class="figcaption">Dionísio</span>
 
-![h:300](./images/gods/era.png)
+![h:250](./images/gods/era.png)
 <span class="figcaption">Era</span>
 
 </div>
@@ -275,30 +280,99 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-# Tables in slides
+<!-- _class: chapter -->
 
+# Tables
+## Organizing data with tables in Markdown
+
+---
+
+# Renaissance painters
 <center>
 
-| Column A | Column B | Column C | Column D |
-| -------- | -------- | -------- | :------: |
-| A1       | B1       | C1       |    D1    |
-| A2       | B2       | C2       |    D2    |
-| A3       | B3       | C3       |    D3    |
+| Painter           | Country | Birth Year | Death Year | Most Famous Work           |
+| ----------------- | :-----: | :--------: | :--------: | -------------------------- |
+| Albrecht Dürer    | Germany |    1471    |    1528    | *Melencolia I*             |
+| Leonardo da Vinci |  Italy  |    1452    |    1519    | *Mona Lisa*                |
+| Michelangelo      |  Italy  |    1475    |    1564    | *Sistine Chapel Ceiling*   |
+| Raphael           |  Italy  |    1483    |    1520    | *The School of Athens*     |
+| Titian            |  Italy  |   ~1488    |    1576    | *Assumption of the Virgin* |
 
-<tabcaption>Beispiel für die Verwendung von Tabellen in einer Folie.</tabcaption>
+<tabcaption>Renowned Renaissance painters with biographical data and masterpieces (alphabetical order).</tabcaption>
 
 <center>
 
 ---
 
-# Mathematical equations written in LaTeX
+# Programming languages
 
-$$\frac{1}{c^2}\frac{\partial^2\mathbf{\psi}}{\partial t^2} = \nabla^2 \circ\mathbf{\psi} $$
-$$\nabla \times \textbf{E}=- \frac{\partial \textbf{B}}{\partial t}$$
-$$\nabla^2 \textbf{E} = \mu \epsilon \frac{\partial^2 \textbf{E}}{\partial t^2}$$
-$$c=\sqrt{\frac{1}{\mu \epsilon}}$$
+<center>
 
-<figcaption>Beispiele für die Verwendung von LaTeX-Formeln.</figcaption>
+| Language   | Creator(s)          | Year | Main Paradigm(s)                            |
+| ---------- | ------------------- | ---- | ------------------------------------------- |
+| C          | _Dennis Ritchie_    | 1972 | Structured, Procedural                      |
+| C++        | _Bjarne Stroustrup_ | 1983 | Object-oriented, multi-paradigm             |
+| Erlang     | _Joe Armstrong_     | 1986 | Funcional, Concorrente                      |
+| Haskell    | _Comitê Haskell_    | 1990 | Purely Functional                           |
+| Java       | _James Gosling_     | 1995 | Object-Oriented                             |
+| Pascal     | _Niklaus Wirth_     | 1970 | Structured, Procedural                      |
+| Python     | _Guido van Rossum_  | 1991 | Multi-paradigm (OO, Procedural, Functional) |
+
+<tabcaption>List of programming languages.
+</tabcaption>
+
+</center>
+
+---
+
+<!-- _class: chapter -->
+
+# Mathematical Formulations 
+## Writing equations with LaTeX
+
+---
+
+# Probability Distribution
+
+<div class="multicolumn vcenter">
+<div>
+
+$$
+f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp\left( -\frac{(x - \mu)^2}{2\sigma^2} \right)
+$$
+<figcaption>Normal Distribution (Gaussian).</figcaption>
+
+</div>
+
+<div>
+
+![w:550](./images/graphs/distribution02.png)
+<figcaption>Multivariate Normal Distribution.</figcaption>
+
+</div>
+</div>
+
+---
+
+# Probability Distribution
+
+<div class="multicolumn vcenter">
+<div>
+
+$$
+f(x) = \frac{\sqrt{\frac{(d_1 x)^{d_1} d_2^{d_2}}{(d_1 x + d_2)^{d_1 + d_2}}}}{x \, B\left(\frac{d_1}{2}, \frac{d_2}{2}\right)}
+$$
+<figcaption>Fisher-Snedecor F distribution.</figcaption>
+
+</div>
+
+<div>
+
+![w:550](./images/graphs/distribution03.png)
+<figcaption>Multivariate Normal Distribution.</figcaption>
+
+</div>
+</div>
 
 ---
 
@@ -440,7 +514,7 @@ plt.show()
 
 # Electromagnetic wave propagation (1)
 
-[![h:420 center](./images/graphs/eletromag-plot01.png)](../programs/eletromag-plot01.py)
+[![h:420 center](./images/graphs/eletromag-plot01.png)](./programs/eletromag-plot01.py)
 <figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
 
 ---
@@ -449,8 +523,16 @@ plt.show()
 
 # Electromagnetic wave propagation (2)
 
-[![h:500 center](./images/graphs/eletromag-plot03.png)](../programs/eletromag-plot03.py)
+[![h:500 center](./images/graphs/eletromag-plot03.png)](./programs/eletromag-plot03.py)
 <figcaption>Result of the 3D rendering of the program electromag-plot03.py.</figcaption>
+
+---
+
+<!-- _class: chapter -->
+
+# Quotes
+## Special text deserves special space
+
 
 ---
 
@@ -467,48 +549,58 @@ plt.show()
 
 ---
 
+<!-- class: "chapter" -->
+
+# Appendix
+## Bibliography, References, Appendix. etc.
+
+---
+
 <!-- class: references -->
 
-# Padrões (1)
+# Appendix 1 - Special Sections (1)
 
 <center>
 
- | Seção CSS           | Descrição/Propósito                | Classe Markdown (exemplo)      |
- | ------------------- | ---------------------------------- | ------------------------------ |
- | section             | Slide padrão                       | `<!-- _class: section -->`     |
- | section.title       | Slide de título                    | `<!-- _class: title -->`       |
- | section.title-bg    | Slide de título com fundo          | `<!-- _class: title-bg -->`    |
- | section.chapter     | Slide de capítulo                  | `<!-- _class: chapter -->`     |
- | section.chapter-alt | Capítulo alternativo               | `<!-- _class: chapter-alt -->` |
- | section.agenda      | Slide de agenda/conteúdo           | `<!-- _class: agenda -->`      |
- | section.end         | Slide de agradecimento             | `<!-- _class: end -->`         |
- | section.end-bg      | Agradecimento com fundo            | `<!-- _class: end-bg -->`      |
- | section.totalpages  | Slide mostrando total de páginas   | `<!-- _class: totalpages -->`  |
- | section.copyright   | Slide de copyright                 | `<!-- _class: copyright -->`   |
- | section.logos       | Slide com logos adicionais         | `<!-- _class: logos -->`       |
+ | CSS Section         | Description/Purpose         | Markdown Class (example)       |
+ | ------------------- | --------------------------- | :----------------------------- |
+ | section             | Default slide               | `<!-- _class: section -->`     |
+ | section.title       | Title slide                 | `<!-- _class: title -->`       |
+ | section.title-bg    | Title slide with background | `<!-- _class: title-bg -->`    |
+ | section.chapter     | Chapter slide               | `<!-- _class: chapter -->`     |
+ | section.chapter-alt | Alternative chapter         | `<!-- _class: chapter-alt -->` |
+ | section.agenda      | Agenda/content slide        | `<!-- _class: agenda -->`      |
+ | section.end         | Thank you slide             | `<!-- _class: end -->`         |
+ | section.end-bg      | Thank you with background   | `<!-- _class: end-bg -->`      |
+ | section.totalpages  | Slide showing total pages   | `<!-- _class: totalpages -->`  |
+ | section.copyright   | Copyright slide             | `<!-- _class: copyright -->`   |
+ | section.logos       | Slide with additional logos | `<!-- _class: logos -->`       |
 
-<tabcaption>List of tags used.</tabcaption>
+<tabcaption>List of tags used (1).</tabcaption>
 
 </center>
 
 ---
 
-# Padrões (2)
+# Appendix 1 - Special Sections (2)
 
 <center>
 
- | Seção CSS           | Descrição/Propósito                | Classe Markdown (exemplo)      |
- | ------------------- | ---------------------------------- | ------------------------------ |
- | section.blank       | Slide em branco                    | `<!-- _class: blank -->`       |
- | section.nobrand     | Slide sem marca                    | `<!-- _class: nobrand -->`     |
- | section.multicolumn | Slide com múltiplas colunas        | `<!-- _class: multicolumn -->` |
- | section.cols        | Slide com colunas flexíveis        | `<!-- _class: cols -->`        |
- | section.rows        | Slide com linhas flexíveis         | `<!-- _class: rows -->`        |
- | section.grid-tlr    | Grid: top, left, right             | `<!-- _class: grid-tlr -->`    |
- | section.grid-lrb    | Grid: left, right, bottom          | `<!-- _class: grid-lrb -->`    |
- | section.quote       | Slide de citação (quote unificado) | `<!-- _class: quote -->`       |
- | section.quote.dark  | Citação alternativa (antes quote2) | `<!-- _class: quote dark -->`  |
- | section.references  | Slide de referências/bibliografia  | `<!-- _class: references -->`  |
+ | CSS Section                 | Description/Purpose                             | Markdown Class (example)               |
+ | --------------------------- | ----------------------------------------------- | -------------------------------------- |
+ | section.blank               | Blank slide                                     | `<!-- _class: blank -->`               |
+ | section.nobrand             | Slide without branding                          | `<!-- _class: nobrand -->`             |
+ | section.multicolumn         | Slide with multiple columns                     | `<!-- _class: multicolumn -->`         |
+ | section.multicolumn vcenter | Vertically centered slide with multiple columns | `<!-- _class: multicolumn vcenter -->` |
+ | section.cols                | Slide with flexible columns                     | `<!-- _class: cols -->`                |
+ | section.rows                | Slide with flexible rows                        | `<!-- _class: rows -->`                |
+ | section.grid-tlr            | Grid: top, left, right                          | `<!-- _class: grid-tlr -->`            |
+ | section.grid-lrb            | Grid: left, right, bottom                       | `<!-- _class: grid-lrb -->`            |
+ | section.quote               | Quote slide (unified quote)                     | `<!-- _class: quote -->`               |
+ | section.quote.dark          | Alternative quote (formerly quote2)             | `<!-- _class: quote dark -->`          |
+ | section.references          | References/bibliography slide                   | `<!-- _class: references -->`          |
+
+<tabcaption>List of tags used (2).</tabcaption>
 
 </center>
 
@@ -552,11 +644,12 @@ plt.show()
 <div>
 
   1. Cover image: Flute Player. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
+  2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
 
 </div>
 <div>
 
-  1. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
+  1. Shaun The Sheep ©️ 2025 aardman animations ltd.
 
 </div>
 </div>

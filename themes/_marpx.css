@@ -70,7 +70,7 @@
     --marpx-theme-color: #3e6ceb;
     --marpx-theme-color-alt: #9aade2;
     --marpx-theme-color-background: #ffffff;
-    --marpx-theme-color-bold: #6462f1;
+    --marpx-theme-color-bold: #f8150d;
     --marpx-theme-color-font: #000000;
 
     --marpx-color-subtitle: #5d616d;
@@ -98,14 +98,17 @@
     --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
 
     /*------------ Parameters used in `TABLE` --------------------------*/
+   
+    --marpx-color-table-header-background: rgb(21, 29, 51);
+    --marpx-color-table-header-color: white;
+    --marpx-color-table-border-top: ;
+    --marpx-color-table-border-bottom: rgba(202, 201, 197, 0.973);
+    --marpx-color-table-nth-child-color: #f5f5f5;
+    --marpx-color-table-hover: rgb(71, 70, 25);
+    --marpx-color-table-hover-background: rgb(234, 247, 121);
 
-    --marpx-color-table-header: #1c242b;
-    --marpx-color-table-header-font: white;
-    --marpx-color-table-border-top: #616060;
-    --marpx-color-table-border-bottom: #61616050;
-    --marpx-color-table-nth-child-color: #eef1f3;
-    --marpx-color-table-hover-color: black;
-    --marpx-color-table-hover-background-color: #fcd80b;
+    --marpx-font-table-size: 22px;
+    --marpx-font-table-family: ;
 
 }
 
@@ -236,7 +239,10 @@ h1>strong::after {
     content: "\00a0";
 }
 
-h1>strong {
+h1>strong,
+h2>strong,
+h3>strong,
+h4>strong {
     color: var(--marpx-color-h1-bold);
     font-weight: bold !important;
 }
@@ -298,6 +304,12 @@ section.multicolumn {
     grid-auto-flow: column;
     grid-gap: 10px;
 }
+
+section>div.multicolumn.vcenter,
+section.multicolumn.vcenter {
+    align-items: center;
+}
+
 
 /* Layout for whole slides in column mode */
 section.cols {
@@ -563,8 +575,9 @@ section.agenda::before {
     margin: 0px;
     padding-top: 30px;
 
-    width: 33.35%;
-    height: 86.11%;
+    width: 33%;
+    /* height: 86.11%; */
+    height: 100%;
 
     text-align: center;
     font-size: 48pt;
@@ -1094,7 +1107,45 @@ section.quote.dark strong {
 }
 
 
+/*
+!============================================================
+ ? * ############### TABLES ############### 
+!============================================================
+*/
 
+section table {
+  font-size: var(--marpx-font-table-size);
+  font-family: var(--marpx-font-table-family) !important;
+}
+
+section table th {
+  background-color: var(--marpx-color-table-header-background);
+  color: var(--marpx-color-table-header-color);
+  border-top: var(--marpx-color-table-border-top) solid 2px;
+  border-bottom: var(--marpx-color-table-border-bottom) solid 2px;
+  border-width: initial;
+}
+
+section table td {
+    
+  border: 1px solid var(--marpx-color-table-border-bottom);
+  border-left: 0;
+  border-right: 0;
+}
+
+section table tr:nth-child(even) {
+  background-color: var(--marpx-color-table-nth-child-color);
+}
+
+section table tr:last-child {
+  border-bottom: var(--marpx-color-table-border-bottom) solid 1px;
+}
+
+tr:hover {
+  color: var(--marpx-color-table-hover) !important;
+  background: var(--marpx-color-table-hover-background) !important;
+  /* font-weight: bold !important; */
+}
 
 /*
 !============================================================
