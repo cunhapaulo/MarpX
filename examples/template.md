@@ -7,14 +7,14 @@ keywords: [keyword1, keyword2, keyword3, keyword4]
 header: This is header in JSON
 footer: This is footer in JSON
 
-theme: _marpx
+marp: true
+theme: himmel
+
 lang: en-US
 size: 16:9
 math: mathjax
 paginate: true
 transition: fade
-
-marp: true
 ---
 
 <!-- _class: title -->
@@ -26,13 +26,15 @@ marp: true
 
 ---
 
-<!-- _class: blank -->
-
-![bg center h:85%](./images/cartoon/shawn001.jpg)
+<!-- _class: agenda  -->
 
 ---
 
-<!-- _class: agenda  -->
+<!-- _class: nobrand -->
+
+# Let there be **party**!
+
+![bg center h:85%](./images/cartoon/shawn001.jpg)
 
 ---
 
@@ -120,13 +122,13 @@ When the neet to make strong assertions becomes inevitable:
 
 <div>
 
-![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/hegel001.jpg)
-<figcaption align="center">Hegel´s <i>Phänomenologie des Geistes</i> Oxford edition (1979).</figcaption>
+![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/hegel001.jpg)
+<figcaption align="center"> <i>Phänomenologie des Geistes</i> Oxford edition.</figcaption>
 
 </div>
 <div>
 
-## **Hegels** Phänomenologie
+## Hegels Phänomenologie
 Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem Autor: G.W.F. Hegel.
 
 - Das 1807 veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
@@ -484,6 +486,8 @@ plt.show()
  | section.totalpages  | Slide mostrando total de páginas   | `<!-- _class: totalpages -->`  |
  | section.copyright   | Slide de copyright                 | `<!-- _class: copyright -->`   |
  | section.logos       | Slide com logos adicionais         | `<!-- _class: logos -->`       |
+
+<tabcaption>List of tags used.</tabcaption>
 
 </center>
 

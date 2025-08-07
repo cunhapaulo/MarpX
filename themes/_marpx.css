@@ -62,14 +62,16 @@
 
     /*------------ Overall theme parameters --------------------------*/
 
-    --marpx-theme-font-family: 'Fira Sans Light', Bookerly, Faustina, sans-serif;
+    --marpx-theme-font-family: 'Fira Sans Light', Faustina, Bookerly, sans-serif;
     --marpx-theme-captiontext-figure: "Fig. ";
     --marpx-theme-captiontext-table: "Table ";
     --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
+    
     --marpx-theme-color: #3e6ceb;
     --marpx-theme-color-alt: #9aade2;
     --marpx-theme-color-background: #ffffff;
     --marpx-theme-color-bold: #6462f1;
+    --marpx-theme-color-font: #000000;
 
     --marpx-color-subtitle: #5d616d;
     --marpx-color-h1-bold: #ff3c00;
@@ -134,11 +136,11 @@ section {
     --page-number-total: attr(data-marpit-pagination-total);
     /* Works only with Chrome */
 
-    background: var(--marpx-theme-color-background);
-    font-family: var(--marpx-theme-font-family);
-    font-size: 18pt;
     font-size: 22pt;
     font-weight: 400;
+    font-family: var(--marpx-theme-font-family);
+    color: var(--marpx-theme-color-font);
+    background: var(--marpx-theme-color-background);
     padding: 145px 80px 68px 80px;
     background-size: contain;
 }
@@ -979,11 +981,7 @@ div.callout.quote {
 @import url('data:text/css, .bespoke-marp-parent { top: 0 !important; } .bespoke-progress-parent { position: absolute; bottom: 0 !important; z-index:100; background:none !important; height:3px !important; }');
 
 
-/*
- * ----------------------------------------------------
- *                      NEW STYLE 
- * ----------------------------------------------------
-*/
+
 /*
 !============================================================
  ? * ############### FIGCAPTION and TABCAPTION ############### 
@@ -993,8 +991,10 @@ figcaption,
 tabcaption,
 .figcaption,
 .tabcaption {
-    font-size: 15.5pt;
-    font-weight: lighter;
+    font-family: 'Fira Sans' ;
+    font-size: 0.9em;
+    font-size: 14.5pt;
+    font-weight: normal;
     color: black;
     text-align: center;
 }
@@ -1104,8 +1104,7 @@ section.quote.dark strong {
 section.references {
     background: var(--marpx-color-references-background);
     color: #303235;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1.6em;
+    font-family:  'Fira Sans Light', sans-serif;
     padding: 150px 48px;
     line-height: 1.15;
 }
@@ -1125,7 +1124,7 @@ section.references h2 {
     color: var(--marpx-color-reference-header);
     margin-bottom: 16px;
     font-family: 'Fira Sans Light', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     /* border-bottom: 1px solid #0606ee; */
 }
 
@@ -1140,4 +1139,13 @@ section.references .multicolumn>div {
     padding: 0 0px;
     /* Ensures content is aligned with the top */
     vertical-align: top;
+}
+
+section.references,
+/* section.references *, */
+section.references .multicolumn > div,
+section.references .multicolumn > div * {
+    font-size: 15pt !important;
+    font-weight: 600 !important;
+    box-sizing: border-box;
 }

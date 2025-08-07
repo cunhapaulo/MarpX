@@ -11,6 +11,7 @@
 		"markdown.marp.themes": [
 			"./themes/_marpx.css",
 			"./themes/marpx.css",
+			"./themes/himmel.css",
 		]
 	}
 }

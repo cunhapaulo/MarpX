@@ -17,7 +17,7 @@
 
     /*------------ Overall theme parameters --------------------------*/
 
-    --marpx-theme-font-family: 'Fira Sans Light', Bookerly, Faustina, sans-serif;
+    --marpx-theme-font-family:  Faustina, 'Fira Sans Light',sans-serif;
     --marpx-theme-captiontext-figure: "Fig. ";
     --marpx-theme-captiontext-table: "Table ";
     --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
@@ -43,7 +43,7 @@
     --marpx-color-quote-background: #ffffff;
     --marpx-color-quote-paragraph-background: #ffffff;
     --marpx-color-quote-strong: #6462f1;
-    --marpx-font-quote: Bookerly, Faustina, Times, serif;
+    --marpx-font-quote: Faustina, Bookerly, Times, serif;
 
     --marpx-color-quote-dark-background: #9aade2;
     --marpx-color-quote-dark-paragraph-background: #9aade2;
@@ -60,4 +60,9 @@
     --marpx-color-table-hover-color: black;
     --marpx-color-table-hover-background-color: rgb(252, 216, 11);
 
+}
+
+section {
+    
+    line-height: 1.3em;
 }
