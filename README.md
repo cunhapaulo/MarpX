@@ -16,7 +16,7 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 
 ---
 
-## ✨ Interesting new features
+## 💡 Interesting new features
 
 MarpX was created to:
 
