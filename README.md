@@ -90,7 +90,7 @@ MarpX was created to:
 
 ## 👤 Authorship
 
-**MarpX** is authored and maintained by [Paulo Cunha](https://github.com/paulocunha), 2025.
+**MarpX** is authored and maintained by [Paulo Cunha](https://github.com/cunhapaulo), 2025.
 
 For questions, suggestions, or contributions, please open an issue or pull request on GitHub.
 
