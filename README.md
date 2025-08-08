@@ -22,7 +22,7 @@ MarpX was created to:
 
 - Autonumbering captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
 - Vertical centering of figures within columns with (`<div class="vcenter">` or `<div class="multicolumn vcenter">`).
-- Slides especiais para citações (`<!-- _class: quote -->`), incluindo uma versão em modo escuro (`<!-- _class: quote dark -->`).
+- Special slides for quotes(`<!-- _class: quote -->`), including a dark mode version (`<!-- _class: quote dark -->`).
 ---
 
 ## ✨ Purpose & Vision
