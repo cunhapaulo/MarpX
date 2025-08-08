@@ -4,10 +4,10 @@ This is Marp Style 2.0
 
 > **MarpX** — Beautiful, semantic, and powerful themes for Marp presentations.
 > MarpX is the result of an effort to expand, redesign, optimize and improve the first Marp slide theme composition initiative [Marpstyle](https://github.com/cunhapaulo/marpstyle).
----
+
 
 ![](./examples/images/cartoon/shawn001b.png)
-Shaun The Sheep - Copyright ©️ 2025 aardman animations ltd
+Shaun The Sheep - Copyright ©️ 2025 aardman animations ltd.
 
 ## Overview
 
