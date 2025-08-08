@@ -7,13 +7,22 @@ This is Marp Style 2.0
 
 
 ![](./examples/images/cartoon/shawn001b.png)
-Shaun The Sheep - Copyright ©️ 2025 aardman animations ltd.
+<small>Shaun The Sheep - Copyright ©️ 2025 aardman animations ltd.</small>
 
 ## Overview
 
 **MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
 Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
 
+---
+
+## ✨ Interesting new features
+
+MarpX was created to:
+
+- Autonumbering captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
+- Vertical centering of figures within columns with (`<div class="vcenter">` or `<div class="multicolumn vcenter">`).
+- Slides especiais para citações (`<!-- _class: quote -->`), incluindo uma versão em modo escuro (`<!-- _class: quote dark -->`).
 ---
 
 ## ✨ Purpose & Vision
