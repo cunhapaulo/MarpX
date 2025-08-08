@@ -21,7 +21,9 @@
     --marpx-theme-captiontext-figure: "Fig. ";
     --marpx-theme-captiontext-table: "Table ";
     --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
+    
     --marpx-theme-color: #3e6ceb;
+    --marpx-theme-color-agenda: #ff570a;
     --marpx-theme-color-alt: #9aade2;
     --marpx-theme-color-background: #ffffff;
     --marpx-theme-color-bold: #f70d0d;

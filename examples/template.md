@@ -8,7 +8,7 @@ header: This is header in JSON
 footer: "[Back to the beginning](#3)"
 
 marp: true
-theme: _marpx
+theme: marpx
 
 size: 16:9
 lang: en-US
