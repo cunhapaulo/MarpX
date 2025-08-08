@@ -71,3 +71,21 @@ section {
     line-height: 1.3em;
 }
 
+.boxed {
+  border: 2px solid #222;
+  border-radius: 6px;      /* opcional: cantos arredondados */
+  padding: 2px 8px;        /* espaço interno */
+  /* background: #fffbe7;   /* opcional: cor de fundo */
+  display: inline-block;   /* garante o retângulo ao redor da palavra */
+}
+
+section code {
+  border: 2px solid #222;
+  border-radius: 12px;
+  padding: 2px 8px;
+  /* background: initial; */
+  background: #fffbe7;
+  /* color: #222222; */
+  font-size: 1em;
+  display: inline-block;
+}

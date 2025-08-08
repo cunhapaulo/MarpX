@@ -9,6 +9,7 @@ footer: "[Back to the beginning](#3)"
 
 marp: true
 theme: _marpx
+
 size: 16:9
 lang: en-US
 math: mathjax
@@ -33,6 +34,7 @@ paginate: true
 ---
 <!-- _class: agenda  -->
 
+0. [Title](#1)
 1. [Transition Slide](#4)
 2. [Normal Slide](%5)
 3. [Headers](#6)
@@ -128,7 +130,7 @@ When the neet to make strong assertions becomes inevitable:
 ## Hegels Phänomenologie
 Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem Autor: G.W.F. Hegel.
 
-- Das 1807 veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
+- Das `1807` veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
 - In diesem Buch entwickelt Hegel seine Konzepte der Dialektik.
 
 > Price at Amazon used to be $ 17.83.
