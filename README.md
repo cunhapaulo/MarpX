@@ -18,11 +18,11 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 
 ## 💡 Interesting new features
 
-MarpX was created to:
+MarpX is capable of:
 
-- Autonumbering captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
-- Vertical centering of figures within columns with (`<div class="vcenter">` or `<div class="multicolumn vcenter">`).
-- Special slides for quotes(`<!-- _class: quote -->`), including a dark mode version (`<!-- _class: quote dark -->`).
+- **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
+- **Vertical centering** of figures within columns with (`<div class="vcenter">` or `<div class="multicolumn vcenter">`).
+- Special slides for **quotes**(`<!-- _class: quote -->`), including a dark mode version (`<!-- _class: quote dark -->`).
 ---
 
 ## ✨ Purpose & Vision
