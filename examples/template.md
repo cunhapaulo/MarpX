@@ -5,10 +5,10 @@ author: Author
 keywords: [keyword1, keyword2, keyword3, keyword4]
 
 header: This is header in JSON
-footer: This is footer in JSON
+footer: "[Back to the beginning](#3)"
 
 marp: true
-theme: marpx
+theme: _marpx
 size: 16:9
 lang: en-US
 math: mathjax
@@ -32,6 +32,17 @@ paginate: true
 
 ---
 <!-- _class: agenda  -->
+
+1. [Transition Slide](#4)
+2. [Normal Slide](%5)
+3. [Headers](#6)
+4. [Images](#7)
+5. [Ordered and Unordered Lists](#14)
+6. [Tables](#16)
+7. [Mathematics in LaTeX](#19)
+8. [Code](#23)
+9. [Quotes](#27)
+10. [References](#30)
 
 ---
 <!-- _class: chapter -->
