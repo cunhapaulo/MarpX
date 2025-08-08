@@ -78,7 +78,7 @@ MarpX was created to:
 ## 🙏 Credits
 
 - Inspired by the [Marp](https://marp.app/) project and its contributors.
-- Inspired by and uses some code from [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
+- Inspired by the work of [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
 - Uses [Google Fonts](https://fonts.google.com/) for typography.
 - Thanks to the open-source community for feedback, inspiration, and contributions.
 - Special thanks to all educators, researchers, and professionals who value clarity and beauty in their presentations.
