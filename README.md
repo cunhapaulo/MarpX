@@ -106,3 +106,4 @@ For questions, suggestions, or contributions, please open an issue or pull reque
 ## 📄 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
