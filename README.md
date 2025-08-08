@@ -21,19 +21,17 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 MarpX is capable of:
 
 - **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
-- **Vertical centering** of figures within columns with (`<div class="vcenter">` or `<div class="multicolumn vcenter">`).
-- Special slides for **quotes**(`<!-- _class: quote -->`), including a dark mode version (`<!-- _class: quote dark -->`).
----
+  |----| 
+  |<img width="743" height="417" alt="image" src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|
 
-## ✨ Purpose & Vision
-
-MarpX was created to:
-
-- Deliver a set of modern, elegant, and accessible Marp themes.
-- Extend Marp’s native capabilities with advanced layouts, custom sections, and semantic slide classes.
-- Allow users to focus on content, while ensuring a professional and consistent design.
-- Support academic, scientific, and technical presentations with features such as references, quotes, advanced tables, and multi-column layouts.
-- Encourage best practices in presentation design, accessibility, and maintainability.
+- **Vertical centering** of figures within columns with (`<div class="vcenter">`<br> or `<div class="multicolumn vcenter">`).
+  |----|
+  |<img width="747" height="421" alt="image" src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" />|
+  
+- Special slides for **quotes**(`<!-- _class: quote -->`), including a dark mode<br> version (`<!-- _class: quote dark -->`).
+  |----|
+  |<img width="747" height="417" alt="image" src="https://github.com/user-attachments/assets/ab811965-1bb9-4f18-9c1c-3ca8d332ab58" />|
+  |<img width="747" height="417" alt="image" src="https://github.com/user-attachments/assets/f8808677-8c11-43f0-a3f3-5108ed2785de" />|
 
 ---
 
