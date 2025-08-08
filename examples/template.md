@@ -9,15 +9,12 @@ footer: This is footer in JSON
 
 marp: true
 theme: marpx
-
-lang: en-US
 size: 16:9
+lang: en-US
 math: mathjax
-paginate: true
 transition: fade
+paginate: true
 ---
-
-
 
 <!-- _class: title -->
 
@@ -25,7 +22,6 @@ transition: fade
 ## This is Subtitle in class  `title`
 
 ---
-
 <!-- _class: blank -->
 
 <div class="vcenter">
@@ -35,21 +31,15 @@ transition: fade
 </div>
 
 ---
-
-
 <!-- _class: agenda  -->
 
-
-
 ---
-
 <!-- _class: chapter -->
 
 # Transition Slide
 ## Aditional Text about what´s  ahead
 
 ---
-
 # Is Algebraic Graph Knowledge a **Possibility**?
 
 `Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
@@ -66,7 +56,6 @@ When the neet to make strong assertions becomes inevitable:
 </footnote>
 
 ---
-
 <!-- _class: multicolumn -->
 
 <div>
@@ -78,8 +67,7 @@ When the neet to make strong assertions becomes inevitable:
 ##### H5 - H5 level of header
 ###### H6 - H6 level of header
 
-</div>
-<div>
+</div><div>
 
 - This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
 
@@ -88,50 +76,43 @@ When the neet to make strong assertions becomes inevitable:
     - This is one **bold** comment.
     - This is another *italic* comment.
 
-</div>
-</div>
+</div></div>
 
 ---
-
 # One image slide
 
-
-![h:350 center](./images/math/puebk.png)
+![h:400 center](./images/math/puebk.png)
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 
 ---
-# Two images fit into two columns
+# Images fit into columns
 
-<div class="multicolumn" align="center">
+<div class="multicolumn" align="center"><div>
 
-<div>
-
-![h:350px drop-shadow:4px,5px,15px,#010101](./images/books/book003.jpg)
-<figcaption>Göthe, Suhrkamp (2011).</figcaption>
-
-</div>
-
-<div>
-
-![h:350px drop-shadow:4px,5px,15px,#010101](./images/books/book004.jpg)
+[![h:350px drop-shadow:4px,5px,15px,#010101](./images/books/book004.jpg)](https://amzn.eu/d/fQDOCSF)
 <figcaption>Sophokles, Suhrkamp (2015).</figcaption>
 
-</div>
-</div>
+</div><div>
+
+[![h:350px drop-shadow:4px,5px,15px,#010101](./images/books/book003.jpg)](https://amzn.eu/d/bxExVnT)
+<figcaption>Göthe, Suhrkamp (2011).</figcaption>
+
+</div><div>
+
+[![h:350px drop-shadow:4px,5px,15px,#010101](./images/books/book006.jpg)](https://amzn.eu/d/f3z3qfe)
+<figcaption>Heine, Suhrkamp (2011).</figcaption>
+
+</div></div>
 
 ---
+# Image and text on the same slide (1)
 
-# Image and text on the same slide
+<div class="multicolumn vcenter"><div>
 
-<div class="multicolumn vcenter">
-
-<div>
-
-![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/hegel001.jpg)
+[![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
 <figcaption align="center"> <i>Phänomenologie des Geistes</i> Oxford edition.</figcaption>
 
-</div>
-<div>
+</div><div>
 
 ## Hegels Phänomenologie
 Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem Autor: G.W.F. Hegel.
@@ -139,21 +120,15 @@ Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem A
 - Das 1807 veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
 - In diesem Buch entwickelt Hegel seine Konzepte der Dialektik.
 
-<footnote>
-
-> [Price at Amazon used to be](https://www.amazon.com/gp/product/0198245971/ref=ox_sc_act_image_2?smid=A1ZZFT5FULY4LN&psc=1): $ 17.83. Almost sure it has increased!
-</footnote>
+> Price at Amazon used to be $ 17.83.
 
 </div>
 </div>
 
 ---
+# Image and text on the same slide (2)
 
-# Image and text on the same slide
-
-<div class="multicolumn vcenter">
-
-<div>
+<div class="multicolumn vcenter"><div>
 
 ## Kant, Leibniz & Newton
 
@@ -161,21 +136,17 @@ Philosophy and the sciences were closely linked in the age of Leibniz, Newton, a
 
 This addresses the transformations of metaphysics as a discipline, the emergence of analytical mechanics, the diverging avenues of 18th-century Newtonianism, the body-mind problem, and philosophical principles of classification in the life sciences.
 
-> [Price at Amazon used to be:](https://www.amazon.de/Between-Leibniz-Newton-Kant-Philosophy/dp/3031343395/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=16F5PCQR437M7&keywords=Kant+Springer&qid=1689169670&s=books&sprefix=kant+springer%2Cstripbooks%2C204&sr=1-1) 128,39 €
+> Price at Amazon used to be 128,39 €
 
-</div>
+</div><div>
 
-<div>
-
-![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/book007.jpg)
+[![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
 <figcaption align="center">Springer edition (2023).</figcaption>
 
-</div>
-</div>
+</div></div>
 
 ---
-
-# Multi-images  Environment
+# Multi-images  Environment (1)
 
 <div class="multicolumn" align="center">
 
@@ -197,9 +168,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div>
 
 ---
-
-# Multi-images  Environment
-
+# Multi-images  Environment (2)
 
 <div class="multicolumn" align="center">
 
@@ -216,7 +185,6 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 ![h:390](./images/math/math004.gif)
 <span class="figcaption">Math003.</span>
 
-
 <div>
 
   ![h:185](./images/math/math003.png)
@@ -225,12 +193,10 @@ This addresses the transformations of metaphysics as a discipline, the emergence
   ![h:185](./images/math/math005.png)
   <span class="figcaption">Math005.</span>
 
-</div>
-</div>
+</div></div>
 
 ---
-
-# Figures and caption in&nbsp;*multicolumn*
+# Figures and caption in *multicolumn*
 
 <div class="multicolumn" align="center">
 
@@ -249,34 +215,33 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div>
 
 ---
+# *Ordered* and *unordered* lists 
 
-# **Ordered** and **unordered** lists 
-
-<div class="multicolumn">
-
-<div>
+<div class="multicolumn"><div>
 
 1. First object in list;
 2. Second object in list;
 3. Third object in list;
    1. First objetc in sublist;
    2. Second object in sublist;
-   3. Third object in sublist;
-4. Fourth object in List;
+      1. Another level;
+      2. Yet another item.
+   3. Third object in sublist.
+4. Fourth object in List.
 
-</div>
-<div>
+</div><div>
 
 - First object in list;
 - Second object in list;
 - Third object in list;
    - First objetc in sublist;
    - Second object in sublist;
+      - Another level;
+      - Yet another item.   
    - Third object in sublist;
 - Fourth object in List;
 
-</div>
-</div>
+</div></div>
 
 ---
 
@@ -299,28 +264,24 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 | Titian            |  Italy  |   ~1488    |    1576    | *Assumption of the Virgin* |
 
 <tabcaption>Renowned Renaissance painters with biographical data and masterpieces (alphabetical order).</tabcaption>
-
 <center>
 
 ---
-
 # Programming languages
 
 <center>
 
-| Language   | Creator(s)          | Year | Main Paradigm(s)                            |
-| ---------- | ------------------- | ---- | ------------------------------------------- |
-| C          | _Dennis Ritchie_    | 1972 | Structured, Procedural                      |
-| C++        | _Bjarne Stroustrup_ | 1983 | Object-oriented, multi-paradigm             |
-| Erlang     | _Joe Armstrong_     | 1986 | Funcional, Concorrente                      |
-| Haskell    | _Comitê Haskell_    | 1990 | Purely Functional                           |
-| Java       | _James Gosling_     | 1995 | Object-Oriented                             |
-| Pascal     | _Niklaus Wirth_     | 1970 | Structured, Procedural                      |
-| Python     | _Guido van Rossum_  | 1991 | Multi-paradigm (OO, Procedural, Functional) |
+| Language | Creator(s)          | Year | Main Paradigm(s)                            |
+| -------- | ------------------- | ---- | ------------------------------------------- |
+| C        | _Dennis Ritchie_    | 1972 | Structured, Procedural                      |
+| C++      | _Bjarne Stroustrup_ | 1983 | Object-oriented, multi-paradigm             |
+| Erlang   | _Joe Armstrong_     | 1986 | Funcional, Concorrente                      |
+| Haskell  | _Comitê Haskell_    | 1990 | Purely Functional                           |
+| Java     | _James Gosling_     | 1995 | Object-Oriented                             |
+| Pascal   | _Niklaus Wirth_     | 1970 | Structured, Procedural                      |
+| Python   | _Guido van Rossum_  | 1991 | Multi-paradigm (OO, Procedural, Functional) |
 
-<tabcaption>List of programming languages.
-</tabcaption>
-
+<tabcaption>List of programming languages.</tabcaption>
 </center>
 
 ---
@@ -331,51 +292,40 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 ## Writing equations with LaTeX
 
 ---
+# Probability Distribution (1)
 
-# Probability Distribution
-
-<div class="multicolumn vcenter">
-<div>
+<div class="multicolumn vcenter"><div>
 
 $$
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp\left( -\frac{(x - \mu)^2}{2\sigma^2} \right)
 $$
 <figcaption>Normal Distribution (Gaussian).</figcaption>
 
-</div>
+</div><div>
 
-<div>
-
-![w:550](./images/graphs/distribution02.png)
+![w:650](./images/graphs/distribution02.png)
 <figcaption>Multivariate Normal Distribution.</figcaption>
 
-</div>
-</div>
+</div></div>
 
 ---
+# Probability Distribution (2)
 
-# Probability Distribution
-
-<div class="multicolumn vcenter">
-<div>
+<div class="multicolumn vcenter"><div>
 
 $$
 f(x) = \frac{\sqrt{\frac{(d_1 x)^{d_1} d_2^{d_2}}{(d_1 x + d_2)^{d_1 + d_2}}}}{x \, B\left(\frac{d_1}{2}, \frac{d_2}{2}\right)}
 $$
 <figcaption>Fisher-Snedecor F distribution.</figcaption>
 
-</div>
+</div><div>
 
-<div>
-
-![w:550](./images/graphs/distribution03.png)
+![w:650](./images/graphs/distribution03.png)
 <figcaption>Multivariate Normal Distribution.</figcaption>
 
-</div>
-</div>
+</div></div>
 
 ---
-
 # Electromagnetic Field (Differential form)
 
 Below, in modern vector notation, in *differential form*, are Maxwell's four equations governing the `electromagnetic field`.
@@ -395,7 +345,6 @@ $$
 $$
 
 ---
-
 # Electromagnetic Field (Integral form)
 
 Below, in modern vector notation, in *integral form*, are Maxwell's four equations governing the electromagnetic field.
@@ -420,14 +369,11 @@ $$
 $$
 
 ---
-
 <!-- _class: nobrand -->
 
 # Python programs
 
-<div class="multicolumn">
-
-<div>
+<div class="multicolumn"><div>
 
 ```python
 """
@@ -459,12 +405,9 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
-
 <figcaption> First program.</figcaption>
 
-
-</div>
-<div>
+</div><div>
 
 ```python
 import numpy as np
@@ -501,13 +444,9 @@ ax.legend()
 plt.tight_layout()
 plt.show()
 ```
-
 <figcaption> Second program.</figcaption>
 
-
-</div>
-
-</div>
+</div></div>
 
 ---
 <!-- _class: nobrand -->
@@ -518,7 +457,6 @@ plt.show()
 <figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
 
 ---
-
 <!-- _class: nobrand -->
 
 # Electromagnetic wave propagation (2)
@@ -533,9 +471,7 @@ plt.show()
 # Quotes
 ## Special text deserves special space
 
-
 ---
-
 
 <!-- _class: quote -->
 
@@ -555,7 +491,6 @@ plt.show()
 ## Bibliography, References, Appendix. etc.
 
 ---
-
 <!-- class: references -->
 
 # Appendix 1 - Special Sections (1)
@@ -581,7 +516,6 @@ plt.show()
 </center>
 
 ---
-
 # Appendix 1 - Special Sections (2)
 
 <center>
@@ -605,14 +539,11 @@ plt.show()
 </center>
 
 ---
-
 <!-- class: "references" -->
 
 # References 
 
-<div class="multicolumn">
-
-<div>
+<div class="multicolumn"><div>
 
   1. AMERIKS, Karl; HÖFFE, Otfried. **Kant’s Moral and Legal Philosophy**. tradução: Nicholas Walker. Cambridge, Massachusetts: Cambridge University Press, 2009-. ISSN 1878-6847.(The German Philosophical Tradition). 
   2. ARISTOTELES. **Nikomachische Ethik**. Berlin: Akademie Verlag, 2010. (Klassiker Auslegen).v. 2
@@ -621,8 +552,7 @@ plt.show()
   5. GADAMER, Hans-Georg. **Wahrheit und Methode**. Berlin: Akademie Verlag, 2007. v. 30.
   6. HEGEL, Georg Friederich Wilhelm. **Hegel´s Phenomenology of Spirit**. Tradução: A. V. Miller. New York: Oxford University Press, 2004.
 
-</div>
-<div>
+</div><div>
 
   7. HEIDEGGER, Martin. **Sein und Zeit**. 11. ed. Tübingen: Max Niemeyer Verlag, 1967. 
   8. HUSSERL, Edmund. **The Crisis of European Sciences and Transcendental Phenomenology**. Evanston, USA: Northwestern University Press, 1970. 
@@ -631,27 +561,19 @@ plt.show()
   11. KARDEC, Allan. **Das Buch der Geister**. Übersetzung: Edith Burkhard. 3. ed. Brasília, DF: Internationaler Spiritistischer Rat, 2011. 
   12. PLATO. **Plato Republic**. Tradução: C. D. C. Reeve. Indianapolis, IN, USA: Hackett Publishing Company, 2004. 
 
-</div>
-</div>
+</div></div>
 
 ---
-
 # Credits
 
 
-<div class="multicolumn">
-
-<div>
+<div class="multicolumn"><div>
 
   1. Cover image: Flute Player. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
   2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
 
-</div>
-<div>
+</div><div>
 
   1. Shaun The Sheep ©️ 2025 aardman animations ltd.
 
-</div>
-</div>
-
-
+</div></div>

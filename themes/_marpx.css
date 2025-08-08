@@ -24,13 +24,12 @@
 *
 * ================================================================================
 *
-*    MarpX Base Theme System
+*    _marpx.css - MarpX Base Theme System
 *    Paulo Cunha 
 *    Created: jul.2025
-*    Last update: 04.ago.2025
+*    Last update: 08.aug.2025
 *
-* ================================================================================
-*/
+* ================================================================================ */
 
 /* 
 * @theme _marpx
@@ -42,18 +41,15 @@
 *
 */
 @import "default";
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700@display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700@display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
 
 :root {
-
-    /** ----------------------------------------------------------------------------------------------- */
-    /** WARNING: The parameter (container-type: normal) was used to allow the numbering of figures      */
-    /**          and tables. Be warned that it may produce side effects in browsers other than Chrome!  */
-    /** ----------------------------------------------------------------------------------------------- */
+    /** ----------------------------------------------------------------------- */
+    /** WARNING: The parameter (container-type: normal) was used to allow       */
+    /**          the numbering of figures and tables. Be warned that it may     */
+    /**          produce side effects in browsers other than Chrome!            */
+    /** ----------------------------------------------------------------------- */
     container-type: normal;
     counter-reset: figure_cnt table_cnt;
 
@@ -62,11 +58,11 @@
 
     /*------------ Overall theme parameters --------------------------*/
 
-    --marpx-theme-font-family: 'Fira Sans Light', Faustina, Bookerly, sans-serif;
+    --marpx-theme-font-family: "Fira Sans Light", Faustina, Bookerly, sans-serif;
     --marpx-theme-captiontext-figure: "Fig. ";
     --marpx-theme-captiontext-table: "Table ";
     --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
-    
+
     --marpx-theme-color: #3e6ceb;
     --marpx-theme-color-alt: #9aade2;
     --marpx-theme-color-background: #ffffff;
@@ -81,7 +77,7 @@
 
     /*------------ Parameters used in `REFERENCES` --------------------------*/
 
-    --maprx-color-references-bold: #3e6ceb;
+    --marpx-color-references-bold: #3e6ceb;
     --marpx-color-references-background: #eff4fa;
     --marpx-color-reference-header: #539dd3;
 
@@ -98,7 +94,7 @@
     --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
 
     /*------------ Parameters used in `TABLE` --------------------------*/
-   
+
     --marpx-color-table-header-background: rgb(21, 29, 51);
     --marpx-color-table-header-color: white;
     --marpx-color-table-border-top: ;
@@ -109,9 +105,7 @@
 
     --marpx-font-table-size: 22px;
     --marpx-font-table-family: ;
-
 }
-
 
 img[alt~="center"] {
     display: block;
@@ -133,11 +127,10 @@ img[alt~="title-bg"] {
 }
 
 section {
-
+    /* Until aug.2025 it works only with Chrome */
     --page-number: attr(data-marpit-pagination);
-    /* Works only with Chrome */
+    /* Until aug.2025 it works only with Chrome */
     --page-number-total: attr(data-marpit-pagination-total);
-    /* Works only with Chrome */
 
     font-size: 22pt;
     font-weight: 400;
@@ -235,7 +228,17 @@ h3 {
 }
 
 h1>strong::before,
-h1>strong::after {
+h1>strong::after,
+h1>em::before,
+h1>em::after,
+h2>strong::before,
+h2>strong::after,
+h2>em::before,
+h2>em::after,
+h3>strong::before,
+h3>strong::after,
+h3>em::before,
+h3>em::after {
     content: "\00a0";
 }
 
@@ -277,7 +280,6 @@ section>figure.center {
 section sup,
 footnote li::marker,
 .footnote li::marker {
-
     color: var(--marpx-color-footnote-mark);
 }
 
@@ -309,7 +311,6 @@ section>div.multicolumn.vcenter,
 section.multicolumn.vcenter {
     align-items: center;
 }
-
 
 /* Layout for whole slides in column mode */
 section.cols {
@@ -349,7 +350,7 @@ section>div.rows {
 section>div.grid-tlr,
 section.grid-tlr {
     display: grid;
-    grid-template-areas: 'top top' 'left right';
+    grid-template-areas: "top top" "left right";
     grid-template-columns: 1fr 1fr;
     gap: 5px 10px;
 }
@@ -357,7 +358,7 @@ section.grid-tlr {
 section>div.grid-lrb,
 section.grid-lrb {
     display: grid;
-    grid-template-areas: 'left right' 'bottom bottom';
+    grid-template-areas: "left right" "bottom bottom";
     grid-template-columns: 1fr 1fr;
     gap: 5px 10px;
 }
@@ -385,7 +386,6 @@ section.rows>h1,
 section.grid>h1 {
     margin-left: 80px;
 }
-
 
 /* 
 !============================================================
@@ -458,9 +458,6 @@ section.title-bg>footer {
     opacity: 0;
 }
 
-
-
-
 /* 
 !============================================================
  ? * ############### CHAPTER ############### 
@@ -471,8 +468,6 @@ section.chapter {
     background-image: none;
     background-color: var(--marpx-theme-color-alt);
 }
-
-
 
 /* 
 !============================================================
@@ -636,7 +631,6 @@ section.end-bg::before {
     z-index: -1;
 }
 
-
 /* no footer */
 section.end-bg::after,
 section.end-bg>header,
@@ -681,7 +675,7 @@ section.copyright>footer {
 !============================================================
 */
 section.logos>div.additional-logos {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: block;
     position: absolute;
     padding: 0;
@@ -726,7 +720,7 @@ section.logos>div.additional-logos>p>img {
 section.blank,
 section.nobrand {
     background: none;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 section.blank {
@@ -838,7 +832,7 @@ div.callout.note>h1::before {
 }
 
 div.callout.note>h1 {
-    color: #086DDD
+    color: #086ddd;
 }
 
 div.callout.note {
@@ -852,7 +846,7 @@ div.callout.abstract>h1::before {
 }
 
 div.callout.abstract>h1 {
-    color: #16C4C2;
+    color: #16c4c2;
 }
 
 div.callout.abstract {
@@ -880,7 +874,7 @@ div.callout.tip>h1::before {
 }
 
 div.callout.tip>h1 {
-    color: #16C4C2;
+    color: #16c4c2;
 }
 
 div.callout.tip {
@@ -894,7 +888,7 @@ div.callout.success>h1::before {
 }
 
 div.callout.success>h1 {
-    color: #22C061;
+    color: #22c061;
 }
 
 div.callout.success {
@@ -908,7 +902,7 @@ div.callout.question>h1::before {
 }
 
 div.callout.question>h1 {
-    color: #E5B92A;
+    color: #e5b92a;
 }
 
 div.callout.question {
@@ -922,7 +916,7 @@ div.callout.failure>h1::before {
 }
 
 div.callout.failure>h1 {
-    color: #E93147;
+    color: #e93147;
 }
 
 div.callout.failure {
@@ -936,7 +930,7 @@ div.callout.danger>h1::before {
 }
 
 div.callout.danger>h1 {
-    color: #E93147;
+    color: #e93147;
 }
 
 div.callout.danger {
@@ -950,7 +944,7 @@ div.callout.bug>h1::before {
 }
 
 div.callout.bug>h1 {
-    color: #E93147;
+    color: #e93147;
 }
 
 div.callout.bug {
@@ -964,7 +958,7 @@ div.callout.example>h1::before {
 }
 
 div.callout.example>h1 {
-    color: #7852EE;
+    color: #7852ee;
 }
 
 div.callout.example {
@@ -978,7 +972,7 @@ div.callout.quote>h1::before {
 }
 
 div.callout.quote>h1 {
-    color: #A7A7A7;
+    color: #a7a7a7;
 }
 
 div.callout.quote {
@@ -991,9 +985,7 @@ div.callout.quote {
  ? * ############### BESPOKE PROGRESS BAR ############### 
 !============================================================
 */
-@import url('data:text/css, .bespoke-marp-parent { top: 0 !important; } .bespoke-progress-parent { position: absolute; bottom: 0 !important; z-index:100; background:none !important; height:3px !important; }');
-
-
+@import url("data:text/css, .bespoke-marp-parent { top: 0 !important; } .bespoke-progress-parent { position: absolute; bottom: 0 !important; z-index:100; background:none !important; height:3px !important; }");
 
 /*
 !============================================================
@@ -1004,7 +996,7 @@ figcaption,
 tabcaption,
 .figcaption,
 .tabcaption {
-    font-family: 'Fira Sans' ;
+    font-family: "Fira Sans";
     font-size: 0.9em;
     font-size: 14.5pt;
     font-weight: normal;
@@ -1017,8 +1009,8 @@ figcaption::before,
     counter-increment: figure_cnt;
     font-weight: bold;
     color: var(--marpx-theme-color);
-    /* content: var(--figure-captiontext) attr(data-marpit-pagination) '.' counter(figure_cnt) ": "; */
-    content: var(--marpx-theme-captiontext-figure) var(--page-number) '.' counter(figure_cnt) ": ";
+    content: var(--marpx-theme-captiontext-figure) var(--page-number) "."
+        counter(figure_cnt) ": ";
 }
 
 tabcaption::before,
@@ -1026,13 +1018,13 @@ tabcaption::before,
     counter-increment: table_cnt;
     font-weight: bold;
     color: var(--marpx-theme-color);
-    content: var(--marpx-theme-captiontext-table) var(--page-number) '.' counter(table_cnt) ": "
+    content: var(--marpx-theme-captiontext-table) var(--page-number) "."
+        counter(table_cnt) ": ";
 }
 
 .highlight {
     padding: 0.2em 0.3em;
     background-color: var(--marpx-color-highlight);
-
 }
 
 section code {
@@ -1106,7 +1098,6 @@ section.quote.dark strong {
     font-style: normal;
 }
 
-
 /*
 !============================================================
  ? * ############### TABLES ############### 
@@ -1114,37 +1105,36 @@ section.quote.dark strong {
 */
 
 section table {
-  font-size: var(--marpx-font-table-size);
-  font-family: var(--marpx-font-table-family) !important;
+    font-size: var(--marpx-font-table-size);
+    font-family: var(--marpx-font-table-family) !important;
 }
 
 section table th {
-  background-color: var(--marpx-color-table-header-background);
-  color: var(--marpx-color-table-header-color);
-  border-top: var(--marpx-color-table-border-top) solid 2px;
-  border-bottom: var(--marpx-color-table-border-bottom) solid 2px;
-  border-width: initial;
+    background-color: var(--marpx-color-table-header-background);
+    color: var(--marpx-color-table-header-color);
+    border-top: var(--marpx-color-table-border-top) solid 2px;
+    border-bottom: var(--marpx-color-table-border-bottom) solid 2px;
+    border-width: initial;
 }
 
 section table td {
-    
-  border: 1px solid var(--marpx-color-table-border-bottom);
-  border-left: 0;
-  border-right: 0;
+    border: 1px solid var(--marpx-color-table-border-bottom);
+    border-left: 0;
+    border-right: 0;
 }
 
 section table tr:nth-child(even) {
-  background-color: var(--marpx-color-table-nth-child-color);
+    background-color: var(--marpx-color-table-nth-child-color);
 }
 
 section table tr:last-child {
-  border-bottom: var(--marpx-color-table-border-bottom) solid 1px;
+    border-bottom: var(--marpx-color-table-border-bottom) solid 1px;
 }
 
 tr:hover {
-  color: var(--marpx-color-table-hover) !important;
-  background: var(--marpx-color-table-hover-background) !important;
-  /* font-weight: bold !important; */
+    color: var(--marpx-color-table-hover) !important;
+    background: var(--marpx-color-table-hover-background) !important;
+    /* font-weight: bold !important; */
 }
 
 /*
@@ -1155,7 +1145,7 @@ tr:hover {
 section.references {
     background: var(--marpx-color-references-background);
     color: #303235;
-    font-family:  'Fira Sans Light', sans-serif;
+    font-family: "Fira Sans Light", sans-serif;
     padding: 150px 48px;
     line-height: 1.15;
 }
@@ -1167,14 +1157,14 @@ section.references li {
 
 section.references strong {
     font-weight: 500;
-    color: var(--maprx-color-references-bold);
+    color: var(--marpx-color-references-bold);
 }
 
 section.references h1,
 section.references h2 {
     color: var(--marpx-color-reference-header);
     margin-bottom: 16px;
-    font-family: 'Fira Sans Light', sans-serif;
+    font-family: "Fira Sans Light", sans-serif;
     font-weight: 800;
     /* border-bottom: 1px solid #0606ee; */
 }
@@ -1194,8 +1184,8 @@ section.references .multicolumn>div {
 
 section.references,
 /* section.references *, */
-section.references .multicolumn > div,
-section.references .multicolumn > div * {
+section.references .multicolumn>div,
+section.references .multicolumn>div * {
     font-size: 15pt !important;
     font-weight: 600 !important;
     box-sizing: border-box;
