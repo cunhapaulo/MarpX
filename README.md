@@ -6,6 +6,9 @@ This is Marp Style 2.0
 > MarpX is the result of an effort to expand, redesign, optimize and improve the first Marp slide theme composition initiative [Marpstyle](https://github.com/cunhapaulo/marpstyle).
 ---
 
+![](./examples/images/cartoon/shawn001b.png)
+Shaun The Sheep - Copyright ©️ 2025 aardman animations ltd
+
 ## Overview
 
 **MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
