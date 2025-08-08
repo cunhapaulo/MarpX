@@ -18,7 +18,7 @@ paginate: true
 
 <!-- _class: title -->
 
-#  This is Title in class  `title`
+#  This is the Slidedeck Title in class `title`
 ## This is Subtitle in class  `title`
 
 ---
@@ -491,7 +491,9 @@ plt.show()
 ## Bibliography, References, Appendix. etc.
 
 ---
+
 <!-- class: references -->
+
 
 # Appendix 1 - Special Sections (1)
 
@@ -577,3 +579,5 @@ plt.show()
   1. Shaun The Sheep ©️ 2025 aardman animations ltd.
 
 </div></div>
+
+

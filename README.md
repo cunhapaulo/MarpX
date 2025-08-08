@@ -24,7 +24,8 @@ MarpX is capable of:
   |----| 
   |<img src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|
 
-- **Vertical centering** of figures within columns with (`<div class="vcenter">`<br> or `<div class="multicolumn vcenter">`).
+
+- **Vertically centered alignment** of items within columns with (`<div class="vcenter">`<br> or `<div class="multicolumn vcenter">`).
   |----|
   |<img src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" />|
   
