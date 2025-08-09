@@ -535,19 +535,19 @@ plt.show()
 
 <center>
 
- | CSS Section                 | Description/Purpose                             | Markdown Class (example)               |
- | --------------------------- | ----------------------------------------------- | -------------------------------------- |
- | section.blank               | Blank slide                                     | `<!-- _class: blank -->`               |
- | section.nobrand             | Slide without branding                          | `<!-- _class: nobrand -->`             |
- | section.multicolumn         | Slide with multiple columns                     | `<!-- _class: multicolumn -->`         |
- | section.multicolumn vcenter | Vertically centered slide with multiple columns | `<!-- _class: multicolumn vcenter -->` |
- | section.cols                | Slide with flexible columns                     | `<!-- _class: cols -->`                |
- | section.rows                | Slide with flexible rows                        | `<!-- _class: rows -->`                |
- | section.grid-tlr            | Grid: top, left, right                          | `<!-- _class: grid-tlr -->`            |
- | section.grid-lrb            | Grid: left, right, bottom                       | `<!-- _class: grid-lrb -->`            |
- | section.quote               | Quote slide (unified quote)                     | `<!-- _class: quote -->`               |
- | section.quote.dark          | Alternative quote (formerly quote2)             | `<!-- _class: quote dark -->`          |
- | section.references          | References/bibliography slide                   | `<!-- _class: references -->`          |
+ | CSS Section                 | Description/Purpose                     | Markdown Class (example)               |
+ | --------------------------- | --------------------------------------- | -------------------------------------- |
+ | section.blank               | Blank slide                             | `<!-- _class: blank -->`               |
+ | section.nobrand             | Slide without branding                  | `<!-- _class: nobrand -->`             |
+ | section.multicolumn         | Slide with multiple columns             | `<!-- _class: multicolumn -->`         |
+ | section.multicolumn vcenter | Vertically centered IN multiple columns | `<!-- _class: multicolumn vcenter -->` |
+ | section.cols                | Slide with flexible columns             | `<!-- _class: cols -->`                |
+ | section.rows                | Slide with flexible rows                | `<!-- _class: rows -->`                |
+ | section.grid-tlr            | Grid: top, left, right                  | `<!-- _class: grid-tlr -->`            |
+ | section.grid-lrb            | Grid: left, right, bottom               | `<!-- _class: grid-lrb -->`            |
+ | section.quote               | Quote slide (unified quote)             | `<!-- _class: quote -->`               |
+ | section.quote.dark          | Alternative quote (formerly quote2)     | `<!-- _class: quote dark -->`          |
+ | section.references          | References/bibliography slide           | `<!-- _class: references -->`          |
 
 <tabcaption>List of tags used (2).</tabcaption>
 
