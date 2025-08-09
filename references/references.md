@@ -1,8 +1,12 @@
 ---
+author: Paulo Cunha
 marp: true
 theme: marpx
 size: banner
 ---
+<!-- class: blank -->
+
+<!-- _backgroundColor: rgba(210, 223, 241, 1) -->
 
 # General Reference
 
@@ -75,40 +79,40 @@ size: banner
 
 ## All Constants
 
-| Constant                                      | Description / Use                                              |
-| --------------------------------------------- | -------------------------------------------------------------- |
-| --marpx-color-dark-grey                       | Dark gray color, used for text or backgrounds.                 |
-| --marpx-color-footnote-mark                   | Color for footnote markers (superscript numbers).              |
-| --marpx-color-highlight                       | Background color for highlighted text (.highlight).            |
-| --marpx-color-light-grey                      | Light gray color, used for text or backgrounds (e.g., footer). |
-| --marpx-color-quote-background                | Background color for unified quote slides (section.quote).     |
-| --marpx-color-quote-dark-background           | Background color for dark quote slides (section.quote.dark).   |
-| --marpx-color-quote-dark-paragraph-background | Background color for paragraphs in dark quote slides.          |
-| --marpx-color-quote-dark-strong               | Color for strong text in dark quote slides.                    |
-| --marpx-color-quote-paragraph-background      | Background color for paragraphs in quote slides.               |
-| --marpx-color-quote-strong                    | Color for strong text in quote slides.                         |
-| --marpx-color-reference-header                | Color for headers in references slides.                        |
-| --marpx-color-references-background           | Background color for references slides.                        |
-| --marpx-color-references-bold                 | Color for bold text in references slides.                      |
-| --marpx-color-subtitle                        | Color for subtitles (e.g., h2 in title slides).                |
-| --marpx-color-table-border-bottom             | Border color for the bottom of tables.                         |
-| --marpx-color-table-border-top                | Border color for the top of tables.                            |
-| --marpx-color-table-header-background         | Background color for table headers.                            |
-| --marpx-color-table-header-color              | Text color for table headers.                                  |
-| --marpx-color-table-hover                     | Text color for table row hover effect.                         |
-| --marpx-color-table-hover-background          | Background color for table row hover effect.                   |
-| --marpx-color-table-nth-child-color           | Background color for even table rows.                          |
-| --marpx-font-quote                            | Font family for unified quote slides.                          |
-| --marpx-font-quote-dark                       | Font family for dark quote slides.                             |
-| --marpx-font-table-family                     | Font family for tables.                                        |
-| --marpx-font-table-size                       | Font size for tables.                                          |
-| --marpx-theme-brandlogo                       | Content for the brand logo in the footer.                      |
-| --marpx-theme-captiontext-figure              | Prefix text for figure captions (e.g., "Fig. ").               |
-| --marpx-theme-captiontext-table               | Prefix text for table captions (e.g., "Table ").               |
-| --marpx-theme-color                           | Main theme color, used for headings and accents.               |
-| --marpx-theme-color-agenda                    | Background color for the agenda sidebar.                       |
-| --marpx-theme-color-alt                       | Alternative theme color, used for chapter slides.              |
-| --marpx-theme-color-background                | Main background color for slides.                              |
-| --marpx-theme-color-bold                      | Color for bold text throughout the theme.                      |
-| --marpx-theme-color-font                      | Main font color for slides.                                    |
-| --marpx-theme-font-family                     | Main font family for slides.                                   |
+| Constant                                        | Description / Use                                              |
+| ----------------------------------------------- | -------------------------------------------------------------- |
+| `--marpx-color-dark-grey`                       | Dark gray color, used for text or backgrounds.                 |
+| `--marpx-color-footnote-mark`                   | Color for footnote markers (superscript numbers).              |
+| `--marpx-color-highlight`                       | Background color for highlighted text (.highlight).            |
+| `--marpx-color-light-grey`                      | Light gray color, used for text or backgrounds (e.g., footer). |
+| `--marpx-color-quote-background`                | Background color for unified quote slides (section.quote).     |
+| `--marpx-color-quote-dark-background`           | Background color for dark quote slides (section.quote.dark).   |
+| `--marpx-color-quote-dark-paragraph-background` | Background color for paragraphs in dark quote slides.          |
+| `--marpx-color-quote-dark-strong`               | Color for strong text in dark quote slides.                    |
+| `--marpx-color-quote-paragraph-background`      | Background color for paragraphs in quote slides.               |
+| `--marpx-color-quote-strong`                    | Color for strong text in quote slides.                         |
+| `--marpx-color-reference-header`                | Color for headers in references slides.                        |
+| `--marpx-color-references-background`           | Background color for references slides.                        |
+| `--marpx-color-references-bold`                 | Color for bold text in references slides.                      |
+| `--marpx-color-subtitle`                        | Color for subtitles (e.g., h2 in title slides).                |
+| `--marpx-color-table-border-bottom`             | Border color for the bottom of tables.                         |
+| `--marpx-color-table-border-top`                | Border color for the top of tables.                            |
+| `--marpx-color-table-header-background`         | Background color for table headers.                            |
+| `--marpx-color-table-header-color`              | Text color for table headers.                                  |
+| `--marpx-color-table-hover`                     | Text color for table row hover effect.                         |
+| `--marpx-color-table-hover-background`          | Background color for table row hover effect.                   |
+| `--marpx-color-table-nth-child-color`           | Background color for even table rows.                          |
+| `--marpx-font-quote`                            | Font family for unified quote slides.                          |
+| `--marpx-font-quote-dark`                       | Font family for dark quote slides.                             |
+| `--marpx-font-table-family`                     | Font family for tables.                                        |
+| `--marpx-font-table-size`                       | Font size for tables.                                          |
+| `--marpx-theme-brandlogo`                       | Content for the brand logo in the footer.                      |
+| `--marpx-theme-captiontext-figure`              | Prefix text for figure captions (e.g., "Fig. ").               |
+| `--marpx-theme-captiontext-table`               | Prefix text for table captions (e.g., "Table ").               |
+| `--marpx-theme-color`                           | Main theme color, used for headings and accents.               |
+| `--marpx-theme-color-agenda`                    | Background color for the agenda sidebar.                       |
+| `--marpx-theme-color-alt`                       | Alternative theme color, used for chapter slides.              |
+| `--marpx-theme-color-background`                | Main background color for slides.                              |
+| `--marpx-theme-color-bold`                      | Color for bold text throughout the theme.                      |
+| `--marpx-theme-color-font`                      | Main font color for slides.                                    |
+| `--marpx-theme-font-family`                     | Main font family for slides.                                   |

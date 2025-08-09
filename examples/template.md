@@ -19,7 +19,7 @@ paginate: true
 
 <!-- _class: title -->
 
-#  This is the Slidedeck Title in class `title`
+#  This is the Slidedeck Title in class title
 ## This is Subtitle in class  `title`
 
 ---
@@ -514,7 +514,6 @@ plt.show()
 
  | CSS Section         | Description/Purpose         | Markdown Class (example)       |
  | ------------------- | --------------------------- | :----------------------------- |
- | section             | Default slide               | `<!-- _class: section -->`     |
  | section.title       | Title slide                 | `<!-- _class: title -->`       |
  | section.title-bg    | Title slide with background | `<!-- _class: title-bg -->`    |
  | section.chapter     | Chapter slide               | `<!-- _class: chapter -->`     |
@@ -522,7 +521,6 @@ plt.show()
  | section.agenda      | Agenda/content slide        | `<!-- _class: agenda -->`      |
  | section.end         | Thank you slide             | `<!-- _class: end -->`         |
  | section.end-bg      | Thank you with background   | `<!-- _class: end-bg -->`      |
- | section.totalpages  | Slide showing total pages   | `<!-- _class: totalpages -->`  |
  | section.copyright   | Copyright slide             | `<!-- _class: copyright -->`   |
  | section.logos       | Slide with additional logos | `<!-- _class: logos -->`       |
 
@@ -541,8 +539,6 @@ plt.show()
  | section.nobrand             | Slide without branding                  | `<!-- _class: nobrand -->`             |
  | section.multicolumn         | Slide with multiple columns             | `<!-- _class: multicolumn -->`         |
  | section.multicolumn vcenter | Vertically centered IN multiple columns | `<!-- _class: multicolumn vcenter -->` |
- | section.cols                | Slide with flexible columns             | `<!-- _class: cols -->`                |
- | section.rows                | Slide with flexible rows                | `<!-- _class: rows -->`                |
  | section.grid-tlr            | Grid: top, left, right                  | `<!-- _class: grid-tlr -->`            |
  | section.grid-lrb            | Grid: left, right, bottom               | `<!-- _class: grid-lrb -->`            |
  | section.quote               | Quote slide (unified quote)             | `<!-- _class: quote -->`               |
