@@ -44,7 +44,7 @@ paginate: true
 </div>
 
 ---
-<!-- _class: agenda  -->
+<!-- _class: toc  -->
 
 0. [Title](#1)
 1. [Transition Slide](#4)
