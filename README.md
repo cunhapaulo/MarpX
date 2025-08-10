@@ -20,6 +20,12 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 
 MarpX is capable of:
 
+- **Different Title Slides**: a simple one and another used in academic presentations.
+  |----| 
+  |![alt text](examples/template.png)  |
+  |![alt text](examples/template2.png) |
+
+
 - **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
   |----| 
   |<img src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|

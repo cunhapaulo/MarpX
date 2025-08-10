@@ -1,11 +1,11 @@
 ---
 title: Header Title
-description: Description
 author: Author
+description: Description
 keywords: [keyword1, keyword2, keyword3, keyword4]
 
 header: This is header in JSON
-footer: "[Back to the beginning](#3)"
+footer: "[Back to the outline](#4)"
 
 marp: true
 theme: marpx
@@ -15,6 +15,18 @@ lang: en-US
 math: mathjax
 transition: fade
 paginate: true
+---
+
+<!-- _class: title academic -->
+<!-- _backgroundColor: white  -->
+
+![bg left:33%](./images/personalities/godel-young.jpg)
+<div class="title"         > This is an academic-style title slide </div>
+<div class="subtitle"      > Sometimes it is convenient to have a subtitle too </div> 
+<div class="author"        > Author's name goes here </div>
+<div class="date"          > Date goes here</div>
+<div class="organization"  > Institutional Information gose Here</div>
+
 ---
 
 <!-- _class: title -->
@@ -27,7 +39,7 @@ paginate: true
 
 <div class="vcenter">
 
-![h:550 center](./images/cartoon/shawn001b.png)
+![bg h:60%](./images/cartoon/shawn001b.png)
 
 </div>
 

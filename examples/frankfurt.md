@@ -3,6 +3,10 @@ title: Liberdade da Vontade e o Conceito de Pessoa
 author: Paulo Roberto Martins Cunha
 description: Trabalho apresentado na disciplina "HISTORIA DA FILOSOFIA CONTEMPORANEA II"
 keywords: Filosofia, Filosofia da Mente, Harry Frankfurt na Filosofia da Mente.
+
+header: This is header in JSON
+footer: "[Back to the beginning](#3)"
+
 marp: true
 paginate: true
 theme: marpx
@@ -17,8 +21,7 @@ theme: marpx
 <div class="date"          > 27.mar.2025</div>
 <div class="organization"  > Historia da Filosofia Contemporanea II <br> Bacharelado em Filosofia - UFPA</div>
 
-<!-- footer: O Compatibilismo de Harry Frankfurt e a Filosofia da Mente -->
-![bg left:30%](img/ego.jpg)
+![bg left:33%](./images/concepts/ego.jpg)
 
 ---
 
@@ -29,7 +32,7 @@ theme: marpx
 
 ---
 
-![bg left:40%](img/Frankfurt-Harry.jpg)
+![bg left:40%](./images/personalities/Frankfurt-Harry.jpg)
 
 # Harry Gordon Frankfurt 
 - David Bernard Stern (orig.)
