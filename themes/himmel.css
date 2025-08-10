@@ -18,6 +18,7 @@
     /*------------ Overall theme parameters --------------------------*/
 
     --marpx-theme-font-family:  Faustina, 'Fira Sans Light',sans-serif;
+    --marpx-theme-font-family:  Bookerly, Faustina, 'Fira Sans Light',sans-serif;
     --marpx-theme-captiontext-figure: "Figure ";
     --marpx-theme-captiontext-table: "Table ";
     --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
@@ -32,7 +33,7 @@
     --marpx-color-subtitle: #5d616d;
     --marpx-color-h1-bold: #ff3c00;
     --marpx-color-footnote-mark: #ff0000;
-    --marpx-color-code: #e4e4e4;
+    --marpx-color-code: #faea08;
     --marpx-color-highlight: #ffff00;
 
     /*------------ Parameters used in `REFERENCES` --------------------------*/
