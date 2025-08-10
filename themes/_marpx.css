@@ -35,10 +35,11 @@
 * @theme _marpx
 *
 * @auto-scaling true
-* @size fullHD 1920px 1080px
-* @size banner 1500px 7000px
 * @size 16:9 1280px 720px
 * @size 4:3 960px 720px
+* @size fullHD 1920px 1080px
+* @size banner 1500px 7000px
+* @size A4 210mm 297mm
 *
 */
 @import "default";
@@ -46,7 +47,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
 
 :root {
-  /** -----------------------<------------------------>----------------------- */
+  /** -----------------------<------------------------>---------------------- */
   /** WARNING: The parameter (container-type: normal) was used to allow       */
   /**          the numbering of figures and tables. Be warned that it may     */
   /**          produce side effects in browsers other than Chrome!            */
@@ -616,10 +617,10 @@ section.chapter > footer {
 }
 
 section.chapter > h1 {
-  top: 38px;
   position: absolute;
+  top: 38px;
   color: white;
-  font-size: 64pt;
+  font-size: 54pt;
   font-weight: 700;
   height: 47.5%;
 
@@ -645,7 +646,7 @@ section.chapter > h2 {
   position: absolute;
   top: 53.5%;
   color: white;
-  font-size: 32pt;
+  font-size: 28pt;
   font-weight: 700;
 }
 
@@ -656,22 +657,22 @@ section.chapter::after {
 
 /* 
 !================================================================================
- ? * -----------------------< AGENDA >----------------------- 
+ ? * -----------------------< Table of Contents (TOC) >----------------------- 
 !================================================================================
 */
-section.agenda {
+section.toc {
   padding-left: 430px;
   padding-top: 60px;
   font-size: 24pt;
   flex-flow: nowrap;
 }
 
-section.agenda a {
+section.toc a {
   color: #4b4a4a !important;
   /* font-weight: 600; */
 }
 
-section.agenda a:hover {
+section.toc a:hover {
   color: #2e2a2a !important;
   background-color: rgba(83, 168, 253, 0.103);
   color: rgb(9, 52, 243) !important;
@@ -681,7 +682,7 @@ section.agenda a:hover {
   text-decoration-line: none;
 }
 
-section.agenda::before {
+section.toc::before {
   position: absolute;
 
   left: 0px;
@@ -702,12 +703,16 @@ section.agenda::before {
   content: "Agenda";
 }
 
-section[lang~="en-US"].agenda::before {
+section[lang~="en-US"].toc::before {
   content: "Outline";
 }
 
-section[lang~="pt-BR"].agenda::before {
+section[lang~="pt-BR"].toc::before {
   content: "Conteúdo";
+}
+
+section[lang~="de"].toc::before {
+  content: "Agenda";
 }
 
 /* 
@@ -1082,7 +1087,7 @@ tabcaption::before,
 
 section code {
   font-family: inherit;
-  background-color: var(--marpx-color-code);
+  background-color: var(--marpx-color-highlight);
   font-weight: bold;
   border-radius: 11px 11px 11px 11px;
 }
@@ -1128,7 +1133,7 @@ section.quote header {
 
 /* Alternative style (used to be quote2, now quote dark) */
 section.quote.dark {
-  background-color: #9aade2 !important;
+  background-color: var(--marpx-color-quote-dark-background) !important;
 }
 
 section.quote.dark p {
@@ -1136,7 +1141,7 @@ section.quote.dark p {
   font-family: var(--marpx-font-quote-dark) !important;
   font-weight: 600;
   font-size: 34pt !important;
-  background-color: var(--marpx-color-quote-dark-background);
+  background-color: var(--marpx-color-quote-dark-paragraph-background);
   letter-spacing: 0.1pt;
   text-align: center;
   line-height: 1.09em;
