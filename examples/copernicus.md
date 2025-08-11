@@ -1,14 +1,14 @@
 ---
-title: Header Title
-author: Author
-description: Description
-keywords: [keyword1, keyword2, keyword3, keyword4]
+title: Marp Example - Copernicus
+author: Paulo Cunha
+description: This slide deck presents the theme Copernicus
+keywords: [Marp, MarpX, Copernicus]
 
-header: This is header in JSON
-footer: "[Back to the outline](#4)"
+header: MarpX Theme Copernicus
+footer: "[Back to the outline](#3)"
 
 marp: true
-theme: marpx
+theme: copernicus
 
 size: 16:9
 lang: en-US
@@ -20,30 +20,23 @@ paginate: true
 <!-- _class: title-academic -->
 <!-- _backgroundColor: white  -->
 
-![bg left:33%](./assets/images/personalities/godel-young.jpg)
-<div class="title"         > This is an academic-style title slide </div>
-<div class="subtitle"      > Sometimes it is convenient to have a subtitle too </div> 
-<div class="author"        > Author's name goes here </div>
-<div class="date"          > Date goes here</div>
-<div class="organization"  > Institutional Information gose Here</div>
+![bg left:33%](./assets/images/thinkers/copernicus.jpg)
+
+<div class="title"         > De revolutionibus orbium coelestium </div>
+<div class="subtitle"      > On the Revolutions of the Heavenly Spheres </div>
+<div class="author"        > Niklas Koppernigk (Nicolaus Copernicus) </div>
+<div class="date"          > Nürnberg, 1543 </div>
+<div class="organization"  > Heiliges Römisches Reich </div>
 
 ---
 
 <!-- _class: title -->
 
-#  This is the Slidedeck Title in class title
-## This is Subtitle in class  `title`
+#  Western Philosophy from Athens
+## From the problems of nature to the knowledge of being
 
 ---
-<!-- _class: blank -->
 
-<div class="vcenter">
-
-![bg h:60%](./assets/images/cartoon/shawn001b.png)
-
-</div>
-
----
 <!-- _class: toc  -->
 
 0. [Title](#1)
@@ -600,6 +593,7 @@ plt.show()
   1. Shaun The Sheep ©️ 2025 aardman animations ltd.
 
 </div></div>
+
 
 ---
 

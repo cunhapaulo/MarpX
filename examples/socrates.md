@@ -17,7 +17,7 @@ transition: fade
 paginate: true
 ---
 
-<!-- _class: title academic -->
+<!-- _class: title-academic -->
 <!-- _backgroundColor: white  -->
 
 ![bg left:33%](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)

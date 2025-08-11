@@ -12,6 +12,7 @@
 			"./themes/_marpx.css",
 			"./themes/marpx.css",
 			"./themes/himmel.css",
+			"./themes/copernicus.css",
 			"./themes/socrates.css",
 		]
 	}

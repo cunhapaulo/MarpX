@@ -1,4 +1,4 @@
-/* @theme socrates */
+/* @theme copernicus */
 
 @import "_marpx";
 
@@ -6,20 +6,21 @@
 
   /*------------ Overall theme parameters ---------------------------------*/
 
-  --marpx-theme-font-family: "Fira Sans", Faustina, Bookerly, sans-serif;
+  --marpx-theme-font-family: 'Fira Sans', Faustina, Bookerly, sans-serif;
   --marpx-theme-captiontext-figure: "Fig. ";
   --marpx-theme-captiontext-table: "Table ";
   --marpx-theme-brandlogo: " - Created with Marp & MarpX.";
 
-  --marpx-theme-color: #006a85;
+  --marpx-theme-color: #002b36;
   --marpx-theme-color-alt: #952fda;
-  --marpx-theme-color-background: #ffffff;
+  --marpx-theme-color-background: #bbc7e7;
+  --marpx-theme-color-background: #cad1e4;
   --marpx-theme-color-font: #000000;
   --marpx-theme-color-bold: #f8150d;
   
   --marpx-color-subtitle: #5d616d;
   --marpx-color-h1-bold: #ff3c00;
-  --marpx-theme-color-agenda: #c79409;
+  --marpx-theme-color-agenda: #003f4e;
 
   --marpx-color-footnote-mark: #ff0000;
   --marpx-color-code: rgb(233, 233, 233);
@@ -28,8 +29,8 @@
   /* ------------------- TITLE SLIDE -----------------------------*/
 
   /* fonts sizes */
-  --marpx-titleslide-academic-title-size: 145%;
-  --marpx-titleslide-academic-subtitle-size: 95%;
+  --marpx-titleslide-academic-title-size: 150%;
+  --marpx-titleslide-academic-subtitle-size: 100%;
   --marpx-titleslide-academic-author-size: 105%;
   --marpx-titleslide-academic-date-size: 95%;
   --marpx-titleslide-academic-institute-size: 95%;
@@ -40,11 +41,10 @@
   --marpx-titleslide-academic-subtitle-font-weight: 600;
   /* colors in style */
   --marpx-titleslide-academic-title-color: #002b36;
-  --marpx-titleslide-academic-title-color: #003c4b;
-  --marpx-titleslide-academic-subtitle-color: #ababac;
-  --marpx-titleslide-academic-author-color: #f8150d;
+  --marpx-titleslide-academic-subtitle-color: #dcdee0;
+  --marpx-titleslide-academic-author-color: #002b36;
   --marpx-titleslide-academic-titlepage-color: #242d31;
-  --marpx-titleslide-academic-background-color: #faf7f7;
+  --marpx-titleslide-academic-background-color: #7790c7;
   --marpx-titleslide-academic-border-color: #e99211;
 
   /*------------ Parameters used in `REFERENCES` ---------------------------------*/
@@ -82,6 +82,14 @@
 section {
     
     line-height: 1.3em;
+}
+
+.boxed {
+  border: 2px solid #222;
+  border-radius: 6px;      /* opcional: cantos arredondados */
+  padding: 2px 8px;        /* espaço interno */
+  /* background: #fffbe7;   /* opcional: cor de fundo */
+  display: inline-block;   /* garante o retângulo ao redor da palavra */
 }
 
 section code {

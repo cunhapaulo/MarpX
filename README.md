@@ -81,7 +81,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
 4. **Create** a front slide like this:
    ```html
    ---
-    <!-- _class: title academic -->
+    <!-- _class: title-academic -->
     <!-- _backgroundColor: white  -->
 
      ![bg left:33%](Socrates_Louvre.jpg)
@@ -107,7 +107,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
    <!-- _class: quote dark -->
 
    > "A beautiful quote."
-   
+
    ---
    ```
 

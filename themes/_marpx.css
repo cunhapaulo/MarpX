@@ -416,6 +416,7 @@ section.grid > h1 {
 section.title,
 section.title-bg {
   padding-left: 80px;
+  background-color: var(--marpx-titleslide-academic-background-color);
 }
 
 section.title > h1,
@@ -428,7 +429,7 @@ section.title-bg > h1 {
   padding: 0px;
   font-size: 42pt;
   line-height: normal;
-  color: var(--marpx-theme-color);
+  color: var(--marpx-titleslide-academic-title-color);
   font-weight: 700;
 
   display: flex;
@@ -443,7 +444,7 @@ section.title-bg > h2 {
   margin: 0px;
   padding: 0px;
   font-size: 30pt;
-  color: var(--marpx-color-subtitle);
+  color: var(--marpx-titleslide-academic-subtitle-color);
   font-weight: 700;
 }
 
@@ -484,8 +485,15 @@ section.title-bg > footer {
 !================================================================================
 */
 
-section.title.academic .title,
-section.title.academic > h1 {
+section.title-academic  {
+  background-color: var(--marpx-titleslide-academic-background-color) !important;
+  background-image: none;
+  z-index: -5;
+}
+
+
+section.title-academic .title,
+section.title-academic > h1 {
   width: 95%;
   padding-bottom: 15px !important; /* distance from the title to the underline below it */
 
@@ -497,16 +505,15 @@ section.title.academic > h1 {
   border-bottom: 1px solid var(--marpx-titleslide-academic-border-color);
 }
 
-section.title.academic > h1 {
+section.title-academic > h1 {
   top: 25pt;
   height: 0%;
   position: relative;
   font-weight: var(--marpx-titleslide-academic-title-font-weight);
-  color: rgb(0, 26, 255);
 }
 
-section.title.academic .subtitle,
-section.title.academic > h2 {
+section.title-academic .subtitle,
+section.title-academic > h2 {
   color: var(--marpx-titleslide-academic-subtitle-color);
 
   font-size: var(--marpx-titleslide-academic-subtitle-size);
@@ -519,35 +526,35 @@ section.title.academic > h2 {
   padding-bottom: 120px;
 }
 
-section.title.academic > h2 {
+section.title-academic > h2 {
   top: 18pt;
   width: 95% !important;
   position: relative;
 }
 
-section.title.academic .author,
-section.title.academic > h3 {
+section.title-academic .author,
+section.title-academic > h3 {
   color: var(--marpx-titleslide-academic-author-color) !important;
   font-size: var(--marpx-titleslide-academic-author-size);
   font-weight: bold !important;
 }
 
-section.title.academic .date,
-section.title.academic > h4 {
+section.title-academic .date,
+section.title-academic > h4 {
   font-size: var(--marpx-titleslide-academic-date-size);
 }
 
-section.title.academic .organization,
-section.title.academic > h5 {
+section.title-academic .organization,
+section.title-academic > h5 {
   font-size: var(--marpx-titleslide-academic-institute-size);
 }
 
-section.title.academic .author,
-section.title.academic .date,
-section.title.academic .organization,
-section.title.academic h3,
-section.title.academic h4,
-section.title.academic h5 {
+section.title-academic .author,
+section.title-academic .date,
+section.title-academic .organization,
+section.title-academic h3,
+section.title-academic h4,
+section.title-academic h5 {
   font-weight: 400;
   text-align: left;
   color: var(--marpx-titleslide-academic-titlepage-color);
@@ -556,9 +563,9 @@ section.title.academic h5 {
 }
 
 /* Omits page number in Title Page Slide */
-section.title.academic footer,
-section.title.academic header,
-section.title.academic:after {
+section.title-academic footer,
+section.title-academic header,
+section.title-academic:after {
   /* hide header, footer and pagination */
   display: none;
 }
@@ -1259,3 +1266,4 @@ section.references .multicolumn>div * {
   display: inline-block;
   /* garante o retângulo ao redor da palavra */
 }
+
