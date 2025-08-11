@@ -14,23 +14,21 @@ This is Marp Style 2.0
 **MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
 Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
 
----
 
 ## 💡 Interesting new features
 
-MarpX is capable of:
 
-### **Different Title Slides**: a simple one and another used in academic presentations
+### **Different title slides**: 
 | Usual style | Academic style |
 |----|----|
 | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/ac44a7ed-dd55-420c-bd3a-b896322c363e" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/87620e8f-c6c5-42e4-b4e3-5a77d8644ed6" /> | 
 
-### New alignment possibilities
+### New alignment possibilities:
 | **Autonumbering** captions | **Vertical-center alignment** |
 |----|----|
 | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|<img width="427" height="240" alt="image"  src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" />|
 
-### Dark mode for **quote slides** (`<!-- _class: quote dark -->`)
+### Dark mode for **quote slides** (`<!-- _class: quote dark -->`):
 | Normal mode quote | Dark mode quote |
 |----|----|
 | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/82f587c9-61a6-428b-9625-1baee419300a" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/7587a71e-018e-4577-89a2-f7373dfefa00" />
@@ -50,6 +48,15 @@ MarpX is capable of:
 - **Google Fonts Integration:** Modern, readable font choices for every context.
 - **Accessible Colors:** Carefully curated palette for clarity, contrast, and accessibility.
 - **Easy Customization:** Modify variables and classes to match your institution or personal style.
+
+---
+
+# Available MARPX Themes
+
+Here you´ll find examples of the available themes. Click on the picture to open a corresponding PDF example.
+ 
+### In honor of Σωκράτης - Socrates (469–399 B.C.E.)
+   [![Style: Socrates](./examples/front-slide/socrates.png)](./examples/pdfs/socrates.pdf)
 
 ---
 
