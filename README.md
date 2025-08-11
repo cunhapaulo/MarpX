@@ -67,7 +67,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
 1. **Clone or Download** this repository.
 2. **Copy** the desired theme(s) and CSS files to your Marp project directory.
 3. **Reference** the theme in your Markdown frontmatter:
-   ```json
+   ```markdown
    ---
    title: Western Philosophy from Athens
    author: Socarates
@@ -79,7 +79,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
    ---
    ```
 4. **Create** a front slide like this:
-   ```json
+   ```markdown
    ---
     <!-- _class: title-academic -->
     <!-- _backgroundColor: white  -->
