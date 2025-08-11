@@ -79,7 +79,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
    ---
    ```
 4. **Create** a front slide like this:
-   ```html
+   ```json
    ---
     <!-- _class: title-academic -->
     <!-- _backgroundColor: white  -->
