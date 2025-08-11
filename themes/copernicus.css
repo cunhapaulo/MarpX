@@ -13,19 +13,23 @@
 
   --marpx-theme-color: #002b36;
   --marpx-theme-color-alt: #952fda;
+
   --marpx-theme-color-background: #bbc7e7;
   --marpx-theme-color-background: #cad1e4;
-  --marpx-theme-color-font: #000000;
-  --marpx-theme-color-bold: #f8150d;
+  --marpx-theme-color-background: #c5cde2;
+
+  --marpx-theme-color-font: #50596b;
+  --marpx-theme-color-bold: #ec2300;
   
   --marpx-color-subtitle: #5d616d;
-  --marpx-color-h1-bold: #ff3c00;
+  --marpx-color-h1-bold: #e96363;
   --marpx-theme-color-agenda: #003f4e;
 
-  --marpx-color-footnote-mark: #ff0000;
   --marpx-color-code: rgb(233, 233, 233);
   --marpx-color-highlight: #b9e4f1;
-
+  
+  --marpx-color-footnote-mark: #ff0000;
+  
   /* ------------------- TITLE SLIDE -----------------------------*/
 
   /* fonts sizes */
@@ -81,7 +85,7 @@
 
 section {
     
-    line-height: 1.3em;
+    line-height: 1.153em;
 }
 
 .boxed {

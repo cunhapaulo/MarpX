@@ -1065,7 +1065,7 @@ tabcaption,
   font-size: 0.9em;
   font-size: 14.5pt;
   font-weight: normal;
-  color: black;
+  color: var(--marpx-theme-color-font);
   text-align: center;
 }
 
