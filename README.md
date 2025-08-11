@@ -26,6 +26,8 @@ MarpX is capable of:
 |![alt text](./examples/assets/images/thinkers/socrates.png) |
 |![alt text](./examples/assets/images/thinkers/socrates2.png) |
 
+
+
 ### **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
 
 |----|
