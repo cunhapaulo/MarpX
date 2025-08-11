@@ -20,22 +20,22 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 
 MarpX is capable of:
 
-- **Different Title Slides**: a simple one and another used in academic presentations.
+1. **Different Title Slides**: a simple one and another used in academic presentations.
   |----| 
   |![alt text](./examples/assets/images/thinkers/socrates.png)  |
   |![alt text](./examples/assets/images/thinkers/socrates2.png)  |
 
 
-- **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
+2. **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
   |----| 
   |<img src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|
 
 
-- **Vertically centered alignment** of items within columns with (`<div class="vcenter">`<br> or `<div class="multicolumn vcenter">`).
+3. **Vertically centered alignment** of items within columns with (`<div class="vcenter">`<br> or `<div class="multicolumn vcenter">`).
   |----|
   |<img src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" />|
   
-- Special slides for **quotes**(`<!-- _class: quote -->`), including a dark mode<br> version (`<!-- _class: quote dark -->`).
+4. Special slides for **quotes**(`<!-- _class: quote -->`), including a dark mode<br> version (`<!-- _class: quote dark -->`).
   |----|
   |<img src="https://github.com/user-attachments/assets/ab811965-1bb9-4f18-9c1c-3ca8d332ab58" />|
   |<img  src="https://github.com/user-attachments/assets/f8808677-8c11-43f0-a3f3-5108ed2785de" />|
