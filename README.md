@@ -20,27 +20,20 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 
 MarpX is capable of:
 
-### **Different Title Slides**: a simple one and another used in academic presentations.
-
+### **Different Title Slides**: a simple one and another used in academic presentations
+| Usual style | Academic style |
 |----|----|
-| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/87620e8f-c6c5-42e4-b4e3-5a77d8644ed6" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/ac44a7ed-dd55-420c-bd3a-b896322c363e" /> |
+| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/ac44a7ed-dd55-420c-bd3a-b896322c363e" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/87620e8f-c6c5-42e4-b4e3-5a77d8644ed6" /> | 
 
+### New alignment possibilities
+| **Autonumbering** captions | **Vertical-center alignment** |
+|----|----|
+| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|<img width="427" height="240" alt="image"  src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" />|
 
-### **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
-
-|----|
-|<img src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|
-
-### **Vertically centered alignment** of items within columns with (`<div class="vcenter">`<br> or `<div class="multicolumn vcenter">`).
-
-|----|
-|<img src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" />|
-
-### Special slides for **quotes**(`<!-- _class: quote -->`), including a dark mode<br> version (`<!-- _class: quote dark -->`).
-
-|----|
-|<img src="https://github.com/user-attachments/assets/ab811965-1bb9-4f18-9c1c-3ca8d332ab58" />|
-|<img  src="https://github.com/user-attachments/assets/f8808677-8c11-43f0-a3f3-5108ed2785de" />|
+### Dark mode for **quote slides** (`<!-- _class: quote dark -->`)
+| Normal mode quote | Dark mode quote |
+|----|----|
+| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/82f587c9-61a6-428b-9625-1baee419300a" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/7587a71e-018e-4577-89a2-f7373dfefa00" />
 
 ---
 
