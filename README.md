@@ -67,25 +67,51 @@ Here you´ll find examples of the available themes. Click on the picture to open
 1. **Clone or Download** this repository.
 2. **Copy** the desired theme(s) and CSS files to your Marp project directory.
 3. **Reference** the theme in your Markdown frontmatter:
-   ```markdown
+   ```json
    ---
+   title: Western Philosophy from Athens
+   author: Socarates
+   size: 16:9
+   lang: en-US
+   math: mathjax
    marp: true
-   theme: _marpx
+   theme: socrates
    ---
    ```
-4. **Use semantic classes** in your slides to unlock advanced layouts:
+4. **Create** a front slide like this:
+   ```html
+   ---
+    <!-- _class: title academic -->
+    <!-- _backgroundColor: white  -->
 
-   ```markdown
+     ![bg left:33%](Socrates_Louvre.jpg)
+       
+     <div class="title">        Western Philosophy from Athens </div>
+     <div class="subtitle">     From nature to the being </div> 
+     <div class="author">       Socrates (Σωκράτης) </div>
+     <div class="date">         Athenas, 390 b.C.</div>
+     <div class="organization"> Ágora, the Assembly of the Polis</div>
+    ---
+   ```
+5. **Use semantic classes** in your slides to unlock advanced layouts:
+
+   ```html
+   ---
+
    <!-- _class: chapter -->
 
    # Chapter Title
 
+   ---
+   
    <!-- _class: quote dark -->
 
    > "A beautiful quote."
+   
+   ---
    ```
 
-5. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
+6. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
 
 ---
 
