@@ -20,7 +20,7 @@ paginate: true
 <!-- _class: title academic -->
 <!-- _backgroundColor: white  -->
 
-![bg left:33%](../assets/images/personalities/godel-young.jpg)
+![bg left:33%](./assets/images/personalities/godel-young.jpg)
 <div class="title"         > This is an academic-style title slide </div>
 <div class="subtitle"      > Sometimes it is convenient to have a subtitle too </div> 
 <div class="author"        > Author's name goes here </div>
@@ -39,7 +39,7 @@ paginate: true
 
 <div class="vcenter">
 
-![bg h:60%](../assets/images/cartoon/shawn001b.png)
+![bg h:60%](./assets/images/cartoon/shawn001b.png)
 
 </div>
 
@@ -106,7 +106,7 @@ When the neet to make strong assertions becomes inevitable:
 ---
 # One image slide
 
-![h:400 center](../assets/images/math/puebk.png)
+![h:400 center](./assets/images/math/puebk.png)
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 
 ---
@@ -114,17 +114,17 @@ When the neet to make strong assertions becomes inevitable:
 
 <div class="multicolumn" align="center"><div>
 
-[![h:350px drop-shadow:4px,5px,15px,#010101](../assets/images/books/book004.jpg)](https://amzn.eu/d/fQDOCSF)
+[![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book004.jpg)](https://amzn.eu/d/fQDOCSF)
 <figcaption>Sophokles, Suhrkamp (2015).</figcaption>
 
 </div><div>
 
-[![h:350px drop-shadow:4px,5px,15px,#010101](../assets/images/books/book003.jpg)](https://amzn.eu/d/bxExVnT)
+[![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book003.jpg)](https://amzn.eu/d/bxExVnT)
 <figcaption>Göthe, Suhrkamp (2011).</figcaption>
 
 </div><div>
 
-[![h:350px drop-shadow:4px,5px,15px,#010101](../assets/images/books/book006.jpg)](https://amzn.eu/d/f3z3qfe)
+[![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book006.jpg)](https://amzn.eu/d/f3z3qfe)
 <figcaption>Heine, Suhrkamp (2011).</figcaption>
 
 </div></div>
@@ -134,7 +134,7 @@ When the neet to make strong assertions becomes inevitable:
 
 <div class="multicolumn vcenter"><div>
 
-[![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](../assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
+[![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
 <figcaption align="center"> <i>Phänomenologie des Geistes</i> Oxford edition.</figcaption>
 
 </div><div>
@@ -165,7 +165,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 </div><div>
 
-[![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](../assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
+[![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
 <figcaption align="center">Springer edition (2023).</figcaption>
 
 </div></div>
@@ -175,19 +175,19 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <div class="multicolumn" align="center">
 
-![h:175](../assets/images/math/math001.png)
+![h:175](./assets/images/math/math001.png)
 <span class="figcaption">Math001.</span>
 
-![h:175](../assets/images/math/math002.png)
+![h:175](./assets/images/math/math002.png)
 <span class="figcaption">Math002.</span>
 
-![h:175](../assets/images/math/math004.gif)
+![h:175](./assets/images/math/math004.gif)
 <span class="figcaption">Math003.</span>
 
-![h:175](../assets/images/math/math003.png)
+![h:175](./assets/images/math/math003.png)
 <span class="figcaption">Math004.</span>
 
-![h:175](../assets/images/math/math005.png)
+![h:175](./assets/images/math/math005.png)
 <span class="figcaption">Math005.</span>
 
 </div>
@@ -199,23 +199,23 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <div>
 
-  ![h:185](../assets/images/math/math001.png)
+  ![h:185](./assets/images/math/math001.png)
   <span class="figcaption">Math001.</span>
 
-  ![h:185](../assets/images/math/math002.png)
+  ![h:185](./assets/images/math/math002.png)
   <span class="figcaption">Math002.</span>
 
 </div>
 
-![h:390](../assets/images/math/math004.gif)
+![h:390](./assets/images/math/math004.gif)
 <span class="figcaption">Math003.</span>
 
 <div>
 
-  ![h:185](../assets/images/math/math003.png)
+  ![h:185](./assets/images/math/math003.png)
   <span class="figcaption">Math004.</span>
 
-  ![h:185](../assets/images/math/math005.png)
+  ![h:185](./assets/images/math/math005.png)
   <span class="figcaption">Math005.</span>
 
 </div></div>
@@ -225,16 +225,16 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <div class="multicolumn" align="center">
 
-![h:250](../assets/images/gods/zeus.png)
+![h:250](./assets/images/gods/zeus.png)
 <span class="figcaption">God Zeus</span>
 
-![h:250](../assets/images/gods/afrodite.png)
+![h:250](./assets/images/gods/afrodite.png)
 <span class="figcaption">Afrodite</span>
 
-![h:250](../assets/images/gods/dionisio.png)
+![h:250](./assets/images/gods/dionisio.png)
 <span class="figcaption">Dionísio</span>
 
-![h:250](../assets/images/gods/era.png)
+![h:250](./assets/images/gods/era.png)
 <span class="figcaption">Era</span>
 
 </div>
@@ -328,7 +328,7 @@ $$
 
 </div><div>
 
-![w:650](../assets/images/graphs/distribution02.png)
+![w:650](./assets/images/graphs/distribution02.png)
 <figcaption>Multivariate Normal Distribution.</figcaption>
 
 </div></div>
@@ -345,7 +345,7 @@ $$
 
 </div><div>
 
-![w:650](../assets/images/graphs/distribution03.png)
+![w:650](./assets/images/graphs/distribution03.png)
 <figcaption>Multivariate Normal Distribution.</figcaption>
 
 </div></div>
@@ -478,7 +478,7 @@ plt.show()
 
 # Electromagnetic wave propagation (1)
 
-[![h:420 center](../assets/images/graphs/eletromag-plot01.png)](./programs/eletromag-plot01.py)
+[![h:420 center](./assets/images/graphs/eletromag-plot01.png)](./programs/eletromag-plot01.py)
 <figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
 
 ---
@@ -486,7 +486,7 @@ plt.show()
 
 # Electromagnetic wave propagation (2)
 
-[![h:500 center](../assets/images/graphs/eletromag-plot-3d.gif)](./programs/eletromag-plot04-animate.py)
+[![h:500 center](./assets/images/graphs/eletromag-plot-3d.gif)](./programs/eletromag-plot04-animate.py)
 <figcaption>3D animation of an electromagnetic wave propagation.</figcaption>
 
 ---

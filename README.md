@@ -22,8 +22,8 @@ MarpX is capable of:
 
 - **Different Title Slides**: a simple one and another used in academic presentations.
   |----| 
-  |![alt text](./assets/images/thinkers/socrates.png)  |
-  |![alt text](./assets/images/thinkers/socrates2.png)  |
+  |![alt text](./examples/assets/images/thinkers/socrates.png)  |
+  |![alt text](./examples/assets/images/thinkers/socrates2.png)  |
 
 
 - **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
