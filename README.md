@@ -1,10 +1,10 @@
 # MarpX (work in progress!)
-Marp themes still created with beauty and simplicity in mind. 
+
+Marp themes still created with beauty and simplicity in mind.
 This is Marp Style 2.0
 
 > **MarpX** — Beautiful, semantic, and powerful themes for Marp presentations.
 > MarpX is the result of an effort to expand, redesign, optimize and improve my first Marp slide theme composition initiative [Marpstyle](https://github.com/cunhapaulo/marpstyle). One may say MarpX is Marpstyle 2.0.
-
 
 ![](./assets/images/cartoon/shawn001b.png)
 <small>Shaun The Sheep - Copyright ©️ 2025 aardman animations ltd.</small>
@@ -20,25 +20,27 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 
 MarpX is capable of:
 
-1. **Different Title Slides**: a simple one and another used in academic presentations.
-  |----| 
-  |![alt text](./examples/assets/images/thinkers/socrates.png)  |
-  |![alt text](./examples/assets/images/thinkers/socrates2.png)  |
+### **Different Title Slides**: a simple one and another used in academic presentations.
 
+|----|
+|![alt text](./examples/assets/images/thinkers/socrates.png) |
+|![alt text](./examples/assets/images/thinkers/socrates2.png) |
 
-2. **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
-  |----| 
-  |<img src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|
+### **Autonumbering** captions for figures (`<figcaption>`) and tables (`<tabcaption>`).
 
+|----|
+|<img src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" />|
 
-3. **Vertically centered alignment** of items within columns with (`<div class="vcenter">`<br> or `<div class="multicolumn vcenter">`).
-  |----|
-  |<img src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" />|
-  
-4. Special slides for **quotes**(`<!-- _class: quote -->`), including a dark mode<br> version (`<!-- _class: quote dark -->`).
-  |----|
-  |<img src="https://github.com/user-attachments/assets/ab811965-1bb9-4f18-9c1c-3ca8d332ab58" />|
-  |<img  src="https://github.com/user-attachments/assets/f8808677-8c11-43f0-a3f3-5108ed2785de" />|
+### **Vertically centered alignment** of items within columns with (`<div class="vcenter">`<br> or `<div class="multicolumn vcenter">`).
+
+|----|
+|<img src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" />|
+
+### Special slides for **quotes**(`<!-- _class: quote -->`), including a dark mode<br> version (`<!-- _class: quote dark -->`).
+
+|----|
+|<img src="https://github.com/user-attachments/assets/ab811965-1bb9-4f18-9c1c-3ca8d332ab58" />|
+|<img  src="https://github.com/user-attachments/assets/f8808677-8c11-43f0-a3f3-5108ed2785de" />|
 
 ---
 
@@ -70,13 +72,17 @@ MarpX is capable of:
    ---
    ```
 4. **Use semantic classes** in your slides to unlock advanced layouts:
+
    ```markdown
    <!-- _class: chapter -->
+
    # Chapter Title
 
    <!-- _class: quote dark -->
+
    > "A beautiful quote."
    ```
+
 5. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
 
 ---
@@ -113,4 +119,3 @@ For questions, suggestions, or contributions, please open an issue or pull reque
 ## 📄 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
