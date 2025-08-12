@@ -37,9 +37,9 @@
 * @auto-scaling true
 * @size 16:9 1280px 720px
 * @size 4:3 960px 720px
+* @size A4 210mm 297mm
 * @size fullHD 1920px 1080px
 * @size banner 1600px 13000px
-* @size A4 210mm 297mm
 *
 */
 @import "default";
@@ -98,7 +98,7 @@
   --marpx-titleslide-academic-author-color: #f8150d;
   --marpx-titleslide-academic-titlepage-color: #242d31;
   --marpx-titleslide-academic-background-color: #faf7f7;
-  --marpx-titleslide-academic-border-color: #e99211;
+  --marpx-titleslide-academic-border-color: #364269;
 
   /*------------ Parameters used in `REFERENCES` ---------------------------------*/
 
@@ -508,7 +508,7 @@ section.title-academic > h1 {
   /* font-weight: var(--marpx-titleslide-academic-title-font-weight); */
   font-weight: var(--marpx-titleslide-academic-title-font-weight);
   color: var(--marpx-titleslide-academic-title-color);
-  border-bottom: 1px solid var(--marpx-titleslide-academic-border-color);
+  border-bottom: 1px solid var(--marpx-titleslide-academic-border-color) !important;
 }
 
 section.title-academic > h1 {

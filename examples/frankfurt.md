@@ -9,10 +9,10 @@ footer: "[Back to the beginning](#3)"
 
 marp: true
 paginate: true
-theme: marpx
+theme: spartan
 ---
 
-<!-- _class: title academic -->
+<!-- _class: title-academic -->
 <!-- _backgroundColor: white  -->
 
 <div class="title"         > Liberdade da Vontade e o Conceito de Pessoa  </div>

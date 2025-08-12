@@ -1,0 +1,110 @@
+/* @theme spartan */
+
+@import "_marpx";
+
+:root {
+  /*------------ Overall theme parameters ---------------------------------*/
+
+  --marpx-theme-font-family: "Fira Sans", Faustina, Bookerly, sans-serif;
+  --marpx-theme-captiontext-figure: "Fig. ";
+  --marpx-theme-captiontext-table: "Table ";
+  --marpx-theme-brandlogo: " - Spartan Theme - Created with Marp & MarpX.";
+
+  --marpx-theme-color: #002b36;
+  --marpx-theme-color-alt: #8b8989;
+  --marpx-theme-color-agenda: #6b7285;
+
+  --marpx-theme-color-background: #ececec;
+
+  --marpx-theme-color-bold: #000000;
+  --marpx-theme-color-font: #343e52;
+
+  --marpx-color-subtitle: #5d616d;
+  --marpx-color-h1-bold: #8f8d8d;
+
+  --marpx-color-code: rgb(233, 233, 233);
+  --marpx-color-highlight: #b9e4f1;
+
+  --marpx-color-footnote-mark: #ff0000;
+
+  /* ------------------- TITLE SLIDE -----------------------------*/
+
+  /* fonts sizes */
+  --marpx-titleslide-academic-title-size: 140%;
+  --marpx-titleslide-academic-subtitle-size: 90%;
+  --marpx-titleslide-academic-author-size: 105%;
+  --marpx-titleslide-academic-date-size: 95%;
+  --marpx-titleslide-academic-institute-size: 95%;
+  /* inter character space */
+  --marpx-titleslide-academic-letter-spacing: 0.125px;
+  /* font weights */
+  --marpx-titleslide-academic-title-font-weight: bold;
+  --marpx-titleslide-academic-subtitle-font-weight: 600;
+  /* colors in style */
+  --marpx-titleslide-academic-title-color: #002b36;
+  --marpx-titleslide-academic-subtitle-color: #eaeaeb;
+  --marpx-titleslide-academic-author-color: #002b36;
+  --marpx-titleslide-academic-titlepage-color: #242d31;
+  --marpx-titleslide-academic-background-color: #abb0b9;
+  --marpx-titleslide-academic-border-color: #e99211;
+
+  /*------------ Parameters used in `REFERENCES` ---------------------------------*/
+
+  --marpx-color-references-bold: #3e6ceb;
+  --marpx-color-references-background: #eff4fa;
+  --marpx-color-reference-header: #539dd3;
+
+  /*------------ Parameters used in `QUOTE` ---------------------------------*/
+
+  --marpx-font-quote: Bookerly, Faustina, Times, serif;
+
+  --marpx-color-quote-background: #f3f3f2;
+  --marpx-color-quote-paragraph-background: #f3f3f2;
+  --marpx-color-quote-strong: #6462f1;
+
+  /*- quote dark -*/
+
+  --marpx-font-quote-dark: Bookerly, Faustina, Bookerly, Times, serif;
+
+  --marpx-font-quote-dark-color: #c4bcbc;
+  --marpx-color-quote-dark-background: #222020;
+  --marpx-color-quote-dark-paragraph-background: #222020;
+  --marpx-color-quote-dark-strong: #ffffff;
+
+  /*------------ Parameters used in `TABLE` ---------------------------------*/
+
+  --marpx-color-table-header-background: #000000;
+  --marpx-color-table-header-color: white;
+  --marpx-color-table-border-top: ;
+  --marpx-color-table-border-bottom: #cac9c5f8;
+  --marpx-color-table-nth-child-color: #f5f5f5;
+  --marpx-color-table-hover: #474619;
+  --marpx-color-table-hover-background: #eaf779;
+
+  --marpx-font-table-size: 22px;
+  --marpx-font-table-family: ;
+}
+
+section {
+  line-height: 1.153em;
+}
+
+.boxed {
+  border: 2px solid #222;
+  border-radius: 6px; /* opcional: cantos arredondados */
+  padding: 2px 8px; /* espaço interno */
+  /* background: #fffbe7;   /* opcional: cor de fundo */
+  display: inline-block; /* garante o retângulo ao redor da palavra */
+}
+
+section code {
+  border: 2px solid #222;
+  border-radius: 12px;
+  padding: 2px 8px;
+  /* background: initial; */
+  background: #625feb;
+  color: #f7f6f6;
+  /* color: #222222; */
+  font-size: 1em;
+  display: inline-block;
+}
