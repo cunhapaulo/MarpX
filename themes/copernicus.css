@@ -3,33 +3,30 @@
 @import "_marpx";
 
 :root {
-
   /*------------ Overall theme parameters ---------------------------------*/
 
-  --marpx-theme-font-family: 'Fira Sans', Faustina, Bookerly, sans-serif;
+  --marpx-theme-font-family: "Fira Sans", Faustina, Bookerly, sans-serif;
   --marpx-theme-captiontext-figure: "Fig. ";
   --marpx-theme-captiontext-table: "Table ";
   --marpx-theme-brandlogo: " - Created with Marp & MarpX.";
 
   --marpx-theme-color: #002b36;
-  --marpx-theme-color-alt: #daac2f;
+  --marpx-theme-color-alt: #d87e72;
+  --marpx-theme-color-agenda: #5b688b;
 
-  --marpx-theme-color-background: #bbc7e7;
   --marpx-theme-color-background: #cad1e4;
-  --marpx-theme-color-background: #c5cde2;
 
-  --marpx-theme-color-font: #50596b;
   --marpx-theme-color-bold: #ec2300;
-  
+  --marpx-theme-color-font: #3b4963;
+
   --marpx-color-subtitle: #5d616d;
   --marpx-color-h1-bold: #e96363;
-  --marpx-theme-color-agenda: #003f4e;
 
   --marpx-color-code: rgb(233, 233, 233);
   --marpx-color-highlight: #b9e4f1;
-  
+
   --marpx-color-footnote-mark: #ff0000;
-  
+
   /* ------------------- TITLE SLIDE -----------------------------*/
 
   /* fonts sizes */
@@ -59,41 +56,45 @@
 
   /*------------ Parameters used in `QUOTE` ---------------------------------*/
 
-  --marpx-color-quote-background: #ece8e8;
-  --marpx-color-quote-paragraph-background: #f8f8f8;
+  --marpx-font-quote: Bookerly, Faustina, Times, serif;
+
+  --marpx-color-quote-background: #f3f3f2;
+  --marpx-color-quote-paragraph-background: #f3f3f2;
   --marpx-color-quote-strong: #6462f1;
-  --marpx-font-quote: Arial, Faustina, Times, serif;
+
   /*- quote dark -*/
-  --marpx-color-quote-dark-background: #94c7df;
-  --marpx-color-quote-dark-paragraph-background: #a0c2cf;
-  --marpx-color-quote-dark-strong: #f8f8f7;
-  --marpx-font-quote-dark: Arial, Faustina, Bookerly, Times, serif;
+
+  --marpx-font-quote-dark: Bookerly, Faustina, Bookerly, Times, serif;
+
+  --marpx-font-quote-dark-color: #c4bcbc;
+  --marpx-color-quote-dark-background: #222020;
+  --marpx-color-quote-dark-paragraph-background: #222020;
+  --marpx-color-quote-dark-strong: #ffffff;
 
   /*------------ Parameters used in `TABLE` ---------------------------------*/
 
-  --marpx-color-table-header-background: rgb(0, 0, 0);
+  --marpx-color-table-header-background: #000000;
   --marpx-color-table-header-color: white;
   --marpx-color-table-border-top: ;
-  --marpx-color-table-border-bottom: rgba(202, 201, 197, 0.973);
+  --marpx-color-table-border-bottom: #cac9c5f8;
   --marpx-color-table-nth-child-color: #f5f5f5;
-  --marpx-color-table-hover: rgb(71, 70, 25);
-  --marpx-color-table-hover-background: rgb(234, 247, 121);
+  --marpx-color-table-hover: #474619;
+  --marpx-color-table-hover-background: #eaf779;
 
   --marpx-font-table-size: 22px;
   --marpx-font-table-family: ;
 }
 
 section {
-    
-    line-height: 1.153em;
+  line-height: 1.153em;
 }
 
 .boxed {
   border: 2px solid #222;
-  border-radius: 6px;      /* opcional: cantos arredondados */
-  padding: 2px 8px;        /* espaço interno */
+  border-radius: 6px; /* opcional: cantos arredondados */
+  padding: 2px 8px; /* espaço interno */
   /* background: #fffbe7;   /* opcional: cor de fundo */
-  display: inline-block;   /* garante o retângulo ao redor da palavra */
+  display: inline-block; /* garante o retângulo ao redor da palavra */
 }
 
 section code {

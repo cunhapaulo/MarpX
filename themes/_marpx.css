@@ -66,17 +66,17 @@
   --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
 
   --marpx-theme-color: #3e6ceb;
-  --marpx-theme-color-agenda: #5b688b;
   --marpx-theme-color-alt: #9aade2;
+  --marpx-theme-color-agenda: #5b688b;
   --marpx-theme-color-background: #ffffff;
   --marpx-theme-color-bold: #f8150d;
   --marpx-theme-color-font: #000000;
 
   --marpx-color-subtitle: #5d616d;
   --marpx-color-h1-bold: #ff3c00;
-  --marpx-color-footnote-mark: #ff0000;
   --marpx-color-code: rgb(233, 233, 233);
   --marpx-color-highlight: #ffff00;
+  --marpx-color-footnote-mark: #ff0000;
 
   /* ------------------- TITLE SLIDE -----------------------------*/
 
@@ -108,15 +108,20 @@
 
   /*------------ Parameters used in `QUOTE` ---------------------------------*/
 
+  --marpx-font-quote: Bookerly, Faustina, Times, serif;
+
   --marpx-color-quote-background: #ffffff;
   --marpx-color-quote-paragraph-background: #ffffff;
   --marpx-color-quote-strong: #6462f1;
-  --marpx-font-quote: Bookerly, Faustina, Times, serif;
 
+  /*- quote dark -*/
+
+  --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
+
+  --marpx-font-quote-dark-color: #222230;
   --marpx-color-quote-dark-background: #9aade2;
   --marpx-color-quote-dark-paragraph-background: #9aade2;
   --marpx-color-quote-dark-strong: #f8f8f7;
-  --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
 
   /*------------ Parameters used in `TABLE` ---------------------------------*/
 
@@ -1145,9 +1150,9 @@ section.quote.dark {
 }
 
 section.quote.dark p {
-  color: rgb(34, 34, 48) !important;
+  color: var(--marpx-font-quote-dark-color) !important;
   font-family: var(--marpx-font-quote-dark) !important;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 34pt !important;
   background-color: var(--marpx-color-quote-dark-paragraph-background);
   letter-spacing: 0.1pt;
@@ -1304,11 +1309,12 @@ section.white-slide > h1 {
   color: black;
 }
 
-section.white-slide figcaption {
+section.white-slide figcaption,
+section.white-slide .figcaption {
   color: black !important;
 }
 
-section.white-slide figcaption::before {
+section.white-slide figcaption::before,
+section.white-slide .figcaption::before {
   color: red !important;
 }
-

@@ -116,6 +116,8 @@ When the neet to make strong assertions becomes inevitable:
 
 ---
 
+<!-- _class: white-slide -->
+
 # One image slide
 
 ![h:400 center](./assets/images/math/puebk.png)
@@ -193,6 +195,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div></div>
 
 ---
+<!-- _class: white-slide -->
 
 # Multi-images Environment (1)
 
@@ -216,6 +219,8 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div>
 
 ---
+
+<!-- _class: white-slide -->
 
 # Multi-images Environment (2)
 
@@ -245,7 +250,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div></div>
 
 ---
-
+<!-- _class: white-slide -->
 # Figures and caption in _multicolumn_
 
 <div class="multicolumn" align="center">
@@ -564,7 +569,7 @@ plt.show()
 
 # Electromagnetic wave propagation (1)
 
-[![h:400 center](./assets/images/graphs/eletromag-plot01.png)](./programs/eletromag-plot01.py)
+[![h:400 center](./assets/images/graphs/eletromag-plot01.png)](./assets/programs/eletromag-plot01.py)
 
 <figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
 
@@ -574,7 +579,7 @@ plt.show()
 
 # Electromagnetic wave propagation (2)
 
-[![h:450 center](./assets/images/graphs/eletromag-plot-3d.gif)](./programs/eletromag-plot04-animate.py)
+[![h:450 center](./assets/images/graphs/eletromag-plot-3d.gif)](./assets/programs/eletromag-plot04-animate.py)
 
 <figcaption>3D animation of an electromagnetic wave propagation.</figcaption>
 
