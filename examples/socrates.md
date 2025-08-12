@@ -41,23 +41,27 @@ paginate: true
 
 0. [Title](#1)
 1. [Transition Slide](#4)
-2. [Normal Slide](%5)
+2. [Normal Slide](#5)
 3. [Headers](#6)
 4. [Images](#7)
-5. [Ordered and Unordered Lists](#14)
-6. [Tables](#16)
-7. [Mathematics in LaTeX](#19)
-8. [Code](#23)
-9. [Quotes](#27)
-10. [References](#30)
+5. [Animations](#15)
+6. [Ordered and Unordered Lists](#17)
+7. [Tables](#19)
+8. [Mathematics in LaTeX](#22)
+9. [Code](#27)
+10. [Quotes](#31)
+11. [References & Appendix](#34)
 
 ---
+
 <!-- _class: chapter -->
 
 # Transition Slide
-## Aditional Text about what´s  ahead
+
+## Aditional Text about what´s ahead
 
 ---
+
 # Is Algebraic Graph Knowledge a **Possibility**?
 
 `Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
@@ -74,15 +78,21 @@ When the neet to make strong assertions becomes inevitable:
 </footnote>
 
 ---
+
 <!-- _class: multicolumn -->
 
 <div>
 
 # H1 - H1 level of header
+
 ## H2 - H2 level of header
+
 ### H3 - H3 level of header
+
 #### H4 - H4 level of header
+
 ##### H5 - H5 level of header
+
 ###### H6 - H6 level of header
 
 </div><div>
@@ -91,48 +101,64 @@ When the neet to make strong assertions becomes inevitable:
 
 - This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
 
-    - This is one **bold** comment.
-    - This is another *italic* comment.
+  - This is one **bold** comment.
+  - This is another _italic_ comment.
 
 </div></div>
 
 ---
+
+<!-- _class: chapter -->
+
+# Images
+
+
+---
+
 # One image slide
 
 ![h:400 center](./assets/images/math/puebk.png)
+
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 
 ---
+
 # Images fit into columns
 
 <div class="multicolumn" align="center"><div>
 
 [![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book004.jpg)](https://amzn.eu/d/fQDOCSF)
+
 <figcaption>Sophokles, Suhrkamp (2015).</figcaption>
 
 </div><div>
 
 [![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book003.jpg)](https://amzn.eu/d/bxExVnT)
+
 <figcaption>Göthe, Suhrkamp (2011).</figcaption>
 
 </div><div>
 
 [![h:350px drop-shadow:4px,5px,15px,#010101](./assets/images/books/book006.jpg)](https://amzn.eu/d/f3z3qfe)
+
 <figcaption>Heine, Suhrkamp (2011).</figcaption>
 
 </div></div>
 
 ---
+
 # Image and text on the same slide (1)
 
 <div class="multicolumn vcenter"><div>
 
 [![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
+
 <figcaption align="center"> <i>Phänomenologie des Geistes</i> Oxford edition.</figcaption>
 
 </div><div>
 
 ## Hegels Phänomenologie
+
 Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem Autor: G.W.F. Hegel.
 
 - Das `1807` veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
@@ -144,6 +170,7 @@ Das Buch trug ursprünglich den Titel "Phänomenologie des Geistes" von seinem A
 </div>
 
 ---
+
 # Image and text on the same slide (2)
 
 <div class="multicolumn vcenter"><div>
@@ -159,12 +186,14 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div><div>
 
 [![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
+
 <figcaption align="center">Springer edition (2023).</figcaption>
 
 </div></div>
 
 ---
-# Multi-images  Environment (1)
+
+# Multi-images Environment (1)
 
 <div class="multicolumn" align="center">
 
@@ -186,17 +215,18 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div>
 
 ---
-# Multi-images  Environment (2)
+
+# Multi-images Environment (2)
 
 <div class="multicolumn" align="center">
 
 <div>
 
-  ![h:185](./assets/images/math/math001.png)
-  <span class="figcaption">Math001.</span>
+![h:185](./assets/images/math/math001.png)
+<span class="figcaption">Math001.</span>
 
-  ![h:185](./assets/images/math/math002.png)
-  <span class="figcaption">Math002.</span>
+![h:185](./assets/images/math/math002.png)
+<span class="figcaption">Math002.</span>
 
 </div>
 
@@ -205,16 +235,17 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <div>
 
-  ![h:185](./assets/images/math/math003.png)
-  <span class="figcaption">Math004.</span>
+![h:185](./assets/images/math/math003.png)
+<span class="figcaption">Math004.</span>
 
-  ![h:185](./assets/images/math/math005.png)
-  <span class="figcaption">Math005.</span>
+![h:185](./assets/images/math/math005.png)
+<span class="figcaption">Math005.</span>
 
 </div></div>
 
 ---
-# Figures and caption in *multicolumn*
+
+# Figures and caption in _multicolumn_
 
 <div class="multicolumn" align="center">
 
@@ -233,7 +264,39 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div>
 
 ---
-# *Ordered* and *unordered* lists 
+<!-- _class: chapter -->
+
+# Animations
+## Usually works in html only...
+
+---
+
+<!-- _class: black-slide -->
+
+# Animations (html only!)
+
+<div class="multicolumn vcenter"><div>
+
+![h:400 center](./assets/images/graphs/animation01.png)
+
+<figcaption> Animation 01.
+
+</div><div align=center>
+
+<video height=400px width=450px class="hwa" poster="https://i.pinimg.com/736x/93/74/88/9374889616698d45adf1e911788665a4.jpg" preload="auto" src="blob:https://br.pinterest.com/16cda5f9-b97a-4d4e-9a8b-65fca37e1387" style="object-fit: contain;"><track kind="captions"></video>
+
+<figcaption> Animation 02.
+
+</div></div>
+
+---
+<!-- _class: chapter -->
+
+# Lists
+## Ordered and unordered
+
+---
+# _Ordered_ and _unordered_ lists
 
 <div class="multicolumn"><div>
 
@@ -252,11 +315,11 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 - First object in list;
 - Second object in list;
 - Third object in list;
-   - First objetc in sublist;
-   - Second object in sublist;
-      - Another level;
-      - Yet another item.   
-   - Third object in sublist;
+  - First objetc in sublist;
+  - Second object in sublist;
+    - Another level;
+    - Yet another item.
+  - Third object in sublist;
 - Fourth object in List;
 
 </div></div>
@@ -266,25 +329,29 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 <!-- _class: chapter -->
 
 # Tables
+
 ## Organizing data with tables in Markdown
 
 ---
 
 # Renaissance painters
+
 <center>
 
 | Painter           | Country | Birth Year | Death Year | Most Famous Work           |
 | ----------------- | :-----: | :--------: | :--------: | -------------------------- |
-| Albrecht Dürer    | Germany |    1471    |    1528    | *Melencolia I*             |
-| Leonardo da Vinci |  Italy  |    1452    |    1519    | *Mona Lisa*                |
-| Michelangelo      |  Italy  |    1475    |    1564    | *Sistine Chapel Ceiling*   |
-| Raphael           |  Italy  |    1483    |    1520    | *The School of Athens*     |
-| Titian            |  Italy  |   ~1488    |    1576    | *Assumption of the Virgin* |
+| Albrecht Dürer    | Germany |    1471    |    1528    | _Melencolia I_             |
+| Leonardo da Vinci |  Italy  |    1452    |    1519    | _Mona Lisa_                |
+| Michelangelo      |  Italy  |    1475    |    1564    | _Sistine Chapel Ceiling_   |
+| Raphael           |  Italy  |    1483    |    1520    | _The School of Athens_     |
+| Titian            |  Italy  |   ~1488    |    1576    | _Assumption of the Virgin_ |
 
 <tabcaption>Renowned Renaissance painters with biographical data and masterpieces (alphabetical order).</tabcaption>
+
 <center>
 
 ---
+
 # Programming languages
 
 <center>
@@ -300,16 +367,21 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 | Python   | _Guido van Rossum_  | 1991 | Multi-paradigm (OO, Procedural, Functional) |
 
 <tabcaption>List of programming languages.</tabcaption>
+
 </center>
 
 ---
 
 <!-- _class: chapter -->
 
-# Mathematical Formulations 
+# Mathematical Formulations
+
 ## Writing equations with LaTeX
 
 ---
+
+<!-- _class: white-slide -->
+
 # Probability Distribution (1)
 
 <div class="multicolumn vcenter"><div>
@@ -317,16 +389,21 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 $$
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp\left( -\frac{(x - \mu)^2}{2\sigma^2} \right)
 $$
+
 <figcaption>Normal Distribution (Gaussian).</figcaption>
 
 </div><div>
 
 ![w:650](./assets/images/graphs/distribution02.png)
+
 <figcaption>Multivariate Normal Distribution.</figcaption>
 
 </div></div>
 
 ---
+
+<!-- _class: white-slide -->
+
 # Probability Distribution (2)
 
 <div class="multicolumn vcenter"><div>
@@ -334,38 +411,42 @@ $$
 $$
 f(x) = \frac{\sqrt{\frac{(d_1 x)^{d_1} d_2^{d_2}}{(d_1 x + d_2)^{d_1 + d_2}}}}{x \, B\left(\frac{d_1}{2}, \frac{d_2}{2}\right)}
 $$
+
 <figcaption>Fisher-Snedecor F distribution.</figcaption>
 
 </div><div>
 
 ![w:650](./assets/images/graphs/distribution03.png)
+
 <figcaption>Multivariate Normal Distribution.</figcaption>
 
 </div></div>
 
 ---
+
 # Electromagnetic Field (Differential form)
 
-Below, in modern vector notation, in *differential form*, are Maxwell's four equations governing the `electromagnetic field`.
+Below, in modern vector notation, in _differential form_, are Maxwell's four equations governing the `electromagnetic field`.
 
 $$
 \begin{align}
-\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} 
+\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0}
         &&\text{(Gauss's law)}\\
 \nabla \cdot \mathbf{B} &= 0
         &&\text{(No magnetic monopoles)}\\
 \nabla \times \mathbf{E} &= -\,\frac{\partial \mathbf{B}}{\partial t}
         &&\text{(Faraday-Lenz law)}\\
-\nabla \times \mathbf{B} &= \mu_0 \mathbf{J} 
+\nabla \times \mathbf{B} &= \mu_0 \mathbf{J}
         + \mu_0 \varepsilon_0\,\frac{\partial \mathbf{E}}{\partial t}
         &&\text{(Ampere-Maxwell Law)}
 \end{align}
 $$
 
 ---
+
 # Electromagnetic Field (Integral form)
 
-Below, in modern vector notation, in *integral form*, are Maxwell's four equations governing the electromagnetic field.
+Below, in modern vector notation, in _integral form_, are Maxwell's four equations governing the electromagnetic field.
 
 $$
 \begin{align}
@@ -387,7 +468,15 @@ $$
 $$
 
 ---
-<!-- _class: nobrand -->
+
+<!-- _class: chapter -->
+
+# Code
+## Computer programs source code
+
+---
+
+<!-- _class: white-slide -->
 
 # Python programs
 
@@ -396,7 +485,7 @@ $$
 ```python
 """
 O programa traça, em 2D, os perfis instantâneos do
-campo elétrico E (y) e do campo magnético B (z), 
+campo elétrico E (y) e do campo magnético B (z),
 ambos perpendiculares ao eixo de propagação x.
 """
 import numpy as np
@@ -423,6 +512,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
+
 <figcaption> First program.</figcaption>
 
 </div><div>
@@ -462,24 +552,29 @@ ax.legend()
 plt.tight_layout()
 plt.show()
 ```
+
 <figcaption> Second program.</figcaption>
 
 </div></div>
 
 ---
-<!-- _class: nobrand -->
+
+<!-- _class: white-slide -->
 
 # Electromagnetic wave propagation (1)
 
-[![h:420 center](./assets/images/graphs/eletromag-plot01.png)](./programs/eletromag-plot01.py)
+[![h:400 center](./assets/images/graphs/eletromag-plot01.png)](./programs/eletromag-plot01.py)
+
 <figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
 
 ---
-<!-- _class: nobrand -->
+
+<!-- _class: white-slide -->
 
 # Electromagnetic wave propagation (2)
 
-[![h:500 center](./assets/images/graphs/eletromag-plot-3d.gif)](./programs/eletromag-plot04-animate.py)
+[![h:450 center](./assets/images/graphs/eletromag-plot-3d.gif)](./programs/eletromag-plot04-animate.py)
+
 <figcaption>3D animation of an electromagnetic wave propagation.</figcaption>
 
 ---
@@ -487,6 +582,7 @@ plt.show()
 <!-- _class: chapter -->
 
 # Quotes
+
 ## Special text deserves special space
 
 ---
@@ -506,94 +602,95 @@ plt.show()
 <!-- class: "chapter" -->
 
 # Appendix
+
 ## Bibliography, References, Appendix. etc.
 
 ---
 
 <!-- class: references -->
 
-
 # Appendix 1 - Special Sections (1)
 
 <center>
 
- | CSS Section         | Description/Purpose         | Markdown Class (example)       |
- | ------------------- | --------------------------- | :----------------------------- |
- | section.title       | Title slide                 | `<!-- _class: title -->`       |
- | section.title-bg    | Title slide with background | `<!-- _class: title-bg -->`    |
- | section.chapter     | Chapter slide               | `<!-- _class: chapter -->`     |
- | section.chapter-alt | Alternative chapter         | `<!-- _class: chapter-alt -->` |
- | section.agenda      | Agenda/content slide        | `<!-- _class: agenda -->`      |
- | section.end         | Thank you slide             | `<!-- _class: end -->`         |
- | section.end-bg      | Thank you with background   | `<!-- _class: end-bg -->`      |
- | section.copyright   | Copyright slide             | `<!-- _class: copyright -->`   |
- | section.logos       | Slide with additional logos | `<!-- _class: logos -->`       |
+| CSS Section         | Description/Purpose         | Markdown Class (example)       |
+| ------------------- | --------------------------- | :----------------------------- |
+| section.title       | Title slide                 | `<!-- _class: title -->`       |
+| section.title-bg    | Title slide with background | `<!-- _class: title-bg -->`    |
+| section.chapter     | Chapter slide               | `<!-- _class: chapter -->`     |
+| section.chapter-alt | Alternative chapter         | `<!-- _class: chapter-alt -->` |
+| section.agenda      | Agenda/content slide        | `<!-- _class: agenda -->`      |
+| section.end         | Thank you slide             | `<!-- _class: end -->`         |
+| section.end-bg      | Thank you with background   | `<!-- _class: end-bg -->`      |
+| section.copyright   | Copyright slide             | `<!-- _class: copyright -->`   |
+| section.logos       | Slide with additional logos | `<!-- _class: logos -->`       |
 
 <tabcaption>List of tags used (1).</tabcaption>
 
 </center>
 
 ---
+
 # Appendix 1 - Special Sections (2)
 
 <center>
 
- | CSS Section                 | Description/Purpose                     | Markdown Class (example)               |
- | --------------------------- | --------------------------------------- | -------------------------------------- |
- | section.blank               | Blank slide                             | `<!-- _class: blank -->`               |
- | section.nobrand             | Slide without branding                  | `<!-- _class: nobrand -->`             |
- | section.multicolumn         | Slide with multiple columns             | `<!-- _class: multicolumn -->`         |
- | section.multicolumn vcenter | Vertically centered IN multiple columns | `<!-- _class: multicolumn vcenter -->` |
- | section.grid-tlr            | Grid: top, left, right                  | `<!-- _class: grid-tlr -->`            |
- | section.grid-lrb            | Grid: left, right, bottom               | `<!-- _class: grid-lrb -->`            |
- | section.quote               | Quote slide (unified quote)             | `<!-- _class: quote -->`               |
- | section.quote.dark          | Alternative quote (formerly quote2)     | `<!-- _class: quote dark -->`          |
- | section.references          | References/bibliography slide           | `<!-- _class: references -->`          |
+| CSS Section                 | Description/Purpose                     | Markdown Class (example)               |
+| --------------------------- | --------------------------------------- | -------------------------------------- |
+| section.blank               | Blank slide                             | `<!-- _class: blank -->`               |
+| section.nobrand             | Slide without branding                  | `<!-- _class: nobrand -->`             |
+| section.multicolumn         | Slide with multiple columns             | `<!-- _class: multicolumn -->`         |
+| section.multicolumn vcenter | Vertically centered IN multiple columns | `<!-- _class: multicolumn vcenter -->` |
+| section.grid-tlr            | Grid: top, left, right                  | `<!-- _class: grid-tlr -->`            |
+| section.grid-lrb            | Grid: left, right, bottom               | `<!-- _class: grid-lrb -->`            |
+| section.quote               | Quote slide (unified quote)             | `<!-- _class: quote -->`               |
+| section.quote.dark          | Alternative quote (formerly quote2)     | `<!-- _class: quote dark -->`          |
+| section.references          | References/bibliography slide           | `<!-- _class: references -->`          |
 
 <tabcaption>List of tags used (2).</tabcaption>
 
 </center>
 
 ---
+
 <!-- class: "references" -->
 
-# References 
+# References
 
 <div class="multicolumn"><div>
 
-  1. AMERIKS, Karl; HÖFFE, Otfried. **Kant’s Moral and Legal Philosophy**. tradução: Nicholas Walker. Cambridge, Massachusetts: Cambridge University Press, 2009-. ISSN 1878-6847.(The German Philosophical Tradition). 
-  2. ARISTOTELES. **Nikomachische Ethik**. Berlin: Akademie Verlag, 2010. (Klassiker Auslegen).v. 2
-  3. CASSIRER, Ernst. **The Myth of the State**. New Haven, USA: Yale University Press, 1946.
-  4. EPSTEIN, Richard L.; CARNIELLI, Walter A. **Computability: Computable Functions, Logic, and the Foundations of Mathematics**. 3. ed. Socorro, New Mexico, USA: Advanced Reasoning Forum, 2008. 
-  5. GADAMER, Hans-Georg. **Wahrheit und Methode**. Berlin: Akademie Verlag, 2007. v. 30.
-  6. HEGEL, Georg Friederich Wilhelm. **Hegel´s Phenomenology of Spirit**. Tradução: A. V. Miller. New York: Oxford University Press, 2004.
+1. AMERIKS, Karl; HÖFFE, Otfried. **Kant’s Moral and Legal Philosophy**. tradução: Nicholas Walker. Cambridge, Massachusetts: Cambridge University Press, 2009-. ISSN 1878-6847.(The German Philosophical Tradition).
+2. ARISTOTELES. **Nikomachische Ethik**. Berlin: Akademie Verlag, 2010. (Klassiker Auslegen).v. 2
+3. CASSIRER, Ernst. **The Myth of the State**. New Haven, USA: Yale University Press, 1946.
+4. EPSTEIN, Richard L.; CARNIELLI, Walter A. **Computability: Computable Functions, Logic, and the Foundations of Mathematics**. 3. ed. Socorro, New Mexico, USA: Advanced Reasoning Forum, 2008.
+5. GADAMER, Hans-Georg. **Wahrheit und Methode**. Berlin: Akademie Verlag, 2007. v. 30.
+6. HEGEL, Georg Friederich Wilhelm. **Hegel´s Phenomenology of Spirit**. Tradução: A. V. Miller. New York: Oxford University Press, 2004.
 
 </div><div>
 
-  7. HEIDEGGER, Martin. **Sein und Zeit**. 11. ed. Tübingen: Max Niemeyer Verlag, 1967. 
-  8. HUSSERL, Edmund. **The Crisis of European Sciences and Transcendental Phenomenology**. Evanston, USA: Northwestern University Press, 1970. 
-  9. KANT, Immanuel. **Kritik der Praktischen Vernunft**. Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26 
-  10. KANT, Immanuel. **Groundwork of the Metaphysics of Morals: A German-English Edition**. tradução: Mary Gregor; Jens Timmermann. Cambridge, UK: Cambridge University Press, 2011. 
-  11. KARDEC, Allan. **Das Buch der Geister**. Übersetzung: Edith Burkhard. 3. ed. Brasília, DF: Internationaler Spiritistischer Rat, 2011. 
-  12. PLATO. **Plato Republic**. Tradução: C. D. C. Reeve. Indianapolis, IN, USA: Hackett Publishing Company, 2004. 
+7. HEIDEGGER, Martin. **Sein und Zeit**. 11. ed. Tübingen: Max Niemeyer Verlag, 1967.
+8. HUSSERL, Edmund. **The Crisis of European Sciences and Transcendental Phenomenology**. Evanston, USA: Northwestern University Press, 1970.
+9. KANT, Immanuel. **Kritik der Praktischen Vernunft**. Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
+10. KANT, Immanuel. **Groundwork of the Metaphysics of Morals: A German-English Edition**. tradução: Mary Gregor; Jens Timmermann. Cambridge, UK: Cambridge University Press, 2011.
+11. KARDEC, Allan. **Das Buch der Geister**. Übersetzung: Edith Burkhard. 3. ed. Brasília, DF: Internationaler Spiritistischer Rat, 2011.
+12. PLATO. **Plato Republic**. Tradução: C. D. C. Reeve. Indianapolis, IN, USA: Hackett Publishing Company, 2004.
 
 </div></div>
 
 ---
-# Credits
 
+# Credits
 
 <div class="multicolumn"><div>
 
-  1. Cover image: Flute Player. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
-  2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
+1. Cover image: Flute Player. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
+2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
 
 </div><div>
 
-  1. Shaun The Sheep ©️ 2025 aardman animations ltd.
+1. Shaun The Sheep ©️ 2025 aardman animations ltd.
 
 </div></div>
-
 
 ---
 
@@ -608,7 +705,7 @@ h3>a{
 <div align="center">
 
 # <!-- fit --> [Back to the ](#1)
+
 ### <!-- fit --> [Beginning](#1)
 
 </div>
-

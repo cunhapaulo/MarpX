@@ -485,12 +485,13 @@ section.title-bg > footer {
 !================================================================================
 */
 
-section.title-academic  {
-  background-color: var(--marpx-titleslide-academic-background-color) !important;
+section.title-academic {
+  background-color: var(
+    --marpx-titleslide-academic-background-color
+  ) !important;
   background-image: none;
   z-index: -5;
 }
-
 
 section.title-academic .title,
 section.title-academic > h1 {
@@ -1265,5 +1266,49 @@ section.references .multicolumn>div * {
   /* background: #fffbe7;     /* opcional: cor de fundo */
   display: inline-block;
   /* garante o retângulo ao redor da palavra */
+}
+
+/*
+!================================================================================
+ ? * -----------------------< BLACK-SLIDE >----------------------- 
+!================================================================================
+*/
+
+section.black-slide {
+  background-color: black;
+}
+
+section.black-slide > h1 {
+  color: white;
+}
+
+section.black-slide figcaption {
+  color: white !important;
+}
+
+section.black-slide figcaption::before {
+  color: red !important;
+}
+
+/*
+!================================================================================
+ ? * -----------------------< WHITE-SLIDE >----------------------- 
+!================================================================================
+*/
+
+section.white-slide {
+  background-color: white !important;
+}
+
+section.white-slide > h1 {
+  color: black;
+}
+
+section.white-slide figcaption {
+  color: black !important;
+}
+
+section.white-slide figcaption::before {
+  color: red !important;
 }
 
