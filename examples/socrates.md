@@ -32,6 +32,7 @@ paginate: true
 
 <!-- _class: title -->
 ![bg opacity:0.2 grayscale:1](./assets/images/places/morte-de-socrates.jpg)
+<!-- _backgroundColor: rgba(238, 238, 238, 0.91)  -->
 
 #  Western Philosophy from **Athens**
 ## From the problems of nature to the knowledge of being
