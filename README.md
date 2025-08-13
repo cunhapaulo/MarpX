@@ -56,9 +56,10 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 
 Here you´ll find examples of the available themes. Click on the picture to open a corresponding PDF example.
 
-| In honor of Σωκράτης - Socrates (469–399 B.C.E.)                                        |
+|                                         |
 | :-------------------------------------------------------------------------------------- |
-| [![Style: Socrates](./examples/front-slide/socrates.png)](./examples/pdfs/socrates.pdf) |
+| In honor of Spartans from Greece: <br> [![Style: Spartan ](./examples/front-slide/spartan.png)](./examples/pdfs/spartan.pdf) |
+| In honor of Σωκράτης - Socrates (469–399 B.C.E.): <br> [![Style: Socrates](./examples/front-slide/socrates.png)](./examples/pdfs/socrates.pdf) |
 
 ---
 
