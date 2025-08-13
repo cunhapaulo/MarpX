@@ -5,14 +5,15 @@
 :root {
   /*------------ Overall theme parameters ---------------------------------*/
 
-  --marpx-theme-font-family: "Fira Sans", Faustina, Bookerly, sans-serif;
+  --marpx-theme-font-family: "Fira Sans", "Open Sans", Faustina, Bookerly,
+    sans-serif;
   --marpx-theme-captiontext-figure: "Fig. ";
   --marpx-theme-captiontext-table: "Table ";
   --marpx-theme-brandlogo: " - Spartan Theme - Created with Marp & MarpX.";
 
   --marpx-theme-color: #002b36;
   --marpx-theme-color-alt: #8b8989;
-  --marpx-theme-color-agenda: #6b7285;
+  --marpx-theme-color-agenda: #434a52;
 
   --marpx-theme-color-background: #ececec;
 
@@ -20,7 +21,10 @@
   --marpx-theme-color-font: #343e52;
 
   --marpx-color-subtitle: #5d616d;
+
+  --marpx-color-h1-bold: #c92828;
   --marpx-color-h1-bold: #8f8d8d;
+  --marpx-color-h1-bold: #5957d1;
 
   --marpx-color-code: rgb(233, 233, 233);
   --marpx-color-highlight: #b9e4f1;
@@ -42,11 +46,12 @@
   --marpx-titleslide-academic-subtitle-font-weight: 600;
   /* colors in style */
   --marpx-titleslide-academic-title-color: #002b36;
-  --marpx-titleslide-academic-subtitle-color: #eaeaeb;
+  --marpx-titleslide-academic-subtitle-color: #e6e6e7;
   --marpx-titleslide-academic-author-color: #002b36;
   --marpx-titleslide-academic-titlepage-color: #242d31;
   --marpx-titleslide-academic-background-color: #abb0b9;
-  --marpx-titleslide-academic-border-color: #e99211;
+
+  --marpx-titleslide-academic-border-color: #ff3c01;
 
   /*------------ Parameters used in `REFERENCES` ---------------------------------*/
 
@@ -83,28 +88,36 @@
 
   --marpx-font-table-size: 22px;
   --marpx-font-table-family: ;
+
+  /*------------ Parameters used in `TOC` ---------------------------------*/
+  --marpx-color-toc-marker: rgb(37, 46, 161);
 }
 
 section {
   line-height: 1.153em;
 }
 
+/*
+!================================================================================
+ ? * -----------------------< BOXED >----------------------- 
+!================================================================================
+*/
+
 .boxed {
   border: 2px solid #222;
   border-radius: 6px; /* opcional: cantos arredondados */
   padding: 2px 8px; /* espaço interno */
-  /* background: #fffbe7;   /* opcional: cor de fundo */
+  /* background: #fffbe7; opcional: */
   display: inline-block; /* garante o retângulo ao redor da palavra */
 }
 
 section code {
-  border: 2px solid #222;
+  border: 3px solid #181342;
   border-radius: 12px;
   padding: 2px 8px;
   /* background: initial; */
-  background: #625feb;
+  background: #6361f3;
   color: #f7f6f6;
-  /* color: #222222; */
   font-size: 1em;
   display: inline-block;
 }

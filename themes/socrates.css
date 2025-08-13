@@ -12,7 +12,7 @@
   --marpx-theme-brandlogo: " - Created with Marp & MarpX.";
 
   --marpx-theme-color: #006a85;
-  --marpx-theme-color-alt: #952fda;
+  --marpx-theme-color-alt: #5a79a1;
   --marpx-theme-color-background: #ffffff;
   --marpx-theme-color-font: #000000;
   --marpx-theme-color-bold: #f8150d;
@@ -77,6 +77,10 @@
 
   --marpx-font-table-size: 22px;
   --marpx-font-table-family: ;
+  
+  /*------------ Parameters used in `TOC` ---------------------------------*/
+  --marpx-color-toc-marker: rgb(175, 69, 27);
+
 }
 
 section {

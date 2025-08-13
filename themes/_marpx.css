@@ -27,7 +27,7 @@
 *    _marpx.css - MarpX Base Theme System
 *    Paulo Cunha 
 *    Created: jul.2025
-*    Last update: 08.aug.2025
+*    Last update: 13.aug.2025
 *
 * ================================================================================ */
 
@@ -43,7 +43,7 @@
 *
 */
 @import "default";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700@display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
 
 :root {
@@ -135,6 +135,11 @@
 
   --marpx-font-table-size: 22px;
   --marpx-font-table-family: ;
+
+  /*------------ Parameters used in `TOC` ---------------------------------*/
+  --marpx-color-toc-background: #f6f6f6;
+  --marp-color-toc-font: #535353;
+  --marpx-color-toc-marker: rgb(175, 27, 27);
 }
 
 img[alt~="center"] {
@@ -254,25 +259,25 @@ h3 {
   margin-bottom: 8px;
 }
 
-h1 > strong::before,
-h1 > strong::after,
-h1 > em::before,
-h1 > em::after,
-h2 > strong::before,
-h2 > strong::after,
-h2 > em::before,
-h2 > em::after,
-h3 > strong::before,
-h3 > strong::after,
-h3 > em::before,
-h3 > em::after {
+h1>strong::before,
+h1>strong::after,
+h1>em::before,
+h1>em::after,
+h2>strong::before,
+h2>strong::after,
+h2>em::before,
+h2>em::after,
+h3>strong::before,
+h3>strong::after,
+h3>em::before,
+h3>em::after {
   content: "\00a0";
 }
 
-h1 > strong,
-h2 > strong,
-h3 > strong,
-h4 > strong {
+h1>strong,
+h2>strong,
+h3>strong,
+h4>strong {
   color: var(--marpx-color-h1-bold);
   font-weight: bold !important;
 }
@@ -281,17 +286,17 @@ li::marker {
   color: var(--marpx-theme-color);
 }
 
-section > video {
+section>video {
   max-height: 100%;
 }
 
-section > figure {
+section>figure {
   margin: 0;
   margin-bottom: 10px;
   max-height: calc(100% - 48px);
 }
 
-section > figure.center {
+section>figure.center {
   margin: 0 auto;
   margin-bottom: 10px;
   display: block;
@@ -317,7 +322,7 @@ footnote {
   margin-top: auto;
 }
 
-footnote > ol {
+footnote>ol {
   margin-bottom: 0;
 }
 
@@ -326,14 +331,14 @@ footnote > ol {
 ? * -----------------------< SLIDE LAYOUTS >----------------------- 
 !================================================================================
 */
-section > div.multicolumn,
+section>div.multicolumn,
 section.multicolumn {
   display: grid;
   grid-auto-flow: column;
   grid-gap: 10px;
 }
 
-section > div.multicolumn.vcenter,
+section>div.multicolumn.vcenter,
 section.multicolumn.vcenter {
   align-items: center;
 }
@@ -346,7 +351,7 @@ section.cols {
 }
 
 /* The following is a layout for individual column areas in normal slides. */
-section > div.cols {
+section>div.cols {
   display: flex;
   gap: 1rem;
   flex-direction: row;
@@ -354,7 +359,7 @@ section > div.cols {
 
 /* It is optional to use the same column behavior. */
 /*.cols > .col { */
-.cols > div {
+.cols>div {
   flex: 1 1 0;
 }
 
@@ -366,14 +371,14 @@ section.rows {
   flex-direction: column;
 }
 
-section > div.rows {
+section>div.rows {
   display: flex;
   gap: 1rem;
   flex-direction: column;
 }
 
 /* grid layouts */
-section > div.grid-tlr,
+section>div.grid-tlr,
 section.grid-tlr {
   display: grid;
   grid-template-areas: "top top" "left right";
@@ -381,7 +386,7 @@ section.grid-tlr {
   gap: 5px 10px;
 }
 
-section > div.grid-lrb,
+section>div.grid-lrb,
 section.grid-lrb {
   display: grid;
   grid-template-areas: "left right" "bottom bottom";
@@ -406,10 +411,10 @@ section.grid-lrb {
 }
 
 /* adjust h1 for the flex elements */
-section.multicolumn > h1,
-section.cols > h1,
-section.rows > h1,
-section.grid > h1 {
+section.multicolumn>h1,
+section.cols>h1,
+section.rows>h1,
+section.grid>h1 {
   margin-left: 80px;
 }
 
@@ -424,8 +429,8 @@ section.title-bg {
   background-color: var(--marpx-titleslide-academic-background-color);
 }
 
-section.title > h1,
-section.title-bg > h1 {
+section.title>h1,
+section.title-bg>h1 {
   position: absolute;
   top: 34%;
   margin: 0px;
@@ -442,8 +447,8 @@ section.title-bg > h1 {
   align-items: flex-end;
 }
 
-section.title > h2,
-section.title-bg > h2 {
+section.title>h2,
+section.title-bg>h2 {
   position: absolute;
   top: 65.27%;
   margin: 0px;
@@ -467,8 +472,8 @@ section.title-bg::after {
   opacity: 0;
 }
 
-section.title > header,
-section.title-bg > header {
+section.title>header,
+section.title-bg>header {
   position: absolute;
   bottom: 140px;
   margin: 0px;
@@ -479,8 +484,8 @@ section.title-bg > header {
   font-weight: 200;
 }
 
-section.title > footer,
-section.title-bg > footer {
+section.title>footer,
+section.title-bg>footer {
   opacity: 0;
 }
 
@@ -491,17 +496,16 @@ section.title-bg > footer {
 */
 
 section.title-academic {
-  background-color: var(
-    --marpx-titleslide-academic-background-color
-  ) !important;
+  background-color: var(--marpx-titleslide-academic-background-color) !important;
   background-image: none;
   z-index: -5;
 }
 
 section.title-academic .title,
-section.title-academic > h1 {
+section.title-academic>h1 {
   width: 95%;
-  padding-bottom: 15px !important; /* distance from the title to the underline below it */
+  padding-bottom: 15px !important;
+  /* distance from the title to the underline below it */
 
   line-height: 1.05 !important;
   font-size: var(--marpx-titleslide-academic-title-size);
@@ -511,7 +515,15 @@ section.title-academic > h1 {
   border-bottom: 1px solid var(--marpx-titleslide-academic-border-color) !important;
 }
 
-section.title-academic > h1 {
+section.title-academic .title > strong {
+
+  /* color: var(--marpx-color-h1-bold) !important; */
+  color: red !important;
+  font-weight: bold;
+
+}
+
+section.title-academic>h1 {
   top: 25pt;
   height: 0%;
   position: relative;
@@ -519,7 +531,7 @@ section.title-academic > h1 {
 }
 
 section.title-academic .subtitle,
-section.title-academic > h2 {
+section.title-academic>h2 {
   color: var(--marpx-titleslide-academic-subtitle-color);
 
   font-size: var(--marpx-titleslide-academic-subtitle-size);
@@ -532,26 +544,26 @@ section.title-academic > h2 {
   padding-bottom: 120px;
 }
 
-section.title-academic > h2 {
+section.title-academic>h2 {
   top: 18pt;
   width: 95% !important;
   position: relative;
 }
 
 section.title-academic .author,
-section.title-academic > h3 {
+section.title-academic>h3 {
   color: var(--marpx-titleslide-academic-author-color) !important;
   font-size: var(--marpx-titleslide-academic-author-size);
   font-weight: bold !important;
 }
 
 section.title-academic .date,
-section.title-academic > h4 {
+section.title-academic>h4 {
   font-size: var(--marpx-titleslide-academic-date-size);
 }
 
 section.title-academic .organization,
-section.title-academic > h5 {
+section.title-academic>h5 {
   font-size: var(--marpx-titleslide-academic-institute-size);
 }
 
@@ -598,7 +610,7 @@ section.chapter-alt {
   background-color: white;
 }
 
-section.chapter-alt > h1 {
+section.chapter-alt>h1 {
   top: 38px;
   position: absolute;
   color: white;
@@ -618,18 +630,18 @@ section.chapter-alt > h1 {
 !================================================================================
 */
 /* Autor, Akad. Grad */
-section.chapter-alt > header,
-section.chapter > header {
+section.chapter-alt>header,
+section.chapter>header {
   opacity: 0;
 }
 
 /* Datum */
-section.chapter-alt > footer,
-section.chapter > footer {
+section.chapter-alt>footer,
+section.chapter>footer {
   opacity: 0;
 }
 
-section.chapter > h1 {
+section.chapter>h1 {
   position: absolute;
   top: 38px;
   color: white;
@@ -642,8 +654,8 @@ section.chapter > h1 {
   align-items: flex-end;
 }
 
-section.chapter-alt > h1::after,
-section.chapter > h1::after {
+section.chapter-alt>h1::after,
+section.chapter>h1::after {
   background: none repeat scroll 0 0 white;
   bottom: 10px;
   left: -50px;
@@ -654,8 +666,8 @@ section.chapter > h1::after {
   width: 200px;
 }
 
-section.chapter-alt > h2,
-section.chapter > h2 {
+section.chapter-alt>h2,
+section.chapter>h2 {
   position: absolute;
   top: 53.5%;
   color: white;
@@ -674,24 +686,30 @@ section.chapter::after {
 !================================================================================
 */
 section.toc {
-  padding-left: 430px;
-  padding-top: 60px;
+  padding-left: 450px;
+  padding-top: 50px;
   font-size: 24pt;
   flex-flow: nowrap;
+  background-color: var(--marpx-color-toc-background);
 }
 
 section.toc a {
-  color: #4b4a4a !important;
+  color: #535353 !important;
+  color: var(--marp-color-toc-font) !important;
   /* font-weight: 600; */
 }
 
+section.toc li::marker {
+  color: var(--marpx-color-toc-marker);
+}
+
 section.toc a:hover {
-  color: #2e2a2a !important;
-  background-color: rgba(83, 168, 253, 0.103);
-  color: rgb(9, 52, 243) !important;
-  /* font-size: 1.1em; */
+  font-size: 0.95em;
+  font-weight: bold;
+  background-color: #8587881a;
+  color: #3f4a53 !important;
   border-radius: 8px;
-  padding: 4px 8px;
+  padding: 6px 10px;
   text-decoration-line: none;
 }
 
@@ -746,16 +764,16 @@ section.end-bg {
   --fgColor-accent: white;
 }
 
-section.end > h1,
-section.end-bg > h1 {
+section.end>h1,
+section.end-bg>h1 {
   color: white;
   font-size: 60pt;
   height: 152px;
   align-items: flex-end;
 }
 
-section.end > h2,
-section.end-bg > h2 {
+section.end>h2,
+section.end-bg>h2 {
   color: white;
 }
 
@@ -770,11 +788,11 @@ section.end-bg::before {
 
 /* no footer */
 section.end-bg::after,
-section.end-bg > header,
-section.end-bg > footer,
+section.end-bg>header,
+section.end-bg>footer,
 section.end::after,
-section.end > header,
-section.end > footer {
+section.end>header,
+section.end>footer {
   visibility: hidden;
 }
 
@@ -800,7 +818,7 @@ section.totalpages::after {
 ? * -----------------------< TITLE COPYRIGHT >----------------------- 
 !================================================================================
 */
-section.copyright > footer {
+section.copyright>footer {
   opacity: 100%;
   bottom: 1%;
   left: 1%;
@@ -811,7 +829,7 @@ section.copyright > footer {
 ? * -----------------------< TITLE ADDITIONAL-LOGOS >----------------------- 
 !================================================================================
 */
-section.logos > div.additional-logos {
+section.logos>div.additional-logos {
   background-color: #ffffff;
   display: block;
   position: absolute;
@@ -826,7 +844,7 @@ section.logos > div.additional-logos {
   max-width: 61%;
 }
 
-section.logos > div.additional-logos > p {
+section.logos>div.additional-logos>p {
   display: flex;
   justify-content: left;
   text-align: left;
@@ -838,7 +856,7 @@ section.logos > div.additional-logos > p {
   align-content: center;
 }
 
-section.logos > div.additional-logos > p > img {
+section.logos>div.additional-logos>p>img {
   flex: 1;
   padding: 0;
   margin: 0;
@@ -864,17 +882,17 @@ section.blank {
   padding: 68pt 80pt 68pt 80pt;
 }
 
-section.blank > h1 {
+section.blank>h1 {
   visibility: hidden;
 }
 
-section.blank > header,
-section.nobrand > header {
+section.blank>header,
+section.nobrand>header {
   visibility: hidden;
 }
 
-section.blank > footer,
-section.nobrand > footer {
+section.blank>footer,
+section.nobrand>footer {
   visibility: hidden;
 }
 
@@ -899,7 +917,7 @@ div.callout {
   mix-blend-mode: darken;
 }
 
-div.callout > h1 {
+div.callout>h1 {
   position: relative;
   font-size: 18pt;
   font-weight: 700;
@@ -910,9 +928,9 @@ div.callout > h1 {
   height: unset;
 }
 
-div.callout > ul,
-div.callout > ol,
-div.callout > p {
+div.callout>ul,
+div.callout>ol,
+div.callout>p {
   margin-top: 0px;
   margin-bottom: 6px;
 }
@@ -923,17 +941,17 @@ div.callout.slim {
   font-size: 14pt;
 }
 
-div.callout.slim > h1 {
+div.callout.slim>h1 {
   font-size: 16pt;
   padding: 0px 0px 0pt 0px;
 }
 
-div.callout > h1::before {
+div.callout>h1::before {
   margin-right: 4pt;
 }
 
-div.callout > h1,
-div.callout.info > h1 {
+div.callout>h1,
+div.callout.info>h1 {
   color: #4b96e7;
 }
 
@@ -943,7 +961,7 @@ div.callout.info {
   border-color: #bcd8f6;
 }
 
-div.callout.warning > h1 {
+div.callout.warning>h1 {
   color: #e67300;
 }
 
@@ -952,7 +970,7 @@ div.callout.warning {
   border-color: #ffd9b3;
 }
 
-div.callout.note > h1 {
+div.callout.note>h1 {
   color: #086ddd;
 }
 
@@ -961,7 +979,7 @@ div.callout.note {
   border-color: #b5d6fc;
 }
 
-div.callout.abstract > h1 {
+div.callout.abstract>h1 {
   color: #16c4c2;
 }
 
@@ -970,7 +988,7 @@ div.callout.abstract {
   border-color: #baf7f6;
 }
 
-div.callout.todo > h1 {
+div.callout.todo>h1 {
   color: #4b96e7;
 }
 
@@ -979,7 +997,7 @@ div.callout.todo {
   border-color: #bcd8f6;
 }
 
-div.callout.tip > h1 {
+div.callout.tip>h1 {
   color: #16c4c2;
 }
 
@@ -988,7 +1006,7 @@ div.callout.tip {
   border-color: #baf7f6;
 }
 
-div.callout.success > h1 {
+div.callout.success>h1 {
   color: #22c061;
 }
 
@@ -997,7 +1015,7 @@ div.callout.success {
   border-color: #bef4d3;
 }
 
-div.callout.question > h1 {
+div.callout.question>h1 {
   color: #e5b92a;
 }
 
@@ -1006,7 +1024,7 @@ div.callout.question {
   border-color: #f7e9bb;
 }
 
-div.callout.failure > h1 {
+div.callout.failure>h1 {
   color: #e93147;
 }
 
@@ -1015,7 +1033,7 @@ div.callout.failure {
   border-color: #f8bac1;
 }
 
-div.callout.danger > h1 {
+div.callout.danger>h1 {
   color: #e93147;
 }
 
@@ -1024,7 +1042,7 @@ div.callout.danger {
   border-color: #f8bac1;
 }
 
-div.callout.bug > h1 {
+div.callout.bug>h1 {
   color: #e93147;
 }
 
@@ -1033,7 +1051,7 @@ div.callout.bug {
   border-color: #f8bac1;
 }
 
-div.callout.example > h1 {
+div.callout.example>h1 {
   color: #7852ee;
 }
 
@@ -1042,7 +1060,7 @@ div.callout.example {
   border-color: #c9b9f8;
 }
 
-div.callout.quote > h1 {
+div.callout.quote>h1 {
   color: #a7a7a7;
 }
 
@@ -1247,7 +1265,7 @@ section.references .multicolumn {
   align-items: start;
 }
 
-section.references .multicolumn > div {
+section.references .multicolumn>div {
   padding: 0 0px;
   /* Ensures content is aligned with the top */
   vertical-align: top;
@@ -1262,17 +1280,6 @@ section.references .multicolumn>div * {
   box-sizing: border-box;
 }
 
-.boxed {
-  border: 2px solid #222;
-  border-radius: 6px;
-  /* opcional: cantos arredondados */
-  padding: 2px 8px;
-  /* espaço interno */
-  /* background: #fffbe7;     /* opcional: cor de fundo */
-  display: inline-block;
-  /* garante o retângulo ao redor da palavra */
-}
-
 /*
 !================================================================================
  ? * -----------------------< BLACK-SLIDE >----------------------- 
@@ -1283,7 +1290,7 @@ section.black-slide {
   background-color: black;
 }
 
-section.black-slide > h1 {
+section.black-slide>h1 {
   color: white;
 }
 
@@ -1305,7 +1312,7 @@ section.white-slide {
   background-color: white !important;
 }
 
-section.white-slide > h1 {
+section.white-slide>h1 {
   color: black;
 }
 
@@ -1317,4 +1324,20 @@ section.white-slide .figcaption {
 section.white-slide figcaption::before,
 section.white-slide .figcaption::before {
   color: red !important;
+}
+
+/*
+!================================================================================
+ ? * -----------------------< BOXED >----------------------- 
+!================================================================================
+*/
+.boxed {
+  border: 2px solid #222;
+  border-radius: 6px;
+  /* opcional: cantos arredondados */
+  padding: 2px 8px;
+  /* espaço interno */
+  /* background: #fffbe7;     /* opcional: cor de fundo */
+  display: inline-block;
+  /* garante o retângulo ao redor da palavra */
 }

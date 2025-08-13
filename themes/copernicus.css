@@ -83,6 +83,10 @@
 
   --marpx-font-table-size: 22px;
   --marpx-font-table-family: ;
+  
+  /*------------ Parameters used in `TOC` ---------------------------------*/
+  --marpx-color-toc-marker: rgb(50, 14, 253);
+
 }
 
 section {

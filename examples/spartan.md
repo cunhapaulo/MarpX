@@ -1,8 +1,8 @@
 ---
 title: Spartan Theme
 author: Paulo Cunha
-description: Description
-keywords: [keyword1, keyword2, keyword3, keyword4]
+description: Canonical use of Spartan Theme features
+keywords: [Marp, MarpX, Spartan, Paulo Cunha]
 
 header: This is the Spartan Theme
 footer: "[Back to the outline](#3)"
@@ -11,18 +11,18 @@ marp: true
 theme: spartan
 
 size: 16:9
-lang: en-US
+lang: en-US 
 math: mathjax
 transition: fade
 paginate: true
 ---
 
 <!-- _class: title-academic -->
-<!-- _backgroundColor: white  -->
 
-![bg left:33% invert:65% contrast:240% brightness:.79](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIhJ0FuZrgCk3_3oi65F1il8JkRLFLqt7T0kS_lI2_t1fMLPTPZDkSryMexGXw3GMlG8o&usqp=CAU)
-<div class="title"         > This is the Spartan Theme </div>
-<div class="subtitle"      > Sometimes it is convenient to have a subtitle too </div> 
+![bg left:33% h:115% invert:70% contrast:250% brightness:.7 opacity:.75](./assets/images/places/spartan-helmet.jpg)
+
+<div class="title"         > This is the MarpX Spartan Theme </div>
+<div class="subtitle"      > Sometimes it's handy to have a subtitle too </div> 
 <div class="author"        > Author's name goes here </div>
 <div class="date"          > Date goes here</div>
 <div class="organization"  > Institutional Information goes Here</div>
@@ -30,12 +30,13 @@ paginate: true
 ---
 
 <!-- _class: title -->
+![bg opacity:0.215 grayscale:1](./assets/images/places/sparta.avif)
 
-#  This is the Spartan Theme in class title
-## This is Subtitle in class  `title`
+# This is the **MarpX** Spartan Theme
+
+## This is Subtitle in class title
 
 ---
-
 
 <!-- _class: toc  -->
 
@@ -44,13 +45,14 @@ paginate: true
 2. [Normal Slide](#5)
 3. [Headers](#6)
 4. [Images](#7)
-5. [Animations](#15)
-6. [Ordered and Unordered Lists](#17)
-7. [Tables](#19)
-8. [Mathematics in LaTeX](#22)
-9. [Code](#27)
-10. [Quotes](#31)
-11. [References & Appendix](#34)
+5. [Animations and Videos](#15)
+6. [Ordered and Unordered Lists](#18)
+7. [Tables](#20)
+8. [Mathematics in LaTeX](#23)
+9. [Code](#28)
+10. [Quotes](#32)
+11. [References & Appendix](#35)
+12. [Credits](#39)
 
 ---
 
@@ -112,8 +114,9 @@ When the neet to make strong assertions becomes inevitable:
 
 # Images
 
-
 ---
+
+<!-- _class: white-slide -->
 
 # One image slide
 
@@ -193,9 +196,11 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
+<!-- _class: white-slide -->
+
 # Multi-images Environment (1)
 
-<div class="multicolumn" align="center">
+<div class="multicolumn vcenter" align="center">
 
 ![h:175](./assets/images/math/math001.png)
 <span class="figcaption">Math001.</span>
@@ -216,9 +221,11 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
+<!-- _class: white-slide -->
+
 # Multi-images Environment (2)
 
-<div class="multicolumn" align="center">
+<div class="multicolumn vcenter" align="center">
 
 <div>
 
@@ -245,6 +252,8 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
+<!-- _class: white-slide -->
+
 # Figures and caption in _multicolumn_
 
 <div class="multicolumn" align="center">
@@ -264,9 +273,11 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div>
 
 ---
+
 <!-- _class: chapter -->
 
 # Animations
+
 ## Usually works in html only...
 
 ---
@@ -290,12 +301,32 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div></div>
 
 ---
+
+<!-- _class: white-slide -->
+<!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
+
+# Video
+
+<center>
+
+<video controls height="400px">
+  <source src="https://cunhapaulo.github.io/marpx/videos/sample01.mp4">
+</video>
+
+<figcaption>Video playing in Marp available only in html export.
+
+</center>
+
+---
+
 <!-- _class: chapter -->
 
 # Lists
+
 ## Ordered and unordered
 
 ---
+
 # _Ordered_ and _unordered_ lists
 
 <div class="multicolumn"><div>
@@ -472,9 +503,18 @@ $$
 <!-- _class: chapter -->
 
 # Code
+
 ## Computer programs source code
 
 ---
+
+<style scoped>
+
+code {
+  color: rgba(93, 93, 95, 1);
+}
+
+</style>
 
 <!-- _class: white-slide -->
 
@@ -683,17 +723,23 @@ plt.show()
 
 <div class="multicolumn"><div>
 
-1. Cover image: Flute Player. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
+1. Cover image: `Flute Player`. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
 2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
+3. Vídeo de `Nikolay Sobolev` no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/
+4. Foto de Pixabay no Pexels: https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/
 
 </div><div>
 
-1. Shaun The Sheep ©️ 2025 aardman animations ltd.
+5. Foto de Wikipedia: `Léonidas aux Thermopyles` - available at: https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg
+6. Foto de Wikipedia: `La mort de Socrate` - available at: https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg
+7. `Shaun The Sheep` ©️ 2025 aardman animations ltd.
 
 </div></div>
 
 ---
-<!-- _class: blank -->
+
+<!-- _class: white-slide -->
+<!-- _footer: "Shaun The Sheep ©️ 2025 aardman animations ltd." -->
 
 <div class="vcenter">
 
@@ -702,6 +748,7 @@ plt.show()
 </div>
 
 ---
+
 
 <style scoped>
 h3>a{

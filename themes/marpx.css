@@ -64,6 +64,9 @@
 
     --marpx-font-table-size: 22px;
     --marpx-font-table-family: 'Fira Sans';
+  
+  /*------------ Parameters used in `TOC` ---------------------------------*/
+  --marpx-color-toc-marker: rgb(0, 102, 255);
 
 
 }
