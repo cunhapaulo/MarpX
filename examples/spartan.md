@@ -11,7 +11,7 @@ marp: true
 theme: spartan
 
 size: 16:9
-lang: en-US 
+lang: en-US
 math: mathjax
 transition: fade
 paginate: true
@@ -30,6 +30,7 @@ paginate: true
 ---
 
 <!-- _class: title -->
+
 ![bg opacity:0.215 grayscale:1](./assets/images/places/sparta.avif)
 
 # This is the **MarpX** Spartan Theme
@@ -55,8 +56,8 @@ paginate: true
 12. [Credits](#39)
 
 ---
-
 <!-- _class: chapter -->
+![bg grayscale:1](https://media.licdn.com/dms/image/v2/C4E12AQGuXnUaP0ymow/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520166960359?e=2147483647&v=beta&t=b1EVJmF305CqkUQVLQ9z_uAdIa0lCo7PWGqGJyd0o60)
 
 # Transition Slide
 
@@ -723,17 +724,18 @@ plt.show()
 
 <div class="multicolumn"><div>
 
-1. [Cover image: `Flute Player`. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images - HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
-2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
-3. [Vídeo de `Nikolay Sobolev` no Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
-4. [Foto de Wikipedia: `Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
+1. Cover image: `Flute Player`. [Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images - HUDAK, Paul. ](https://a.co/d/hU2R2TM).
+2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil [`Der Sohn des Odysseus` - Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
+3. Vídeo de: [`Nikolay Sobolev` no Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
+4. Foto de Wikipedia: [`Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
 
 </div><div>
 
-5. [Foto de Wikipedia: `La mort de Socrate`](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg).
-6. [Foto de Wikipedia: `Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
-7. `Shaun The Sheep` ©️ 2025 aardman animations ltd.
-8. [Foto de Pixabay no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
+5. Foto de Wikipedia: [`La mort de Socrate`](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg)
+6. Foto de Wikipedia: [`Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
+7. Figura de: [Aardman animations ltd. ©️ 2025 `Shaun The Sheep` ](https://www.shaunthesheep.com/about/)
+8. Foto de: [`Pixabay` no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
+9. [Biografia de `Jacques-Louis David` na Wikipedia](https://de.wikipedia.org/wiki/Jacques-Louis_David).
 
 </div></div>
 
@@ -749,7 +751,6 @@ plt.show()
 </div>
 
 ---
-
 
 <style scoped>
 h3>a{

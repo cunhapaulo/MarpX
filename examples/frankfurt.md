@@ -21,13 +21,13 @@ theme: spartan
 <div class="date"          > 27.mar.2025</div>
 <div class="organization"  > Historia da Filosofia Contemporanea II <br> Bacharelado em Filosofia - UFPA</div>
 
-![bg left:33%](./images/concepts/ego.jpg)
+![bg left:33% ](./assets/images/concepts/ego.jpg)
 
 ---
 
 <!-- _class: title  -->
 
-# Este É o Título
+# Liberdade da Vontade e o Conceito de **Pessoa**
 ## Este é um subtítulo
 
 ---

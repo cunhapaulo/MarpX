@@ -438,6 +438,7 @@ section.title-bg>h1 {
 
   padding: 0px;
   font-size: 42pt;
+  /* font-size: var(--marpx-titleslide-academic-title-size); */
   line-height: normal;
   color: var(--marpx-titleslide-academic-title-color);
   font-weight: 700;
