@@ -723,16 +723,17 @@ plt.show()
 
 <div class="multicolumn"><div>
 
-1. Cover image: `Flute Player`. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
-2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
-3. Vídeo de `Nikolay Sobolev` no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/
-4. Foto de Pixabay no Pexels: https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/
+1. [Cover image: `Flute Player`. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images - HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
+2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
+3. [Vídeo de `Nikolay Sobolev` no Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
+4. [Foto de Wikipedia: `Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
 
 </div><div>
 
-5. Foto de Wikipedia: `Léonidas aux Thermopyles` - available at: https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg
-6. Foto de Wikipedia: `La mort de Socrate` - available at: https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg
+5. [Foto de Wikipedia: `La mort de Socrate`](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg).
+6. [Foto de Wikipedia: `Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
 7. `Shaun The Sheep` ©️ 2025 aardman animations ltd.
+8. [Foto de Pixabay no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
 
 </div></div>
 
