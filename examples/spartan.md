@@ -119,7 +119,7 @@ When the neet to make strong assertions becomes inevitable:
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # One image slide
 
@@ -199,7 +199,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # Multi-images Environment (1)
 
@@ -224,7 +224,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # Multi-images Environment (2)
 
@@ -255,7 +255,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # Figures and caption in _multicolumn_
 
@@ -285,7 +285,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: slide black -->
+<!-- _class: black-slide -->
 
 # Animations (html only!)
 
@@ -305,7 +305,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 <!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
 
 # Video
@@ -414,7 +414,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # Probability Distribution (1)
 
@@ -436,7 +436,7 @@ $$
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # Probability Distribution (2)
 
@@ -519,7 +519,7 @@ code {
 
 </style>
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # Python programs
 
@@ -602,7 +602,7 @@ plt.show()
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # Electromagnetic wave propagation (1)
 
@@ -612,7 +612,7 @@ plt.show()
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 
 # Electromagnetic wave propagation (2)
 
@@ -749,7 +749,7 @@ plt.show()
 
 ---
 
-<!-- _class: slide white -->
+<!-- _class: white-slide -->
 <!-- _footer: "Shaun The Sheep ©️ 2025 aardman animations ltd." -->
 
 <div class="vcenter">
