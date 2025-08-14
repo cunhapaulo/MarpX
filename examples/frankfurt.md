@@ -27,7 +27,7 @@ theme: spartan
 
 <!-- _class: title  -->
 
-# Liberdade da Vontade e o Conceito de **Pessoa**
+# Liberdade da Vontade e o Conceito de Pessoa
 ## Este é um subtítulo
 
 ---
