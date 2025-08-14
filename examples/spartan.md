@@ -56,8 +56,10 @@ paginate: true
 12. [Credits](#39)
 
 ---
+
 <!-- _class: chapter -->
-![bg grayscale:1](https://media.licdn.com/dms/image/v2/C4E12AQGuXnUaP0ymow/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520166960359?e=2147483647&v=beta&t=b1EVJmF305CqkUQVLQ9z_uAdIa0lCo7PWGqGJyd0o60)
+
+![bg grayscale:1 opacity:0.25](https://media.licdn.com/dms/image/v2/C4E12AQGuXnUaP0ymow/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520166960359?e=2147483647&v=beta&t=b1EVJmF305CqkUQVLQ9z_uAdIa0lCo7PWGqGJyd0o60)
 
 # Transition Slide
 
@@ -746,7 +748,6 @@ plt.show()
 </div></div>
 
 ---
-
 
 <!-- _class: slide white -->
 <!-- _footer: "Shaun The Sheep ©️ 2025 aardman animations ltd." -->
