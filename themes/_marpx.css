@@ -27,7 +27,7 @@
 *    _marpx.css - MarpX Base Theme System
 *    Paulo Cunha 
 *    Created: jul.2025
-*    Last update: 13.aug.2025
+*    Last update: 14.aug.2025
 *
 * ================================================================================ */
 
@@ -42,7 +42,17 @@
 * @size banner 1600px 13000px
 *
 */
+
 @import "default";
+
+/**--------------------------------------------------------------*/
+/**--   Fonts from Google Fonts                                --*/
+/**--   https://fonts.google.com/specimen/Fira+Sans?query=fira --*/
+/**--                                                          --*/
+/**--   Styles: Thin, ExtraLight, Light, Regular, Medium,      --*/
+/**--           SemiBold, Bold, ExtraBold, Black               --*/
+/**--------------------------------------------------------------*/
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
 
@@ -1246,16 +1256,15 @@ section.references li {
 }
 
 section.references strong {
-  font-weight: 500;
   color: var(--marpx-color-references-bold);
+  font-family: "Fira Sans Regular", sans-serif;
 }
 
 section.references h1,
 section.references h2 {
   color: var(--marpx-color-reference-header);
   margin-bottom: 16px;
-  font-family: "Fira Sans Light", sans-serif;
-  font-weight: 800;
+  font-family: "Fira Sans Regular", sans-serif;
   /* border-bottom: 1px solid #0606ee; */
 }
 
