@@ -24,7 +24,7 @@
 *
 * ================================================================================
 *
-*    _marpx.css - MarpX Base Theme System
+*    _marpx.css - MarpX base-theme configuration
 *    Paulo Cunha 
 *    Created: jul.2025
 *    Last update: 14.aug.2025
@@ -84,7 +84,7 @@
 
   --marpx-color-subtitle: #5d616d;
   --marpx-color-h1-bold: #ff3c00;
-  --marpx-color-code: rgb(233, 233, 233);
+  --marpx-color-code: #e9e9e9;
   --marpx-color-highlight: #ffff00;
   --marpx-color-footnote-mark: #ff0000;
 
@@ -135,13 +135,13 @@
 
   /*------------ Parameters used in `TABLE` ---------------------------------*/
 
-  --marpx-color-table-header-background: rgb(21, 29, 51);
+  --marpx-color-table-header-background: #151d33;
   --marpx-color-table-header-color: white;
   --marpx-color-table-border-top: ;
-  --marpx-color-table-border-bottom: rgba(202, 201, 197, 0.973);
+  --marpx-color-table-border-bottom: #cac9c5f8;
   --marpx-color-table-nth-child-color: #f5f5f5;
-  --marpx-color-table-hover: rgb(71, 70, 25);
-  --marpx-color-table-hover-background: rgb(234, 247, 121);
+  --marpx-color-table-hover: #474619;
+  --marpx-color-table-hover-background: #eaf779;
 
   --marpx-font-table-size: 22px;
   --marpx-font-table-family: ;
@@ -149,7 +149,7 @@
   /*------------ Parameters used in `TOC` ---------------------------------*/
   --marpx-color-toc-background: #f6f6f6;
   --marp-color-toc-font: #535353;
-  --marpx-color-toc-marker: rgb(175, 27, 27);
+  --marpx-color-toc-marker: #af1b1b;
 }
 
 img[alt~="center"] {
@@ -1149,7 +1149,7 @@ section.quote {
 }
 
 section.quote p {
-  color: rgb(34, 34, 48) !important;
+  color: #222230 !important;
   background-color: var(--marpx-color-quote-paragraph-background);
   letter-spacing: 0.1pt;
   font-size: 1.45em !important;

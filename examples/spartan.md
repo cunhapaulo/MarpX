@@ -155,7 +155,7 @@ When the neet to make strong assertions becomes inevitable:
 
 <div class="multicolumn vcenter"><div>
 
-[![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
+[![h:350 drop-shadow:0,5px,10px,#00000066 center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
 
 <figcaption align="center"> <i>Phänomenologie des Geistes</i> Oxford edition.</figcaption>
 
@@ -189,7 +189,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 </div><div>
 
-[![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
+[![h:390 drop-shadow:0,5px,10px,#00000066 center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
 
 <figcaption align="center">Springer edition (2023).</figcaption>
 
@@ -512,7 +512,7 @@ $$
 <style scoped>
 
 code {
-  color: rgba(93, 93, 95, 1);
+  color: #5d5d5fff;
 }
 
 </style>
