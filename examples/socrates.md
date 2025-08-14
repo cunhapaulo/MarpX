@@ -721,20 +721,28 @@ plt.show()
 
 ---
 
+<!-- _class: references  -->
+
 # Credits
 
 <div class="multicolumn"><div>
 
-1. Cover image: `Flute Player`. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
-2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
-3. Vídeo de `Nikolay Sobolev` no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/
-4. Foto de Pixabay no Pexels: https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/
+1. Special thanks to: [`Yuki Hattori`](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
+2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Gracias!
+3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
+4. Biography on Wikipedia: [`Jacques-Louis David`](https://de.wikipedia.org/wiki/Jacques-Louis_David).
+5. Cover image: [`Flute Player` Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
+6. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil [`Der Sohn des Odysseus` - Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
 
 </div><div>
 
-5. Foto de Wikipedia: `Léonidas aux Thermopyles` - available at: https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg
-6. Foto de Wikipedia: `La mort de Socrate` - available at: https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg
-7. `Shaun The Sheep` ©️ 2025 aardman animations ltd.
+7. Figure of: [`Shaun The Sheep` - Aardman animations ltd. ©️ 2025](https://www.shaunthesheep.com/about/)
+8. Video of: [`Nikolay Sobolev` no Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
+9. Foto de Wikipedia: [`La mort de Socrate`](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg)
+10. Foto de Wikipedia: [`Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
+11. Foto de Wikipedia: [`Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
+12. Foto de: [`Pixabay` no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
+13. Font `Fira Sans` imported from: [Google Fonts](https://fonts.google.com/).
 
 </div></div>
 
