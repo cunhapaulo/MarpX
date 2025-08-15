@@ -79,7 +79,6 @@ Here you´ll find examples of the available themes. Click on the picture to open
       ],
       "settings": {
         "markdown.marp.themes": [
-          "https://cunhapaulo.github.io/marpx/themes/_marpx.css",
           "https://cunhapaulo.github.io/marpx/themes/marpx.css",
           "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
           "https://cunhapaulo.github.io/marpx/themes/socrates.css",
@@ -102,7 +101,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
    ---
    ```
 5. **Create** a front slide like this:
-   ```markdown
+   ```html
    ---
     <!-- _class: title-academic -->
     <!-- _backgroundColor: white  -->

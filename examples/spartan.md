@@ -8,7 +8,7 @@ header: This is the Spartan Theme
 footer: "[Back to the outline](#3)"
 
 marp: true
-theme: spartan
+theme: marpx
 
 size: 16:9
 lang: en-US

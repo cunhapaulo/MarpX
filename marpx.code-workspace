@@ -2,17 +2,10 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../marpstyle"
-		},
-		{
-			"path": "../cunhapaulo.github.io/marpx"
 		}
 	],
 	"settings": {
 		"markdown.marp.themes": [
-			"./themes/_marpx.css",
 			"./themes/marpx.css",
 			"./themes/himmel.css",
 			"./themes/copernicus.css",
