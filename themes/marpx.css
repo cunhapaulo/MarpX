@@ -45,18 +45,19 @@
 
 @import "default";
 
-/**--------------------------------------------------------------*/
-/**--   Fonts from Google Fonts                                --*/
-/**--   https://fonts.google.com/specimen/Fira+Sans?query=fira --*/
-/**--                                                          --*/
-/**--   Styles: Thin, ExtraLight, Light, Regular, Medium,      --*/
-/**--           SemiBold, Bold, ExtraBold, Black               --*/
-/**--------------------------------------------------------------*/
+/**>--------------------------------------------------------------*/
+/**--   Fonts from Google Fonts                                >--*/
+/**--   https://fonts.google.com/specimen/Fira+Sans?query=fira >--*/
+/**--                                                          >--*/
+/**--   Styles: Thin, ExtraLight, Light, Regular, Medium,      >--*/
+/**--           SemiBold, Bold, ExtraBold, Black               >--*/
+/**>--------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
 
 :root {
+
   /** -----------------------<------------------------>---------------------- */
   /** WARNING: The parameter (container-type: normal) was used to allow       */
   /**          the numbering of figures and tables. Be warned that it may     */
@@ -68,7 +69,7 @@
   --marpx-color-light-grey: #a6a6a6;
   --marpx-color-dark-grey: #000000;
 
-  /*------------ Overall theme parameters ---------------------------------*/
+  /*------------< Overall theme parameters >---------------------------------*/
 
   --marpx-theme-font-family: "Fira Sans Light", Faustina, Bookerly, sans-serif;
   --marpx-theme-captiontext-figure: "Fig. ";
@@ -88,7 +89,7 @@
   --marpx-color-highlight: #ffff00;
   --marpx-color-footnote-mark: #ff0000;
 
-  /* ------------------- TITLE SLIDE -----------------------------*/
+  /*-------------------< TITLE SLIDE >-----------------------------*/
 
   /* fonts sizes */
   --marpx-titleslide-academic-title-size: 145%;
@@ -96,11 +97,14 @@
   --marpx-titleslide-academic-author-size: 105%;
   --marpx-titleslide-academic-date-size: 95%;
   --marpx-titleslide-academic-institute-size: 95%;
+
   /* inter character space */
   --marpx-titleslide-academic-letter-spacing: 0.125px;
+
   /* font weights */
   --marpx-titleslide-academic-title-font-weight: bold;
   --marpx-titleslide-academic-subtitle-font-weight: 600;
+
   /* colors in style */
   --marpx-titleslide-academic-title-color: #002b36;
   --marpx-titleslide-academic-title-color: #003c4b;
@@ -110,13 +114,13 @@
   --marpx-titleslide-academic-background-color: #faf7f7;
   --marpx-titleslide-academic-border-color: #364269;
 
-  /*------------ Parameters used in `REFERENCES` ---------------------------------*/
+  /*------------< Parameters used in `REFERENCES` >---------------------------------*/
 
   --marpx-color-references-bold: #3e6ceb;
   --marpx-color-references-background: #eff4fa;
   --marpx-color-reference-header: #539dd3;
 
-  /*------------ Parameters used in `QUOTE` ---------------------------------*/
+  /*------------< Parameters used in `QUOTE` >---------------------------------*/
 
   --marpx-font-quote: Bookerly, Faustina, Times, serif;
 
@@ -124,7 +128,7 @@
   --marpx-color-quote-paragraph-background: #ffffff;
   --marpx-color-quote-strong: #6462f1;
 
-  /*- quote dark -*/
+  /*-< quote dark >-*/
 
   --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
 
@@ -133,7 +137,7 @@
   --marpx-color-quote-dark-paragraph-background: #9aade2;
   --marpx-color-quote-dark-strong: #f8f8f7;
 
-  /*------------ Parameters used in `TABLE` ---------------------------------*/
+  /*------------< Parameters used in `TABLE` >---------------------------------*/
 
   --marpx-color-table-header-background: #151d33;
   --marpx-color-table-header-color: white;
@@ -146,10 +150,11 @@
   --marpx-font-table-size: 22px;
   --marpx-font-table-family: ;
 
-  /*------------ Parameters used in `TOC` ---------------------------------*/
+  /*------------< Parameters used in `TOC` >---------------------------------*/
   --marpx-color-toc-background: #f6f6f6;
   --marp-color-toc-font: #535353;
   --marpx-color-toc-marker: #af1b1b;
+  --marpx-color-toc-marker: #4562bb;
 }
 
 img[alt~="center"] {
@@ -316,7 +321,7 @@ section>figure.center {
 
 /* 
 !================================================================================
-?  * -----------------------< <FOOTNOTE> >----------------------- 
+?-----------------------< <FOOTNOTE> >----------------------- 
 !================================================================================
 */
 section sup,
@@ -338,7 +343,7 @@ footnote>ol {
 
 /* 
 !================================================================================
-?  * -----------------------< SLIDE LAYOUTS >----------------------- 
+?-----------------------< SLIDE LAYOUTS >----------------------- 
 !================================================================================
 */
 section>div.multicolumn,
@@ -430,7 +435,7 @@ section.grid>h1 {
 
 /* 
 !================================================================================
-?  * -----------------------< TITLE >----------------------- 
+?-----------------------< TITLE >----------------------- 
 !================================================================================
 */
 section.title,
@@ -502,7 +507,7 @@ section.title-bg>footer {
 
 /* 
 !================================================================================
-?  * -----------------------< TITLE ACADEMIC >----------------------- 
+$?-----------------------< TITLE ACADEMIC >----------------------- 
 !================================================================================
 */
 
@@ -601,7 +606,7 @@ section.title-academic:after {
 
 /* 
 !================================================================================
-?  * -----------------------< CHAPTER >----------------------- 
+?-----------------------< CHAPTER >----------------------- 
 !================================================================================
 */
 section.chapter {
@@ -612,7 +617,7 @@ section.chapter {
 
 /* 
 !================================================================================
-?  * -----------------------< CHAPTER ALTERNATIVE >----------------------- 
+?-----------------------< CHAPTER ALTERNATIVE >----------------------- 
 !================================================================================
 */
 section.chapter-alt {
@@ -637,7 +642,7 @@ section.chapter-alt>h1 {
 
 /* 
 !================================================================================
-?  * -----------------------< CHAPTER AND SECTION >----------------------- 
+?-----------------------< CHAPTER AND SECTION >----------------------- 
 !================================================================================
 */
 /* Autor, Akad. Grad */
@@ -693,7 +698,7 @@ section.chapter::after {
 
 /* 
 !================================================================================
-?  * -----------------------< Table of Contents (TOC) >----------------------- 
+?-----------------------< Table of Contents (TOC) >----------------------- 
 !================================================================================
 */
 section.toc {
@@ -715,12 +720,13 @@ section.toc li::marker {
 }
 
 section.toc a:hover {
-  font-size: 0.95em;
+  font-size: 1.em;
   font-weight: bold;
-  background-color: #8587881a;
-  color: #3f4a53 !important;
+  color: color-mix(in srgb, var(--marpx-color-toc-marker), gray 55%) !important;
+  background-color: color-mix(in srgb, var(--marpx-color-toc-marker), white 87%);;
+
   border-radius: 8px;
-  padding: 6px 10px;
+  padding: 10px 10px;
   text-decoration-line: none;
 }
 
@@ -759,7 +765,7 @@ section[lang~="de"].toc::before {
 
 /* 
 !================================================================================
-?  * -----------------------< THANKS >----------------------- 
+?-----------------------< THANKS >----------------------- 
 !================================================================================
 */
 section.end,
@@ -809,7 +815,7 @@ section.end>footer {
 
 /* 
 !================================================================================
-?  * -----------------------< TOTAL PAGES >----------------------- 
+?-----------------------< TOTAL PAGES >----------------------- 
 !================================================================================
 */
 section.totalpages::after {
@@ -826,7 +832,7 @@ section.totalpages::after {
 
 /* 
 !================================================================================
-?  * -----------------------< TITLE COPYRIGHT >----------------------- 
+?-----------------------< TITLE COPYRIGHT >----------------------- 
 !================================================================================
 */
 section.copyright>footer {
@@ -837,7 +843,7 @@ section.copyright>footer {
 
 /* 
 !================================================================================
-?  * -----------------------< TITLE ADDITIONAL-LOGOS >----------------------- 
+?-----------------------< TITLE ADDITIONAL-LOGOS >----------------------- 
 !================================================================================
 */
 section.logos>div.additional-logos {
@@ -880,7 +886,7 @@ section.logos>div.additional-logos>p>img {
 
 /* 
 !================================================================================
-?  * -----------------------< BLANK / NOBRAND SLIDE >----------------------- 
+?-----------------------< BLANK / NOBRAND SLIDE >----------------------- 
 !================================================================================
 */
 section.blank,
@@ -914,7 +920,7 @@ section.nobrand::after {
 
 /* 
 !================================================================================
-?  * -----------------------< CALLOUTS >----------------------- 
+?-----------------------< CALLOUTS >----------------------- 
 !================================================================================
 */
 div.callout {
@@ -1082,14 +1088,14 @@ div.callout.quote {
 
 /* 
 !================================================================================
-?  * -----------------------< BESPOKE PROGRESS BAR >----------------------- 
+?-----------------------< BESPOKE PROGRESS BAR >----------------------- 
 !================================================================================
 */
 @import url("data:text/css, .bespoke-marp-parent { top: 0 !important; } .bespoke-progress-parent { position: absolute; bottom: 0 !important; z-index:100; background:none !important; height:3px !important; }");
 
 /*
 !================================================================================
-?  * -----------------------< FIGCAPTION and TABCAPTION >----------------------- 
+?-----------------------< FIGCAPTION and TABCAPTION >----------------------- 
 !================================================================================
 */
 figcaption,
@@ -1140,7 +1146,7 @@ section strong {
 
 /*
 !================================================================================
-?  * -----------------------< QUOTE (UNIFIED) >----------------------- 
+?-----------------------< QUOTE (UNIFIED) >----------------------- 
 !================================================================================
 */
 
@@ -1200,7 +1206,7 @@ section.quote.dark strong {
 
 /*
 !================================================================================
-?  * -----------------------< TABLES >----------------------- 
+?-----------------------< TABLES >----------------------- 
 !================================================================================
 */
 
@@ -1239,7 +1245,7 @@ tr:hover {
 
 /*
 !================================================================================
-?  * -----------------------< REFERENCES >----------------------- 
+?-----------------------< REFERENCES >----------------------- 
 !================================================================================
 */
 section.references {
@@ -1292,7 +1298,7 @@ section.references .multicolumn>div * {
 
 /*
 !================================================================================
-?  * -----------------------< BLACK-SLIDE & SLIDE BLACK>----------------------- 
+?-----------------------< BLACK-SLIDE & SLIDE BLACK>----------------------- 
 !================================================================================
 */
 
@@ -1322,7 +1328,7 @@ section.black-slide .figcaption::before {
 
 /*
 !================================================================================
-?  * -----------------------< WHITE-SLIDE & SLIDE WHITE>----------------------- 
+?-----------------------< WHITE-SLIDE & SLIDE WHITE>----------------------- 
 !================================================================================
 */
 section.slide.white,
@@ -1349,13 +1355,13 @@ section.white-slide .figcaption::before {
   color: red !important;
 }
 
-
 /*
 !================================================================================
-?  * -----------------------< BOXED >----------------------- 
+?-----------------------< BOXED >----------------------- 
 !================================================================================
 */
-.boxed {
+.boxed,
+section.boxed {
   border: 2px solid #222;
   border-radius: 6px;
   /* opcional: cantos arredondados */

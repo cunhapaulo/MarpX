@@ -60,7 +60,6 @@ Here you´ll find examples of the available themes. Click on the picture to open
       "settings": {
         "markdown.marp.themes": [
           "./themes/marpx.css",
-          "./themes/himmel.css",
           "./themes/copernicus.css",
           "./themes/socrates.css",
           "./themes/spartan.css",
@@ -142,9 +141,8 @@ Here you´ll find examples of the available themes. Click on the picture to open
 - **Theme Variables:**  
   Tweak colors, fonts, and layout variables in the CSS to match your branding or preferences.
 - **Slide Classes:**  
-  Combine multiple classes (e.g., `<!-- _class: quote alt -->`) for even more control.
-- **Extend:**  
-  Fork or extend MarpX to create your own variants and share with the community.
+  Combine multiple classes (e.g., `<!-- _class: quote dark -->`) for even more control.
+
 
 
 ## 💡 Interesting new features

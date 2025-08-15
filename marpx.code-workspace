@@ -2,7 +2,10 @@
 	"folders": [
 		{
 			"path": "."
-		}
+		},
+		{
+			"path": "C:/Users/paulo.cunha/OneDrive/__GITHUB/"
+		},
 	],
 	"settings": {
 		"markdown.marp.themes": [

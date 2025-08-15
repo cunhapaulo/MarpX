@@ -90,7 +90,9 @@
   --marpx-font-table-family: ;
 
   /*------------ Parameters used in `TOC` ---------------------------------*/
-  --marpx-color-toc-marker: rgb(37, 46, 161);
+  --marpx-color-toc-marker: #6663ff;
+  --marpx-color-toc-marker: rgb(226, 31, 24);
+  
 }
 
 section {

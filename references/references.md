@@ -1,12 +1,12 @@
 ---
 author: Paulo Cunha
 marp: true
-theme: marpx
+theme: socrates
 size: banner
 ---
 <!-- class: blank -->
 
-<!-- _backgroundColor: rgba(210, 223, 241, 1) -->
+<!-- _backgroundColor: #d2dff1ff -->
 
 # General Reference
 
