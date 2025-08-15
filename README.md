@@ -49,7 +49,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
 2. **Copy** the desired theme(s) and CSS files to your Marp project directory.
 3. When using VScode, configure de code-workspace file to indicate exactly where the theme files are. They might be stored locally or could be downloaded from the internet:
 
-    ### Locally stored theme files configuration:  
+    ### Configuration of locally stored theme files:  
     ```json
     {
       "folders": [
@@ -59,7 +59,6 @@ Here you´ll find examples of the available themes. Click on the picture to open
       ],
       "settings": {
         "markdown.marp.themes": [
-          "./themes/_marpx.css",
           "./themes/marpx.css",
           "./themes/himmel.css",
           "./themes/copernicus.css",
@@ -70,10 +69,24 @@ Here you´ll find examples of the available themes. Click on the picture to open
     }
     ```
 
-    ### Internet downloaded theme files configuration:
+    ### Configuring theme files downloaded from the Internet:
     ```json
-
-
+    {
+      "folders": [
+        {
+          "path": "."
+        }
+      ],
+      "settings": {
+        "markdown.marp.themes": [
+          "https://cunhapaulo.github.io/marpx/themes/_marpx.css",
+          "https://cunhapaulo.github.io/marpx/themes/marpx.css",
+          "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
+          "https://cunhapaulo.github.io/marpx/themes/socrates.css",
+          "https://cunhapaulo.github.io/marpx/themes/spartan.css",
+        ]
+      }
+    }
     ```
 
 4. **Reference** the theme in your Markdown frontmatter:
