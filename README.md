@@ -14,26 +14,6 @@ This is Marp Style 2.0
 **MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
 Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
 
-## 💡 Interesting new features
-
-### **Different title slides**:
-
-| Usual style                                                                                                                        | Academic style                                                                                                                     |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/ac44a7ed-dd55-420c-bd3a-b896322c363e" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/87620e8f-c6c5-42e4-b4e3-5a77d8644ed6" /> |
-
-### New alignment possibilities:
-
-| **Autonumbering** captions                                                                                                         | **Vertical-center alignment**                                                                                                       |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" /> | <img width="427" height="240" alt="image"  src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" /> |
-
-### Dark mode for **quote slides** (`<!-- _class: quote dark -->`):
-
-| Normal mode quote                                                                                                                  | Dark mode quote                                                                                                                    |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/82f587c9-61a6-428b-9625-1baee419300a" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/7587a71e-018e-4577-89a2-f7373dfefa00" /> |
-
 ---
 
 ## 🚀 Key Features
@@ -67,7 +47,36 @@ Here you´ll find examples of the available themes. Click on the picture to open
 
 1. **Clone or Download** this repository.
 2. **Copy** the desired theme(s) and CSS files to your Marp project directory.
-3. **Reference** the theme in your Markdown frontmatter:
+3. When using VScode, configure de code-workspace file to indicate exactly where the theme files are. They might be stored locally or could be downloaded from the internet:
+
+    ### Locally stored theme files configuration:  
+    ```json
+    {
+      "folders": [
+        {
+          "path": "."
+        }
+      ],
+      "settings": {
+        "markdown.marp.themes": [
+          "./themes/_marpx.css",
+          "./themes/marpx.css",
+          "./themes/himmel.css",
+          "./themes/copernicus.css",
+          "./themes/socrates.css",
+          "./themes/spartan.css",
+        ]
+      }
+    }
+    ```
+
+    ### Internet downloaded theme files configuration:
+    ```json
+
+
+    ```
+
+4. **Reference** the theme in your Markdown frontmatter:
    ```markdown
    ---
    title: Western Philosophy from Athens
@@ -79,7 +88,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
    theme: socrates
    ---
    ```
-4. **Create** a front slide like this:
+5. **Create** a front slide like this:
    ```markdown
    ---
     <!-- _class: title-academic -->
@@ -94,7 +103,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
      <div class="organization"> Ágora, the Assembly of the Polis</div>
     ---
    ```
-5. **Use semantic classes** in your slides to unlock advanced layouts:
+6. **Use semantic classes** in your slides to unlock advanced layouts:
 
    ```html
    ---
@@ -112,7 +121,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
    ---
    ```
 
-6. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
+7. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
 
 ---
 
@@ -124,6 +133,28 @@ Here you´ll find examples of the available themes. Click on the picture to open
   Combine multiple classes (e.g., `<!-- _class: quote alt -->`) for even more control.
 - **Extend:**  
   Fork or extend MarpX to create your own variants and share with the community.
+
+
+## 💡 Interesting new features
+
+### **Different title slides**:
+
+| Usual style                                                                                                                        | Academic style                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/ac44a7ed-dd55-420c-bd3a-b896322c363e" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/87620e8f-c6c5-42e4-b4e3-5a77d8644ed6" /> |
+
+### New alignment possibilities:
+
+| **Autonumbering** captions                                                                                                         | **Vertical-center alignment**                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/20fc8710-f045-4b4c-8d83-5cb860bd6913" /> | <img width="427" height="240" alt="image"  src="https://github.com/user-attachments/assets/c5883ea2-b478-4bfe-83e7-9860045b5592" /> |
+
+### Dark mode for **quote slides** (`<!-- _class: quote dark -->`):
+
+| Normal mode quote                                                                                                                  | Dark mode quote                                                                                                                    |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/82f587c9-61a6-428b-9625-1baee419300a" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/7587a71e-018e-4577-89a2-f7373dfefa00" /> |
+
 
 ---
 
