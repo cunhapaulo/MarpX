@@ -12,7 +12,7 @@ marp: true
 theme: marpx
 
 size: 16:9
-lang: en-US
+lang: en
 math: mathjax
 transition: fade
 paginate: true

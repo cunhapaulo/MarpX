@@ -57,7 +57,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
 
 :root {
-
   /** -----------------------<------------------------>---------------------- */
   /** WARNING: The parameter (container-type: normal) was used to allow       */
   /**          the numbering of figures and tables. Be warned that it may     */
@@ -72,13 +71,12 @@
   /*------------< Overall theme parameters >---------------------------------*/
 
   --marpx-theme-font-family: "Fira Sans Light", Faustina, Bookerly, sans-serif;
-  --marpx-theme-captiontext-figure: "Fig. ";
+  --marpx-theme-captiontext-figure: "Figure ";
   --marpx-theme-captiontext-table: "Table ";
   --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
 
   --marpx-theme-color: #3e6ceb;
   --marpx-theme-color-alt: #9aade2;
-  --marpx-theme-color-agenda: #5b688b;
   --marpx-theme-color-background: #ffffff;
   --marpx-theme-color-bold: #f8150d;
   --marpx-theme-color-font: #000000;
@@ -151,10 +149,21 @@
   --marpx-font-table-family: ;
 
   /*------------< Parameters used in `TOC` >---------------------------------*/
+  --marpx-theme-color-agenda: #4562bb;
+
   --marpx-color-toc-background: #f6f6f6;
-  --marp-color-toc-font: #535353;
-  --marpx-color-toc-marker: #af1b1b;
-  --marpx-color-toc-marker: #4562bb;
+  --marpx-calc-toc-font-color: color-mix(in srgb,
+      var(--marpx-theme-color-agenda),
+      white 45%);
+  --marpx-calc-toc-marker-color: color-mix(in srgb,
+      var(--marpx-theme-color-agenda),
+      black 45%);
+  --marpx-calc-toc-hover-color: color-mix(in srgb,
+      var(--marpx-theme-color-agenda),
+      gray 45%);
+  --marpx-calc-toc-hoover-background-color: color-mix(in srgb,
+      var(--marpx-theme-color-agenda),
+      white 85%);
 }
 
 img[alt~="center"] {
@@ -531,12 +540,10 @@ section.title-academic>h1 {
   border-bottom: 1px solid var(--marpx-titleslide-academic-border-color) !important;
 }
 
-section.title-academic .title > strong {
-
+section.title-academic .title>strong {
   /* color: var(--marpx-color-h1-bold) !important; */
   color: red !important;
   font-weight: bold;
-
 }
 
 section.title-academic>h1 {
@@ -710,20 +717,21 @@ section.toc {
 }
 
 section.toc a {
-  color: #535353 !important;
-  color: var(--marp-color-toc-font) !important;
+  color: var(--marpx-calc-toc-font-color) !important;
   /* font-weight: 600; */
 }
 
 section.toc li::marker {
-  color: var(--marpx-color-toc-marker);
+  color: var(--marpx-calc-toc-marker-color);
+  font-weight: bold;
 }
 
 section.toc a:hover {
-  font-size: 1.em;
+  font-size: 1em;
   font-weight: bold;
-  color: color-mix(in srgb, var(--marpx-color-toc-marker), gray 55%) !important;
-  background-color: color-mix(in srgb, var(--marpx-color-toc-marker), white 87%);;
+
+  color: var(--marpx-calc-toc-hover-color) !important;
+  background-color: var(--marpx-calc-toc-hoover-background-color);
 
   border-radius: 8px;
   padding: 10px 10px;
@@ -751,16 +759,40 @@ section.toc::before {
   content: "Agenda";
 }
 
-section[lang~="en-US"].toc::before {
-  content: "Outline";
+section[lang|="en"].toc::before {
+  content: "Contents";
 }
 
-section[lang~="pt-BR"].toc::before {
+section[lang|="pt"].toc::before {
   content: "Conteúdo";
 }
 
-section[lang~="de"].toc::before {
-  content: "Agenda";
+section[lang|="de"].toc::before {
+  content: "Inhalt";
+}
+
+section[lang|="es"].toc::before {
+  content: "Contenido";
+}
+
+section[lang|="fr"].toc::before {
+  content: "Contenu";
+}
+
+section[lang|="it"].toc::before {
+  content: "Contenuto";
+}
+
+section[lang|="ru"].toc::before {
+  content: "Содержание";
+}
+
+section[lang|="ja"].toc::before {
+  content: "目次";
+}
+
+section[lang|="zh"].toc::before {
+  content: "内容";
 }
 
 /* 
@@ -1103,8 +1135,7 @@ tabcaption,
 .figcaption,
 .tabcaption {
   font-family: "Fira Sans";
-  font-size: 0.9em;
-  font-size: 14.5pt;
+  font-size: 14pt;
   font-weight: normal;
   color: var(--marpx-theme-color-font);
   text-align: center;

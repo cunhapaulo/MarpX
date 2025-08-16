@@ -9,11 +9,10 @@
     sans-serif;
   --marpx-theme-captiontext-figure: "Fig. ";
   --marpx-theme-captiontext-table: "Tab. ";
-  --marpx-theme-brandlogo: " - Spartan Theme - Created with Marp & MarpX.";
+  --marpx-theme-brandlogo: " - Created with Marp & MarpX.";
 
   --marpx-theme-color: #002b36;
   --marpx-theme-color-alt: #8b8989;
-  --marpx-theme-color-agenda: #434a52;
 
   --marpx-theme-color-background: #ececec;
 
@@ -90,9 +89,8 @@
   --marpx-font-table-family: ;
 
   /*------------ Parameters used in `TOC` ---------------------------------*/
-  --marpx-color-toc-marker: #6663ff;
-  --marpx-color-toc-marker: rgb(226, 31, 24);
-  
+  --marpx-theme-color-agenda: #ac3737;
+  --marpx-theme-color-agenda: #5653d4; 
 }
 
 section {

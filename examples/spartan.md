@@ -5,13 +5,13 @@ description: Canonical use of Spartan Theme features
 keywords: [Marp, MarpX, Spartan, Paulo Cunha]
 
 header: This is the Spartan Theme
-footer: "[Back to the outline](#3)"
+footer: "[Click to the beginning](#3)"
 
 marp: true
 theme: spartan
 
 size: 16:9
-lang: en-US
+lang: en
 math: mathjax
 transition: fade
 paginate: true
@@ -47,10 +47,10 @@ paginate: true
 3. [Headers](#6)
 4. [Images](#7)
 5. [Animations and Videos](#15)
-6. [Ordered and Unordered Lists](#18)
+6. [ Lists](#18)
 7. [Tables](#20)
 8. [Mathematics in LaTeX](#23)
-9. [Code](#28)
+9.  [Code](#28)
 10. [Quotes](#32)
 11. [References & Appendix](#35)
 12. [Credits](#39)
@@ -728,7 +728,7 @@ plt.show()
 
 <div class="multicolumn"><div>
 
-1. Special thanks to: [`Yuki Hattori`](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
+1. Special thanks to: [`Yuki Hattori` (GitHub)](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
 2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Gracias!
 3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
 4. Biography on Wikipedia: [`Jacques-Louis David`](https://de.wikipedia.org/wiki/Jacques-Louis_David).
@@ -760,9 +760,11 @@ plt.show()
 
 ---
 
+[![bg left:50%](https://images.pexels.com/photos/31586773/pexels-photo-31586773.jpeg)]()
+
 <style scoped>
-h3>a{
-  color: black
+h2>a{
+  color: red;
 }
 </style>
 
@@ -770,8 +772,8 @@ h3>a{
 
 <div align="center">
 
-# <!-- fit --> [Back to the ](#1)
+# <!-- fit --> [Click to the ](#1)
 
-### <!-- fit --> [Beginning](#1)
+## <!-- fit --> [Beginning](#1)
 
 </div>

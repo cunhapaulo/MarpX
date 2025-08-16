@@ -58,12 +58,12 @@
   --marpx-color-quote-background: #ece8e8;
   --marpx-color-quote-paragraph-background: #f8f8f8;
   --marpx-color-quote-strong: #6462f1;
-  --marpx-font-quote: Arial, Faustina, Times, serif;
+  --marpx-font-quote: Faustina, Times, serif;
   /*- quote dark -*/
-  --marpx-color-quote-dark-background: #94c7df;
-  --marpx-color-quote-dark-paragraph-background: #a0c2cf;
+  --marpx-color-quote-dark-background: #46b1e2;
+  --marpx-color-quote-dark-paragraph-background: #5ec1e9;
   --marpx-color-quote-dark-strong: #f8f8f7;
-  --marpx-font-quote-dark: Arial, Faustina, Bookerly, Times, serif;
+  --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
 
   /*------------ Parameters used in `TABLE` ---------------------------------*/
 

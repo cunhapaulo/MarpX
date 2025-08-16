@@ -35,11 +35,14 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 # Available MARPX Themes
 
 Here you´ll find examples of the available themes. Click on the picture to open a corresponding PDF example.
-
-|                                         |
-| :-------------------------------------------------------------------------------------- |
-| In honor of Spartans from Greece: <br> [![Style: Spartan ](./examples/front-slide/spartan.png)](./examples/pdfs/spartan.pdf) |
-| In honor of Σωκράτης - Socrates (469–399 B.C.E.): <br> [![Style: Socrates](./examples/front-slide/socrates.png)](./examples/pdfs/socrates.pdf) |
+|                                                                                                                    |
+| :----------------------------------------------------------------------------------------------------------------- |
+| <h3> In honor of Spartans from Greece [(PDF version)](./examples/pdfs/spartan.pdf) </h3>                           |
+| [![Style Spartan](./examples/front-slide/spartan.png)](https://cunhapaulo.github.io/marpx/examples/spartan.html)   |
+| <h3> In honor of Σωκράτης - Socrates (469–399 B.C.E.) [(PDF version)](./examples/pdfs/socrates.pdf) </h3>          |
+| [![Style Socrates](/examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html) |
+| <h3> In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) [(PDF version)](./examples/pdfs/copernicus.pdf) </h3>          |
+| [![Style Socrates](/examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
 
 ---
 
@@ -49,43 +52,45 @@ Here you´ll find examples of the available themes. Click on the picture to open
 2. **Copy** the desired theme(s) and CSS files to your Marp project directory.
 3. When using VScode, configure de code-workspace file to indicate exactly where the theme files are. They might be stored locally or could be downloaded from the internet:
 
-    ### Configuration of locally stored theme files:  
-    ```json
-    {
-      "folders": [
-        {
-          "path": "."
-        }
-      ],
-      "settings": {
-        "markdown.marp.themes": [
-          "./themes/marpx.css",
-          "./themes/copernicus.css",
-          "./themes/socrates.css",
-          "./themes/spartan.css",
-        ]
-      }
-    }
-    ```
+   ### Configuration of locally stored theme files:
 
-    ### Configuring theme files downloaded from the Internet:
-    ```json
-    {
-      "folders": [
-        {
-          "path": "."
-        }
-      ],
-      "settings": {
-        "markdown.marp.themes": [
-          "https://cunhapaulo.github.io/marpx/themes/marpx.css",
-          "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
-          "https://cunhapaulo.github.io/marpx/themes/socrates.css",
-          "https://cunhapaulo.github.io/marpx/themes/spartan.css",
-        ]
-      }
-    }
-    ```
+   ```json
+   {
+     "folders": [
+       {
+         "path": "."
+       }
+     ],
+     "settings": {
+       "markdown.marp.themes": [
+         "./themes/marpx.css",
+         "./themes/copernicus.css",
+         "./themes/socrates.css",
+         "./themes/spartan.css"
+       ]
+     }
+   }
+   ```
+
+   ### Configuring theme files downloaded from the Internet:
+
+   ```json
+   {
+     "folders": [
+       {
+         "path": "."
+       }
+     ],
+     "settings": {
+       "markdown.marp.themes": [
+         "https://cunhapaulo.github.io/marpx/themes/marpx.css",
+         "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
+         "https://cunhapaulo.github.io/marpx/themes/socrates.css",
+         "https://cunhapaulo.github.io/marpx/themes/spartan.css"
+       ]
+     }
+   }
+   ```
 
 4. **Reference** the theme in your Markdown frontmatter:
    ```markdown
@@ -100,36 +105,33 @@ Here you´ll find examples of the available themes. Click on the picture to open
    ---
    ```
 5. **Create** a front slide like this:
+
    ```html
    ---
-    <!-- _class: title-academic -->
-    <!-- _backgroundColor: white  -->
-
-     ![bg left:33%](Socrates_Louvre.jpg)
-       
-     <div class="title">        Western Philosophy from Athens </div>
-     <div class="subtitle">     From nature to the being </div> 
-     <div class="author">       Socrates (Σωκράτης) </div>
-     <div class="date">         Athenas, 390 b.C.</div>
-     <div class="organization"> Ágora, the Assembly of the Polis</div>
-    ---
+   <!-- _class: title-academic -->
+   <!-- _backgroundColor: white  -->
+   
+   ![bg left:33%](Socrates_Louvre.jpg)
+   
+   <div class="title">Western Philosophy from Athens</div>
+   <div class="subtitle">From nature to the being</div>
+   <div class="author">Socrates (Σωκράτης)</div>
+   <div class="date">Athenas, 390 b.C.</div>
+   <div class="organization">Ágora, the Assembly of the Polis</div>
+   ---
    ```
+
 6. **Use semantic classes** in your slides to unlock advanced layouts:
 
    ```html
    ---
-
    <!-- _class: chapter -->
-
    # Chapter Title
-
    ---
-   
+
    <!-- _class: quote dark -->
 
-   > "A beautiful quote."
-
-   ---
+   > "A beautiful quote." ---
    ```
 
 7. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
@@ -142,8 +144,6 @@ Here you´ll find examples of the available themes. Click on the picture to open
   Tweak colors, fonts, and layout variables in the CSS to match your branding or preferences.
 - **Slide Classes:**  
   Combine multiple classes (e.g., `<!-- _class: quote dark -->`) for even more control.
-
-
 
 ## 💡 Interesting new features
 
@@ -164,7 +164,6 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | Normal mode quote                                                                                                                  | Dark mode quote                                                                                                                    |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/82f587c9-61a6-428b-9625-1baee419300a" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/7587a71e-018e-4577-89a2-f7373dfefa00" /> |
-
 
 ---
 
