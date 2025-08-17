@@ -5,7 +5,7 @@
 :root {
   /*------------ Overall theme parameters ---------------------------------*/
 
-  --marpx-theme-font-family: "Fira Sans", "Open Sans", Faustina, Bookerly,
+  --marpx-theme-font-family: "Fira Sans", Faustina, Lora, Bookerly, "Open Sans",
     sans-serif;
   --marpx-theme-captiontext-figure: "Fig. ";
   --marpx-theme-captiontext-table: "Tab. ";
@@ -25,7 +25,7 @@
   --marpx-color-h1-bold: #8f8d8d;
   --marpx-color-h1-bold: #5957d1;
 
-  --marpx-color-code: rgb(233, 233, 233);
+  --marpx-color-code: #e9e9e9;
   --marpx-color-highlight: #b9e4f1;
 
   --marpx-color-footnote-mark: #ff0000;
@@ -111,7 +111,7 @@ section {
   display: inline-block; /* garante o retângulo ao redor da palavra */
 }
 
-section code {
+section code:not(pre code) {
   border: 3px solid #181342;
   border-radius: 12px;
   padding: 2px 8px;
@@ -121,3 +121,6 @@ section code {
   font-size: 1em;
   display: inline-block;
 }
+
+
+

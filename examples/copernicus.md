@@ -1,7 +1,7 @@
 ---
 title: Marp Example - Copernicus
 author: Paulo Cunha
-description: Canonical use of Copernicus Theme features
+description: Canonical use of Copernicus Theme
 keywords: [Marp, MarpX, Copernicus, Paulo Cunha]
 
 

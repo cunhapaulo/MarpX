@@ -19,7 +19,8 @@
   
   --marpx-color-subtitle: #5d616d;
   --marpx-color-h1-bold: #ff3c00;
-  --marpx-theme-color-agenda: #c79409;
+  
+  --marpx-theme-color-agenda: #fc2003;
 
   --marpx-color-footnote-mark: #ff0000;
   --marpx-color-code: rgb(233, 233, 233);
@@ -28,24 +29,24 @@
   /* ------------------- TITLE SLIDE -----------------------------*/
 
   /* fonts sizes */
-  --marpx-titleslide-academic-title-size: 145%;
-  --marpx-titleslide-academic-subtitle-size: 95%;
-  --marpx-titleslide-academic-author-size: 105%;
-  --marpx-titleslide-academic-date-size: 95%;
-  --marpx-titleslide-academic-institute-size: 95%;
+  --marpx-titleslide-academic-title-size: 140%;
+  --marpx-titleslide-academic-subtitle-size: 90%;
+  --marpx-titleslide-academic-author-size: 95%;
+  --marpx-titleslide-academic-date-size: 90%;
+  --marpx-titleslide-academic-institute-size: 90%;
   /* inter character space */
   --marpx-titleslide-academic-letter-spacing: 0.125px;
   /* font weights */
   --marpx-titleslide-academic-title-font-weight: bold;
-  --marpx-titleslide-academic-subtitle-font-weight: 600;
+  --marpx-titleslide-academic-subtitle-font-weight: bold;
   /* colors in style */
   --marpx-titleslide-academic-title-color: #002b36;
   --marpx-titleslide-academic-title-color: #003c4b;
-  --marpx-titleslide-academic-subtitle-color: #ababac;
+  --marpx-titleslide-academic-subtitle-color: #cacaca;
   --marpx-titleslide-academic-author-color: #f8150d;
   --marpx-titleslide-academic-titlepage-color: #242d31;
   --marpx-titleslide-academic-background-color: #faf7f7;
-  --marpx-titleslide-academic-border-color: #e99211;
+  --marpx-titleslide-academic-border-color: #ff9b04;
 
   /*------------ Parameters used in `REFERENCES` ---------------------------------*/
 

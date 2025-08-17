@@ -31,7 +31,7 @@ paginate: true
 ---
 
 <!-- _class: title -->
-![bg opacity:0.2 grayscale:1](./assets/images/places/morte-de-socrates.jpg)
+![bg opacity:0.5 grayscale:1](./assets/images/places/morte-de-socrates.jpg)
 <!-- _backgroundColor: rgba(238, 238, 238, 0.91)  -->
 
 #  Western Philosophy from **Athens**
@@ -47,10 +47,10 @@ paginate: true
 3. [Headers](#6)
 4. [Images](#7)
 5. [Animations and Videos](#15)
-6. [Ordered and Unordered Lists](#18)
+6. [ Lists](#18)
 7. [Tables](#20)
 8. [Mathematics in LaTeX](#23)
-9. [Code](#28)
+9.  [Code](#28)
 10. [Quotes](#32)
 11. [References & Appendix](#35)
 12. [Credits](#39)
@@ -58,7 +58,7 @@ paginate: true
 ---
 
 <!-- _class: chapter -->
-![bg opacity:0.1 grayscale:1](./assets/images/places/greece01.jpg)
+
 
 # Transition Slide
 
@@ -156,7 +156,7 @@ When the neet to make strong assertions becomes inevitable:
 
 <div class="multicolumn vcenter"><div>
 
-[![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
+[![h:350 drop-shadow:0,5px,10px,#00000066 center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
 
 <figcaption align="center"> <i>Phänomenologie des Geistes</i> Oxford edition.</figcaption>
 
@@ -190,7 +190,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 </div><div>
 
-[![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
+[![h:390 drop-shadow:0,5px,10px,#00000066 center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
 
 <figcaption align="center">Springer edition (2023).</figcaption>
 
@@ -513,7 +513,7 @@ $$
 <style scoped>
 
 code {
-  color: rgba(93, 93, 95, 1);
+  color: #5d5d5fff;
 }
 
 </style>
@@ -605,7 +605,7 @@ plt.show()
 
 # Electromagnetic wave propagation (1)
 
-[![h:400 center](./assets/images/graphs/eletromag-plot01.png)](./programs/eletromag-plot01.py)
+[![h:400 center](./assets/images/graphs/eletromag-plot01.png)](./assets/programs/eletromag-plot01.py)
 
 <figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
 
@@ -615,7 +615,7 @@ plt.show()
 
 # Electromagnetic wave propagation (2)
 
-[![h:450 center](./assets/images/graphs/eletromag-plot-3d.gif)](./programs/eletromag-plot04-animate.py)
+[![h:450 center](./assets/images/graphs/eletromag-plot-3d.gif)](./assets/programs/eletromag-plot04-animate.py)
 
 <figcaption>3D animation of an electromagnetic wave propagation.</figcaption>
 
@@ -695,7 +695,7 @@ plt.show()
 
 ---
 
-<!-- class: "references" -->
+<!-- _class: "references" -->
 
 # References
 
@@ -727,7 +727,7 @@ plt.show()
 
 <div class="multicolumn"><div>
 
-1. Special thanks to: [`Yuki Hattori`](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
+1. Special thanks to: [`Yuki Hattori` (GitHub)](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
 2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Gracias!
 3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
 4. Biography on Wikipedia: [`Jacques-Louis David`](https://de.wikipedia.org/wiki/Jacques-Louis_David).
@@ -759,9 +759,11 @@ plt.show()
 
 ---
 
+[![bg left:50%](https://images.pexels.com/photos/31586773/pexels-photo-31586773.jpeg)]()
+
 <style scoped>
-h3>a{
-  color: black
+h2>a{
+  color: red;
 }
 </style>
 
@@ -769,8 +771,8 @@ h3>a{
 
 <div align="center">
 
-# <!-- fit --> [Back to the ](#1)
+# <!-- fit --> [Click to the ](#1)
 
-### <!-- fit --> [Beginning](#1)
+## <!-- fit --> [Beginning](#1)
 
 </div>

@@ -24,7 +24,7 @@
 *
 * ================================================================================
 *
-*    _marpx.css - MarpX base-theme configuration
+*    marpx.css - MarpX base-theme configuration
 *    Paulo Cunha 
 *    Created: jul.2025
 *    Last update: 14.aug.2025
@@ -53,8 +53,11 @@
 /**--           SemiBold, Bold, ExtraBold, Black               >--*/
 /**>--------------------------------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
+/* 
+@import url('https://fonts.cdnfonts.com/css/lora-4');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@200;300;400;700&display=swap"); 
+*/
 
 :root {
   /** -----------------------<------------------------>---------------------- */
@@ -70,7 +73,7 @@
 
   /*------------< Overall theme parameters >---------------------------------*/
 
-  --marpx-theme-font-family: "Fira Sans Light", Faustina, Bookerly, sans-serif;
+  --marpx-theme-font-family: "Fira Sans Light", Faustina, Bookerly, Lora, sans-serif;
   --marpx-theme-captiontext-figure: "Figure ";
   --marpx-theme-captiontext-table: "Table ";
   --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
@@ -1007,7 +1010,7 @@ div.callout.info>h1 {
 div.callout,
 div.callout.info {
   background-color: #e9f2fc;
-  border-color: #bcd8f6;
+  border-color: #82a8d1;
 }
 
 div.callout.warning>h1 {
@@ -1016,7 +1019,7 @@ div.callout.warning>h1 {
 
 div.callout.warning {
   background-color: #fff2e6;
-  border-color: #ffd9b3;
+  border-color: #c99e73;
 }
 
 div.callout.note>h1 {
@@ -1025,7 +1028,7 @@ div.callout.note>h1 {
 
 div.callout.note {
   background-color: #e6f1fe;
-  border-color: #b5d6fc;
+  border-color: #88a2be;
 }
 
 div.callout.abstract>h1 {
@@ -1034,7 +1037,7 @@ div.callout.abstract>h1 {
 
 div.callout.abstract {
   background-color: #e8fcfc;
-  border-color: #baf7f6;
+  border-color: #4a8a89;
 }
 
 div.callout.todo>h1 {
@@ -1043,7 +1046,7 @@ div.callout.todo>h1 {
 
 div.callout.todo {
   background-color: #e9f2fc;
-  border-color: #bcd8f6;
+  border-color: #7694b4;
 }
 
 div.callout.tip>h1 {
@@ -1052,7 +1055,7 @@ div.callout.tip>h1 {
 
 div.callout.tip {
   background-color: #e8fcfc;
-  border-color: #baf7f6;
+  border-color: #279795;
 }
 
 div.callout.success>h1 {
@@ -1060,8 +1063,8 @@ div.callout.success>h1 {
 }
 
 div.callout.success {
-  background-color: #e9fbf0;
-  border-color: #bef4d3;
+  background-color: #e1fdec;
+  border-color: #4aa06b;
 }
 
 div.callout.question>h1 {
@@ -1070,34 +1073,37 @@ div.callout.question>h1 {
 
 div.callout.question {
   background-color: #fcf8e8;
-  border-color: #f7e9bb;
+  border-color: #ccb875;
 }
 
 div.callout.failure>h1 {
-  color: #e93147;
+  color: #ff001e;
 }
 
 div.callout.failure {
   background-color: #fde8ea;
-  border-color: #f8bac1;
+  border-color: #b14d4d;
 }
 
-div.callout.danger>h1 {
-  color: #e93147;
+div.callout.danger>h1,
+div.callout.danger strong {
+  color: #fccaca;
 }
 
 div.callout.danger {
-  background-color: #fde8ea;
-  border-color: #f8bac1;
+  background-color: #bd3540;
+  border-color: #b80202;
+  color: #ffffff;
 }
 
 div.callout.bug>h1 {
-  color: #e93147;
+  color: #ff9100;
 }
 
 div.callout.bug {
-  background-color: #fde8ea;
-  border-color: #f8bac1;
+  color: #030303;
+  background-color: #f8fa91;
+  border-color: #c09e05;
 }
 
 div.callout.example>h1 {
@@ -1106,7 +1112,7 @@ div.callout.example>h1 {
 
 div.callout.example {
   background-color: #ede8fd;
-  border-color: #c9b9f8;
+  border-color: #9d8ec7;
 }
 
 div.callout.quote>h1 {
@@ -1115,7 +1121,7 @@ div.callout.quote>h1 {
 
 div.callout.quote {
   background-color: #f2f2f2;
-  border-color: #d9d9d9;
+  border-color: #949393;
 }
 
 /* 
@@ -1164,7 +1170,7 @@ tabcaption::before,
   background-color: var(--marpx-color-highlight);
 }
 
-section code {
+section code:not(pre code) {
   font-family: inherit;
   background-color: var(--marpx-color-highlight);
   font-weight: bold;
