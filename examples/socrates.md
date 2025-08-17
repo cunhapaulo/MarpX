@@ -50,15 +50,14 @@ paginate: true
 6. [ Lists](#18)
 7. [Tables](#20)
 8. [Mathematics in LaTeX](#23)
-9.  [Code](#28)
+9. [Code](#28)
 10. [Quotes](#32)
-11. [References & Appendix](#35)
-12. [Credits](#39)
+11. [Callouts](#35)
+12. [References, Appendix & Credits](#38)
 
 ---
 
 <!-- _class: chapter -->
-
 
 # Transition Slide
 
@@ -510,14 +509,6 @@ $$
 
 ---
 
-<style scoped>
-
-code {
-  color: #5d5d5fff;
-}
-
-</style>
-
 <!-- _class: white-slide -->
 
 # Python programs
@@ -638,6 +629,178 @@ plt.show()
 <!-- _class: quote dark -->
 
 "There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
+
+---
+
+<!-- _class: chapter -->
+
+# Callouts
+
+---
+<!-- _class: white-slide -->
+
+# Callouts
+
+
+<div class="multicolumn">
+
+  <div class="callout info">
+
+  # Info
+
+  Text for information with <br> **Markdown** formatting.
+
+  </div>
+
+  ```md
+  <div class="callout">
+
+  # Info
+
+  Text for information with <br> **Markdown** formatting.
+
+  </div>
+  ```
+  </div>
+
+
+<div class="multicolumn">
+
+  <div class="callout danger">
+
+  # Danger
+
+  Another text with <br> **Markdown** formatting.
+
+  </div>
+
+  ```md
+  <div class="callout danger">
+
+  # Danger
+
+  Another text with <br> **Markdown** formatting.
+
+  </div>
+  ```
+ 
+</div>
+
+---
+<!-- _class: white-slide -->
+
+# Callouts types
+
+<div class="multicolumn">
+
+  <div class="callout success">
+
+  # Success
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout abstract">
+
+  # Abstract
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout tip">
+
+  # Tip
+
+  You may use in semantics.
+
+  </div>
+  
+  <div class="callout todo">
+
+  # ToDo
+
+  You may use in semantics.
+
+  </div>
+
+</div>
+
+<div class="multicolumn">
+
+  <div class="callout note">
+
+  # Note
+
+  You may use in semantics.
+
+  </div>
+
+
+  <div class="callout example">
+
+  # Example
+
+  You may use in semantics.
+
+  </div>
+  
+  <div class="callout quote">
+
+  # Quote
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout question">
+
+  # Question
+
+  You may use in semantics.
+
+  </div>
+
+
+</div>
+
+
+<div class="multicolumn">
+
+  <div class="callout warning">
+
+  # Warning
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout failure">
+
+  # Failure
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout danger">
+
+  # Danger
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout bug">
+
+  # Bug
+
+  You may use in semantics.
+
+  </div>
+
+</div>
 
 ---
 

@@ -47,13 +47,13 @@ paginate: true
 3. [Headers](#6)
 4. [Images](#7)
 5. [Animations and Videos](#15)
-6. [Ordered and Unordered Lists](#18)
+6. [ Lists](#18)
 7. [Tables](#20)
 8. [Mathematics in LaTeX](#23)
 9. [Code](#28)
 10. [Quotes](#32)
-11. [References & Appendix](#35)
-12. [Credits](#39)
+11. [Callouts](#35)
+12. [References, Appendix & Credits](#38)
 
 ---
 
@@ -155,7 +155,7 @@ When the neet to make strong assertions becomes inevitable:
 
 <div class="multicolumn vcenter"><div>
 
-[![h:350 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
+[![h:350 drop-shadow:0,5px,10px,#00000066 center](./assets/images/books/hegel001.jpg)](https://a.co/d/c1lqFtF)
 
 <figcaption align="center"> <i>Phänomenologie des Geistes</i> Oxford edition.</figcaption>
 
@@ -189,7 +189,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 </div><div>
 
-[![h:390 drop-shadow:0,5px,10px,rgba(0,0,0,.4) center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
+[![h:390 drop-shadow:0,5px,10px,#00000066 center](./assets/images/books/book007.jpg)](https://amzn.eu/d/9zaa7UK)
 
 <figcaption align="center">Springer edition (2023).</figcaption>
 
@@ -509,14 +509,6 @@ $$
 
 ---
 
-<style scoped>
-
-code {
-  color: rgba(93, 93, 95, 1);
-}
-
-</style>
-
 <!-- _class: white-slide -->
 
 # Python programs
@@ -604,7 +596,7 @@ plt.show()
 
 # Electromagnetic wave propagation (1)
 
-[![h:400 center](./assets/images/graphs/eletromag-plot01.png)](./programs/eletromag-plot01.py)
+[![h:400 center](./assets/images/graphs/eletromag-plot01.png)](./assets/programs/eletromag-plot01.py)
 
 <figcaption>Result of the 3D rendering of the program electromag-plot01.py.</figcaption>
 
@@ -614,7 +606,7 @@ plt.show()
 
 # Electromagnetic wave propagation (2)
 
-[![h:450 center](./assets/images/graphs/eletromag-plot-3d.gif)](./programs/eletromag-plot04-animate.py)
+[![h:450 center](./assets/images/graphs/eletromag-plot-3d.gif)](./assets/programs/eletromag-plot04-animate.py)
 
 <figcaption>3D animation of an electromagnetic wave propagation.</figcaption>
 
@@ -637,6 +629,178 @@ plt.show()
 <!-- _class: quote dark -->
 
 "There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
+
+---
+
+<!-- _class: chapter -->
+
+# Callouts
+
+---
+<!-- _class: white-slide -->
+
+# Callouts
+
+
+<div class="multicolumn">
+
+  <div class="callout info">
+
+  # Info
+
+  Text for information with <br> **Markdown** formatting.
+
+  </div>
+
+  ```md
+  <div class="callout">
+
+  # Info
+
+  Text for information with <br> **Markdown** formatting.
+
+  </div>
+  ```
+  </div>
+
+
+<div class="multicolumn">
+
+  <div class="callout danger">
+
+  # Danger
+
+  Another text with <br> **Markdown** formatting.
+
+  </div>
+
+  ```md
+  <div class="callout danger">
+
+  # Danger
+
+  Another text with <br> **Markdown** formatting.
+
+  </div>
+  ```
+ 
+</div>
+
+---
+<!-- _class: white-slide -->
+
+# Callouts types
+
+<div class="multicolumn">
+
+  <div class="callout success">
+
+  # Success
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout abstract">
+
+  # Abstract
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout tip">
+
+  # Tip
+
+  You may use in semantics.
+
+  </div>
+  
+  <div class="callout todo">
+
+  # ToDo
+
+  You may use in semantics.
+
+  </div>
+
+</div>
+
+<div class="multicolumn">
+
+  <div class="callout note">
+
+  # Note
+
+  You may use in semantics.
+
+  </div>
+
+
+  <div class="callout example">
+
+  # Example
+
+  You may use in semantics.
+
+  </div>
+  
+  <div class="callout quote">
+
+  # Quote
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout question">
+
+  # Question
+
+  You may use in semantics.
+
+  </div>
+
+
+</div>
+
+
+<div class="multicolumn">
+
+  <div class="callout warning">
+
+  # Warning
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout failure">
+
+  # Failure
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout danger">
+
+  # Danger
+
+  You may use in semantics.
+
+  </div>
+
+  <div class="callout bug">
+
+  # Bug
+
+  You may use in semantics.
+
+  </div>
+
+</div>
 
 ---
 
@@ -694,7 +858,7 @@ plt.show()
 
 ---
 
-<!-- class: "references" -->
+<!-- _class: "references" -->
 
 # References
 
@@ -720,17 +884,28 @@ plt.show()
 
 ---
 
+<!-- _class: references  -->
+
 # Credits
 
 <div class="multicolumn"><div>
 
-1. Cover image: Flute Player. Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images ([HUDAK, Paul. **The Haskell School of Music: From Signals to Symphonies**. 1st ed. New Heaven: Cambridge university Press. 2018](https://a.co/d/hU2R2TM)).
-2. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil ([THOR, Annika. **Der Sohn des Odysseus**. Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN)
-3. Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/
+1. Special thanks to: [`Yuki Hattori` (GitHub)](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
+2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Gracias!
+3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
+4. Biography on Wikipedia: [`Jacques-Louis David`](https://de.wikipedia.org/wiki/Jacques-Louis_David).
+5. Cover image: [`Flute Player` Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
+6. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil [`Der Sohn des Odysseus` - Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
 
 </div><div>
 
-1. Shaun The Sheep ©️ 2025 aardman animations ltd.
+7. Figure of: [`Shaun The Sheep` - Aardman animations ltd. ©️ 2025](https://www.shaunthesheep.com/about/)
+8. Video of: [`Nikolay Sobolev` no Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
+9. Foto de Wikipedia: [`La mort de Socrate`](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg)
+10. Foto de Wikipedia: [`Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
+11. Foto de Wikipedia: [`Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
+12. Foto de: [`Pixabay` no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
+13. Font `Fira Sans` imported from: [Google Fonts](https://fonts.google.com/).
 
 </div></div>
 
@@ -747,9 +922,11 @@ plt.show()
 
 ---
 
+[![bg left:50%](https://images.pexels.com/photos/31586773/pexels-photo-31586773.jpeg)]()
+
 <style scoped>
-h3>a{
-  color: black
+h2>a{
+  color: red;
 }
 </style>
 
@@ -757,8 +934,8 @@ h3>a{
 
 <div align="center">
 
-# <!-- fit --> [Back to the ](#1)
+# <!-- fit --> [Click to the ](#1)
 
-### <!-- fit --> [Beginning](#1)
+## <!-- fit --> [Beginning](#1)
 
 </div>
