@@ -14,7 +14,7 @@ theme: socrates
 size: 16:9
 lang: en-US
 math: mathjax
-transition: fade
+transition: cube
 paginate: true
 ---
 

@@ -14,7 +14,7 @@ theme: copernicus
 size: 16:9
 lang: en-US
 math: mathjax
-transition: fade
+transition: explode
 paginate: true
 ---
 
