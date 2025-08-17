@@ -89,7 +89,7 @@ try {
         Write-Host " Changes successfully committed and pushed to GitHub." -ForegroundColor Cyan
         
     } else {
-        Write-Host " No changes detected. Nothing to commit." -ForegroundColor Yellow
+        Write-Host " No changes detected in $REPO_PATH. Nothing to commit." -ForegroundColor Yellow
     }
 
     Set-Location -Path $REPO_PATH2
@@ -106,7 +106,7 @@ try {
         Write-Host " Changes successfully committed and pushed to GitHub." -ForegroundColor Cyan
         
     } else {
-        Write-Host " No changes detected. Nothing to commit." -ForegroundColor Yellow
+        Write-Host " No changes detected in $REPO_PATH2. Nothing to commit." -ForegroundColor Yellow
     }
 } catch {
     
