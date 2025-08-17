@@ -9,7 +9,7 @@ footer: "[Back to the beginning](#3)"
 
 marp: true
 paginate: true
-theme: spartan
+theme: temp
 ---
 
 <!-- _class: title-academic -->
@@ -32,7 +32,7 @@ theme: spartan
 
 ---
 
-![bg left:40%](./images/personalities/Frankfurt-Harry.jpg)
+![bg left:40%](./assets/images/thinkers/Frankfurt-Harry.jpg)
 
 # Harry Gordon Frankfurt 
 - David Bernard Stern (orig.)
@@ -47,7 +47,7 @@ theme: spartan
 ---
 
 
-![bg left:40%](img/00frankfurt1-mediumSquareAt3X.jpg)
+![bg left:40%](./assets/images/thinkers/00frankfurt1-mediumSquareAt3X.jpg)
 
 # Ideias
 
@@ -66,11 +66,11 @@ theme: spartan
 
 ---
 
-![bg](img/teresa.webp)
+![bg](./assets/images/personalities/teresa.webp)
 
 ---
 
-![bg left:40% h:90%](img/paper.png)
+![bg left:40% h:90%](./assets/images/concepts/paper.png)
 
 - FRANKFURT, Harry G. **Freedom of the Will and the Concept of the Person**. The Journal of Philosophy, [s. l.], v.&nbsp;68, n.&nbsp;1, p.&nbsp;5–20, 1971. 
 
@@ -84,7 +84,7 @@ theme: spartan
   - ### `Livre-arbítrio` $\implies$ Responsabilidade moral.
 ---
 
-![bg left:33%](img/pessoa.jpg)
+![bg left:33%](./assets/images/concepts/pessoa.jpg)
 
 # Pessoa
 
@@ -98,7 +98,7 @@ theme: spartan
 
 ---
 
-![bg left:33%](img/egoista.jpg)
+![bg left:33%](./assets/images/concepts/egoista.jpg)
 
 # Higher-order volitions
 
@@ -209,7 +209,7 @@ $\Downarrow$
 
 <!-- _backgroundColor: white -->
 
-![bg h:90%](img/diag01.png)
+![bg h:85%](./assets/images/diagrams/diag01.png)
 
 ---
 
@@ -221,7 +221,7 @@ $\Downarrow$
 
 
 ---
-<!-- _class: quote dark -->
+<!-- _class: quote  -->
 
 O **trecho 02** discute a questão de se o conceito de “pessoa” **depende de pertencer necessariamente a uma única espécie** ou se é possível concebê-lo de **modo mais amplo**, envolvendo **critérios** que podem ou *não* coincidir com a divisão estritamente **biológica**. 
 
@@ -247,7 +247,7 @@ O **trecho 02** discute a questão de se o conceito de “pessoa” **depende de
 
 <!-- _backgroundColor: white -->
 
-![bg h:90%](img/diag02.png)
+![bg h:85%](./assets/images/diagrams/diag02.png)
 
 ---
 
@@ -288,7 +288,7 @@ O **trecho 02** discute a questão de se o conceito de “pessoa” **depende de
 
 <!-- _backgroundColor: white -->
 
-![bg h:90%](img/diag03.png)
+![bg h:85%](./assets/images/diagrams/diag03.png)
 
 ---
 
@@ -323,6 +323,6 @@ O **trecho 02** discute a questão de se o conceito de “pessoa” **depende de
 
 <center>
 
-## <!-- fit -->  Obrigado!
+## <!-- fit -->  [Obrigado!](#1)
 
 </center>

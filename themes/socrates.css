@@ -70,7 +70,7 @@
 
   --marpx-color-table-header-background: rgb(0, 0, 0);
   --marpx-color-table-header-color: white;
-  --marpx-color-table-border-top: ;
+  /* --marpx-color-table-border-top: ; */
   --marpx-color-table-border-bottom: rgba(202, 201, 197, 0.973);
   --marpx-color-table-nth-child-color: #f5f5f5;
   --marpx-color-table-hover: rgb(71, 70, 25);

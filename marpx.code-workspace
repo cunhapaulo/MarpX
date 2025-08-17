@@ -10,10 +10,11 @@
 	"settings": {
 		"markdown.marp.themes": [
 			"./themes/marpx.css",
-			"./themes/himmel.css",
 			"./themes/copernicus.css",
+			"./themes/frankfurt.css",
 			"./themes/socrates.css",
 			"./themes/spartan.css",
+			"./themes/temp.css",
 		]
 	}
 }
