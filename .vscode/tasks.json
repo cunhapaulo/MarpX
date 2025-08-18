@@ -4,14 +4,12 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Update Github",
+            "label": "Update Github - MarpX",
             "type": "shell",
             "command": "./update.ps1",
             "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "build",
+            "isDefault": true
         }
     ]
 }
