@@ -9,11 +9,11 @@ footer: "[Click to the beginning](#3)"
 
 marp: true
 theme: spartan
+transition: fade
 
 size: 16:9
 lang: en
 math: mathjax
-transition: fade
 paginate: true
 ---
 

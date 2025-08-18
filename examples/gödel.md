@@ -9,11 +9,11 @@ footer: "[Back to the outline](#3)"
 
 marp: true
 theme: gödel
+transition: fade
 
 size: 16:9
 lang: en
 math: mathjax
-transition: fade
 paginate: true
 ---
 

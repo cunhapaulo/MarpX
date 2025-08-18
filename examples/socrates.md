@@ -10,11 +10,11 @@ footer: "[Back to the outline](#3)"
 
 marp: true
 theme: socrates
+transition: cube
 
 size: 16:9
 lang: en-US
 math: mathjax
-transition: cube
 paginate: true
 ---
 

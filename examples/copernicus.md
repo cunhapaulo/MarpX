@@ -10,11 +10,11 @@ footer: "[Back to the outline](#3)"
 
 marp: true
 theme: copernicus
+transition: fade
 
 size: 16:9
 lang: en-US
 math: mathjax
-transition: explode
 paginate: true
 ---
 
