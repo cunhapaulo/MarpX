@@ -639,56 +639,57 @@ plt.show()
 # Callouts
 
 ---
+
 <!-- _class: white-slide -->
 
 # Callouts
-
 
 <div class="multicolumn">
 
   <div class="callout info">
 
-  # Info
+# Info
 
-  Text for information with <br> **Markdown** formatting.
-
-  </div>
-
-  ```md
-  <div class="callout">
-
-  # Info
-
-  Text for information with <br> **Markdown** formatting.
+Text for information with <br> **Markdown** formatting.
 
   </div>
-  ```
-  </div>
 
+```md
+<div class="callout">
+
+# Info
+
+Text for information with <br> **Markdown** formatting.
+
+</div>
+```
+
+  </div>
 
 <div class="multicolumn">
 
   <div class="callout danger">
 
-  # Danger
+# Danger
 
-  Another text with <br> **Markdown** formatting.
-
-  </div>
-
-  ```md
-  <div class="callout danger">
-
-  # Danger
-
-  Another text with <br> **Markdown** formatting.
+Another text with <br> **Markdown** formatting.
 
   </div>
-  ```
- 
+
+```md
+<div class="callout danger">
+
+# Danger
+
+Another text with <br> **Markdown** formatting.
+
+</div>
+```
+
 </div>
 
 ---
+
 <!-- _class: white-slide -->
 
 # Callouts types
@@ -697,33 +698,33 @@ plt.show()
 
   <div class="callout success">
 
-  # Success
+# Success
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout abstract">
 
-  # Abstract
+# Abstract
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout tip">
 
-  # Tip
+# Tip
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
   
   <div class="callout todo">
 
-  # ToDo
+# ToDo
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
@@ -733,72 +734,69 @@ plt.show()
 
   <div class="callout note">
 
-  # Note
+# Note
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
-
   <div class="callout example">
 
-  # Example
+# Example
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
   
   <div class="callout quote">
 
-  # Quote
+# Quote
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout question">
 
-  # Question
+# Question
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
-
 </div>
-
 
 <div class="multicolumn">
 
   <div class="callout warning">
 
-  # Warning
+# Warning
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout failure">
 
-  # Failure
+# Failure
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout danger">
 
-  # Danger
+# Danger
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout bug">
 
-  # Bug
+# Bug
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
