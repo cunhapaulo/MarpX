@@ -1,4 +1,6 @@
-# Clear the screen 
+#--- Clear the screen 
+#-----------------------------------------------
+#-----------------------------------------------
 Clear-Host
 
 Write-Host "===================================="
@@ -8,20 +10,26 @@ Write-Host "===================================="
 Write-Host ""
 
 
-# Define source and destination directories
+#-----------------------------------------------
+#--- Define source and destination directories
+#-----------------------------------------------
 $SOURCE_HTML = "C:\Users\paulo.cunha\OneDrive\__GITHUB\MarpX\examples\html"
 $DESTINATION_HTML = "C:\Users\paulo.cunha\OneDrive\__GITHUB\cunhapaulo.github.io\marpx\examples"
 
 $SOURCE_CSS = "C:\Users\paulo.cunha\OneDrive\__GITHUB\MarpX\themes"
 $DESTINATION_CSS = "C:\Users\paulo.cunha\OneDrive\__GITHUB\cunhapaulo.github.io\marpx\themes"
 
-# Display the defined directories
+#-----------------------------------------------
+#--- Display the defined directories
+#-----------------------------------------------
 Write-Host " HTML Source: $SOURCE_HTML" -ForegroundColor Green
 Write-Host " HTML Destination: $DESTINATION_HTML" -ForegroundColor Green
 Write-Host " CSS Source: $SOURCE_CSS"  -ForegroundColor Green
 Write-Host " CSS Destination: $DESTINATION_CSS" -ForegroundColor Green
 
-# Check if source directories exist
+#-----------------------------------------------
+#--- Check if source directories exist
+#-----------------------------------------------
 if (-Not (Test-Path -Path $SOURCE_HTML)) {
     Write-Host "Error: HTML source directory not found." -ForegroundColor Red
     
@@ -33,7 +41,9 @@ if (-Not (Test-Path -Path $SOURCE_CSS)) {
     exit 1
 }
 
-# Create destination directories if they do not exist
+#-----------------------------------------------
+#--- Create destination directories if they do not exist
+#-----------------------------------------------
 if (-Not (Test-Path -Path $DESTINATION_HTML)) {
     New-Item -ItemType Directory -Path $DESTINATION_HTML -Force | Out-Null
 }
@@ -41,7 +51,9 @@ if (-Not (Test-Path -Path $DESTINATION_CSS)) {
     New-Item -ItemType Directory -Path $DESTINATION_CSS -Force | Out-Null
 }
 
-# Copy HTML files
+#-----------------------------------------------
+#--- Copy HTML files
+#-----------------------------------------------
 try {
     Get-ChildItem -Path "$SOURCE_HTML\*.html" -File | ForEach-Object {
         Copy-Item -Path $_.FullName -Destination $DESTINATION_HTML -Force
@@ -54,7 +66,9 @@ try {
     exit 1
 }
 
-# Copy CSS files
+#-----------------------------------------------
+#--- Copy CSS files
+#-----------------------------------------------
 try {
     Get-ChildItem -Path "$SOURCE_CSS\*.css" -File | ForEach-Object {
         Copy-Item -Path $_.FullName -Destination $DESTINATION_CSS -Force
@@ -69,15 +83,21 @@ try {
     exit 1
 }
 
-# Repository path for commit and push
+#-----------------------------------------------
+#--- Repository path for commit and push
+#-----------------------------------------------
 $REPO_PATH = "C:\Users\paulo.cunha\OneDrive\__GITHUB\MarpX"
 $REPO_PATH2 = "C:\Users\paulo.cunha\OneDrive\__GITHUB\cunhapaulo.github.io"
 
-# Git step: commit and push
+#-----------------------------------------------
+#--- Git step: commit and push
+#-----------------------------------------------
 try {
     Set-Location -Path $REPO_PATH
 
-    # Check for uncommitted changes
+    #-----------------------------------------------
+    #--- Check for uncommitted changes
+    #-----------------------------------------------
     $changes = git status --porcelain
     if (-Not [string]::IsNullOrWhiteSpace($changes)) {
         git add .
@@ -94,7 +114,9 @@ try {
 
     Set-Location -Path $REPO_PATH2
 
-    # Check for uncommitted changes
+    #-----------------------------------------------
+    #--- Check for uncommitted changes
+    #-----------------------------------------------
     $changes = git status --porcelain
     if (-Not [string]::IsNullOrWhiteSpace($changes)) {
         git add .
@@ -115,7 +137,9 @@ try {
     exit 1
 }
 
-# Return to the original working directory
+#-----------------------------------------------
+#--- Return to the original working directory
+#-----------------------------------------------
 Set-Location -Path "C:\Users\paulo.cunha\OneDrive\__GITHUB\MarpX"
 Write-Host ""
 Write-Host ""
