@@ -7,9 +7,9 @@ This is Marp Style 2.0
 > MarpX is the result of an effort to expand, redesign, optimize and improve my first Marp slide theme composition initiative [Marpstyle](https://github.com/cunhapaulo/marpstyle). One may say MarpX is Marpstyle 2.0.
 
 
-## References
+## References (IMPORTANT!)
 
-[Try the `Howto` document here!](./examples/html/howto.html)
+[Try the `Howto` document here!](https://cunhapaulo.github.io/marpx/examples/howto.html)
 
 ## Overview
 
