@@ -1,15 +1,14 @@
 ---
-title: Header Title
-author: Author
-description: Canonical use of marpx Theme 
-keywords: [Marp, MarpX, Themes, Paulo Cunha]
+title: Marp Example - Gödel
+author: Paulo Cunha
+description: Canonical use of marpx theme
+keywords: [Marp, MarpX, Gödel, Paulo Cunha]
 
-
-header: This is header in JSON
+header: Königsberg, 5–7 September, 1930
 footer: "[Back to the outline](#3)"
 
 marp: true
-theme: temp
+theme: gödel
 
 size: 16:9
 lang: en
@@ -22,19 +21,19 @@ paginate: true
 <!-- _backgroundColor: white  -->
 
 ![bg left:33%](./assets/images/thinkers/godel-young.jpg)
-<div class="title"         > This is an academic-style title slide </div>
-<div class="subtitle"      > Sometimes it is convenient to have a subtitle too </div> 
-<div class="author"        > Author's name goes here </div>
-<div class="date"          > Date goes here</div>
-<div class="organization"  > Institutional Information gose Here</div>
+
+<div class="title"         > Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme </div>
+<div class="subtitle"      > On Formally Undecidable Propositions </div>
+<div class="author"        > Kurt Gödel </div>
+<div class="date"          > Königsberg, 5–7 September, 1930 </div>
+<div class="organization"  > Second Conference on the Epistemology of the Exact Sciences </div>
 
 ---
 
 <!-- _class: title -->
 
-# This is the **MarpX** Spartan Theme
-
-## This is Subtitle in class title
+#     Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme
+##    On Formally Undecidable Propositions
 
 ---
 
@@ -636,56 +635,57 @@ plt.show()
 # Callouts
 
 ---
+
 <!-- _class: white-slide -->
 
 # Callouts
-
 
 <div class="multicolumn">
 
   <div class="callout info">
 
-  # Info
+# Info
 
-  Text for information with <br> **Markdown** formatting.
-
-  </div>
-
-  ```md
-  <div class="callout">
-
-  # Info
-
-  Text for information with <br> **Markdown** formatting.
+Text for information with <br> **Markdown** formatting.
 
   </div>
-  ```
-  </div>
 
+```md
+<div class="callout">
+
+# Info
+
+Text for information with <br> **Markdown** formatting.
+
+</div>
+```
+
+  </div>
 
 <div class="multicolumn">
 
   <div class="callout danger">
 
-  # Danger
+# Danger
 
-  Another text with <br> **Markdown** formatting.
-
-  </div>
-
-  ```md
-  <div class="callout danger">
-
-  # Danger
-
-  Another text with <br> **Markdown** formatting.
+Another text with <br> **Markdown** formatting.
 
   </div>
-  ```
- 
+
+```md
+<div class="callout danger">
+
+# Danger
+
+Another text with <br> **Markdown** formatting.
+
+</div>
+```
+
 </div>
 
 ---
+
 <!-- _class: white-slide -->
 
 # Callouts types
@@ -694,33 +694,33 @@ plt.show()
 
   <div class="callout success">
 
-  # Success
+# Success
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout abstract">
 
-  # Abstract
+# Abstract
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout tip">
 
-  # Tip
+# Tip
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
   
   <div class="callout todo">
 
-  # ToDo
+# ToDo
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
@@ -730,72 +730,69 @@ plt.show()
 
   <div class="callout note">
 
-  # Note
+# Note
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
-
   <div class="callout example">
 
-  # Example
+# Example
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
   
   <div class="callout quote">
 
-  # Quote
+# Quote
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout question">
 
-  # Question
+# Question
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
-
 </div>
-
 
 <div class="multicolumn">
 
   <div class="callout warning">
 
-  # Warning
+# Warning
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout failure">
 
-  # Failure
+# Failure
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout danger">
 
-  # Danger
+# Danger
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
   <div class="callout bug">
 
-  # Bug
+# Bug
 
-  You may use in semantics.
+You may use in semantics.
 
   </div>
 
