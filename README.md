@@ -40,9 +40,11 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | <h3> In honor of Spartans from Greece </h3>                                                                            |
 | [![Style Spartan](./examples/front-slide/spartan.png)](https://cunhapaulo.github.io/marpx/examples/spartan.html)       |
 | <h3> In honor of Σωκράτης - Socrates (469–399 B.C.E.) </h3>                                                            |
-| [![Style Socrates](/examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)     |
+| [![Style Socrates](./examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)     |
 | <h3> In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
-| [![Style Socrates](/examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
+| [![Style Copernicus](./examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
+| <h3> In honor of Kurt Gödel (1906-1978) </h3>                                             |
+| [![Style Gödel](./examples/front-slide/gödel.png)](https://cunhapaulo.github.io/marpx/examples/gödel.html) |
 
 ---
 

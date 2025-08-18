@@ -32,8 +32,9 @@ paginate: true
 
 <!-- _class: title -->
 
-#     Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme
-##    On Formally Undecidable Propositions
+# Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme
+
+## On Formally Undecidable Propositions
 
 ---
 
