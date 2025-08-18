@@ -30,14 +30,13 @@
 
   /* fonts sizes */
   --marpx-titleslide-academic-title-size: 140%;
-  --marpx-titleslide-academic-subtitle-size: 95%;
-  --marpx-titleslide-academic-author-size: 110%;
-  --marpx-titleslide-academic-date-size: 95%;
-  --marpx-titleslide-academic-institute-size: 85%;
+  --marpx-titleslide-academic-subtitle-size: 90%;
+  --marpx-titleslide-academic-author-size: 95%;
+  --marpx-titleslide-academic-date-size: 90%;
+  --marpx-titleslide-academic-institute-size: 90%;
   
   /* inter character space */
-  --marpx-titleslide-academic-letter-spacing: 0.075px;
-  
+  --marpx-titleslide-academic-letter-spacing: 0.125px;
   /* font weights */
   --marpx-titleslide-academic-title-font-weight: bold;
   --marpx-titleslide-academic-subtitle-font-weight: bold;

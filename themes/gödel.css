@@ -11,7 +11,7 @@
   /*------------< Overall theme parameters >---------------------------------*/
 
   --marpx-theme-font-family: "Fira Sans Condensed", Faustina, Bookerly, Lora, sans-serif;
-  --marpx-theme-captiontext-figure: "Figure ";
+  --marpx-theme-captiontext-figure: "Fig. ";
   --marpx-theme-captiontext-table: "Table ";
   --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
 

@@ -206,19 +206,19 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 <div class="multicolumn vcenter" align="center">
 
 ![h:175](./assets/images/math/math001.png)
-<span class="figcaption">Math001.</span>
+<br><span class="figcaption">Math001.</span>
 
 ![h:175](./assets/images/math/math002.png)
-<span class="figcaption">Math002.</span>
+<br><span class="figcaption">Math002.</span>
 
 ![h:175](./assets/images/math/math004.gif)
-<span class="figcaption">Math003.</span>
+<br><span class="figcaption">Math003.</span>
 
 ![h:175](./assets/images/math/math003.png)
-<span class="figcaption">Math004.</span>
+<br><span class="figcaption">Math004.</span>
 
 ![h:175](./assets/images/math/math005.png)
-<span class="figcaption">Math005.</span>
+<br><span class="figcaption">Math005.</span>
 
 </div>
 
@@ -233,23 +233,23 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 <div>
 
 ![h:185](./assets/images/math/math001.png)
-<span class="figcaption">Math001.</span>
+<br><span class="figcaption">Math001.</span>
 
 ![h:185](./assets/images/math/math002.png)
-<span class="figcaption">Math002.</span>
+<br><span class="figcaption">Math002.</span>
 
 </div>
 
 ![h:390](./assets/images/math/math004.gif)
-<span class="figcaption">Math003.</span>
+<br><span class="figcaption">Math003.</span>
 
 <div>
 
 ![h:185](./assets/images/math/math003.png)
-<span class="figcaption">Math004.</span>
+<br><span class="figcaption">Math004.</span>
 
 ![h:185](./assets/images/math/math005.png)
-<span class="figcaption">Math005.</span>
+<br><span class="figcaption">Math005.</span>
 
 </div></div>
 
@@ -262,16 +262,16 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 <div class="multicolumn" align="center">
 
 ![h:250](./assets/images/gods/zeus.png)
-<span class="figcaption">God Zeus</span>
+<br><span class="figcaption">God Zeus</span>
 
 ![h:250](./assets/images/gods/afrodite.png)
-<span class="figcaption">Afrodite</span>
+<br><span class="figcaption">Afrodite</span>
 
 ![h:250](./assets/images/gods/dionisio.png)
-<span class="figcaption">Dionísio</span>
+<br><span class="figcaption">Dionísio</span>
 
 ![h:250](./assets/images/gods/era.png)
-<span class="figcaption">Era</span>
+<br><span class="figcaption">Era</span>
 
 </div>
 
