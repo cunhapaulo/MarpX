@@ -16,6 +16,7 @@
 			"./themes/socrates.css",
 			"./themes/spartan.css",
 			"./themes/temp.css",
-		]
+		],
+		"powershell.cwd": "MarpX"
 	}
 }
