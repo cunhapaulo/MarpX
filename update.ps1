@@ -5,7 +5,7 @@ Clear-Host
 
 Write-Host "===================================="
 Write-Host " Update MarpX website." 
-Write-Host " Copyright Paulo Cunha 2025" 
+Write-Host " Copyright 2025 Paulo Cunha" 
 Write-Host "===================================="
 Write-Host ""
 
