@@ -9,6 +9,7 @@ footer: "[Back to the beginning](#1)"
 
 marp: true
 theme: gödel
+transition: none
 
 size: 16:9
 lang: en
