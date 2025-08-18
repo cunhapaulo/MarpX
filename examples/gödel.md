@@ -52,7 +52,7 @@ paginate: true
 9. [Code](#28)
 10. [Quotes](#32)
 11. [Callouts](#35)
-12. [References, Appendix & Credits](#35)
+12. [References, Appendix & Credits](#38)
 
 ---
 
