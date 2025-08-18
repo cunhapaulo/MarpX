@@ -891,8 +891,8 @@ plt.show()
 <div class="multicolumn"><div>
 
 1. Special thanks to: [`Yuki Hattori` (GitHub)](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
-2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Gracias!
-3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
+2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Muchas gracias!
+3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank! 
 4. Biography on Wikipedia: [`Jacques-Louis David`](https://de.wikipedia.org/wiki/Jacques-Louis_David).
 5. Cover image: [`Flute Player` Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
 6. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil [`Der Sohn des Odysseus` - Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
@@ -905,7 +905,7 @@ plt.show()
 10. Foto de Wikipedia: [`Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
 11. Foto de Wikipedia: [`Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
 12. Foto de: [`Pixabay` no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
-13. Font `Fira Sans` imported from: [Google Fonts](https://fonts.google.com/).
+13. Fonts imported from: [Google Fonts](https://fonts.google.com/) & [CDN Fonts](https://www.cdnfonts.com/). Thank you very much!
 
 </div></div>
 
