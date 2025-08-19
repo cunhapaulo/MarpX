@@ -8,8 +8,10 @@
             "type": "shell",
             "command": "./update.ps1",
             "problemMatcher": [],
-            "group": "build",
-            "isDefault": true
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
