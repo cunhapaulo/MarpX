@@ -47,7 +47,7 @@ paginate: true
 
 # The header is at the top of your Markdown file
 
-```json
+```YAML
 ---
 title: Marp Example - Gödel
 author: Paulo Cunha
