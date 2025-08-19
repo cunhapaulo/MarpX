@@ -59,7 +59,8 @@ try {
         Copy-Item -Path $_.FullName -Destination $DESTINATION_HTML -Force
     }
     Write-Host " HTML file copy completed successfully." -ForegroundColor Green
-} catch {
+}
+catch {
     
     Write-Host " Error copying HTML files: $_" -ForegroundColor Red
     
@@ -76,7 +77,8 @@ try {
     
     Write-Host " CSS file copy completed successfully." -ForegroundColor Green
     
-} catch {
+}
+catch {
     
     Write-Host " Error copying CSS files: $_" -ForegroundColor Red
     
@@ -106,9 +108,18 @@ try {
         git commit -m $commitMessage
         git push origin main
         
+        Write-Host "" 
+        Write-Host " GitHub Update Step" -ForegroundColor Cyan
+        Write-Host " ======================================================" -ForegroundColor Cyan
+        Write-Host " Changes successfully committed and pushed to GitHub." -ForegroundColor Cyan
         Write-Host " Changes successfully committed and pushed to GitHub." -ForegroundColor Cyan
         
-    } else {
+    }
+    else {
+        Write-Host "" 
+        Write-Host " GitHub Update Step" -ForegroundColor Cyan
+        Write-Host " ======================================================" -ForegroundColor Cyan
+
         Write-Host " No changes detected in $REPO_PATH. Nothing to commit." -ForegroundColor Yellow
     }
 
@@ -127,10 +138,12 @@ try {
         
         Write-Host " Changes successfully committed and pushed to GitHub." -ForegroundColor Cyan
         
-    } else {
+    }
+    else {
         Write-Host " No changes detected in $REPO_PATH2. Nothing to commit." -ForegroundColor Yellow
     }
-} catch {
+}
+catch {
     
     Write-Host " Error during commit or push: $_" -ForegroundColor Red
     
