@@ -18,7 +18,7 @@ paginate: true
 ---
 
 <!-- _class: title -->
-# How to use MarpX special tags
+# Reference Guide - How to use MarpX special tags
 
 ## Paulo Cunha 
 

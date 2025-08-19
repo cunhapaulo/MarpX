@@ -9,7 +9,10 @@ This is Marp Style 2.0
 
 ## References (IMPORTANT!)
 
-[Try the `Howto` document here!](https://cunhapaulo.github.io/marpx/examples/howto.html)
+Try the Reference Guide that shows most of the special canonical slide types in Marpx!
+
+[![Reference Guide](./examples/front-slide/howto.png)](https://cunhapaulo.github.io/marpx/examples/howto.html)
+
 
 ## Overview
 
