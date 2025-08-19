@@ -5,7 +5,7 @@ description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
 
 header: 2025
-footer: "[Back to the beginning](#1)"
+footer: "[Back to the Index](#2)"
 
 marp: true
 theme: gödel
@@ -24,9 +24,27 @@ paginate: true
 
 ---
 
-<!-- _class: black-slide -->
+<!-- _class: toc  -->
 
-# Header
+1. [**Header** - first part of your Markdown file.](#3)
+2. [**Academic Title** - Title slide in academic fashion.](#4)
+3. [**Title** - Simple title slide.](#6)
+4. [**TOC** - Table of Contents.](#8)
+5. [**Transition Slide** - Slide that marks transitions.](#10)
+6. [**One Image Slide** - Slide with just one image.](#12)
+7. [**Multicolumn** - Multiple columns in one slide.](#14)
+8. [**Video** - How to present video in one slide.](#16)
+9. [**Tables** - How to insert Markdown tables in slides.](#18)
+10. [**LaTeX Math** - How to insert math with LaTeX.](#20)
+12. [**Quotes** - Special slides for quotes.](#24)
+13. [**Callouts** - How to insert callouts.](#26)
+14. [**References, Appendix & Credits**](#27)
+
+---
+
+<!-- _class: black-slide nobrand-->
+
+# The header is at the top of your Markdown file
 
 ```json
 ---
@@ -71,6 +89,7 @@ paginate: true
 # \<!-- _class: title-academic -->
 
 ```md
+---
 
 <!-- _class: title-academic -->
 <!-- _backgroundColor: white  -->
@@ -316,7 +335,7 @@ or
 
 <!-- _class: black-slide --->
 
-# \<video controls height="400px">\</video>
+# Markdown Tables
 
 ```md
 
@@ -569,3 +588,13 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 </div></div>
 
 ```
+
+---
+
+<!-- _class: "blank" -->
+
+<center>
+
+## <!-- fit --> [`To the beginning`](#2)
+
+</center>
