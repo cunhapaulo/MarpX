@@ -110,17 +110,19 @@ try {
         
         Write-Host "" 
         Write-Host " ======================================================" 
-        Write-Host " GitHub Update Step" -ForegroundColor Cyan
+        Write-Host " GitHub Update Step"
         Write-Host " ======================================================" 
         Write-Host " Changes successfully committed and pushed to GitHub." -ForegroundColor Cyan
         Write-Host " Changes successfully committed and pushed to GitHub." -ForegroundColor Cyan
+        Write-Host "" 
         
     }
     else {
         Write-Host "" 
         Write-Host " ======================================================"
-        Write-Host " GitHub Update Step" -ForegroundColor Cyan
+        Write-Host " GitHub Update Step"
         Write-Host " ======================================================"
+        Write-Host "" 
 
         Write-Host " No changes detected in $REPO_PATH. Nothing to commit." -ForegroundColor Yellow
     }
