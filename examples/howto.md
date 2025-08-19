@@ -18,7 +18,7 @@ paginate: true
 ---
 
 <!-- _class: title -->
-# Reference Guide - How to use MarpX special tags
+# Reference **Guide** - How to use **MarpX** special tags
 
 ## Paulo Cunha 
 
@@ -707,20 +707,20 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 ---
 
-<!-- _class: black-slide  -->
+<!-- _class: black-slide -->
 
-# Animations &nbsp;<span style="font-size:0.5em; color:yellow;">(works in HTML only)</span>
+# Animations &nbsp;<span style="font-size:0.5em;  color:yellow;">(works in HTML only)</span>
 
 <div class=multicolumn vcenter><div align=center>
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=78953799712746552" height="410" width="236" frameborder="0" scrolling="no" ></iframe>
+![h:390 center](./assets/images/animations/sphere.gif)
 
 <figcaption> First animation.
 
 </div><div align=center>
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318596012123" height="410" width="420" frameborder="0" scrolling="no" ></iframe>
-
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318596012123" height="390" width="400" frameborder="0" scrolling="no" ></iframe>
+<p>
 <figcaption> Second animation.
 
 </div></div>
