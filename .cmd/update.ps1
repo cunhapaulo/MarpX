@@ -109,6 +109,7 @@ try {
         git push origin main
         
         Write-Host "" 
+        Write-Host " ======================================================" -ForegroundColor Cyan
         Write-Host " GitHub Update Step" -ForegroundColor Cyan
         Write-Host " ======================================================" -ForegroundColor Cyan
         Write-Host " Changes successfully committed and pushed to GitHub." -ForegroundColor Cyan
@@ -117,6 +118,7 @@ try {
     }
     else {
         Write-Host "" 
+        Write-Host " ======================================================" -ForegroundColor Cyan
         Write-Host " GitHub Update Step" -ForegroundColor Cyan
         Write-Host " ======================================================" -ForegroundColor Cyan
 
