@@ -69,6 +69,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
        "markdown.marp.themes": [
          "./themes/marpx.css",
          "./themes/copernicus.css",
+         "./themes/gödel.css",
          "./themes/socrates.css",
          "./themes/spartan.css"
        ]
@@ -89,6 +90,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
        "markdown.marp.themes": [
          "https://cunhapaulo.github.io/marpx/themes/marpx.css",
          "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
+         "https://cunhapaulo.github.io/marpx/themes/gödel.css",
          "https://cunhapaulo.github.io/marpx/themes/socrates.css",
          "https://cunhapaulo.github.io/marpx/themes/spartan.css"
        ]
