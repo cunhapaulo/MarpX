@@ -49,7 +49,6 @@ paginate: true
 
 ```json
 ---
-
 title: Marp Example - Gödel
 author: Paulo Cunha
 description: Canonical use of marpx theme
@@ -66,9 +65,7 @@ size: 16:9
 lang: en
 math: mathjax
 paginate: true
-
 ---
-
 ```
 ---
 
