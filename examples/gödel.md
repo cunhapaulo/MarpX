@@ -64,6 +64,7 @@ paginate: true
 
 ---
 
+
 # Is Algebraic Graph Knowledge a **Possibility**?
 
 `Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
@@ -284,19 +285,19 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <!-- _class: black-slide -->
 
-# Animations (html only!)
+# Animations &nbsp;<span style="font-size:0.5em; color:yellow;">(works in HTML only)</span>
 
-<div class="multicolumn vcenter"><div>
+<div class=multicolumn vcenter><div align=center>
 
-![h:400 center](./assets/images/graphs/animation01.png)
+![h:380px](https://i.pinimg.com/736x/93/74/88/9374889616698d45adf1e911788665a4.jpg)
 
-<figcaption> Animation 01.
+<figcaption> Static picture.
 
 </div><div align=center>
 
-<video height=400px width=450px class="hwa" poster="https://i.pinimg.com/736x/93/74/88/9374889616698d45adf1e911788665a4.jpg" preload="auto" src="blob:https://br.pinterest.com/16cda5f9-b97a-4d4e-9a8b-65fca37e1387" style="object-fit: contain;"><track kind="captions"></video>
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318596012123" height="390" width="400" frameborder="0" scrolling="no" ></iframe>
 
-<figcaption> Animation 02.
+<figcaption> Animation.
 
 </div></div>
 
@@ -888,8 +889,8 @@ You may use in semantics.
 <div class="multicolumn"><div>
 
 1. Special thanks to: [`Yuki Hattori` (GitHub)](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
-2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Muchas gracias!
-3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank! 
+2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Gracias!
+3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
 4. Biography on Wikipedia: [`Jacques-Louis David`](https://de.wikipedia.org/wiki/Jacques-Louis_David).
 5. Cover image: [`Flute Player` Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
 6. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil [`Der Sohn des Odysseus` - Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
@@ -902,7 +903,7 @@ You may use in semantics.
 10. Foto de Wikipedia: [`Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
 11. Foto de Wikipedia: [`Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
 12. Foto de: [`Pixabay` no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
-13. Fonts imported from: [Google Fonts](https://fonts.google.com/) & [CDN Fonts](https://www.cdnfonts.com/). Thank you very much!
+13. Font `Fira Sans` imported from: [Google Fonts](https://fonts.google.com/).
 
 </div></div>
 

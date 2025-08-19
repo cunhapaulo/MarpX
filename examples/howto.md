@@ -18,7 +18,7 @@ paginate: true
 ---
 
 <!-- _class: title -->
-# Reference Guide or How to use MarpX special tags
+# Reference Guide - How to use MarpX special tags
 
 ## Paulo Cunha 
 
@@ -34,11 +34,12 @@ paginate: true
 6. [**One Image Slide** - Slide with just one image.](#12)
 7. [**Multicolumn** - Multiple columns in one slide.](#14)
 8. [**Video** - How to present video in one slide.](#16)
-9. [**Tables** - How to insert Markdown tables in slides.](#18)
-10. [**LaTeX Math** - How to insert math with LaTeX.](#20)
+9.  [**Animations** - from several sources.](#30)
+10. [**Tables** - How to insert Markdown tables in slides.](#18)
+11. [**LaTeX Math** - How to insert math with LaTeX.](#20)
 12. [**Quotes** - Special slides for quotes.](#24)
 13. [**Callouts** - How to insert callouts.](#26)
-14. [**References, Appendix & Credits**](#27)
+14. [**References, Appendix & Credits**](#28)
 
 ---
 
@@ -533,6 +534,124 @@ Another text with <br> **Markdown** formatting.
 
 ---
 
+
+<!-- _class: white-slide -->
+
+# Callouts types
+
+<div class="multicolumn">
+
+  <div class="callout success">
+
+# Success
+
+You may use in semantics.
+
+  </div>
+
+  <div class="callout abstract">
+
+# Abstract
+
+You may use in semantics.
+
+  </div>
+
+  <div class="callout tip">
+
+# Tip
+
+You may use in semantics.
+
+  </div>
+  
+  <div class="callout todo">
+
+# ToDo
+
+You may use in semantics.
+
+  </div>
+
+</div>
+
+<div class="multicolumn">
+
+  <div class="callout note">
+
+# Note
+
+You may use in semantics.
+
+  </div>
+
+  <div class="callout example">
+
+# Example
+
+You may use in semantics.
+
+  </div>
+  
+  <div class="callout quote">
+
+# Quote
+
+You may use in semantics.
+
+  </div>
+
+  <div class="callout question">
+
+# Question
+
+You may use in semantics.
+
+  </div>
+
+</div>
+
+<div class="multicolumn">
+
+  <div class="callout warning">
+
+# Warning
+
+You may use in semantics.
+
+  </div>
+
+  <div class="callout failure">
+
+# Failure
+
+You may use in semantics.
+
+  </div>
+
+  <div class="callout danger">
+
+# Danger
+
+You may use in semantics.
+
+  </div>
+
+  <div class="callout bug">
+
+# Bug
+
+You may use in semantics.
+
+  </div>
+
+</div>
+
+---
+
+
+
+
 <!-- _class: references -->
 
 # References
@@ -591,6 +710,54 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 ---
 
+<!-- _class: black-slide  -->
+
+# Animations &nbsp;<span style="font-size:0.5em; color:yellow;">(works in HTML only)</span>
+
+<div class=multicolumn vcenter><div align=center>
+
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=78953799712746552" height="410" width="236" frameborder="0" scrolling="no" ></iframe>
+
+<figcaption> First animation.
+
+</div><div align=center>
+
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318596012123" height="410" width="420" frameborder="0" scrolling="no" ></iframe>
+
+<figcaption> Second animation.
+
+</div></div>
+
+---
+
+<!-- _class: black-slide nobrand -->
+
+# \<iframe>
+
+```md
+<!-- _class: black-slide -->
+
+# Animations &nbsp;<span style="font-size:0.5em; color:yellow;">
+(works in HTML only)</span>
+
+<div class=multicolumn vcenter><div align=center>
+
+  ![h:380px](https://<address>/<file.jpg>)
+  <figcaption> Static picture.
+
+</div><div align=center>
+
+  <iframe src="https://<address>/<file>" 
+  height="390" width="400" frameborder="0" scrolling="no" ></iframe>
+  <figcaption> Animation.
+
+</div></div>
+---
+```
+
+
+
+---
 <!-- _class: "blank" -->
 
 <center>
