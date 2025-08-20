@@ -4,7 +4,7 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gropius, Paulo Cunha]
 
-header: Königsberg, 5–7 September, 1930
+header: Weimar (1919) - Dessau (1925)
 footer: "[Back to the outline](#3)"
 
 marp: true
@@ -64,9 +64,9 @@ paginate: true
 
 ---
 <!-- _class: black-slide -->
-![bg h:400 saturate:2.5](https://shop.bauhaus-movement.com/media/3084/catalog/state-bauhaus-in-weimar-1919-1923.png?size=600)
        
 ![bg saturate:2.5](https://artefactae.wordpress.com/wp-content/uploads/2019/03/fp_bauhaus_backcover_1812171106_id_1233400.jpg)
+![h:400 saturate:2.5](https://shop.bauhaus-movement.com/media/3084/catalog/state-bauhaus-in-weimar-1919-1923.png?size=600)
 
 
 
