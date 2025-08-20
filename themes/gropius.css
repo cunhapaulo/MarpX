@@ -31,7 +31,7 @@
   /*-------------------< TITLE SLIDE >-----------------------------*/
 
   /* fonts sizes */
-  --marpx-titleslide-academic-title-size: 140%;
+  --marpx-titleslide-academic-title-size: 150%;
   --marpx-titleslide-academic-subtitle-size: 95%;
   --marpx-titleslide-academic-author-size: 110%;
   --marpx-titleslide-academic-date-size: 95%;
@@ -54,9 +54,9 @@
 
   /*------------< Parameters used in `REFERENCES` >---------------------------------*/
 
-  --marpx-color-references-bold: #3e6ceb;
-  --marpx-color-references-background: #eff4fa;
-  --marpx-color-reference-header: #539dd3;
+  --marpx-color-references-bold: var(--blue-500);
+  --marpx-color-references-background: var(--gray-400);
+  --marpx-color-reference-header: var(--blueViolet-100);
 
   /*------------< Parameters used in `QUOTE` >---------------------------------*/
 
@@ -70,10 +70,10 @@
 
   --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
 
-  --marpx-font-quote-dark-color: #222230;
-  --marpx-color-quote-dark-background: #9aade2;
-  --marpx-color-quote-dark-paragraph-background: #9aade2;
-  --marpx-color-quote-dark-strong: #f8f8f7;
+  --marpx-font-quote-dark-color: var(--gray-200);
+  --marpx-color-quote-dark-background: var(--blue-500);
+  --marpx-color-quote-dark-paragraph-background: var(--blue-500);
+  --marpx-color-quote-dark-strong: var(--blue-100);
 
   /*------------< Parameters used in `TABLE` >---------------------------------*/
 
@@ -88,10 +88,8 @@
   --marpx-font-table-size: 22px;
   --marpx-font-table-family: ;
 
-
-
   /*------------< Parameters used in `TOC` >---------------------------------*/
-  --marpx-theme-color-agenda: var(--purple-200);
+  --marpx-theme-color-agenda: var(--vermilion-300);
   --marpx-color-toc-background: #f6f6f6;
 
 }    

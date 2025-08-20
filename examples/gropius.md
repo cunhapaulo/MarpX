@@ -63,10 +63,10 @@ paginate: true
 ## Aditional Text about what´s ahead
 
 ---
-
-![bg h:500](https://shop.bauhaus-movement.com/media/3084/catalog/state-bauhaus-in-weimar-1919-1923.png?size=600)
+<!-- _class: black-slide -->
+![bg h:400 saturate:2.5](https://shop.bauhaus-movement.com/media/3084/catalog/state-bauhaus-in-weimar-1919-1923.png?size=600)
        
-![bg h:500 ](https://artefactae.wordpress.com/wp-content/uploads/2019/03/fp_bauhaus_backcover_1812171106_id_1233400.jpg)
+![bg saturate:2.5](https://artefactae.wordpress.com/wp-content/uploads/2019/03/fp_bauhaus_backcover_1812171106_id_1233400.jpg)
 
 
 
