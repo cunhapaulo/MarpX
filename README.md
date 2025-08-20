@@ -48,6 +48,8 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | [![Style Socrates](./examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)     |
 | <h3> In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
 | [![Style Copernicus](./examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
+| <h3> In honor of Walter Gropius (1883-1969) </h3>                                             |
+| [![Style Gropius](./examples/front-slide/gropius.png)](https://cunhapaulo.github.io/marpx/examples/gropius.html) |
 | <h3> In honor of Kurt Gödel (1906-1978) </h3>                                             |
 | [![Style Gödel](./examples/front-slide/gödel.png)](https://cunhapaulo.github.io/marpx/examples/gödel.html) |
 
@@ -73,6 +75,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
          "./themes/marpx.css",
          "./themes/copernicus.css",
          "./themes/gödel.css",
+         "./themes/gropius.css",
          "./themes/socrates.css",
          "./themes/spartan.css"
        ]
@@ -94,6 +97,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
          "https://cunhapaulo.github.io/marpx/themes/marpx.css",
          "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
          "https://cunhapaulo.github.io/marpx/themes/gödel.css",
+         "https://cunhapaulo.github.io/marpx/themes/gropius.css",
          "https://cunhapaulo.github.io/marpx/themes/socrates.css",
          "https://cunhapaulo.github.io/marpx/themes/spartan.css"
        ]
