@@ -42,17 +42,17 @@ paginate: true
 
 0. [Title](#1)
 1. [Transition Slide](#4)
-2. [Normal Slide](#5)
-3. [Headers](#6)
-4. [Images](#7)
-5. [Animations and Videos](#15)
-6. [ Lists](#18)
-7. [Tables](#20)
-8. [Mathematics in LaTeX](#23)
-9. [Code](#28)
-10. [Quotes](#32)
-11. [Callouts](#35)
-12. [References, Appendix & Credits](#38)
+2. [Normal Slide](#6)
+3. [Headers](#7)
+4. [Images](#8)
+5. [Animations and Videos](#16)
+6. [ Lists](#19)
+7. [Tables](#21)
+8. [Mathematics in LaTeX](#24)
+9. [Code](#29)
+10. [Quotes](#33)
+11. [Callouts](#36)
+12. [References, Appendix & Credits](#39)
 
 ---
 

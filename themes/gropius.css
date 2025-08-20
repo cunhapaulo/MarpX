@@ -16,9 +16,12 @@
   --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
 
   --marpx-theme-color: #31406b;
+  /* --marpx-theme-color-marker: rgb(41, 56, 255); */
+  --marpx-theme-color-marker: var(--scarletRed-500);
   --marpx-theme-color-font: var(--blueViolet-500);
   --marpx-theme-color-background: var(--violet-100);
-  --marpx-theme-color-bold: var(--blueViolet-300);
+  --marpx-theme-color-background: var(--gray-100);
+  --marpx-theme-color-bold: var(--scarletRed-500);
   --marpx-theme-color-alt: var(--scarletRed-500);
   
   --marpx-color-h1-bold: var(--scarletRed-500);
@@ -48,7 +51,7 @@
   --marpx-titleslide-academic-subtitle-color: #ababac;
   --marpx-titleslide-academic-author-color: var(--scarletRed-500);
   --marpx-titleslide-academic-titlepage-color: #242d31;
-  --marpx-titleslide-academic-background-color: #faf7f7;
+  --marpx-titleslide-academic-background-color: var(--gray-100);
   --marpx-titleslide-academic-border-color: var(--orange-500);
 
   /*------------< Parameters used in `REFERENCES` >---------------------------------*/
