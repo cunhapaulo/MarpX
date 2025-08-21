@@ -32,7 +32,7 @@ paginate: true
 
 <!-- _class: title -->
 
-# **Bauhaus**: Die Form folgt der Funktion 
+# Bauhaus: **Die Form folgt der Funktion**
 
 ## Kunst und Technik: eine neue Einheit
 
