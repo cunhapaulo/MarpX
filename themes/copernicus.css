@@ -6,8 +6,8 @@
   /*------------ Overall theme parameters ---------------------------------*/
 
   --marpx-theme-font-family: "Fira Sans", Faustina, Bookerly, sans-serif;
-  --marpx-theme-captiontext-figure: "Fig. ";
-  --marpx-theme-captiontext-table: "Table ";
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-table-captiontext: "Table ";
   --marpx-theme-brandlogo: " - Created with Marp & MarpX.";
   --marpx-theme-marker-color: orangered;
   --marpx-theme-color: #002b36;

@@ -18,8 +18,8 @@
     /*------------ Overall theme parameters --------------------------*/
 
     --marpx-theme-font-family:  Faustina, 'Fira Sans Light',sans-serif;
-    --marpx-theme-captiontext-figure: "Fig. ";
-    --marpx-theme-captiontext-table: "Table ";
+    --marpx-theme-figure-captiontext: "Fig. ";
+    --marpx-theme-table-captiontext: "Table ";
     --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
     
     --marpx-theme-color: #3e6ceb;

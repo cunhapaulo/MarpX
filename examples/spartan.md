@@ -23,7 +23,7 @@ paginate: true
 
 <div class="title"         > This is the MarpX Spartan Theme </div>
 <div class="subtitle"      > Sometimes it's handy to have a subtitle too </div> 
-<div class="author"        > Author's name goes here </div>
+<div class="author"        > Complete author's name goes here </div>
 <div class="date"          > Date goes here</div>
 <div class="organization"  > Institutional Information goes Here</div>
 

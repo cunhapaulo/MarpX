@@ -7,8 +7,8 @@
 
   --marpx-theme-font-family: "Fira Sans", Faustina, Lora, Bookerly, "Open Sans",
     sans-serif;
-  --marpx-theme-captiontext-figure: "Fig. ";
-  --marpx-theme-captiontext-table: "Tab. ";
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-table-captiontext: "Tab. ";
   --marpx-theme-brandlogo: " - Created with Marp & MarpX.";
 
   --marpx-theme-color: #002b36;
@@ -24,6 +24,9 @@
   --marpx-theme-h1-bold-color: #c92828;
   --marpx-theme-h1-bold-color: #8f8d8d;
   --marpx-theme-h1-bold-color: #5957d1;
+
+  --marpx-theme-marker-color: #5e5cff;
+
 
   --marpx-theme-code-color: #e9e9e9;
   --marpx-theme-highlight-color: #b9e4f1;
@@ -48,7 +51,7 @@
   /* colors in style */
   --marpx-title_academic-title-color: #002b36;
   --marpx-title_academic-subtitle-color: #e6e6e7;
-  --marpx-title_academic-author-color: #002b36;
+  --marpx-title_academic-author-color: #2b3f83;
   --marpx-title_academic-font-color: #242d31;
   --marpx-title_academic-background-color: #abb0b9;
 

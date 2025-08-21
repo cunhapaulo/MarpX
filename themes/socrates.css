@@ -7,9 +7,10 @@
   /*------------ Overall theme parameters ---------------------------------*/
 
   --marpx-theme-font-family: "Fira Sans", Faustina, Bookerly, sans-serif;
-  --marpx-theme-captiontext-figure: "Fig. ";
-  --marpx-theme-captiontext-table: "Table ";
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-table-captiontext: "Table ";
   --marpx-theme-brandlogo: " - Created with Marp & MarpX.";
+  
 
   --marpx-theme-color: #006a85;
   --marpx-theme-chapter-color: #5a79a1;
@@ -19,6 +20,8 @@
   
   --marpx-theme-subtitle-color: #5d616d;
   --marpx-theme-h1-bold-color: #ff3c00;
+  --marpx-theme-h2-color: #4d7099;
+  --marpx-theme-marker-color: rgb(0, 102, 255);
   
   --marpx-theme-toc-color: #fc2003;
 

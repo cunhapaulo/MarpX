@@ -3,42 +3,50 @@
 @import "marpx";
 
 :root {
+  /*------------< COLOR PALETTE >---------------------------------*/
   --marpx-color-light-grey: #a6a6a6;
   --marpx-color-dark-grey: #000000;
 
-  /*------------< Overall theme parameters >---------------------------------*/
+  /*------------< CORE THEME PARAMETERS >---------------------------------*/
 
-  --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
-  --marpx-theme-captiontext-figure: "Fig. ";
-  --marpx-theme-captiontext-table: "Table ";
-  --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
-
+  /* General theme settings */
   --marpx-theme-color: #31406b;
-  
-  /* --marpx-theme-background-color: var(--violet-100); */
-  /* --marpx-theme-background-color: var(--gray-100); */
   --marpx-theme-background-color: var(--gray-400);
-  
+  --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
+
+  /* Text colors */
   --marpx-theme-font-color: var(--blueViolet-500);
   --marpx-theme-bold-color: var(--scarletRed-500);
+  --marpx-theme-marker-color: var(--scarletRed-600);
+
+  /* Headings */
   --marpx-theme-h1-color: var(--blueViolet-500);
   --marpx-theme-h1-bold-color: var(--scarletRed-500);
   --marpx-theme-h2-color: var(--blueViolet-400);
-  
-  --marpx-theme-marker-color: var(--blueViolet-100);
-  --marpx-theme-marker-color: var(--scarletRed-600);
-  
+
+  /* Specific elements */
   --marpx-theme-chapter-color: var(--blueViolet-600);
   --marpx-theme-subtitle-color: #41434e;
   --marpx-theme-code-color: #e9e9e9;
   --marpx-theme-highlight-color: var(--yellow-300);
-  --marpx-theme-footnote-mark-color: #ff0000;
+
+  /* Captions and reference texts */
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
+  --marpx-theme-table-captiontext: "Table ";
+  --marpx-theme-table-captiontext-color: var(--blueViolet-100);
+
+  /* Navigation and reference elements */
   --marpx-theme-toc-color: var(--blueViolet-400);
   --marpx-theme-toc-background-color: #f6f6f6;
+  --marpx-theme-footnote-mark-color: #ff0000;
 
-  /*-------------------< TITLE SLIDE >-----------------------------*/
+  /* Branding */
+  --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
 
-  /* fonts sizes */
+  /*------------< TITLE SLIDE PARAMETERS >-----------------------------*/
+
+  /* Font sizes */
   --marpx-title_academic-title-size: 150%;
   --marpx-title_academic-title-font-weight: 600;
   --marpx-title_academic-subtitle-size: 95%;
@@ -47,7 +55,7 @@
   --marpx-title_academic-institute-size: 85%;
   --marpx-title_academic-letter-spacing: 0.075px;
 
-  /* colors in style */
+  /* Colors */
   --marpx-title_academic-font-color: #242d31;
   --marpx-title_academic-background-color: var(--gray-100);
   --marpx-title_academic-title-color: var(--blue-400);
@@ -55,29 +63,7 @@
   --marpx-title_academic-author-color: var(--scarletRed-500);
   --marpx-title_academic-border-color: var(--orange-500);
 
-  /*------------< Parameters used in `REFERENCES` >---------------------------------*/
-
-  --marpx-reference-header-color: var(--blueViolet-100);
-  --marpx-references-bold-color: var(--blue-400);
-  --marpx-references-background-color: var(--gray-400);
-  --marpx-references-background-color: var(--gray-100);
-
-  /*------------< Parameters used in `QUOTE` >---------------------------------*/
-
-  --marpx-quote-font-family: Bookerly, Faustina, Times, serif;
-  --marpx-quote-background-color: var(--gray-400);
-  --marpx-quote-paragraph-background-color: var(--gray-400);
-  --marpx-quote-strong-color: var(--scarletRed-500);
-
-  /*-< quote dark >-*/
-
-  --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
-  --marpx-quote_dark-font-color: var(--gray-200);
-  --marpx-quote_dark-color-background: var(--blue-500);
-  --marpx-quote_dark-color-paragraph-background: var(--blue-500);
-  --marpx-quote_dark-color-strong: var(--blue-100);
-
-  /*------------< Parameters used in `TABLE` >---------------------------------*/
+  /*------------< TABLE COMPONENT PARAMETERS >---------------------------------*/
 
   --marpx-table-font-size: 22px;
   --marpx-table-font-family: ;
@@ -89,6 +75,26 @@
   --marpx-table-hover-color: var(--blueViolet-400);
   --marpx-table-hover-background-color: var(--violet-100);
 
+  /*------------< QUOTE COMPONENT PARAMETERS >---------------------------------*/
+
+  /* Light quote variant */
+  --marpx-quote-font-family: Bookerly, Faustina, Times, serif;
+  --marpx-quote-background-color: var(--gray-400);
+  --marpx-quote-paragraph-background-color: var(--gray-400);
+  --marpx-quote-strong-color: var(--scarletRed-500);
+
+  /* Dark quote variant */
+  --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
+  --marpx-quote_dark-font-color: var(--gray-200);
+  --marpx-quote_dark-color-background: var(--blue-500);
+  --marpx-quote_dark-color-paragraph-background: var(--blue-500);
+  --marpx-quote_dark-color-strong: var(--blue-100);
+
+  /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
+
+  --marpx-reference-header-color: var(--blueViolet-100);
+  --marpx-references-bold-color: var(--blue-400);
+  --marpx-references-background-color: var(--gray-100);
 }
 
 section {
