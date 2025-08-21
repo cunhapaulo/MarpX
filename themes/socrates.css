@@ -12,73 +12,73 @@
   --marpx-theme-brandlogo: " - Created with Marp & MarpX.";
 
   --marpx-theme-color: #006a85;
-  --marpx-theme-color-alt: #5a79a1;
-  --marpx-theme-color-background: #ffffff;
-  --marpx-theme-color-font: #000000;
-  --marpx-theme-color-bold: #f8150d;
+  --marpx-theme-chapter-color: #5a79a1;
+  --marpx-theme-background-color: #ffffff;
+  --marpx-theme-font-color: #000000;
+  --marpx-theme-bold-color: #f8150d;
   
-  --marpx-color-subtitle: #5d616d;
-  --marpx-color-h1-bold: #ff3c00;
+  --marpx-theme-subtitle-color: #5d616d;
+  --marpx-theme-h1-bold-color: #ff3c00;
   
-  --marpx-theme-color-agenda: #fc2003;
+  --marpx-theme-toc-color: #fc2003;
 
-  --marpx-color-footnote-mark: #ff0000;
-  --marpx-color-code: rgb(233, 233, 233);
-  --marpx-color-highlight: #b9e4f1;
+  --marpx-theme-footnote-mark-color: #ff0000;
+  --marpx-theme-code-color: rgb(233, 233, 233);
+  --marpx-theme-highlight-color: #b9e4f1;
 
   /* ------------------- TITLE SLIDE -----------------------------*/
 
   /* fonts sizes */
-  --marpx-titleslide-academic-title-size: 140%;
-  --marpx-titleslide-academic-subtitle-size: 90%;
-  --marpx-titleslide-academic-author-size: 95%;
-  --marpx-titleslide-academic-date-size: 90%;
-  --marpx-titleslide-academic-institute-size: 90%;
+  --marpx-title_academic-title-size: 140%;
+  --marpx-title_academic-subtitle-size: 90%;
+  --marpx-title_academic-author-size: 95%;
+  --marpx-title_academic-date-size: 90%;
+  --marpx-title_academic-institute-size: 90%;
   
   /* inter character space */
-  --marpx-titleslide-academic-letter-spacing: 0.125px;
+  --marpx-title_academic-letter-spacing: 0.125px;
   /* font weights */
-  --marpx-titleslide-academic-title-font-weight: bold;
-  --marpx-titleslide-academic-subtitle-font-weight: bold;
+  --marpx-title_academic-title-font-weight: bold;
+  --marpx-title_academic-subtitle-font-weight: bold;
   /* colors in style */
-  --marpx-titleslide-academic-title-color: #002b36;
-  --marpx-titleslide-academic-title-color: #003c4b;
-  --marpx-titleslide-academic-subtitle-color: #cacaca;
-  --marpx-titleslide-academic-author-color: #f8150d;
-  --marpx-titleslide-academic-titlepage-color: #242d31;
-  --marpx-titleslide-academic-background-color: #faf7f7;
-  --marpx-titleslide-academic-border-color: #ff9b04;
+  --marpx-title_academic-title-color: #002b36;
+  --marpx-title_academic-title-color: #003c4b;
+  --marpx-title_academic-subtitle-color: #cacaca;
+  --marpx-title_academic-author-color: #f8150d;
+  --marpx-title_academic-font-color: #242d31;
+  --marpx-title_academic-background-color: #faf7f7;
+  --marpx-title_academic-border-color: #ff9b04;
 
   /*------------ Parameters used in `REFERENCES` ---------------------------------*/
 
-  --marpx-color-references-bold: #3e6ceb;
-  --marpx-color-references-background: #eff4fa;
-  --marpx-color-reference-header: #539dd3;
+  --marpx-references-bold-color: #3e6ceb;
+  --marpx-references-background-color: #eff4fa;
+  --marpx-reference-header-color: #539dd3;
 
   /*------------ Parameters used in `QUOTE` ---------------------------------*/
 
-  --marpx-color-quote-background: #ece8e8;
-  --marpx-color-quote-paragraph-background: #f8f8f8;
-  --marpx-color-quote-strong: #6462f1;
-  --marpx-font-quote: Faustina, Times, serif;
+  --marpx-quote-background-color: #ece8e8;
+  --marpx-quote-paragraph-background-color: #f8f8f8;
+  --marpx-quote-strong-color: #6462f1;
+  --marpx-quote-font-family: Faustina, Times, serif;
   /*- quote dark -*/
-  --marpx-color-quote-dark-background: #46b1e2;
-  --marpx-color-quote-dark-paragraph-background: #5ec1e9;
-  --marpx-color-quote-dark-strong: #f8f8f7;
-  --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
+  --marpx-quote_dark-color-background: #46b1e2;
+  --marpx-quote_dark-color-paragraph-background: #5ec1e9;
+  --marpx-quote_dark-color-strong: #f8f8f7;
+  --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
 
   /*------------ Parameters used in `TABLE` ---------------------------------*/
 
-  --marpx-color-table-header-background: rgb(0, 0, 0);
-  --marpx-color-table-header-color: white;
-  /* --marpx-color-table-border-top: ; */
-  --marpx-color-table-border-bottom: rgba(202, 201, 197, 0.973);
-  --marpx-color-table-nth-child-color: #f5f5f5;
-  --marpx-color-table-hover: rgb(71, 70, 25);
-  --marpx-color-table-hover-background: rgb(234, 247, 121);
+  --marpx-table-header-background-color: rgb(0, 0, 0);
+  --marpx-table-header-color-color: white;
+  /* --marpx-table-border-top-color: ; */
+  --marpx-table-border-bottom-color: rgba(202, 201, 197, 0.973);
+  --marpx-table-nth-child-color-color: #f5f5f5;
+  --marpx-table-hover-color: rgb(71, 70, 25);
+  --marpx-table-hover-background-color: rgb(234, 247, 121);
 
-  --marpx-font-table-size: 22px;
-  --marpx-font-table-family: ;
+  --marpx-table-font-size: 22px;
+  --marpx-table-font-family: ;
   
   /*------------ Parameters used in `TOC` ---------------------------------*/
   --marpx-color-toc-marker: rgb(175, 69, 27);

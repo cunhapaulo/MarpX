@@ -23,47 +23,47 @@
     --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
     
     --marpx-theme-color: #3e6ceb;
-    --marpx-theme-color-agenda: #0aa5ff;
-    --marpx-theme-color-alt: #9aade2;
-    --marpx-theme-color-background: #ffffff;
-    --marpx-theme-color-bold: #f70d0d;
+    --marpx-theme-toc-color: #0aa5ff;
+    --marpx-theme-chapter-color: #9aade2;
+    --marpx-theme-background-color: #ffffff;
+    --marpx-theme-bold-color: #f70d0d;
 
-    --marpx-color-subtitle: #5d616d;
-    --marpx-color-h1-bold: #ff3c00;
-    --marpx-color-footnote-mark: #ff0000;
-    --marpx-color-code: #ffff00;
-    --marpx-color-highlight: #ffff00;
+    --marpx-theme-subtitle-color: #5d616d;
+    --marpx-theme-h1-bold-color: #ff3c00;
+    --marpx-theme-footnote-mark-color: #ff0000;
+    --marpx-theme-code-color: #ffff00;
+    --marpx-theme-highlight-color: #ffff00;
 
     /*------------ Parameters used in `REFERENCES` --------------------------*/
 
     --maprx-color-references-bold: #3e6ceb;
-    --marpx-color-references-background: #eff4fa;
-    --marpx-color-reference-header: #539dd3;
+    --marpx-references-background-color: #eff4fa;
+    --marpx-reference-header-color: #539dd3;
 
     /*------------ Parameters used in `QUOTE` --------------------------*/
 
-    --marpx-color-quote-background: #ffffff;
-    --marpx-color-quote-paragraph-background: #ffffff;
-    --marpx-color-quote-strong: #6462f1;
-    --marpx-font-quote: Faustina, Bookerly, Times, serif;
+    --marpx-quote-background-color: #ffffff;
+    --marpx-quote-paragraph-background-color: #ffffff;
+    --marpx-quote-strong-color: #6462f1;
+    --marpx-quote-font-family: Faustina, Bookerly, Times, serif;
 
-    --marpx-color-quote-dark-background: #9aade2;
-    --marpx-color-quote-dark-paragraph-background: #9aade2;
-    --marpx-color-quote-dark-strong: #f8f8f7;
-    --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
+    --marpx-quote_dark-color-background: #9aade2;
+    --marpx-quote_dark-color-paragraph-background: #9aade2;
+    --marpx-quote_dark-color-strong: #f8f8f7;
+    --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
 
     /*------------ Parameters used in `TABLE` --------------------------*/
 
-    --marpx-color-table-header-background: rgb(21, 29, 51);
-    --marpx-color-table-header-color: white;
-    --marpx-color-table-border-top: rgb(255, 73, 1);
-    --marpx-color-table-border-bottom: rgba(202, 201, 197, 0.973);
-    --marpx-color-table-nth-child-color: #f5f5f5;
-    --marpx-color-table-hover: black;
-    --marpx-color-table-hover-background: rgb(234, 247, 121);
+    --marpx-table-header-background-color: rgb(21, 29, 51);
+    --marpx-table-header-color-color: white;
+    --marpx-table-border-top-color: rgb(255, 73, 1);
+    --marpx-table-border-bottom-color: rgba(202, 201, 197, 0.973);
+    --marpx-table-nth-child-color-color: #f5f5f5;
+    --marpx-table-hover-color: black;
+    --marpx-table-hover-background-color: rgb(234, 247, 121);
 
-    --marpx-font-table-size: 22px;
-    --marpx-font-table-family: 'Fira Sans';
+    --marpx-table-font-size: 22px;
+    --marpx-table-font-family: 'Fira Sans';
   
   /*------------ Parameters used in `TOC` ---------------------------------*/
   --marpx-color-toc-marker: rgb(0, 102, 255);

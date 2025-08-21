@@ -23,10 +23,10 @@ paginate: true
 ![bg left:33%](./assets/images/personalities/walter-gropius01.jpg)
 
 <div class="title"         > Staatliches Bauhaus </div>
-<div class="subtitle"      > Weniger ist mehr, aber mit Seele </div>
+<div class="subtitle"      > Die Form folgt der Funktion  </div>
 <div class="author"        > Walter Gropius </div>
 <div class="date"          > Dessau, 1926 </div>
-<div class="organization"  > Eidgenössisches Amt für Geistiges Eigentum </div>
+<div class="organization"  > Kunst und Technik: eine neue Einheit </div>
 
 ---
 
@@ -34,7 +34,7 @@ paginate: true
 
 # **Bauhaus**: Die Form folgt der Funktion 
 
-## Kunst und Technik: Weniger ist mehr, aber mit Seele
+## Kunst und Technik: eine neue Einheit
 
 ---
 

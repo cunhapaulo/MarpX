@@ -54,7 +54,7 @@
 /**>--------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
-@import url('https://fonts.cdnfonts.com/css/fira-sans-condensed?styles=19730');
+@import url("https://fonts.cdnfonts.com/css/fira-sans-condensed?styles=19730");
 
 /* 
 @import url('https://fonts.cdnfonts.com/css/lora-4');
@@ -72,7 +72,7 @@
 
   --marpx-color-light-grey: #a6a6a6;
   --marpx-color-dark-grey: #000000;
-  
+
   /*------------< Palete >---------------------------------*/
 
   /* Bluish cyan */
@@ -122,6 +122,7 @@
   --scarletRed-300: #e81c4f;
   --scarletRed-400: #fc0c18;
   --scarletRed-500: #d1002a;
+  --scarletRed-600: #ff0033;
 
   /* Blue violet */
   --blueViolet-100: #485fc7;
@@ -129,6 +130,8 @@
   --blueViolet-300: #004fff;
   --blueViolet-400: #071636;
   --blueViolet-500: #040d21;
+  --blueViolet-600: #98a5e6;
+
 
   /* Khaki */
   --khaki-100: #ffe08a;
@@ -137,6 +140,7 @@
   --khaki-400: #fdcc08;
   --khaki-500: #ffbf00;
   --khaki-600: #daa60b;
+  --khaki-700: #e77b00;
 
   /* Vermilion */
   --vermilion-100: #ffa08e;
@@ -163,7 +167,8 @@
   /* Yellow */
   --yellow-100: #f7df1e;
   --yellow-200: #a69308;
-  --yellow-300: #e5ff00;  
+  --yellow-300: #e5ff00;
+  --yellow-400: #ffff00;
 
   /* Bluish green */
   --bluishGreen-100: #65d277;
@@ -184,7 +189,6 @@
   /* Red */
   --red-100: #f95347;
 
-
   /*------------< Overall theme parameters >---------------------------------*/
 
   --marpx-theme-font-family: "Fira Sans Light", Faustina, Bookerly, Lora, sans-serif;
@@ -193,100 +197,90 @@
   --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
 
   --marpx-theme-color: #3e6ceb;
-  --marpx-theme-color-marker: color-mix(in srgb,
-      var(--marpx-theme-color),
-      white 25%);
-
-  --marpx-theme-color-font: #000000;
-  --marpx-theme-color-background: #ffffff;
-  --marpx-theme-color-bold: #f8150d;
-  --marpx-theme-color-alt: #9aade2;
-  
-  --marpx-color-h1-bold: #ff3c00;
-  --marpx-color-subtitle: #5d616d;
-  
-  --marpx-color-code: #e9e9e9;
-  --marpx-color-highlight: #ffff00;
-  --marpx-color-footnote-mark: #ff0000;
+  --marpx-theme-h1-color: var(--blueViolet-500);
+  --marpx-theme-h1-bold-color: #ff3c00;
+  --marpx-theme-h2-color: var(--blueViolet-300);
+  --marpx-theme-marker-color: color-mix(in srgb, var(--marpx-theme-color),white 25%);
+  --marpx-theme-font-color: #000000;
+  --marpx-theme-background-color: #ffffff;
+  --marpx-theme-bold-color: #f8150d;
+  --marpx-theme-chapter-color: #9aade2;
+  --marpx-theme-subtitle-color: #5d616d;
+  --marpx-theme-code-color: #e9e9e9;
+  --marpx-theme-highlight-color: #ffff00;
+  --marpx-theme-footnote-mark-color: #ff0000;
+  --marpx-theme-toc-color: #4562bb;
+  --marpx-theme-toc-background-color: #f6f6f6;
 
   /*-------------------< TITLE SLIDE >-----------------------------*/
 
   /* fonts sizes */
-  --marpx-titleslide-academic-title-size: 145%;
-  --marpx-titleslide-academic-subtitle-size: 95%;
-  --marpx-titleslide-academic-author-size: 105%;
-  --marpx-titleslide-academic-date-size: 95%;
-  --marpx-titleslide-academic-institute-size: 95%;
+  --marpx-title_academic-title-size: 145%;
+  --marpx-title_academic-subtitle-size: 95%;
+  --marpx-title_academic-author-size: 105%;
+  --marpx-title_academic-date-size: 95%;
+  --marpx-title_academic-institute-size: 95%;
 
   /* inter character space */
-  --marpx-titleslide-academic-letter-spacing: 0.125px;
+  --marpx-title_academic-letter-spacing: 0.125px;
 
   /* font weights */
-  --marpx-titleslide-academic-title-font-weight: bold;
-  --marpx-titleslide-academic-subtitle-font-weight: 600;
+  --marpx-title_academic-title-font-weight: bold;
+  --marpx-title_academic-subtitle-font-weight: 600;
 
   /* colors in style */
-  --marpx-titleslide-academic-title-color: #002b36;
-  --marpx-titleslide-academic-title-color: #003c4b;
-  --marpx-titleslide-academic-subtitle-color: #ababac;
-  --marpx-titleslide-academic-author-color: #f8150d;
-  --marpx-titleslide-academic-titlepage-color: #242d31;
-  --marpx-titleslide-academic-background-color: #faf7f7;
-  --marpx-titleslide-academic-border-color: #364269;
+  --marpx-title_academic-title-color: #002b36;
+  --marpx-title_academic-title-color: #003c4b;
+  --marpx-title_academic-subtitle-color: #ababac;
+  --marpx-title_academic-author-color: #f8150d;
+  --marpx-title_academic-font-color: #242d31;
+  --marpx-title_academic-background-color: #faf7f7;
+  --marpx-title_academic-border-color: #364269;
 
   /*------------< Parameters used in `REFERENCES` >---------------------------------*/
 
-  --marpx-color-references-bold: #3e6ceb;
-  --marpx-color-references-background: #eff4fa;
-  --marpx-color-reference-header: #539dd3;
+  --marpx-references-bold-color: #3e6ceb;
+  --marpx-references-background-color: #eff4fa;
+  --marpx-reference-header-color: #539dd3;
 
   /*------------< Parameters used in `QUOTE` >---------------------------------*/
 
-  --marpx-font-quote: Bookerly, Faustina, Times, serif;
-
-  --marpx-color-quote-background: #ffffff;
-  --marpx-color-quote-paragraph-background: #ffffff;
-  --marpx-color-quote-strong: #6462f1;
+  --marpx-quote-font-family: Bookerly, Faustina, Times, serif;
+  --marpx-quote-background-color: #ffffff;
+  --marpx-quote-paragraph-background-color: #ffffff;
+  --marpx-quote-strong-color: #6462f1;
 
   /*-< quote dark >-*/
 
-  --marpx-font-quote-dark: Faustina, Bookerly, Times, serif;
-
-  --marpx-font-quote-dark-color: #222230;
-  --marpx-color-quote-dark-background: #9aade2;
-  --marpx-color-quote-dark-paragraph-background: #9aade2;
-  --marpx-color-quote-dark-strong: #f8f8f7;
+  --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
+  --marpx-quote_dark-font-color: #222230;
+  --marpx-quote_dark-color-background: #9aade2;
+  --marpx-quote_dark-color-paragraph-background: #9aade2;
+  --marpx-quote_dark-color-strong: #f8f8f7;
 
   /*------------< Parameters used in `TABLE` >---------------------------------*/
 
-  --marpx-color-table-header-background: #151d33;
-  --marpx-color-table-header-color: white;
-  --marpx-color-table-border-top: rgb(255, 73, 1);
-  --marpx-color-table-border-bottom: #cac9c5f8;
-  --marpx-color-table-nth-child-color: #f5f5f5;
-  --marpx-color-table-hover: #474619;
-  --marpx-color-table-hover-background: #eaf779;
-
-  --marpx-font-table-size: 22px;
-  --marpx-font-table-family: ;
-
-
-
-  /*------------< Parameters used in `TOC` >---------------------------------*/
-  --marpx-theme-color-agenda: #4562bb;
-  --marpx-color-toc-background: #f6f6f6;
+  --marpx-table-font-size: 22px;
+  --marpx-table-font-family: inherit;
+  --marpx-table-header-background-color: #151d33;
+  --marpx-table-header-color-color: white;
+  --marpx-table-border-top-color: rgb(255, 73, 1);
+  --marpx-table-border-bottom-color: #cac9c5f8;
+  --marpx-table-nth-child-color-color: #f5f5f5;
+  --marpx-table-hover-color: #474619;
+  --marpx-table-hover-background-color: #eaf779;
 
   --marpx-calc-toc-font-color: color-mix(in srgb,
-      var(--marpx-theme-color-agenda),
+      var(--marpx-theme-toc-color),
       white 35%);
   --marpx-calc-toc-marker-color: color-mix(in srgb,
-      var(--marpx-theme-color-agenda),
+      var(--marpx-theme-toc-color),
       black 30%);
   --marpx-calc-toc-hover-color: color-mix(in srgb,
-      var(--marpx-theme-color-agenda),
+      var(--marpx-theme-toc-color),
       gray 40%);
   --marpx-calc-toc-hoover-background-color: color-mix(in srgb,
-      var(--marpx-theme-color-agenda),
+      var(--marpx-theme-toc-color),
       white 85%);
 }
 
@@ -318,8 +312,8 @@ section {
   font-size: 22pt;
   font-weight: 400;
   font-family: var(--marpx-theme-font-family);
-  color: var(--marpx-theme-color-font);
-  background: var(--marpx-theme-color-background);
+  color: var(--marpx-theme-font-color);
+  background: var(--marpx-theme-background-color);
   padding: 145px 80px 68px 80px;
   background-size: contain;
 }
@@ -380,7 +374,7 @@ footer::after {
 h1 {
   top: 20px;
   position: absolute;
-  color: var(--marpx-theme-color);
+  color: var(--marpx-theme-h1-color);
   font-size: 36pt;
   font-weight: 700;
   height: 130px;
@@ -398,7 +392,7 @@ h1[data-auto-scaling] {
 }
 
 h2 {
-  color: var(--marpx-theme-color);
+  color: var(--marpx-theme-h2-color);
 }
 
 h2,
@@ -426,12 +420,12 @@ h1>strong,
 h2>strong,
 h3>strong,
 h4>strong {
-  color: var(--marpx-color-h1-bold);
+  color: var(--marpx-theme-h1-bold-color);
   font-weight: bold !important;
 }
 
 li::marker {
-  color: var(--marpx-theme-color-marker);
+  color: var(--marpx-theme-marker-color);
 }
 
 section>video {
@@ -460,7 +454,7 @@ section>figure.center {
 section sup,
 footnote li::marker,
 .footnote li::marker {
-  color: var(--marpx-color-footnote-mark);
+  color: var(--marpx-theme-footnote-mark-color);
 }
 
 footnote {
@@ -574,7 +568,7 @@ section.grid>h1 {
 section.title,
 section.title-bg {
   padding-left: 80px;
-  background-color: var(--marpx-titleslide-academic-background-color);
+  background-color: var(--marpx-title_academic-background-color);
 }
 
 section.title>h1,
@@ -586,9 +580,9 @@ section.title-bg>h1 {
 
   padding: 0px;
   font-size: 42pt;
-  /* font-size: var(--marpx-titleslide-academic-title-size); */
+  /* font-size: var(--marpx-title_academic-title-size); */
   line-height: normal;
-  color: var(--marpx-titleslide-academic-title-color);
+  color: var(--marpx-title_academic-title-color);
   font-weight: 700;
 
   display: flex;
@@ -603,7 +597,7 @@ section.title-bg>h2 {
   margin: 0px;
   padding: 0px;
   font-size: 30pt;
-  color: var(--marpx-titleslide-academic-subtitle-color);
+  color: var(--marpx-title_academic-subtitle-color);
   font-weight: 700;
 }
 
@@ -645,7 +639,7 @@ $?-----------------------< TITLE ACADEMIC >-----------------------
 */
 
 section.title-academic {
-  background-color: var(--marpx-titleslide-academic-background-color) !important;
+  background-color: var(--marpx-title_academic-background-color) !important;
   background-image: none;
   z-index: -5;
 }
@@ -657,16 +651,16 @@ section.title-academic>h1 {
   /* distance from the title to the underline below it */
 
   line-height: 1.05 !important;
-  font-size: var(--marpx-titleslide-academic-title-size);
-  /* font-weight: var(--marpx-titleslide-academic-title-font-weight); */
-  letter-spacing: var(--marpx-titleslide-academic-letter-spacing);
-  font-weight: var(--marpx-titleslide-academic-title-font-weight);
-  color: var(--marpx-titleslide-academic-title-color);
-  border-bottom: 1px solid var(--marpx-titleslide-academic-border-color) !important;
+  font-size: var(--marpx-title_academic-title-size);
+  /* font-weight: var(--marpx-title_academic-title-font-weight); */
+  letter-spacing: var(--marpx-title_academic-letter-spacing);
+  font-weight: var(--marpx-title_academic-title-font-weight);
+  color: var(--marpx-title_academic-title-color);
+  border-bottom: 1px solid var(--marpx-title_academic-border-color) !important;
 }
 
 section.title-academic .title>strong {
-  /* color: var(--marpx-color-h1-bold) !important; */
+  /* color: var(--marpx-theme-h1-bold-color) !important; */
   color: red !important;
   font-weight: bold;
 }
@@ -675,19 +669,19 @@ section.title-academic>h1 {
   top: 25pt;
   height: 0%;
   position: relative;
-  font-weight: var(--marpx-titleslide-academic-title-font-weight);
-  letter-spacing: var(--marpx-titleslide-academic-letter-spacing);
+  font-weight: var(--marpx-title_academic-title-font-weight);
+  letter-spacing: var(--marpx-title_academic-letter-spacing);
 }
 
 section.title-academic .subtitle,
 section.title-academic>h2 {
-  color: var(--marpx-titleslide-academic-subtitle-color);
+  color: var(--marpx-title_academic-subtitle-color);
 
-  font-size: var(--marpx-titleslide-academic-subtitle-size);
-  font-weight: var(--marpx-titleslide-academic-subtitle-font-weight);
+  font-size: var(--marpx-title_academic-subtitle-size);
+  font-weight: var(--marpx-title_academic-subtitle-font-weight);
 
   line-height: 1.2;
-  letter-spacing: var(--marpx-titleslide-academic-letter-spacing);
+  letter-spacing: var(--marpx-title_academic-letter-spacing);
 
   padding-top: 10px;
   padding-bottom: 120px;
@@ -701,19 +695,19 @@ section.title-academic>h2 {
 
 section.title-academic .author,
 section.title-academic>h3 {
-  color: var(--marpx-titleslide-academic-author-color) !important;
-  font-size: var(--marpx-titleslide-academic-author-size);
+  color: var(--marpx-title_academic-author-color) !important;
+  font-size: var(--marpx-title_academic-author-size);
   font-weight: bold !important;
 }
 
 section.title-academic .date,
 section.title-academic>h4 {
-  font-size: var(--marpx-titleslide-academic-date-size);
+  font-size: var(--marpx-title_academic-date-size);
 }
 
 section.title-academic .organization,
 section.title-academic>h5 {
-  font-size: var(--marpx-titleslide-academic-institute-size);
+  font-size: var(--marpx-title_academic-institute-size);
 }
 
 section.title-academic .author,
@@ -724,9 +718,9 @@ section.title-academic h4,
 section.title-academic h5 {
   font-weight: 400;
   text-align: left;
-  color: var(--marpx-titleslide-academic-titlepage-color);
+  color: var(--marpx-title_academic-font-color);
   line-height: 1.25;
-  letter-spacing: var(--marpx-titleslide-academic-letter-spacing);
+  letter-spacing: var(--marpx-title_academic-letter-spacing);
 }
 
 /* Omits page number in Title Page Slide */
@@ -745,7 +739,7 @@ section.title-academic:after {
 section.chapter {
   padding-left: 80px;
   background-image: none;
-  background-color: var(--marpx-theme-color-alt);
+  background-color: var(--marpx-theme-chapter-color);
 }
 
 /* 
@@ -839,7 +833,7 @@ section.toc {
   padding-top: 50px;
   font-size: 24pt;
   flex-flow: nowrap;
-  background-color: var(--marpx-color-toc-background);
+  background-color: var(--marpx-theme-toc-background-color);
 }
 
 section.toc a {
@@ -881,7 +875,7 @@ section.toc::before {
   font-weight: 700;
 
   color: white;
-  background-color: var(--marpx-theme-color-agenda);
+  background-color: var(--marpx-theme-toc-color);
   content: "Agenda";
 }
 
@@ -1266,7 +1260,7 @@ tabcaption,
   font-family: "Fira Sans";
   font-size: 14pt;
   font-weight: normal;
-  color: var(--marpx-theme-color-font);
+  color: var(--marpx-theme-font-color);
   text-align: center;
 }
 
@@ -1290,18 +1284,18 @@ tabcaption::before,
 
 .highlight {
   padding: 0.2em 0.3em;
-  background-color: var(--marpx-color-highlight);
+  background-color: var(--marpx-theme-highlight-color);
 }
 
 section code:not(pre code) {
   font-family: inherit;
-  background-color: var(--marpx-color-highlight);
+  background-color: var(--marpx-theme-highlight-color);
   font-weight: bold;
   border-radius: 11px 11px 11px 11px;
 }
 
 section strong {
-  color: var(--marpx-theme-color-bold);
+  color: var(--marpx-theme-bold-color);
 }
 
 /*
@@ -1311,17 +1305,17 @@ section strong {
 */
 
 section.quote {
-  background-color: var(--marpx-color-quote-background) !important;
+  background-color: var(--marpx-quote-background-color) !important;
 }
 
 section.quote p {
   color: #222230 !important;
-  background-color: var(--marpx-color-quote-paragraph-background);
+  background-color: var(--marpx-quote-paragraph-background-color);
   letter-spacing: 0.1pt;
   font-size: 1.45em !important;
   text-align: center;
   line-height: 1.12em;
-  font-family: var(--marpx-font-quote) !important;
+  font-family: var(--marpx-quote-font-family) !important;
   /*  font-style: oblique; */
   padding-top: auto;
   padding-bottom: auto;
@@ -1331,7 +1325,7 @@ section.quote p {
 
 section.quote strong {
   font-style: italic;
-  color: var(--marpx-color-quote-strong) !important;
+  color: var(--marpx-quote-strong-color) !important;
 }
 
 section.quote footer,
@@ -1341,15 +1335,15 @@ section.quote header {
 
 /* Alternative style (used to be quote2, now quote dark) */
 section.quote.dark {
-  background-color: var(--marpx-color-quote-dark-background) !important;
+  background-color: var(--marpx-quote_dark-color-background) !important;
 }
 
 section.quote.dark p {
-  color: var(--marpx-font-quote-dark-color) !important;
-  font-family: var(--marpx-font-quote-dark) !important;
+  color: var(--marpx-quote_dark-font-color) !important;
+  font-family: var(--marpx-quote_dark-font) !important;
   font-weight: normal;
   font-size: 34pt !important;
-  background-color: var(--marpx-color-quote-dark-paragraph-background);
+  background-color: var(--marpx-quote_dark-color-paragraph-background);
   letter-spacing: 0.1pt;
   text-align: center;
   line-height: 1.09em;
@@ -1360,7 +1354,7 @@ section.quote.dark p {
 }
 
 section.quote.dark strong {
-  color: var(--marpx-color-quote-dark-strong) !important;
+  color: var(--marpx-quote_dark-color-strong) !important;
   font-style: normal;
 }
 
@@ -1371,35 +1365,35 @@ section.quote.dark strong {
 */
 
 section table {
-  font-size: var(--marpx-font-table-size);
-  font-family: var(--marpx-font-table-family) !important;
+  font-size: var(--marpx-table-font-size);
+  font-family: var(--marpx-table-font-family) !important;
 }
 
 section table th {
-  background-color: var(--marpx-color-table-header-background);
-  color: var(--marpx-color-table-header-color);
-  border-top: var(--marpx-color-table-border-top) solid 2px;
-  border-bottom: var(--marpx-color-table-border-bottom) solid 2px;
+  background-color: var(--marpx-table-header-background-color);
+  color: var(--marpx-table-header-color-color);
+  border-top: var(--marpx-table-border-top-color) solid 2px;
+  border-bottom: var(--marpx-table-border-bottom-color) solid 2px;
   border-width: initial;
 }
 
 section table td {
-  border: 1px solid var(--marpx-color-table-border-bottom);
+  border: 1px solid var(--marpx-table-border-bottom-color);
   border-left: 0;
   border-right: 0;
 }
 
 section table tr:nth-child(even) {
-  background-color: var(--marpx-color-table-nth-child-color);
+  background-color: var(--marpx-table-nth-child-color-color);
 }
 
 section table tr:last-child {
-  border-bottom: var(--marpx-color-table-border-bottom) solid 1px;
+  border-bottom: var(--marpx-table-border-bottom-color) solid 1px;
 }
 
 tr:hover {
-  color: var(--marpx-color-table-hover) !important;
-  background: var(--marpx-color-table-hover-background) !important;
+  color: var(--marpx-table-hover-color) !important;
+  background: var(--marpx-table-hover-background-color) !important;
   /* font-weight: bold !important; */
 }
 
@@ -1409,7 +1403,7 @@ tr:hover {
 !================================================================================
 */
 section.references {
-  background: var(--marpx-color-references-background);
+  background: var(--marpx-references-background-color);
   color: #303235;
   font-family: "Fira Sans Light", sans-serif;
   padding: 150px 48px;
@@ -1422,13 +1416,13 @@ section.references li {
 }
 
 section.references strong {
-  color: var(--marpx-color-references-bold);
+  color: var(--marpx-references-bold-color);
   font-family: "Fira Sans Regular", sans-serif;
 }
 
 section.references h1,
 section.references h2 {
-  color: var(--marpx-color-reference-header);
+  color: var(--marpx-reference-header-color);
   margin-bottom: 16px;
   font-family: "Fira Sans Regular", sans-serif;
   /* border-bottom: 1px solid #0606ee; */

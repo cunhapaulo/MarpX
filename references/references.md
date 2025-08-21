@@ -79,22 +79,22 @@ size: banner
 
 | Constant | Description |
 | :--- | :--- |
-| `--marpx-color-code` | Defines the background color for code blocks. |
+| `--marpx-theme-color-code` | Defines the background color for code blocks. |
 | `--marpx-color-dark-grey` | Sets a dark grey color variable. |
-| `--marpx-color-footnote-mark` | Specifies the color for footnote markers. |
-| `--marpx-color-h1-bold` | Defines the color for bolded text within H1 headings. |
-| `--marpx-color-highlight` | Sets the background color for highlighted text. |
+| `--marpx-theme-color-footnote-mark` | Specifies the color for footnote markers. |
+| `--marpx-theme-h1-bold-color` | Defines the color for bolded text within H1 headings. |
+| `--marpx-theme-color-highlight` | Sets the background color for highlighted text. |
 | `--marpx-color-light-grey` | Sets a light grey color variable. |
-| `--marpx-color-quote-background` | Sets the background color for quote slides. |
-| `--marpx-color-quote-dark-background` | Sets the background color for dark-themed quote slides. |
-| `--marpx-color-quote-dark-paragraph-background` | Defines the paragraph background color for dark-themed quotes. |
-| `--marpx-color-quote-dark-strong` | Sets the color for strong text within dark-themed quotes. |
-| `--marpx-color-quote-paragraph-background` | Defines the paragraph background color for regular quotes. |
-| `--marpx-color-quote-strong` | Sets the color for strong text within regular quotes. |
-| `--marpx-color-reference-header` | Specifies the color for headings on reference slides. |
-| `--marpx-color-references-background` | Sets the background color for reference slides. |
-| `--marpx-color-references-bold` | Defines the color for bolded text on reference slides. |
-| `--marpx-color-subtitle` | Sets the color for subtitles. |
+| `--marpx-quote-color-background` | Sets the background color for quote slides. |
+| `--marpx-quote_dark-color-background` | Sets the background color for dark-themed quote slides. |
+| `--marpx-quote_dark-color-paragraph-background` | Defines the paragraph background color for dark-themed quotes. |
+| `--marpx-quote_dark-color-strong` | Sets the color for strong text within dark-themed quotes. |
+| `--marpx-quote-color-paragraph-background` | Defines the paragraph background color for regular quotes. |
+| `--marpx-quote-color-strong` | Sets the color for strong text within regular quotes. |
+| `--marpx-reference-header-color` | Specifies the color for headings on reference slides. |
+| `--marpx-references-background-color` | Sets the background color for reference slides. |
+| `--marpx-references-bold-color` | Defines the color for bolded text on reference slides. |
+| `--marpx-theme-color-subtitle` | Sets the color for subtitles. |
 | `--marpx-color-table-border-bottom` | Specifies the color for the bottom border of table cells. |
 | `--marpx-color-table-border-top` | Specifies the color for the top border of table cells. |
 | `--marpx-color-table-header-background` | Sets the background color for table headers. |
@@ -102,31 +102,31 @@ size: banner
 | `--marpx-color-table-hover` | Specifies the text color for a table row on hover. |
 | `--marpx-color-table-hover-background` | Sets the background color for a table row on hover. |
 | `--marpx-color-table-nth-child-color` | Sets the background color for even-numbered table rows. |
-| `--marpx-font-quote` | Defines the font family for regular quotes. |
-| `--marpx-font-quote-dark` | Defines the font family for dark-themed quotes. |
+| `--marpx-quote-font-family` | Defines the font family for regular quotes. |
+| `--marpx-quote_dark-font` | Defines the font family for dark-themed quotes. |
 | `--marpx-font-table-family` | Sets the font family for tables. |
 | `--marpx-font-table-size` | Specifies the font size for tables. |
 | `--marpx-theme-brandlogo` | Defines the text for the brand logo in the footer. |
 | `--marpx-theme-captiontext-figure` | Sets the prefix text for figure captions (e.g., "Fig. "). |
 | `--marpx-theme-captiontext-table` | Sets the prefix text for table captions (e.g., "Table "). |
 | `--marpx-theme-color` | A primary color for the theme, used in headings and other elements. |
-| `--marpx-theme-color-agenda` | A specific color for the "Agenda" section. |
-| `--marpx-theme-color-alt` | An alternative theme color, used for the chapter slide background. |
+| `--marpx-theme-color-toc` | A specific color for the "Agenda" section. |
+| `--marpx-theme-color-chapter` | An alternative theme color, used for the chapter slide background. |
 | `--marpx-theme-color-background` | The main background color for slides. |
 | `--marpx-theme-color-bold` | Defines the color for general bolded text. |
 | `--marpx-theme-color-font` | The default font color for the theme. |
 | `--marpx-theme-font-family` | The primary font family for the entire theme. |
-| `--marpx-titleslide-academic-author-color` | Sets the color for the author's name on an academic title slide. |
-| `--marpx-titleslide-academic-author-size` | Specifies the font size for the author's name on an academic title slide. |
-| `--marpx-titleslide-academic-background-color` | Sets the background color for the academic title slide. |
-| `--marpx-titleslide-academic-border-color` | Defines the border color for elements on the academic title slide. |
-| `--marpx-titleslide-academic-date-size` | Specifies the font size for the date on an academic title slide. |
-| `--marpx-titleslide-academic-institute-size` | Specifies the font size for the institute's name on an academic title slide. |
-| `--marpx-titleslide-academic-letter-spacing` | Sets the letter spacing for text on an academic title slide. |
-| `--marpx-titleslide-academic-subtitle-color` | Sets the color for the subtitle on an academic title slide. |
-| `--marpx-titleslide-academic-subtitle-font-weight` | Defines the font weight for the subtitle on an academic title slide. |
-| `--marpx-titleslide-academic-subtitle-size` | Specifies the font size for the subtitle on an academic title slide. |
-| `--marpx-titleslide-academic-title-color` | Sets the color for the main title on an academic title slide. |
-| `--marpx-titleslide-academic-title-font-weight` | Defines the font weight for the main title on an academic title slide. |
-| `--marpx-titleslide-academic-title-size` | Specifies the font size for the main title on an academic title slide. |
-| `--marpx-titleslide-academic-titlepage-color` | Sets the general text color for the academic title slide. |
+| `--marpx-title_academic-author-color` | Sets the color for the author's name on an academic title slide. |
+| `--marpx-title_academic-author-size` | Specifies the font size for the author's name on an academic title slide. |
+| `--marpx-title_academic-background-color` | Sets the background color for the academic title slide. |
+| `--marpx-title_academic-border-color` | Defines the border color for elements on the academic title slide. |
+| `--marpx-title_academic-date-size` | Specifies the font size for the date on an academic title slide. |
+| `--marpx-title_academic-institute-size` | Specifies the font size for the institute's name on an academic title slide. |
+| `--marpx-title_academic-letter-spacing` | Sets the letter spacing for text on an academic title slide. |
+| `--marpx-title_academic-subtitle-color` | Sets the color for the subtitle on an academic title slide. |
+| `--marpx-title_academic-subtitle-font-weight` | Defines the font weight for the subtitle on an academic title slide. |
+| `--marpx-title_academic-subtitle-size` | Specifies the font size for the subtitle on an academic title slide. |
+| `--marpx-title_academic-title-color` | Sets the color for the main title on an academic title slide. |
+| `--marpx-title_academic-title-font-weight` | Defines the font weight for the main title on an academic title slide. |
+| `--marpx-title_academic-title-size` | Specifies the font size for the main title on an academic title slide. |
+| `--marpx-title_academic-font-color` | Sets the general text color for the academic title slide. |
