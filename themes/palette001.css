@@ -1,0 +1,88 @@
+/* Blue violet */
+--blueViolet-100: #ebedfa;
+--blueViolet-200: #e0e2eb;
+--blueViolet-300: #d6dbf5;
+--blueViolet-400: #d0d3e1;
+--blueViolet-500: #98a5e6;
+--blueViolet-600: #475ed1;
+--blueViolet-700: #2e45b8;
+--blueViolet-800: #1f2e7a;
+--blueViolet-900: #141f52;
+--blueViolet-1000: #050815;
+
+/* Gray */
+--gray-100: #ffffff;
+--gray-200: #fafafa;
+--gray-300: #f5f4ef;
+--gray-400: #eff5f5;
+--gray-500: #f5f2f0;
+--gray-600: #f2f2f2;
+--gray-700: #f5f0ef;
+--gray-800: #eff0f5;
+--gray-900: #ededed;
+--gray-1000: #d9d9d9;
+--gray-1100: #b3b3b3;
+--gray-1200: #999999;
+--gray-1300: #595959;
+--gray-1400: #1a1a1a;
+--gray-1500: #0d0d0d;
+--gray-1600: #000000;
+
+/* Khaki */
+--khaki-100: #fef8e6;
+--khaki-200: #ebe9e0;
+--khaki-300: #fef2cd;
+--khaki-400: #fcde83;
+--khaki-500: #fbd051;
+--khaki-600: #f9c31f;
+--khaki-700: #ffbb1a;
+--khaki-800: #ae8305;
+
+/* Orange */
+--orange-100: #fef0e6;
+--orange-200: #ebe5e0;
+--orange-300: #fee1cd;
+--orange-400: #e1d8d1;
+--orange-500: #fcb583;
+--orange-600: #fb9851;
+--orange-700: #f97a1f;
+
+/* Red */
+--red-100: #fee7e7;
+--red-200: #ebe0e0;
+--red-300: #e1d0d0;
+--red-400: #f6423c;
+--red-500: #e3120b;
+--red-600: #cc100a;
+--red-700: #aa0e08;
+--red-800: #b30000;
+
+/* Greenish cyan */
+--greenishCyan-100: #e9fcf8;
+--greenishCyan-200: #d2f9f0;
+--greenishCyan-300: #36e2bd;
+--greenishCyan-400: #1dc9a4;
+--greenishCyan-500: #169c7f;
+
+/* Scarlet red */
+--scarletRed-100: #fce9ed;
+--scarletRed-200: #f9d2db;
+--scarletRed-300: #e2365b;
+--scarletRed-400: #c91d42;
+--scarletRed-500: #9c1633;
+
+/* Cyan */
+--cyan-100: #e0ebeb;
+--cyan-200: #d0e1e1;
+
+/* Olive */
+--olive-100: #e2f9d2;
+--olive-200: #7be236;
+--olive-300: #62c91d;
+--olive-400: #4c9c16;
+
+/* Yellow */
+--yellow-100: #e1dfd0;
+
+/* Grass green */
+--grassGreen-100: #f0fce9;

@@ -3,14 +3,13 @@ title: Spartan Theme
 author: Paulo Cunha
 description: Canonical use of Spartan Theme features
 keywords: [Marp, MarpX, Spartan, Paulo Cunha]
-
 header: This is the Spartan Theme
 footer: "[Click to the beginning](#3)"
 
 marp: true
+
 theme: spartan
 transition: fade
-
 size: 16:9
 lang: en
 math: mathjax
@@ -291,15 +290,15 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <div class=multicolumn vcenter><div align=center>
 
-![h:380px](https://i.pinimg.com/736x/93/74/88/9374889616698d45adf1e911788665a4.jpg)
+![h:390 center](./assets/images/animations/sphere.gif)
 
-<figcaption> Static picture.
+<figcaption> First animation.
 
 </div><div align=center>
 
 <iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318596012123" height="390" width="400" frameborder="0" scrolling="no" ></iframe>
-
-<figcaption> Animation 02.
+<p>
+<figcaption> Second animation.
 
 </div></div>
 
