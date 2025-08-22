@@ -22,7 +22,7 @@
   /* Headings */
   --marpx-theme-h1-color: var(--blueViolet-500);
   --marpx-theme-h1-bold-color: var(--scarletRed-500);
-  --marpx-theme-h2-color: var(--blueViolet-400);
+  --marpx-theme-h2-color: var(--blueViolet-200);
 
   /* Specific elements */
   --marpx-theme-chapter-color: var(--blueViolet-600);
@@ -48,8 +48,8 @@
 
   /* Font sizes */
   --marpx-title_academic-title-size: 150%;
-  --marpx-title_academic-title-font-weight: 600;
-  --marpx-title_academic-subtitle-size: 95%;
+  --marpx-title_academic-title-font-weight: bold;
+  --marpx-title_academic-subtitle-size: 95%%;
   --marpx-title_academic-author-size: 110%;
   --marpx-title_academic-date-size: 95%;
   --marpx-title_academic-institute-size: 85%;
