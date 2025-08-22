@@ -33,7 +33,8 @@
   --marpx-theme-table-captiontext-color: #7f7ee0;
 
   /* Markers and highlights */
-  --marpx-theme-marker-color: #c92828; /* ativo */
+  /* --marpx-theme-marker-color: #c92828;  */
+  --marpx-theme-marker-color: #6d6bee; /* ativo */
   --marpx-theme-code-color: #e9e9e9;
   --marpx-theme-highlight-color: #b9e4f1;
   --marpx-theme-footnote-mark-color: #ff0000;
