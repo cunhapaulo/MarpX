@@ -715,7 +715,7 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 ![h:390 center](./assets/images/animations/sphere.gif)
 
-<figcaption> First animation.
+<figcaption> First animation. 
 
 </div><div align=center>
 
