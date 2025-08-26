@@ -57,11 +57,19 @@ Here you´ll find examples of the available themes. Click on the picture to open
 
 ## 📦 Getting Started
 
-1. **Clone or Download** this repository.
-2. **Copy** the desired theme(s) and CSS files to your Marp project directory.
-3. When using VScode, configure de code-workspace file to indicate exactly where the theme files are. They might be stored locally or could be downloaded from the internet:
+### Config for use with local files in your computer:
 
-   ### Configuration of locally stored theme files:
+In case you want to install the thema files locally, for possible use without internet access, proceed as follow.
+
+1. **Clone or Download** this repository, specially the the files in the `themes` directory (folder), to your local drive, in a very well know directory (folder);
+1. When using VScode, configure de code-workspace file to indicate exactly where the theme files are. Remember that there is always the possibility of these theme files being downloaded from the Internet:
+
+### No local files needed
+
+In case you don´t want the burden of downloading anything and use the theme files directly from the Internet, proceed as follows.
+
+
+   ### Locally stored theme files config:
 
    ```json
    {
@@ -83,7 +91,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
    }
    ```
 
-   ### Configuring theme files downloaded from the Internet:
+   ### Configuration for using themes downloaded from the internet:
 
    ```json
    {
