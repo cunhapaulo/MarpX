@@ -57,19 +57,13 @@ Here you´ll find examples of the available themes. Click on the picture to open
 
 ## 📦 Getting Started
 
-### Config for use with local files in your computer:
+### 1. Config your environment to use MarpX themes
 
-In case you want to install the thema files locally, for possible use without internet access, proceed as follow.
+1. In case you want to install the theme files locally, for possible use without internet access, proceed as follow:
+   - **Clone or Download** this repository, specially the the files in the `themes` directory (folder), to your local drive, in a very well know directory (folder);
+   - When using `VScode`, configure the code-workspace file to indicate exactly where the theme files are. Remember that there is always the possibility of these theme files being downloaded from the Internet:
 
-1. **Clone or Download** this repository, specially the the files in the `themes` directory (folder), to your local drive, in a very well know directory (folder);
-1. When using VScode, configure de code-workspace file to indicate exactly where the theme files are. Remember that there is always the possibility of these theme files being downloaded from the Internet:
-
-### No local files needed
-
-In case you don´t want the burden of downloading anything and use the theme files directly from the Internet, proceed as follows.
-
-
-   ### Locally stored theme files config:
+    Example of a locally stored theme `code-workspace` config file:
 
    ```json
    {
@@ -90,30 +84,37 @@ In case you don´t want the burden of downloading anything and use the theme fil
      }
    }
    ```
+  2. In case you don´t want the burden of downloading anything and use the themes directly from the Internet, proceed as follows.
+   
+      - Config your VScode code-workspace config file to indicate exactly where the theme files are (Internet).
+  
+      Internet stored themes `code-workspace` config:
+      
+      ```json
+      {
+        "folders": [
+          {
+            "path": "."
+          }
+        ],
+        "settings": {
+          "markdown.marp.themes": [
+            "https://cunhapaulo.github.io/marpx/themes/marpx.css",
+            "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
+            "https://cunhapaulo.github.io/marpx/themes/gödel.css",
+            "https://cunhapaulo.github.io/marpx/themes/gropius.css",
+            "https://cunhapaulo.github.io/marpx/themes/socrates.css",
+            "https://cunhapaulo.github.io/marpx/themes/sparta.css"
+          ]
+        }
+      }
+      ```
 
-   ### Configuration for using themes downloaded from the internet:
+### 2. **Reference** one of the available themes in your slide deck in Markdown:
+  Once you've configured the location of the theme files, the next step is to create your slidedeck.
 
-   ```json
-   {
-     "folders": [
-       {
-         "path": "."
-       }
-     ],
-     "settings": {
-       "markdown.marp.themes": [
-         "https://cunhapaulo.github.io/marpx/themes/marpx.css",
-         "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
-         "https://cunhapaulo.github.io/marpx/themes/gödel.css",
-         "https://cunhapaulo.github.io/marpx/themes/gropius.css",
-         "https://cunhapaulo.github.io/marpx/themes/socrates.css",
-         "https://cunhapaulo.github.io/marpx/themes/sparta.css"
-       ]
-     }
-   }
-   ```
-
-4. **Reference** the theme in your Markdown frontmatter:
+  The first thing to do in your file is to create the header section in YAML:
+   
    ```markdown
    ---
    title: Western Philosophy from Athens
@@ -125,7 +126,7 @@ In case you don´t want the burden of downloading anything and use the theme fil
    theme: socrates
    ---
    ```
-5. **Create** a front slide like this:
+### 3. **Create** a Title slide like this:
 
    ```html
    ---
@@ -141,8 +142,7 @@ In case you don´t want the burden of downloading anything and use the theme fil
    <div class="organization">Ágora, the Assembly of the Polis</div>
    ---
    ```
-
-6. **Use semantic classes** in your slides to unlock advanced layouts:
+### 4. **Use semantic classes** in your slides to unlock advanced layouts:
 
    ```html
    ---
@@ -155,9 +155,11 @@ In case you don´t want the burden of downloading anything and use the theme fil
    > "A beautiful quote." ---
    ```
 
-7. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
+### 5. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
 
----
+When all has been said and done, export your slide-deck to one of the available formats (PDF, HTML, PowerPoint, PNG, etc. )
+
+
 
 ## 🛠️ Customization
 
