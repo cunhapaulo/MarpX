@@ -1,14 +1,14 @@
 ---
-title: Spartan Theme
+title: Sparta Theme
 author: Paulo Cunha
-description: Canonical use of Spartan Theme features
-keywords: [Marp, MarpX, Spartan, Paulo Cunha]
-header: This is the Spartan Theme
+description: Canonical use of Sparta Theme features
+keywords: [Marp, MarpX, Sparta, Paulo Cunha]
+header: This is the Sparta Theme
 footer: "[Click to the beginning](#3)"
 
 marp: true
 
-theme: spartan
+theme: sparta
 transition: fade
 size: 16:9
 lang: en
@@ -20,7 +20,7 @@ paginate: true
 
 ![bg left:33% h:115% invert:70% contrast:250% brightness:.7 opacity:.75](./assets/images/places/spartan-helmet.jpg)
 
-<div class="title"         > This is the MarpX Spartan Theme </div>
+<div class="title"         > This is the MarpX Sparta Theme </div>
 <div class="subtitle"      > Sometimes it's handy to have a subtitle too </div> 
 <div class="author"        > Complete author's name goes here </div>
 <div class="date"          > Date goes here</div>
@@ -32,7 +32,7 @@ paginate: true
 
 ![bg opacity:0.215 grayscale:1](./assets/images/places/sparta.avif)
 
-# This is the **MarpX** Spartan Theme
+# This is the **MarpX** Sparta Theme
 
 ## This is Subtitle in class title
 

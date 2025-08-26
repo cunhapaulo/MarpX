@@ -42,8 +42,8 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 Here you´ll find examples of the available themes. Click on the picture to open a corresponding PDF example.
 |                                                                                                                        |
 | :--------------------------------------------------------------------------------------------------------------------- |
-| <h3> In honor of Spartans from Greece </h3>                                                                            |
-| [![Style Spartan](./examples/front-slide/spartan.png)](https://cunhapaulo.github.io/marpx/examples/spartan.html)       |
+| <h3> In honor of Sparta from Greece </h3>                                                                            |
+| [![Style Sparta](./examples/front-slide/sparta.png)](https://cunhapaulo.github.io/marpx/examples/sparta.html)       |
 | <h3> In honor of Σωκράτης - Socrates (469–399 B.C.E.) </h3>                                                            |
 | [![Style Socrates](./examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)     |
 | <h3> In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
@@ -77,7 +77,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
          "./themes/gödel.css",
          "./themes/gropius.css",
          "./themes/socrates.css",
-         "./themes/spartan.css"
+         "./themes/sparta.css"
        ]
      }
    }
@@ -99,7 +99,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
          "https://cunhapaulo.github.io/marpx/themes/gödel.css",
          "https://cunhapaulo.github.io/marpx/themes/gropius.css",
          "https://cunhapaulo.github.io/marpx/themes/socrates.css",
-         "https://cunhapaulo.github.io/marpx/themes/spartan.css"
+         "https://cunhapaulo.github.io/marpx/themes/sparta.css"
        ]
      }
    }
