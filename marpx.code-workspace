@@ -15,7 +15,7 @@
 			"./themes/gödel.css",
 			"./themes/gropius.css",
 			"./themes/socrates.css",
-			"./themes/spartan.css",
+			"./themes/sparta.css",
 			"./themes/temp.css",
 		],
 		"powershell.cwd": "MarpX"
