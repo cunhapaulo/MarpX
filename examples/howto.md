@@ -177,7 +177,7 @@ paginate: true
 
 # \<!-- _class: chapter -->
 
-```md
+```YAML
 <!-- _class: chapter -->
 
 # Transition Slide
