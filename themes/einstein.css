@@ -13,36 +13,40 @@
   /*------------< CORE THEME PARAMETERS >---------------------------------*/
 
   /* General theme settings */
-  --marpx-theme-color: #31406b;
-  --marpx-theme-background-color: #3e3f42;
-  --marpx-theme-font-family: "Charter ITC TT", "Charter SC ITC TT", "Fira Sans",
-    Faustina, Bookerly, Lora, sans-serif;
+  --marpx-theme-color: #a3a09d;
+  --marpx-theme-background-color: var(--khaki-800);
+  --marpx-theme-font-family: 'Charter ITC TT','Fira Sans', 'Faustina', 'Bookerly', 'Lora', sans-serif;
+  /* --marpx-theme-font-family: 'Fira Sans', 'Faustina', 'Bookerly', 'Lora', sans-serif;
+  --marpx-theme-font-family: 'Faustina', 'Bookerly', 'Lora', sans-serif;
+  --marpx-theme-font-family: 'Bookerly', 'Lora', sans-serif;
+  --marpx-theme-font-family: 'Lora', sans-serif; */
 
   /* Text colors */
   --marpx-theme-font-color: #edf2f5;
-  --marpx-theme-bold-color: var(--orange-400);
-  --marpx-theme-marker-color: var(--orange-500);
+  --marpx-theme-bold-color: rgb(253, 125, 79);
+  --marpx-theme-marker-color: var(--orange-300);
 
   /* Headings */
   --marpx-theme-h1-color: #f8e3b5;
-  --marpx-theme-h1-bold-color: var(--scarletRed-100);
+  --marpx-theme-h1-bold-color: rgb(255, 102, 0);
   --marpx-theme-h2-color: var(--orange-300);
 
   /* Specific elements */
-  --marpx-theme-chapter-color: var(--blueViolet-100);
+  --marpx-theme-chapter-color: var(--orange-300);
   --marpx-theme-subtitle-color: #41434e;
   --marpx-theme-code-color: #f80d0d;
-  --marpx-theme-highlight-color: var(--scarletRed-500);
+  --marpx-theme-highlight-color: var(--scarletRed-400);
+  --marpx-theme-highlight-color: var();
 
   /* Captions and reference texts */
   --marpx-theme-figure-captiontext: "Fig. ";
-  --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
+  --marpx-theme-figure-captiontext-color: var(--scarletRed-200);
 
   --marpx-theme-table-captiontext: "Table ";
   --marpx-theme-table-captiontext-color: var(--blueViolet-100);
 
   /* Navigation and reference elements */
-  --marpx-theme-toc-color: var(--blueViolet-400);
+  --marpx-theme-toc-color: var(--blueViolet-500);
   --marpx-theme-toc-background-color: #f6f6f6;
   --marpx-theme-footnote-mark-color: #ff0000;
 
@@ -62,10 +66,12 @@
 
   /* Colors */
   --marpx-title_academic-font-color: #242d31;
-  --marpx-title_academic-background-color: var(--gray-100);
-  --marpx-title_academic-title-color: var(--blue-400);
+  --marpx-title_academic-background-color: var(--khaki-800);
+  --marpx-title_academic-title-color: var(--gray-100);
   --marpx-title_academic-subtitle-color: #ababac;
-  --marpx-title_academic-author-color: var(--scarletRed-500);
+  --marpx-title_academic-author-color: var(--gray-100);
+  --marpx-title_academic-date-color: var(--gray-100);
+  --marpx-title_academic-organization-color: var(--gray-100);
   --marpx-title_academic-border-color: var(--orange-500);
 
   /*------------< TABLE COMPONENT PARAMETERS >---------------------------------*/
@@ -87,14 +93,14 @@
   --marpx-quote-font-family: Bookerly, Faustina, Times, serif;
   --marpx-quote-background-color: var(--gray-350);
   --marpx-quote-paragraph-background-color: var(--gray-350);
-  --marpx-quote-strong-color: var(--bluishCyan-800);
+  --marpx-quote-bold-color: var(--bluishCyan-800);
 
   /* Dark quote variant */
   --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
   --marpx-quote_dark-font-color: var(--gray-200);
   --marpx-quote_dark-color-background: var(--blue-500);
   --marpx-quote_dark-color-paragraph-background: var(--blue-500);
-  --marpx-quote_dark-color-strong: var(--blue-100);
+  --marpx-quote_dark-bold-color: var(--blue-100);
 
   /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
 
@@ -148,4 +154,18 @@ section.references a:link {
 
 section.references a:hover {
   color: blue !important;
+}
+
+section.title-academic .date {
+  color: var(--marpx-title_academic-date-color);
+}
+
+section.title-academic .organization {
+  color: var(--marpx-title_academic-organization-color);
+}
+
+section blockquote {
+  color: var(--marpx-quote-font-color);
+  font-size: 0.8em;
+  border-left: 8px solid var(--orange-300);
 }

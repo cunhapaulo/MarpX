@@ -1,3 +1,5 @@
+/*------------< Palete >---------------------------------*/
+
 /* Bluish cyan */
 --bluishCyan-100: #61d9ff;
 --bluishCyan-200: #00c8ff;
@@ -22,7 +24,6 @@
 --gray-800: #121212;
 --gray-900: #0a0a0a;
 --gray-1000: #3e3f42;
-
 
 /* Blue */
 --blue-100: #55acee;
@@ -54,6 +55,7 @@
 --scarletRed-700: #c92828;
 
 /* Blue violet */
+--blueViolet-50: #4f6cee;
 --blueViolet-100: #485fc7;
 --blueViolet-200: #3b5998;
 --blueViolet-300: #004fff;
@@ -69,6 +71,7 @@
 --khaki-500: #ffbf00;
 --khaki-600: #daa60b;
 --khaki-700: #e77b00;
+--khaki-800: #3e3f42;
 
 /* Vermilion */
 --vermilion-100: #ffa08e;

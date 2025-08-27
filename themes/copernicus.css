@@ -62,7 +62,7 @@
 
   --marpx-quote-background-color: #f3f3f2;
   --marpx-quote-paragraph-background-color: #f3f3f2;
-  --marpx-quote-strong-color: #6462f1;
+  --marpx-quote-bold-color: #6462f1;
 
   /*- quote dark -*/
 
@@ -71,7 +71,7 @@
   --marpx-quote_dark-font-color: #c4bcbc;
   --marpx-quote_dark-color-background: #222020;
   --marpx-quote_dark-color-paragraph-background: #222020;
-  --marpx-quote_dark-color-strong: #ffffff;
+  --marpx-quote_dark-bold-color: #ffffff;
 
   /*------------ Parameters used in `TABLE` ---------------------------------*/
 

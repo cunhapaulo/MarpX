@@ -895,22 +895,29 @@ You may use in semantics.
 
 <div class="multicolumn"><div>
 
-1. Special thanks to: [`Yuki Hattori` (GitHub)](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
-2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Gracias!
-3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
-4. Biography on Wikipedia: [`Jacques-Louis David`](https://de.wikipedia.org/wiki/Jacques-Louis_David).
-5. Cover image: [`Flute Player` Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
-6. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil [`Der Sohn des Odysseus` - Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
+1. Special thanks to **Yuki Hattori** [(GitHub)](https://github.com/yhatt), creator of [Marp](https://github.com/Marp-team/Marp).
+2. Early [CSS](https://github.com/Juanvvc) inspiring ideas, from **Juan Vera del Campo**. Gracias!
+3. Inspired by the work of [**Daniel Kriesten**](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
+4. Biography of **Jacques-Louis David**, [from Wikipedia](https://de.wikipedia.org/wiki/Jacques-Louis_David).
+5. Book cover of **Between Leibniz, Newton, and Kant: Philosophy and Science in the Eighteenth Century** - [©️ Springer Verlag](https://www.springer.com).
+6. Book cover of **Der Sohn des Odysseus** - [Courtesy of ©️ Ishtar Bäcklund Dakhil](https://amzn.eu/d/0U57lKN), Berlin: Verlag Urachhaus 2021.
+7. Book cover of **Deutschland. Ein Wintermärchen**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+8. Book cover of **Phenomenology of Spirit** - [©️ Oxford University Press](https://corp.oup.com/).
+9. Book cover of **Flute Player** - [Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
 
 </div><div>
 
-7. Figure of: [`Shaun The Sheep` - Aardman animations ltd. ©️ 2025](https://www.shaunthesheep.com/about/)
-8. Video of: [`Nikolay Sobolev` no Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
-9. Foto de Wikipedia: [`La mort de Socrate`](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg)
-10. Foto de Wikipedia: [`Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
-11. Foto de Wikipedia: [`Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
-12. Foto de: [`Pixabay` no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
-13. Font `Fira Sans` imported from: [Google Fonts](https://fonts.google.com/).
+10.  Book cover of **Iphigenie auf Tauris**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+11. Book cover of **König Ödipus**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+12. Video of **Nikolay Sobolev** [from Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
+13. Figure of **Shaun The Sheep** - [Courtesy of Aardman animations ltd. ©️2025](https://www.shaunthesheep.com/about/).
+14. Image **La mort de Socrate** [from wikipedia](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg).
+15. Image **Léonidas aux Thermopyles** [from Wikipedia](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
+16. Image of **Sócates** [from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg).
+17. Image of **Pixabay** [from Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
+18. **Faustina**. **Fira Sans** and **Fira Sans Light** fonts, imported from [Google Fonts](https://fonts.google.com/).
+19. **Charter ITC TT** and **Fira Sans Condensed** fonts, imported from [CDN Fonts](https://www.cdnfonts.com/).
+20. Mathematical diagrams from **Wolfram Mathematica**, from [©️2025 Wolfram](https://www.wolfram.com/mathematica/).
 
 </div></div>
 

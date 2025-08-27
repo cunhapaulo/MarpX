@@ -81,14 +81,14 @@
   --marpx-quote-font-family: Bookerly, Faustina, Times, serif;
   --marpx-quote-background-color: #ffffff;
   --marpx-quote-paragraph-background-color: #ffffff;
-  --marpx-quote-strong-color: #6462f1;
+  --marpx-quote-bold-color: #6462f1;
 
   /* Dark quote variant */
   --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
   --marpx-quote_dark-font-color: #222230;
   --marpx-quote_dark-color-background: #9aade2;
   --marpx-quote_dark-color-paragraph-background: #9aade2;
-  --marpx-quote_dark-color-strong: #f8f8f7;
+  --marpx-quote_dark-bold-color: #f8f8f7;
 
   /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
   --marpx-references-bold-color: #3e6ceb;

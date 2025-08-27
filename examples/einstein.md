@@ -63,7 +63,7 @@ paginate: true
 
 
        
-![bg opacity:0.4](./assets/images/thinkers/einstein-haus-bern.jpg)
+![bg opacity:0.3](./assets/images/thinkers/einstein-haus-bern.jpg)
 
 
 
@@ -104,9 +104,9 @@ When the neet to make strong assertions becomes inevitable:
 
 </div><div>
 
-- This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
+- This is a fragment o normal text written here in order to exemplify the use of several features in CSS.
 
-- This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
+- This is a fragment o normal text written here in order to exemplify the use of several features in CSS.
 
   - This is one **bold** comment.
   - This is another _italic_ comment.
@@ -167,7 +167,7 @@ When the neet to make strong assertions becomes inevitable:
 
 ## Hegels Phänomenologie
 
-Das Buch trug ursprünglich den Titel "**Phänomenologie des Geistes**" von seinem Autor: G.W.F. Hegel.
+Das Buch trug ursprünglich den Titel **"Phänomenologie des Geistes"** von seinem Autor: G.W.F. Hegel.
 
 - Das `1807` veröffentlichte Werk markiert eine bedeutende Entwicklung des deutschen Idealismus nach Kant.
 - In diesem Buch entwickelt Hegel seine Konzepte der Dialektik.
@@ -820,17 +820,17 @@ You may use in semantics.
 
 <center>
 
-| CSS Section         | Description/Purpose         | Markdown Class (example)       |
-| ------------------- | --------------------------- | :----------------------------- |
-| section.title       | Title slide                 | `<!-- _class: title -->`       |
-| section.title-bg    | Title slide with background | `<!-- _class: title-bg -->`    |
-| section.chapter     | Chapter slide               | `<!-- _class: chapter -->`     |
-| section.chapter-alt | Alternative chapter         | `<!-- _class: chapter-alt -->` |
-| section.agenda      | Agenda/content slide        | `<!-- _class: agenda -->`      |
-| section.end         | Thank you slide             | `<!-- _class: end -->`         |
-| section.end-bg      | Thank you with background   | `<!-- _class: end-bg -->`      |
-| section.copyright   | Copyright slide             | `<!-- _class: copyright -->`   |
-| section.logos       | Slide with additional logos | `<!-- _class: logos -->`       |
+| CSS Section         | Description/Purpose         | Markdown Class (example)      |
+| ------------------- | --------------------------- | :---------------------------- |
+| section.title       | Title slide                 | \<!-- _class: title -->       |
+| section.title-bg    | Title slide with background | \<!-- _class: title-bg -->    |
+| section.chapter     | Chapter slide               | \<!-- _class: chapter -->     |
+| section.chapter-alt | Alternative chapter         | \<!-- _class: chapter-alt --> |
+| section.agenda      | Agenda/content slide        | \<!-- _class: agenda -->      |
+| section.end         | Thank you slide             | \<!-- _class: end -->         |
+| section.end-bg      | Thank you with background   | \<!-- _class: end-bg -->      |
+| section.copyright   | Copyright slide             | \<!-- _class: copyright -->   |
+| section.logos       | Slide with additional logos | \<!-- _class: logos -->       |
 
 <tabcaption>List of tags used (1).</tabcaption>
 
@@ -842,17 +842,17 @@ You may use in semantics.
 
 <center>
 
-| CSS Section                 | Description/Purpose                     | Markdown Class (example)               |
-| --------------------------- | --------------------------------------- | -------------------------------------- |
-| section.blank               | Blank slide                             | `<!-- _class: blank -->`               |
-| section.nobrand             | Slide without branding                  | `<!-- _class: nobrand -->`             |
-| section.multicolumn         | Slide with multiple columns             | `<!-- _class: multicolumn -->`         |
-| section.multicolumn vcenter | Vertically centered IN multiple columns | `<!-- _class: multicolumn vcenter -->` |
-| section.grid-tlr            | Grid: top, left, right                  | `<!-- _class: grid-tlr -->`            |
-| section.grid-lrb            | Grid: left, right, bottom               | `<!-- _class: grid-lrb -->`            |
-| section.quote               | Quote slide (unified quote)             | `<!-- _class: quote -->`               |
-| section.quote.dark          | Alternative quote (formerly quote2)     | `<!-- _class: quote dark -->`          |
-| section.references          | References/bibliography slide           | `<!-- _class: references -->`          |
+| CSS Section                 | Description/Purpose                     | Markdown Class (example)              |
+| --------------------------- | --------------------------------------- | ------------------------------------- |
+| section.blank               | Blank slide                             | \<!-- _class: blank -->               |
+| section.nobrand             | Slide without branding                  | \<!-- _class: nobrand -->             |
+| section.multicolumn         | Slide with multiple columns             | \<!-- _class: multicolumn -->         |
+| section.multicolumn vcenter | Vertically centered IN multiple columns | \<!-- _class: multicolumn vcenter --> |
+| section.grid-tlr            | Grid: top, left, right                  | \<!-- _class: grid-tlr -->            |
+| section.grid-lrb            | Grid: left, right, bottom               | \<!-- _class: grid-lrb -->            |
+| section.quote               | Quote slide (unified quote)             | \<!-- _class: quote -->               |
+| section.quote.dark          | Alternative quote (formerly quote2)     | \<!-- _class: quote dark -->          |
+| section.references          | References/bibliography slide           | \<!-- _class: references -->          |
 
 <tabcaption>List of tags used (2).</tabcaption>
 
@@ -892,22 +892,29 @@ You may use in semantics.
 
 <div class="multicolumn"><div>
 
-1. Special thanks to: [`Yuki Hattori` (GitHub)](https://github.com/yhatt) creator of [Marp](https://github.com/Marp-team/Marp).
-2. Early inspiring ideas: [`Juan Vera del Campo` CSS styles](https://github.com/Juanvvc). Gracias!
-3. Inspired by the work of [`Daniel Kriesten`](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
-4. Biography on Wikipedia: [`Jacques-Louis David`](https://de.wikipedia.org/wiki/Jacques-Louis_David).
-5. Cover image: [`Flute Player` Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
-6. Cover image: Courtesy of ©️ Ishtar Bäcklund Dakhil [`Der Sohn des Odysseus` - Berlin: Verlag Urachhaus 2021.](https://amzn.eu/d/0U57lKN).
+1. Special thanks to **Yuki Hattori** [(GitHub)](https://github.com/yhatt), creator of [Marp](https://github.com/Marp-team/Marp).
+2. Early [CSS](https://github.com/Juanvvc) inspiring ideas, from **Juan Vera del Campo**. Gracias!
+3. Inspired by the work of [**Daniel Kriesten**](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
+4. Biography of **Jacques-Louis David**, [from Wikipedia](https://de.wikipedia.org/wiki/Jacques-Louis_David).
+5. Book cover of **Between Leibniz, Newton, and Kant: Philosophy and Science in the Eighteenth Century** - [©️ Springer Verlag](https://www.springer.com).
+6. Book cover of **Der Sohn des Odysseus** - [Courtesy of ©️ Ishtar Bäcklund Dakhil](https://amzn.eu/d/0U57lKN), Berlin: Verlag Urachhaus 2021.
+7. Book cover of **Deutschland. Ein Wintermärchen**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+8. Book cover of **Phenomenology of Spirit** - [©️ Oxford University Press](https://corp.oup.com/).
+9. Book cover of **Flute Player** - [Courtesy of ©️ nicoolay/DigitalVision Vectors/Getty Images](https://a.co/d/hU2R2TM).
 
 </div><div>
 
-7. Figure of: [`Shaun The Sheep` - Aardman animations ltd. ©️ 2025](https://www.shaunthesheep.com/about/)
-8. Video of: [`Nikolay Sobolev` no Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
-9. Foto de Wikipedia: [`La mort de Socrate`](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg)
-10. Foto de Wikipedia: [`Léonidas aux Thermopyles`](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
-11. Foto de Wikipedia: [`Sócates`](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg)
-12. Foto de: [`Pixabay` no Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
-13. Font `Fira Sans` imported from: [Google Fonts](https://fonts.google.com/).
+10.  Book cover of **Iphigenie auf Tauris**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+11. Book cover of **König Ödipus**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+12. Video of **Nikolay Sobolev** [from Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
+13. Figure of **Shaun The Sheep** - [Courtesy of Aardman animations ltd. ©️2025](https://www.shaunthesheep.com/about/).
+14. Image **La mort de Socrate** [from wikipedia](https://pt.wikipedia.org/wiki/Ficheiro:David_-_The_Death_of_Socrates.jpg).
+15. Image **Léonidas aux Thermopyles** [from Wikipedia](https://pt.m.wikipedia.org/wiki/Ficheiro:Jacques-Louis_David_004.jpg).
+16. Image of **Sócates** [from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/450px-Socrates_Louvre.jpg).
+17. Image of **Pixabay** [from Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
+18. **Faustina**. **Fira Sans** and **Fira Sans Light** fonts, imported from [Google Fonts](https://fonts.google.com/).
+19. **Charter ITC TT** and **Fira Sans Condensed** fonts, imported from [CDN Fonts](https://www.cdnfonts.com/).
+20. Mathematical diagrams from **Wolfram Mathematica**, from [©️2025 Wolfram](https://www.wolfram.com/mathematica/).
 
 </div></div>
 
