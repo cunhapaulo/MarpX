@@ -61,11 +61,7 @@ paginate: true
 
 ## Aditional Text about what´s ahead
 
-
-       
 ![bg opacity:0.3](./assets/images/thinkers/einstein-haus-bern.jpg)
-
-
 
 ---
 
@@ -820,17 +816,17 @@ You may use in semantics.
 
 <center>
 
-| CSS Section         | Description/Purpose         | Markdown Class (example)      |
-| ------------------- | --------------------------- | :---------------------------- |
-| section.title       | Title slide                 | \<!-- _class: title -->       |
-| section.title-bg    | Title slide with background | \<!-- _class: title-bg -->    |
-| section.chapter     | Chapter slide               | \<!-- _class: chapter -->     |
-| section.chapter-alt | Alternative chapter         | \<!-- _class: chapter-alt --> |
-| section.agenda      | Agenda/content slide        | \<!-- _class: agenda -->      |
-| section.end         | Thank you slide             | \<!-- _class: end -->         |
-| section.end-bg      | Thank you with background   | \<!-- _class: end-bg -->      |
-| section.copyright   | Copyright slide             | \<!-- _class: copyright -->   |
-| section.logos       | Slide with additional logos | \<!-- _class: logos -->       |
+| CSS Section         | Description/Purpose         | Markdown Class (example)       |
+| ------------------- | --------------------------- | :----------------------------- |
+| section.title       | Title slide                 | \<!-- \_class: title -->       |
+| section.title-bg    | Title slide with background | \<!-- \_class: title-bg -->    |
+| section.chapter     | Chapter slide               | \<!-- \_class: chapter -->     |
+| section.chapter-alt | Alternative chapter         | \<!-- \_class: chapter-alt --> |
+| section.agenda      | Agenda/content slide        | \<!-- \_class: agenda -->      |
+| section.end         | Thank you slide             | \<!-- \_class: end -->         |
+| section.end-bg      | Thank you with background   | \<!-- \_class: end-bg -->      |
+| section.copyright   | Copyright slide             | \<!-- \_class: copyright -->   |
+| section.logos       | Slide with additional logos | \<!-- \_class: logos -->       |
 
 <tabcaption>List of tags used (1).</tabcaption>
 
@@ -842,17 +838,17 @@ You may use in semantics.
 
 <center>
 
-| CSS Section                 | Description/Purpose                     | Markdown Class (example)              |
-| --------------------------- | --------------------------------------- | ------------------------------------- |
-| section.blank               | Blank slide                             | \<!-- _class: blank -->               |
-| section.nobrand             | Slide without branding                  | \<!-- _class: nobrand -->             |
-| section.multicolumn         | Slide with multiple columns             | \<!-- _class: multicolumn -->         |
-| section.multicolumn vcenter | Vertically centered IN multiple columns | \<!-- _class: multicolumn vcenter --> |
-| section.grid-tlr            | Grid: top, left, right                  | \<!-- _class: grid-tlr -->            |
-| section.grid-lrb            | Grid: left, right, bottom               | \<!-- _class: grid-lrb -->            |
-| section.quote               | Quote slide (unified quote)             | \<!-- _class: quote -->               |
-| section.quote.dark          | Alternative quote (formerly quote2)     | \<!-- _class: quote dark -->          |
-| section.references          | References/bibliography slide           | \<!-- _class: references -->          |
+| CSS Section                 | Description/Purpose                     | Markdown Class (example)               |
+| --------------------------- | --------------------------------------- | -------------------------------------- |
+| section.blank               | Blank slide                             | \<!-- \_class: blank -->               |
+| section.nobrand             | Slide without branding                  | \<!-- \_class: nobrand -->             |
+| section.multicolumn         | Slide with multiple columns             | \<!-- \_class: multicolumn -->         |
+| section.multicolumn vcenter | Vertically centered IN multiple columns | \<!-- \_class: multicolumn vcenter --> |
+| section.grid-tlr            | Grid: top, left, right                  | \<!-- \_class: grid-tlr -->            |
+| section.grid-lrb            | Grid: left, right, bottom               | \<!-- \_class: grid-lrb -->            |
+| section.quote               | Quote slide (unified quote)             | \<!-- \_class: quote -->               |
+| section.quote.dark          | Alternative quote (formerly quote2)     | \<!-- \_class: quote dark -->          |
+| section.references          | References/bibliography slide           | \<!-- \_class: references -->          |
 
 <tabcaption>List of tags used (2).</tabcaption>
 
@@ -904,7 +900,7 @@ You may use in semantics.
 
 </div><div>
 
-10.  Book cover of **Iphigenie auf Tauris**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+10. Book cover of **Iphigenie auf Tauris**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
 11. Book cover of **König Ödipus**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
 12. Video of **Nikolay Sobolev** [from Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
 13. Figure of **Shaun The Sheep** - [Courtesy of Aardman animations ltd. ©️2025](https://www.shaunthesheep.com/about/).
