@@ -1,6 +1,9 @@
-/* @theme gropius */
+/* @theme einstein */
 
 @import "marpx";
+
+/* Charter ITC TT */
+@import url("https://fonts.cdnfonts.com/css/charter-itc-tt");
 
 :root {
   /*------------< COLOR PALETTE >---------------------------------*/
@@ -11,28 +14,30 @@
 
   /* General theme settings */
   --marpx-theme-color: #31406b;
-  --marpx-theme-background-color: var(--gray-400);
-  --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
+  --marpx-theme-background-color: #3e3f42;
+  --marpx-theme-font-family: "Charter ITC TT", "Charter SC ITC TT", "Fira Sans",
+    Faustina, Bookerly, Lora, sans-serif;
 
   /* Text colors */
-  --marpx-theme-font-color: var(--blueViolet-500);
-  --marpx-theme-bold-color: var(--scarletRed-500);
-  --marpx-theme-marker-color: var(--scarletRed-600);
+  --marpx-theme-font-color: #edf2f5;
+  --marpx-theme-bold-color: var(--orange-400);
+  --marpx-theme-marker-color: var(--orange-500);
 
   /* Headings */
-  --marpx-theme-h1-color: var(--blueViolet-500);
-  --marpx-theme-h1-bold-color: var(--scarletRed-500);
-  --marpx-theme-h2-color: var(--blueViolet-200);
+  --marpx-theme-h1-color: #f8e3b5;
+  --marpx-theme-h1-bold-color: var(--scarletRed-100);
+  --marpx-theme-h2-color: var(--orange-300);
 
   /* Specific elements */
-  --marpx-theme-chapter-color: var(--blueViolet-600);
+  --marpx-theme-chapter-color: var(--blueViolet-100);
   --marpx-theme-subtitle-color: #41434e;
-  --marpx-theme-code-color: #e9e9e9;
-  --marpx-theme-highlight-color: var(--yellow-300);
+  --marpx-theme-code-color: #f80d0d;
+  --marpx-theme-highlight-color: var(--scarletRed-500);
 
   /* Captions and reference texts */
   --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
+
   --marpx-theme-table-captiontext: "Table ";
   --marpx-theme-table-captiontext-color: var(--blueViolet-100);
 
@@ -47,7 +52,7 @@
   /*------------< TITLE SLIDE PARAMETERS >-----------------------------*/
 
   /* Font sizes */
-  --marpx-title_academic-title-size: 150%;
+  --marpx-title_academic-title-size: 140%;
   --marpx-title_academic-title-font-weight: bold;
   --marpx-title_academic-subtitle-size: 95%%;
   --marpx-title_academic-author-size: 110%;
@@ -66,11 +71,12 @@
   /*------------< TABLE COMPONENT PARAMETERS >---------------------------------*/
 
   --marpx-table-font-size: 22px;
-  --marpx-table-font-family: ;
+  --marpx-table-font-color: #333e52;
+  /* --marpx-table-font-family: ; */
   --marpx-table-header-background-color: #151d33;
   --marpx-table-header-color-color: white;
   --marpx-table-border-top-color: rgb(255, 73, 1);
-  --marpx-table-border-bottom-color: #cac9c5f8;
+  --marpx-table-border-bottom-color: #c5c6caf8;
   --marpx-table-nth-child-color-color: #f5f5f5;
   --marpx-table-hover-color: var(--blueViolet-400);
   --marpx-table-hover-background-color: var(--violet-100);
@@ -79,9 +85,9 @@
 
   /* Light quote variant */
   --marpx-quote-font-family: Bookerly, Faustina, Times, serif;
-  --marpx-quote-background-color: var(--gray-400);
-  --marpx-quote-paragraph-background-color: var(--gray-400);
-  --marpx-quote-strong-color: var(--scarletRed-500);
+  --marpx-quote-background-color: var(--gray-350);
+  --marpx-quote-paragraph-background-color: var(--gray-350);
+  --marpx-quote-strong-color: var(--bluishCyan-800);
 
   /* Dark quote variant */
   --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
@@ -94,7 +100,7 @@
 
   --marpx-references-header-color: var(--blueViolet-100);
   --marpx-references-bold-color: var(--blue-400);
-  --marpx-references-background-color: var(--gray-100);
+  --marpx-references-background-color: var(--gray-400);
 }
 
 section {
@@ -116,6 +122,30 @@ section code {
   /* background: initial; */
   background: #fffbe7;
   /* color: #222222; */
-  font-size: 1em;
+  font-size: 0.9em;
   display: inline-block;
+}
+
+section.slide.white,
+section.white-slide {
+  color: var(--gray-1000);
+}
+
+section.references {
+  color: var(--gray-450) !important;
+  --marpx-theme-marker-color: var(--blue-200);
+
+}
+
+section.references tabcaption,
+section.references figcaption {
+  color: var(--gray-450);
+}
+
+section.references a:link {
+  color: var(--blueViolet-200) !important;
+}
+
+section.references a:hover {
+  color: blue !important;
 }

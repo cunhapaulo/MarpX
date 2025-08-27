@@ -42,15 +42,17 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 Here you´ll find examples of the available themes. Click on the picture to open a corresponding PDF example.
 |                                                                                                                        |
 | :--------------------------------------------------------------------------------------------------------------------- |
-| <h3> In honor of Sparta from Greece </h3>                                                                            |
+| <h3> **sparta** - In honor of Sparta from Greece </h3>                                                                            |
 | [![Style Sparta](./examples/front-slide/sparta.png)](https://cunhapaulo.github.io/marpx/examples/sparta.html)       |
-| <h3> In honor of Σωκράτης - Socrates (469–399 B.C.E.) </h3>                                                            |
+| <h3> **socrates** - In honor of Σωκράτης - Socrates (469–399 B.C.E.) </h3>                                                            |
 | [![Style Socrates](./examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)     |
-| <h3> In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
+| <h3> **copernicus** - In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
 | [![Style Copernicus](./examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
-| <h3> In honor of Walter Gropius (1883-1969) </h3>                                             |
+| <h3> **einstein** - In honor of Albert Einstein (1879–1955) </h3>                                             |
+| [![Style Einstein](./examples/front-slide/einstein.png)](https://cunhapaulo.github.io/marpx/examples/einstein.html) |
+| <h3> **gropius** - In honor of Walter Gropius (1883-1969) </h3>                                             |
 | [![Style Gropius](./examples/front-slide/gropius.png)](https://cunhapaulo.github.io/marpx/examples/gropius.html) |
-| <h3> In honor of Kurt Gödel (1906-1978) </h3>                                             |
+| <h3> **gödel** - In honor of Kurt Gödel (1906-1978) </h3>                                             |
 | [![Style Gödel](./examples/front-slide/gödel.png)](https://cunhapaulo.github.io/marpx/examples/gödel.html) |
 
 ---

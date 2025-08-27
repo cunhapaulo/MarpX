@@ -11,6 +11,7 @@
 		"markdown.marp.themes": [
 			"./themes/marpx.css",
 			"./themes/copernicus.css",
+			"./themes/einstein.css",
 			"./themes/frankfurt.css",
 			"./themes/gödel.css",
 			"./themes/gropius.css",

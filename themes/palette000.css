@@ -6,18 +6,23 @@
 --bluishCyan-500: #01bbf0;
 --bluishCyan-600: #0ca1cc;
 --bluishCyan-700: #0073aa;
+--bluishCyan-800: #4680c7;
 
 /* Gray */
 --gray-50: #ffffff;
 --gray-100: #faf7f7;
 --gray-200: #fafafa;
 --gray-300: #f5f5f5;
+--gray-350: #d8dee9;
 --gray-400: #eae8e3;
+--gray-450: #515458;
 --gray-500: #242424;
 --gray-600: #1b1e21;
 --gray-700: #161514;
 --gray-800: #121212;
 --gray-900: #0a0a0a;
+--gray-1000: #3e3f42;
+
 
 /* Blue */
 --blue-100: #55acee;
