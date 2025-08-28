@@ -822,7 +822,7 @@ You may use in semantics.
 | section.title-bg    | Title slide with background | \<!-- \_class: title-bg -->    |
 | section.chapter     | Chapter slide               | \<!-- \_class: chapter -->     |
 | section.chapter-alt | Alternative chapter         | \<!-- \_class: chapter-alt --> |
-| section.agenda      | Agenda/content slide        | \<!-- \_class: agenda -->      |
+| section.toc         | Agenda/content slide        | \<!-- \_class: toc -->         |
 | section.end         | Thank you slide             | \<!-- \_class: end -->         |
 | section.end-bg      | Thank you with background   | \<!-- \_class: end-bg -->      |
 | section.copyright   | Copyright slide             | \<!-- \_class: copyright -->   |
