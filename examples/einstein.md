@@ -21,7 +21,7 @@ paginate: true
 
 ![bg left:33%](./assets/images/thinkers/einstein01.jpg)
 
-<div class="title"         > Only the speed of light is absolute </div>
+<div class="title"         > Absolute - Only the speed of light! </div>
 <div class="subtitle"      > Modern Physics and the Space-Time Hypothesis  </div>
 <div class="author"        > Albert Einstein </div>
 <div class="date"          > Bern, Schweiz, 1905 (anno mirabilis) </div>
@@ -31,7 +31,7 @@ paginate: true
 
 <!-- _class: title -->
 
-# Only the Speed of Light is **Absolute**
+# **Absolute**- Only the Speed of Light!
 
 ## Modern Physics and the Space-Time Hypothesis
 
@@ -57,11 +57,11 @@ paginate: true
 
 <!-- _class: chapter -->
 
+![bg opacity:0.2](./assets/images/thinkers/einstein-haus-bern.jpg)
+
 # Transition Slide
 
 ## Aditional Text about what´s ahead
-
-![bg opacity:0.3](./assets/images/thinkers/einstein-haus-bern.jpg)
 
 ---
 
@@ -112,6 +112,8 @@ When the neet to make strong assertions becomes inevitable:
 ---
 
 <!-- _class: chapter -->
+
+![bg opacity:0.2](./assets/images/thinkers/einstein02.webp)
 
 # Images
 
@@ -303,7 +305,6 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: white-slide -->
 <!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
 
 # Video
@@ -370,13 +371,13 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <center>
 
-| Painter           | Country | Birth Year | Death Year | Most Famous Work           |
-| ----------------- | :-----: | :--------: | :--------: | -------------------------- |
-| Albrecht Dürer    | Germany |    1471    |    1528    | _Melencolia I_             |
+|      Painter      | Country | Birth Year | Death Year | Most Famous Work           |
+| :---------------: | :-----: | :--------: | :--------: | -------------------------- |
+|  Albrecht Dürer   | Germany |    1471    |    1528    | _Melencolia I_             |
 | Leonardo da Vinci |  Italy  |    1452    |    1519    | _Mona Lisa_                |
-| Michelangelo      |  Italy  |    1475    |    1564    | _Sistine Chapel Ceiling_   |
-| Raphael           |  Italy  |    1483    |    1520    | _The School of Athens_     |
-| Titian            |  Italy  |   ~1488    |    1576    | _Assumption of the Virgin_ |
+|   Michelangelo    |  Italy  |    1475    |    1564    | _Sistine Chapel Ceiling_   |
+|      Raphael      |  Italy  |    1483    |    1520    | _The School of Athens_     |
+|      Titian       |  Italy  |   ~1488    |    1576    | _Assumption of the Virgin_ |
 
 <tabcaption>Renowned Renaissance painters with biographical data and masterpieces (alphabetical order).</tabcaption>
 
@@ -389,14 +390,14 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 <center>
 
 | Language | Creator(s)          | Year | Main Paradigm(s)                            |
-| -------- | ------------------- | ---- | ------------------------------------------- |
-| C        | _Dennis Ritchie_    | 1972 | Structured, Procedural                      |
-| C++      | _Bjarne Stroustrup_ | 1983 | Object-oriented, multi-paradigm             |
-| Erlang   | _Joe Armstrong_     | 1986 | Funcional, Concorrente                      |
+| :------: | ------------------- | ---- | ------------------------------------------- |
+|    C     | _Dennis Ritchie_    | 1972 | Structured, Procedural                      |
+|   C++    | _Bjarne Stroustrup_ | 1983 | Object-oriented, multi-paradigm             |
+|  Erlang  | _Joe Armstrong_     | 1986 | Funcional, Concorrente                      |
 | Haskell  | _Comitê Haskell_    | 1990 | Purely Functional                           |
-| Java     | _James Gosling_     | 1995 | Object-Oriented                             |
-| Pascal   | _Niklaus Wirth_     | 1970 | Structured, Procedural                      |
-| Python   | _Guido van Rossum_  | 1991 | Multi-paradigm (OO, Procedural, Functional) |
+|   Java   | _James Gosling_     | 1995 | Object-Oriented                             |
+|  Pascal  | _Niklaus Wirth_     | 1970 | Structured, Procedural                      |
+|  Python  | _Guido van Rossum_  | 1991 | Multi-paradigm (OO, Procedural, Functional) |
 
 <tabcaption>List of programming languages.</tabcaption>
 
@@ -916,14 +917,11 @@ You may use in semantics.
 
 ---
 
-<!-- _class: white-slide -->
-<!-- _footer: "Shaun The Sheep ©️ 2025 aardman animations ltd." -->
+<!-- _class: chapter-alt -->
 
-<div class="vcenter">
+![bg opacity:90%](https://i.ytimg.com/vi/GMfYG6RJ-jk/maxresdefault.jpg)
 
-![bg h:60%](./assets/images/cartoon/shawn001b.png)
-
-</div>
+# Thank You!
 
 ---
 
@@ -939,8 +937,7 @@ h2>a{
 
 <div align="center">
 
-# <!-- fit --> [Click to the ](#1)
-
-## <!-- fit --> [Beginning](#1)
+# <!-- fit --> [Back to the](#1)
+## <!-- fit --> [beginning](#1)
 
 </div>

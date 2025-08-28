@@ -1295,7 +1295,7 @@ tabcaption::before,
 .tabcaption::before {
   counter-increment: table_cnt;
   font-weight: bold;
-  color: var(--marpx-theme-figure-captiontext-color);
+  color: var(--marpx-theme-table-captiontext-color);
   content: var(--marpx-theme-table-captiontext) var(--page-number) "."
     counter(table_cnt) ": ";
 }
