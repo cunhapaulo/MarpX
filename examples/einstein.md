@@ -917,11 +917,11 @@ You may use in semantics.
 
 ---
 
-<!-- _class: chapter-alt -->
+<!-- _backgroundImage: "linear-gradient(to bottom, #00000aff, #2506d3ff)" -->
 
-![bg opacity:90%](https://i.ytimg.com/vi/GMfYG6RJ-jk/maxresdefault.jpg)
+<!-- ![bg opacity:20%](https://i.ytimg.com/vi/GMfYG6RJ-jk/maxresdefault.jpg) -->
 
-# Thank You!
+# <!-- fit --> Thank You!
 
 ---
 
@@ -941,3 +941,4 @@ h2>a{
 ## <!-- fit --> [beginning](#1)
 
 </div>
+
