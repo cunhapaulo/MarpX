@@ -1,4 +1,4 @@
-# MarpX (work in progress!)
+# MarpX (is a work in progress!)
 
 Marp themes still created with beauty and simplicity in mind.
 This is Marp Style 2.0
