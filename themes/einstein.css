@@ -16,10 +16,12 @@
   --marpx-theme-color: #a3a09d;
   --marpx-theme-background-color: var(--khaki-800);
   --marpx-theme-font-family: 'Charter ITC TT','Fira Sans', 'Faustina', 'Bookerly', 'Lora', sans-serif;
-  /* --marpx-theme-font-family: 'Fira Sans', 'Faustina', 'Bookerly', 'Lora', sans-serif;
+  /* 
+  --marpx-theme-font-family: 'Fira Sans', 'Faustina', 'Bookerly', 'Lora', sans-serif;
   --marpx-theme-font-family: 'Faustina', 'Bookerly', 'Lora', sans-serif;
   --marpx-theme-font-family: 'Bookerly', 'Lora', sans-serif;
-  --marpx-theme-font-family: 'Lora', sans-serif; */
+  --marpx-theme-font-family: 'Lora', sans-serif; 
+  */
 
   /* Text colors */
   --marpx-theme-font-color: #edf2f5;
@@ -57,17 +59,18 @@
 
   /* Font sizes */
   --marpx-title_academic-title-size: 140%;
-  --marpx-title_academic-title-font-weight: bold;
-  --marpx-title_academic-subtitle-size: 95%%;
+  --marpx-title_academic-title-font-weight: 500;
+  --marpx-title_academic-subtitle-size: 95%;
   --marpx-title_academic-author-size: 110%;
   --marpx-title_academic-date-size: 95%;
   --marpx-title_academic-institute-size: 85%;
-  --marpx-title_academic-letter-spacing: 0.075px;
+  --marpx-title_academic-letter-spacing: 0.175px;
 
   /* Colors */
   --marpx-title_academic-font-color: #242d31;
   --marpx-title_academic-background-color: var(--khaki-800);
-  --marpx-title_academic-title-color: var(--gray-100);
+  --marpx-title_academic-title-color: var(--gray-50);
+  --marpx-title_academic-title-color: var(--khaki-300);
   --marpx-title_academic-subtitle-color: #ababac;
   --marpx-title_academic-author-color: var(--gray-100);
   --marpx-title_academic-date-color: var(--gray-100);
@@ -140,7 +143,6 @@ section.white-slide {
 section.references {
   color: var(--gray-450) !important;
   --marpx-theme-marker-color: var(--blue-200);
-
 }
 
 section.references tabcaption,

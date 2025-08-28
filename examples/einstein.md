@@ -31,7 +31,7 @@ paginate: true
 
 <!-- _class: title -->
 
-# Only the **Speed of Light** is Absolute
+# Only the Speed of Light is **Absolute**
 
 ## Modern Physics and the Space-Time Hypothesis
 
