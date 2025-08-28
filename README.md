@@ -19,7 +19,6 @@ Try the Reference Guide that shows most of the special canonical slide types in 
 **MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
 Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
 
----
 
 ## 🚀 Key Features
 
@@ -208,7 +207,6 @@ When all has been said and done, export your slide-deck to one of the available 
 
 For questions, suggestions, or contributions, please open an issue or pull request on GitHub.
 
----
 
 ## 📄 License
 
