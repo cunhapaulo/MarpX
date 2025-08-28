@@ -78,6 +78,8 @@ Here you´ll find examples of the available themes. Click on the picture to open
        "markdown.marp.themes": [
          "./themes/marpx.css",
          "./themes/copernicus.css",
+         "./themes/einstein.css",
+         "./themes/frankfurt.css",
          "./themes/gödel.css",
          "./themes/gropius.css",
          "./themes/socrates.css",
@@ -86,7 +88,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
      }
    }
    ```
-  2. In case you don´t want the burden of downloading anything and use the themes directly from the Internet, proceed as follows.
+  1. In case you don´t want the burden of downloading anything and use the themes directly from the Internet, proceed as follows.
    
       - Config your VScode code-workspace config file to indicate exactly where the theme files are (Internet).
   
@@ -103,6 +105,8 @@ Here you´ll find examples of the available themes. Click on the picture to open
           "markdown.marp.themes": [
             "https://cunhapaulo.github.io/marpx/themes/marpx.css",
             "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
+            "https://cunhapaulo.github.io/marpx/themes/einstein.css",
+            "https://cunhapaulo.github.io/marpx/themes/frankfurt.css",
             "https://cunhapaulo.github.io/marpx/themes/gödel.css",
             "https://cunhapaulo.github.io/marpx/themes/gropius.css",
             "https://cunhapaulo.github.io/marpx/themes/socrates.css",
