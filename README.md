@@ -35,8 +35,6 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 - **Accessible Colors:** Carefully curated palette for clarity, contrast, and accessibility.
 - **Easy Customization:** Modify variables and classes to match your institution or personal style.
 
----
-
 # Available MARPX Themes
 
 Here you´ll find examples of the available themes. Click on the picture to open a corresponding PDF example.
@@ -55,7 +53,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | <h3> **gödel** - In honor of Kurt Gödel (1906-1978) </h3>                                             |
 | [![Style Gödel](./examples/front-slide/gödel.png)](https://cunhapaulo.github.io/marpx/examples/gödel.html) |
 
----
+
 
 ## 📦 Getting Started
 
@@ -194,7 +192,6 @@ When all has been said and done, export your slide-deck to one of the available 
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/82f587c9-61a6-428b-9625-1baee419300a" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/7587a71e-018e-4577-89a2-f7373dfefa00" /> |
 
----
 
 ## 🙏 Credits
 
@@ -204,7 +201,6 @@ When all has been said and done, export your slide-deck to one of the available 
 - Thanks to the open-source community for feedback, inspiration, and contributions.
 - Special thanks to all educators, researchers, and professionals who value clarity and beauty in their presentations.
 
----
 
 ## 👤 Authorship
 
