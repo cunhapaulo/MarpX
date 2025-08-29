@@ -9,7 +9,7 @@ footer: "[Back to the beginning](#3)"
 
 marp: true
 paginate: true
-theme: temp
+theme: frankfurt
 ---
 
 <!-- _class: title-academic -->

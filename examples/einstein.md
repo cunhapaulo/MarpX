@@ -917,7 +917,7 @@ You may use in semantics.
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to bottom, #00000aff, #2506d3ff)" -->
+<!-- _backgroundImage: "linear-gradient(to bottom, #00000aff, #5744c4ff)" -->
 
 <!-- ![bg opacity:20%](https://i.ytimg.com/vi/GMfYG6RJ-jk/maxresdefault.jpg) -->
 
@@ -938,7 +938,7 @@ h2>a{
 <div align="center">
 
 # <!-- fit --> [Back to the](#1)
+
 ## <!-- fit --> [beginning](#1)
 
 </div>
-
