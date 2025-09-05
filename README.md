@@ -43,9 +43,11 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | [![Style Sparta](./examples/front-slide/sparta.png)](https://cunhapaulo.github.io/marpx/examples/sparta.html)       |
 | <h3> **socrates** - In honor of Σωκράτης - Socrates (469–399 B.C.E.) </h3>                                                            |
 | [![Style Socrates](./examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)     |
-| <h3> **copernicus** - In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
+| <h3> #*newton** - In honor of Sir Isaac Newton (1642 - 1727) </h3>                                                            |
 | [![Style Copernicus](./examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
 | <h3> **einstein** - In honor of Albert Einstein (1879–1955) </h3>                                             |
+| [![Style Newton](./examples/front-slide/newton.png)](https://cunhapaulo.github.io/marpx/examples/newton.html)     |
+| <h3> **copernicus** - In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
 | [![Style Einstein](./examples/front-slide/einstein.png)](https://cunhapaulo.github.io/marpx/examples/einstein.html) |
 | <h3> **gropius** - In honor of Walter Gropius (1883-1969) </h3>                                             |
 | [![Style Gropius](./examples/front-slide/gropius.png)](https://cunhapaulo.github.io/marpx/examples/gropius.html) |

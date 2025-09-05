@@ -24,7 +24,7 @@ paginate: true
 <div class="title"         > Absolute - Only the speed of light! </div>
 <div class="subtitle"      > Modern Physics and the Space-Time Hypothesis  </div>
 <div class="author"        > Albert Einstein </div>
-<div class="date"          > Bern, Schweiz, 1905 (anno mirabilis) </div>
+<div class="date"          > Bern, Schweiz, 1905 (Annus Mirabilis) </div>
 <div class="organization"  > Eidgenössisches Amt für Geistiges Eigentum </div>
 
 ---

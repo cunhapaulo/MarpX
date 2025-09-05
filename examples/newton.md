@@ -19,13 +19,14 @@ paginate: true
 
 <!-- _class: title-academic -->
 
-![bg left:33% h:125% brightness:1.09 saturate:1.7](./assets/images/thinkers/newton01.webp)
+![bg left:33% h:123% brightness:1.09 saturate:1.7](./assets/images/thinkers/newton01.webp)
 
 <div class="title"         > If I have seen further it is by standing on the shoulders of Giants </div>
 <div class="subtitle"      > Epistemic humility and the historical continuity</div>
 <div class="author"        > Sir Isaac Newton </div>
-<div class="organization"  > Philosophiæ Naturalis Principia Mathematica </div>
-<div class="date"          > Royal Society - London, 1687 </div>
+<div class="organization"  > Philosophiæ Naturalis Principia Mathematica (1687) </div>
+<div class="date"          > Royal Society - London </div>
+<div class="organization"  > Annus Mirabilis (1665–1666) </div>
 
 ---
 
@@ -64,7 +65,6 @@ paginate: true
 ## Aditional Text about what´s ahead
 
 ---
-
 
 # Is Algebraic Graph Knowledge a **Possibility**?
 
@@ -899,14 +899,14 @@ You may use in semantics.
 
 </div><div>
 
-10.  Book cover of **Iphigenie auf Tauris**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+10. Book cover of **Iphigenie auf Tauris**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
 11. Book cover of **König Ödipus**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
 12. Video of **Nikolay Sobolev** [from Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
 13. Figure of **Shaun The Sheep** - [Courtesy of Aardman animations ltd. ©️2025](https://www.shaunthesheep.com/about/).
-17. Image of **Pixabay** [from Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
-18. **Faustina**. **Fira Sans** and **Fira Sans Light** fonts, imported from [Google Fonts](https://fonts.google.com/).
-19. **Charter ITC TT** and **Fira Sans Condensed** fonts, imported from [CDN Fonts](https://www.cdnfonts.com/).
-20. Mathematical diagrams from **Wolfram Mathematica**, from [©️2025 Wolfram](https://www.wolfram.com/mathematica/).
+14. Image of **Pixabay** [from Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
+15. **Faustina**. **Fira Sans** and **Fira Sans Light** fonts, imported from [Google Fonts](https://fonts.google.com/).
+16. **Charter ITC TT** and **Fira Sans Condensed** fonts, imported from [CDN Fonts](https://www.cdnfonts.com/).
+17. Mathematical diagrams from **Wolfram Mathematica**, from [©️2025 Wolfram](https://www.wolfram.com/mathematica/).
 
 </div></div>
 
