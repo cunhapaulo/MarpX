@@ -19,7 +19,7 @@ paginate: true
 
 <!-- _class: title-academic -->
 
-![bg left:33% h:123% brightness:1.09 saturate:1.7](./assets/images/thinkers/newton01.webp)
+![bg left:33% h:123% brightness:1.1 grayscale:1](./assets/images/thinkers/newton01.webp)
 
 <div class="title"         > If I have seen further it is by standing on the shoulders of Giants </div>
 <div class="subtitle"      > Epistemic humility and the historical continuity</div>
