@@ -97,9 +97,9 @@
 
   /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
 
-  --marpx-references-header-color: var(--blueViolet-100);
+  --marpx-references-header-color: var(--khaki-900);
   --marpx-references-bold-color: var(--blueViolet-400);
-  --marpx-references-background-color: var(--gray-350);
+  --marpx-references-background-color: var(--gray-400);
 }
 
 section {

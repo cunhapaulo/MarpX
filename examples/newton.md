@@ -31,6 +31,8 @@ paginate: true
 ---
 
 <!-- _class: title -->
+![bg w:180% opacity:0.18](./assets/images/thinkers/newton02.webp)
+
 
 # If I have seen further it is by standing on the shoulders of Giants
 
@@ -38,7 +40,6 @@ paginate: true
 
 ---
 
-![bg w:180% opacity:0.2](./assets/images/thinkers/newton02.webp)
 
 <!-- _class: toc  -->
 
