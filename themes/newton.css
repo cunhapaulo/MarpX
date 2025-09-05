@@ -1,0 +1,126 @@
+/* @theme newton */
+
+@import "marpx";
+
+:root {
+  /*------------< COLOR PALETTE >---------------------------------*/
+  --marpx-color-light-grey: #a6a6a6;
+  --marpx-color-dark-grey: #000000;
+
+  /*------------< CORE THEME PARAMETERS >---------------------------------*/
+
+  /* General theme settings */
+  --marpx-theme-color: var(--blueViolet-50);
+  --marpx-theme-font-size: 24pt;
+
+  --marpx-theme-background-color: var(--blueViolet-700);
+  --marpx-theme-background-color: var(--gray-400);
+  --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
+
+  /* Text colors */
+  --marpx-theme-font-color: var(--blueViolet-400);
+  --marpx-theme-bold-color: var(--vermilion-300);
+  --marpx-theme-marker-color: var(--khaki-900);
+
+  /* Headings */
+  --marpx-theme-h1-color: var(--blueViolet-400);
+  --marpx-theme-h1-bold-color: var(--vermilion-300);
+  --marpx-theme-h2-color: var(--blueViolet-50);
+
+  /* Specific elements */
+  --marpx-theme-chapter-color: var(--khaki-900);
+  --marpx-theme-subtitle-color: #41434e;
+  --marpx-theme-code-color: #e9e9e9;
+  --marpx-theme-highlight-color: var(--yellow-300);
+
+  /* Captions and reference texts */
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-figure-captiontext-color: var(--blueViolet-50);
+  --marpx-theme-table-captiontext: "Table ";
+  --marpx-theme-table-captiontext-color: var(--vermilion-300);
+
+  /* Navigation and reference elements */
+  --marpx-theme-toc-color: var(--vermilion-300);
+  --marpx-theme-toc-color: var(--blueViolet-200);
+  --marpx-theme-toc-background-color: #f6f6f6;
+  --marpx-theme-footnote-mark-color: #ff0000;
+
+  /* Branding */
+  --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
+
+  /*------------< TITLE SLIDE PARAMETERS >-----------------------------*/
+
+  /* Font sizes */
+  --marpx-title_academic-title-size: 150%;
+  --marpx-title_academic-title-font-weight: bold;
+  --marpx-title_academic-subtitle-size: 95%%;
+  --marpx-title_academic-author-size: 110%;
+  --marpx-title_academic-date-size: 95%;
+  --marpx-title_academic-institute-size: 85%;
+  --marpx-title_academic-letter-spacing: 0.075px;
+
+  /* Colors */
+  --marpx-title_academic-font-color: #242d31;
+  --marpx-title_academic-background-color: var(--gray-100);
+  --marpx-title_academic-title-color: var(--blue-400);
+  --marpx-title_academic-subtitle-color: #a1a1a7;
+  --marpx-title_academic-author-color: var(--khaki-900);
+  --marpx-title_academic-border-color: var(--khaki-900);
+
+  /*------------< TABLE COMPONENT PARAMETERS >---------------------------------*/
+
+  --marpx-table-font-size: 22px;
+  --marpx-table-font-family: ;
+  --marpx-table-header-background-color: #151d33;
+  --marpx-table-header-color-color: white;
+  --marpx-table-border-top-color: rgb(255, 73, 1);
+  --marpx-table-border-bottom-color: #cac9c5f8;
+  --marpx-table-nth-child-color-color: #f5f5f5;
+  --marpx-table-hover-color: var(--blueViolet-400);
+  --marpx-table-hover-background-color: var(--violet-100);
+
+  /*------------< QUOTE COMPONENT PARAMETERS >---------------------------------*/
+
+  /* Light quote variant */
+  --marpx-quote-font-family: Bookerly, Faustina, Times, serif;
+  --marpx-quote-background-color: var(--gray-300);
+  --marpx-quote-paragraph-background-color: var(--gray-300);
+  --marpx-quote-bold-color: var(--blueViolet-100);
+
+  /* Dark quote variant */
+  --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
+  --marpx-quote_dark-font-color: var(--gray-100);
+  --marpx-quote_dark-color-background: var(--blue-400);
+  --marpx-quote_dark-color-paragraph-background: var(--blue-400);
+  --marpx-quote_dark-bold-color: var(--blue-100);
+  --marpx-quote_dark-bold-color: var(--khaki-500);
+
+  /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
+
+  --marpx-references-header-color: var(--blueViolet-100);
+  --marpx-references-bold-color: var(--blueViolet-400);
+  --marpx-references-background-color: var(--gray-350);
+}
+
+section {
+  line-height: 1.2em;
+}
+
+.boxed {
+  border: 2px solid #222;
+  border-radius: 6px; /* opcional: cantos arredondados */
+  padding: 2px 8px; /* espaço interno */
+  /* background: #fffbe7;   /* opcional: cor de fundo */
+  display: inline-block; /* garante o retângulo ao redor da palavra */
+}
+
+section code {
+  border: 1px solid #f3ec8f;
+  border-radius: 11px;
+  padding: 1px 3px;
+  /* background: initial; */
+  background: #fffbe7;
+  /* color: #222222; */
+  font-size: 0.95em;
+  display: inline-block;
+}
