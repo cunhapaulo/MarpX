@@ -1,0 +1,85 @@
+/* @theme gauss */
+
+@import "marpx";
+
+/* Variáveis do tema que diferem do baseline */
+:root {
+  /* Núcleo do tema */
+  --marpx-theme-color: var(--blueViolet-50);
+  --marpx-theme-font-size: 24pt;
+  --marpx-theme-background-color: var(--gray-400);
+  --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
+
+  /* Tipografia e cores de texto */
+  --marpx-theme-letter-spacing: 0.1px;
+  --marpx-theme-font-color: var(--blueViolet-400);
+  --marpx-theme-bold-color: var(--vermilion-300);
+  --marpx-theme-marker-color: var(--khaki-900);
+
+  /* Títulos */
+  --marpx-theme-h1-color: var(--blueViolet-550);
+  --marpx-theme-h1-bold-color: var(--vermilion-300);
+  --marpx-theme-h2-color: var(--blueViolet-50);
+
+  /* Elementos específicos */
+  --marpx-theme-chapter-color: var(--khaki-900);
+  --marpx-theme-chapter-color: #123A53;
+
+  --marpx-theme-subtitle-color: var(--blue-600);
+  --marpx-theme-highlight-color: var(--yellow-300);
+
+
+  /* Legendas e rótulos */
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-figure-captiontext-color: var(--blueViolet-50);
+  --marpx-theme-table-captiontext-color: var(--vermilion-300);
+
+  /* TOC */
+  --marpx-theme-toc-color: var(--blueViolet-200);
+
+  /* Slide de título (acadêmico) */
+  --marpx-title_academic-title-size: 130%;
+  --marpx-title_academic-title-font-weight: bold;
+  --marpx-title_academic-subtitle-size: 95%;
+  /* mantém exatamente como no arquivo alvo */
+  --marpx-title_academic-author-size: 105%;
+  --marpx-title_academic-institute-size: 85%;
+  --marpx-title_academic-letter-spacing: -0.07px;
+  --marpx-title_academic-background-color: var(--gray-1100);
+
+
+  --marpx-title_academic-title-color: var(--blue-550);
+  --marpx-title_academic-subtitle-color: #a1a1a7;
+  --marpx-title_academic-author-color: var(--khaki-900);
+  --marpx-title_academic-border-color: var(--khaki-900);
+
+  /* Tabela */
+  --marpx-table-font-family: ;
+  /* valor vazio conforme arquivo alvo */
+  --marpx-table-hover-color: var(--blueViolet-400);
+  --marpx-table-hover-background-color: var(--violet-100);
+
+  /* Citações (claras/“dark”) */
+  --marpx-quote-background-color: var(--gray-300);
+  --marpx-quote-paragraph-background-color: var(--gray-300);
+  --marpx-quote-bold-color: var(--blueViolet-100);
+
+  --marpx-quote_dark-font-color: var(--gray-100);
+  --marpx-quote_dark-color-background: var(--blue-400);
+  --marpx-quote_dark-color-paragraph-background: var(--blue-400);
+  --marpx-quote_dark-bold-color: var(--khaki-500);
+}
+
+/* Demais diferenças estruturais */
+section {
+  line-height: 1.2em;
+}
+
+section code {
+  border: 1px solid #f3ec8f;
+  border-radius: 11px;
+  padding: 1px 3px;
+  background: #fffbe7;
+  font-size: 0.95em;
+  display: inline-block;
+}

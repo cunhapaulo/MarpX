@@ -38,23 +38,24 @@
 # Prospective Names
 
 1. Aristóteles (384 a.C. - 322 a.C.)
-2. Baruch Espinosa (1632 - 1677)
-3. Agostinho de Hipona (354 - 430)
-4. Gottlob Frege (1848 - 1925)
-5. Tomás de Aquino (1225 - 1274)
-6. Georg Cantor (1845 - 1918)
-7. Edith Stein (1891 - 1942)
-8. George Berkeley (1685 - 1753)
-9. John Locke (1632 - 1704)
-10. Ernst Cassirer (1874 - 1945)
-11. Allan Kardec (1804 - 1869)
-12. Adam Smith (1723 - 1790)
-13. Johann Gottlieb Fichte (1762 - 1814)
-14. Werner Heisenberg (1901 - 1976)
-15. David Hilbert (1862 - 1943)
-16. Neumann, John von (1903 - 1957)
-17. Gauss, Carl Friedrich
-18. Theodor Adorno (1903 - 1969)
+2.  Kepler, Johannes
+3. Baruch Espinosa (1632 - 1677)
+4. Agostinho de Hipona (354 - 430)
+5. Gottlob Frege (1848 - 1925)
+6. Tomás de Aquino (1225 - 1274)
+7. Georg Cantor (1845 - 1918)
+8. Edith Stein (1891 - 1942)
+9. George Berkeley (1685 - 1753)
+10. John Locke (1632 - 1704)
+11. Ernst Cassirer (1874 - 1945)
+12. Allan Kardec (1804 - 1869)
+13. Adam Smith (1723 - 1790)
+14. Johann Gottlieb Fichte (1762 - 1814)
+15. Werner Heisenberg (1901 - 1976)
+16. David Hilbert (1862 - 1943)
+17. Neumann, John von (1903 - 1957)
+18. Gauss, Carl Friedrich
+19. Theodor Adorno (1903 - 1969)
 
 Essas informações fornecem um panorama das datas de nascimento e morte dessas personalidades notáveis. Se precisar de mais informações ou tiver outras perguntas, estou à disposição.
 
@@ -68,14 +69,13 @@ Essas informações fornecem um panorama das datas de nascimento e morte dessas 
 6. Carnap
 7. Church, Alonzo
 8. Epicuro
-9. Gandhi, Mahatma
+9.  Gandhi, Mahatma
 10. Goethe, Johann Wolfgang von
 11. Haskell Curry
 12. Hoare, Anthony
 13. Hobbes, Thomas
 14. Huxley, Aldus
-15. Jung, Karl Gustav
-16. Kepler, Johannes
+16. Jung, Karl Gustav
 17. Kierkegaard
 18. Knuth, Donald
 19. Kolmogorov, Andrey
