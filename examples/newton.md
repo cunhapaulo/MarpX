@@ -79,7 +79,6 @@ When the neet to make strong assertions becomes inevitable:
 
 <footnote>
 * Note: This is a very long footnote line intended to test the layout of two.
-
 </footnote>
 
 ---

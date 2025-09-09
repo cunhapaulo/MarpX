@@ -8,13 +8,13 @@ header: Royal Society - London, 1687
 footer: "[Back to the TOC](#3)"
 
 marp: true
-theme: newton
+theme: gauss
+paginate: true
 transition: fade
 
 size: 16:9
 lang: en
 math: mathjax
-paginate: true
 ---
 
 <!-- _class: title-academic -->
@@ -29,8 +29,8 @@ paginate: true
 <div class="organization"  > Annus Mirabilis (1665–1666) </div>
 
 ---
-
 <!-- _class: title -->
+
 ![bg h:190% opacity:0.15 grayscale:1 ](./assets/images/thinkers/gauss01.jpg)
 
 
@@ -66,6 +66,9 @@ paginate: true
 ## Aditional Text about what´s ahead
 
 ---
+
+
+
 
 # Is Algebraic Graph Knowledge a **Possibility**?
 
