@@ -9,12 +9,12 @@ footer: "[Back to the Index](#2)"
 
 marp: true
 theme: gödel
+paginate: true
 transition: none
 
 size: 16:9
 lang: en
 math: mathjax
-paginate: true
 ---
 
 <!-- _class: title -->
@@ -26,20 +26,32 @@ paginate: true
 
 <!-- _class: toc  -->
 
-1. [**Header** - first part of your Markdown file.](#3)
-2. [**Academic Title** - Title slide in academic fashion.](#4)
-3. [**Title** - Simple title slide.](#6)
-4. [**TOC** - Table of Contents.](#8)
-5. [**Transition Slide** - Slide that marks transitions.](#10)
-6. [**One Image Slide** - Slide with just one image.](#12)
-7. [**Multicolumn** - Multiple columns in one slide.](#14)
-8. [**Video** - How to present video in one slide.](#16)
-9.  [**Animations** - from several sources.](#30)
-10. [**Tables** - How to insert Markdown tables in slides.](#18)
-11. [**LaTeX Math** - How to insert math with LaTeX.](#20)
-12. [**Quotes** - Special slides for quotes.](#24)
-13. [**Callouts** - How to insert callouts.](#26)
-14. [**References, Appendix & Credits**](#28)
+<div class="multicolumn"><div>
+
+
+</div><div>
+
+1. [Header](#3)
+2. [Title](#6)
+3. [Academic Title](#4)
+4. [TOC](#8)
+5. [Transition Slide](#10)
+6. [Boxes](#12)
+7. [One Image Slide](#14)
+
+</div><div>
+
+</div><div>
+
+8.  [Multicolumn](#16)
+9.  [Tables](#20)
+10. [Video](#18)
+11. [LaTeX Math](#22)
+12. [Quotes](#26)
+13. [Callouts](#28)
+14. [References, Appendix ](#30)
+
+</div></div>
 
 ---
 
@@ -49,22 +61,22 @@ paginate: true
 
 ```YAML
 ---
-title: Marp Example - Gödel
+title: How to use MarpX Special Tags
 author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
 
-header: Königsberg, 5–7 September, 1930
-footer: "[Back to the outline](#3)"
+header: 2025
+footer: "[Back to the Index](#2)"
 
 marp: true
 theme: gödel
-transition: fade
+paginate: true
+transition: none
 
 size: 16:9
 lang: en
 math: mathjax
-paginate: true
 ---
 ```
 ---
@@ -132,19 +144,13 @@ paginate: true
 
 <!-- _class: toc  -->
 
-0. [Title](#1)
-1. [Transition Slide](#4)
-2. [Normal Slide](#5)
-3. [Headers](#6)
-4. [Images](#7)
-5. [Animations and Videos](#15)
-6. [ Lists](#18)
-7. [Tables](#20)
-8. [Mathematics in LaTeX](#23)
-9. [Code](#28)
-10. [Quotes](#32)
-11. [Callouts](#35)
-12. [References, Appendix & Credits](#38)
+0. [Title]()
+1. [Transition Slide]()
+2. [Normal Slide]()
+3. [Headers]()
+4. [Images]()
+5. [Animations and Videos]()
+
 
 ---
 
@@ -186,6 +192,52 @@ paginate: true
 
 ```
 ---
+
+# Boxes
+
+- Flow of <span class="box">**activities**</span> that use **resources**. 
+  
+<center>
+
+<span class="box">Input</span> $\longrightarrow$ <span class="box">Process</span> $\longrightarrow$ <span class="box">Output</span>
+
+Another way:
+
+<box>Input</box> $\longrightarrow$ <box>Process</box> $\longrightarrow$ <box>Output</box>
+
+</center>
+
+---
+
+<!-- _class: black-slide nobrand-->
+
+# \<box> or \<span class="box">
+
+
+```md
+# Boxes
+
+- Flow of <span class="box">**activities**</span> that use **resources**.
+
+<center>
+
+<span class="box">Input</span> 
+$\longrightarrow$ 
+<span class="box">Process</span> $
+\longrightarrow$ 
+<span class="box">Output</span>
+
+Another way:
+
+<box>Input</box> $\longrightarrow$ 
+<box>Process</box> $\longrightarrow$ 
+<box>Output</box>
+
+</center>
+```
+
+---
+
 <!-- _class: white-slide -->
 
 # One image slide

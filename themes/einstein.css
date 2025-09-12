@@ -117,7 +117,7 @@ section {
   line-height: 1.2em;
 }
 
-.boxed {
+.box {
   border: 2px solid #222;
   border-radius: 6px; /* opcional: cantos arredondados */
   padding: 2px 8px; /* espaço interno */

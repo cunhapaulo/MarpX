@@ -29,6 +29,7 @@ math: mathjax
 <div class="organization"  > Annus Mirabilis (1665–1666) </div>
 
 ---
+<!-- _backgroundImage: "linear-gradient(to right, #0a2e7aff, #b876e4ff)" -->
 <!-- _class: title -->
 
 ![bg h:190% opacity:0.15 grayscale:1 ](./assets/images/thinkers/gauss01.jpg)
