@@ -35,7 +35,7 @@ math: mathjax
 ![bg h:190% opacity:0.15 grayscale:1 ](./assets/images/thinkers/gauss01.jpg)
 
 
-# If I have seen further it is by standing on the shoulders of Giants
+# If I have **seen** further it is by standing on the **shoulders** of Giants
 
 ## Epistemic humility and the historical continuity
 
@@ -92,23 +92,23 @@ When the neet to make strong assertions becomes inevitable:
 
 <div>
 
-# H1 - H1 level of header
+# H1 - H1 **level** of header
 
-## H2 - H2 level of header
+## H2 - H2 **level** of header
 
-### H3 - H3 level of header
+### H3 - H3 **level** of header
 
-#### H4 - H4 level of header
+#### H4 - H4 **level** of header
 
-##### H5 - H5 level of header
+##### H5 - H5 **level** of header
 
-###### H6 - H6 level of header
+###### H6 - H6 **level** of header
 
 </div><div>
 
 - This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
 
-- This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
+- This is a fragment o **normal text** written here in order to exemplify the use of several featrues in CSS.
 
   - This is one **bold** comment.
   - This is another _italic_ comment.

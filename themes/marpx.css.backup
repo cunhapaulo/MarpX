@@ -238,7 +238,6 @@
   /*-------------------< TITLE SLIDE >-----------------------------*/
 
   /* fonts sizes */
-  --marpx-title-header-color: #000000;
   --marpx-title_academic-title-size: 145%;
   --marpx-title_academic-subtitle-size: 95%;
   --marpx-title_academic-author-size: 105%;
@@ -435,7 +434,7 @@ h3 {
   margin-bottom: 8px;
 }
 
-/* h1 > strong::before,
+h1 > strong::before,
 h1 > strong::after,
 h1 > em::before,
 h1 > em::after,
@@ -447,28 +446,15 @@ h3 > strong::before,
 h3 > strong::after,
 h3 > em::before,
 h3 > em::after {
-   content: "\00a0"; 
-} */
+  content: "\00a0";
+}
 
 h1 > strong,
-h1 > em,
 h2 > strong,
-h2 > em,
 h3 > strong,
-h3 > em,
-h4 > strong ,
-h4 > em, 
-h5 > strong ,
-h5 > em, 
-h6 > strong ,
-h6 > em
-{
+h4 > strong {
   color: var(--marpx-theme-h1-bold-color);
   font-weight: bold !important;
-  margin-left: 0.125em; /* ajuste conforme necessário */
-  margin-right: 0.125 em; /* ajuste conforme necessário */
-  display: inline-block; /* assegura que margin-right funcione previsivelmente */
-
 }
 
 li::marker {
@@ -632,8 +618,7 @@ section.title-bg > h1 {
   color: var(--marpx-title_academic-title-color);
   font-weight: 700;
 
-  /* display: flex; */ /* paulo.cunha */
-  display: block;
+  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
@@ -671,7 +656,7 @@ section.title-bg > header {
   padding: 0px;
   left: 80px;
   font-size: 20pt;
-  color: var(--marpx-title-header-color);
+  color: var(--marpx-color-dark-grey);
   font-weight: 200;
 }
 
