@@ -4,8 +4,8 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
 
-header: 2025
-footer: "[Back to the Index](#2)"
+header: 
+footer: "[`Back to Contents`](#2)"
 
 marp: true
 theme: gödel
