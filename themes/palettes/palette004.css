@@ -1,0 +1,42 @@
+/* travel.state.gov */
+
+:root {
+  /* Blue */
+  --blue-100: #e5eef4;
+  --blue-200: #d3e3fd;
+  --blue-300: #a8c7fa;
+  --blue-400: #1e88e5;
+  --blue-500: #0b57d0;
+  --blue-600: #003875;
+  --blue-700: #06284c;
+  --blue-800: #041e49;
+
+  /* Gray */
+  --gray-100: #ffffff;
+  --gray-200: #f3f6fc;
+  --gray-300: #f1f4f8;
+  --gray-400: #f2f2f2;
+  --gray-500: #f0f0f0;
+  --gray-600: #e6e6e6;
+  --gray-700: #e0e0e0;
+  --gray-800: #c4c7c5;
+  --gray-900: #a0a0a0;
+  --gray-1000: #444746;
+  --gray-1100: #444444;
+  --gray-1200: #333333;
+  --gray-1300: #1f1f1f;
+  --gray-1400: #1e1e1e;
+  --gray-1500: #1a1a1a;
+
+  /* Red */
+  --red-100: #f9dedc;
+  --red-200: #b3261e;
+  --red-300: #410e0b;
+
+  /* Khaki */
+  --khaki-100: #fef7e0;
+
+  /* Orange */
+  --orange-100: #e37400;
+
+}
