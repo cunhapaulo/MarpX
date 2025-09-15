@@ -227,16 +227,16 @@
   --marpx-theme-font-color: #000000;
   --marpx-theme-background-color: #ffffff;
   --marpx-theme-bold-color: #f8150d;
-  --marpx-theme-chapter-background-color: #9aade2;
   --marpx-theme-subtitle-color: #5d616d;
   --marpx-theme-code-color: #e9e9e9;
   --marpx-theme-highlight-color: #ffff00;
   --marpx-theme-footnote-mark-color: #ff0000;
   --marpx-theme-toc-color: #4562bb;
   --marpx-theme-toc-background-color: #f6f6f6;
-
+  
   /*-------------------< CHAPTER SLIDE >-----------------------------*/
   
+  --marpx-theme-chapter-background-color: #9aade2;
   --marpx-theme-chapter-h1-font-color:#ffffff;
   --marpx-theme-chapter-h2-font-color:#ffffff;
   

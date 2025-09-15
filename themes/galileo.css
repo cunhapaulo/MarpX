@@ -48,7 +48,7 @@
   --marpx-quote_dark-font-color: var(--gray-100);
 
 
-  --marpx-table-font-color: var(--gray-200);
+  --marpx-table-font-color: var(--blue-1000);
   --marpx-table-hover-background-color: var(--violet-100);
   --marpx-table-hover-color: var(--blueViolet-400);
 
@@ -56,8 +56,8 @@
   --marpx-theme-background-color: var(--blue-1000);
   --marpx-theme-bold-color: var(--khaki-500);
   --marpx-theme-chapter-background-color: var(--khaki-200);
-  --marpx-theme-chapter-h1-font-color: #050b44;
-  --marpx-theme-chapter-h2-font-color: #050b44;
+  --marpx-theme-chapter-h1-font-color: #000f92;
+  --marpx-theme-chapter-h2-font-color: #000f92;
   --marpx-theme-color: var(--blueViolet-50);
   --marpx-theme-figure-captiontext-color: var(--blueViolet-50);
   --marpx-theme-figure-captiontext: "Fig. ";
