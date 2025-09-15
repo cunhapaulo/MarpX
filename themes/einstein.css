@@ -34,7 +34,7 @@
   --marpx-theme-h2-color: var(--orange-300);
 
   /* Specific elements */
-  --marpx-theme-chapter-color: var(--orange-300);
+  --marpx-theme-chapter-background-color: var(--orange-300);
   --marpx-theme-subtitle-color: #41434e;
   --marpx-theme-code-color: #f80d0d;
   --marpx-theme-highlight-color: var(--scarletRed-400);

@@ -22,8 +22,8 @@
   --marpx-theme-h2-color: var(--blueViolet-50);
 
   /* Elementos específicos */
-  --marpx-theme-chapter-color: var(--khaki-900);
-  --marpx-theme-chapter-color: #123A53;
+  --marpx-theme-chapter-background-color: var(--khaki-900);
+  --marpx-theme-chapter-background-color: #123A53;
 
   --marpx-theme-subtitle-color: var(--blue-600);
   --marpx-theme-highlight-color: var(--yellow-300);

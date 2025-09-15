@@ -19,8 +19,8 @@
 
   --marpx-theme-background-color: #333352;
   --marpx-theme-bold-color: var(--khaki-500);
-  --marpx-theme-chapter-color: #123A53;
-  --marpx-theme-chapter-color: var(--khaki-500);
+  --marpx-theme-chapter-background-color: #123A53;
+  --marpx-theme-chapter-background-color: var(--khaki-500);
   --marpx-theme-color: var(--blueViolet-50);
   --marpx-theme-figure-captiontext-color: var(--blueViolet-50);
   --marpx-theme-figure-captiontext: "Fig. ";

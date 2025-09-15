@@ -13,10 +13,11 @@
 - [x] Gödel, Kurt (1906-1978)
 
 # Under construction 
-- [x] Turing, Alan (1912-1954)
+- [x] Gauss, Carl Friedrich (1777 - 1855)
+- [x] Galileu Galilei (1564 - 1642)
+- [ ] Turing, Alan (1912-1954)
 - [ ] Hume, David (1711 - 1776)
 - [ ] Pascal, Blaise (1623-1662)
-- [ ] Galileu Galilei (1564 - 1642)
 
 
 # Already used names in Marpstyle
@@ -46,7 +47,7 @@
 - [ ] Bacon
 - [ ] Berkeley, George (1685 - 1753)
 - [ ] Berlin, Isaiah
-- [ ] Boole, C
+- [ ] Boole, Charles
 - [ ] Bretano, Franz
 - [ ] Cantor, Georg (1845 - 1918)
 - [ ] Carnap
@@ -58,7 +59,6 @@
 - [ ] Espinosa, Baruch (1632 - 1677)
 - [ ] Frege, Gottlob (1848 - 1925)
 - [ ] Gandhi, Mahatma
-- [ ] Gauss, Carl Friedrich
 - [ ] Goethe, Johann Wolfgang von
 - [ ] Haskell Curry
 - [ ] Heisenberg, Werner (1901 - 1976)

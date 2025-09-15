@@ -1,14 +1,14 @@
 ---
-title: Marp Example - Gauss
+title: Marp Example - Galileo
 author: Paulo Cunha
 description: Canonical use of marpx theme
-keywords: [Marp, MarpX, Gauss, Paulo Cunha]
+keywords: [Marp, MarpX, Galileo, Paulo Cunha]
 
 header: Royal Society - London, 1687
 footer: "[Back to the TOC](#3)"
 
 marp: true
-theme: gauss
+theme: galileo
 paginate: true
 transition: fade
 
@@ -19,23 +19,24 @@ math: mathjax
 
 <!-- _class: title-academic -->
 
-![bg h:100% saturate:2.2 right:45%](./assets/images/thinkers/gauss02.png)
+![bg h:100% saturate:1.3 left:33%](./assets/images/thinkers/galileo01.jpg)
 
 <div class="title"         > If I have seen further it is by standing on the shoulders of Giants </div>
 <div class="subtitle"      > Epistemic humility and the historical continuity</div>
-
-<div class="author"        > Johann Carl Friedrich Gauß (1777 - 1855)</div>
+ 
+<div class="author"        > Galileo di Vincenzo Bonaulti de Galilei </div>
 <div class="organization"  > Philosophiæ Naturalis Principia Mathematica (1687) </div>
 <div class="date"          > Royal Society - London </div>
 <div class="organization"  > Annus Mirabilis (1665–1666) </div>
 
 ---
+
 <!-- _class: title -->
 
-![bg h:170% opacity:0.1 grayscale:1](./assets/images/thinkers/gauss01.jpg)
+![bg h:110% opacity:0.2](./assets/images/thinkers/galileo03.jpg)
 
 
-# If I have **seen** further it is by standing on the **shoulders** of Giants
+# If I have seen further it is by standing on the shoulders of Giants
 
 ## Epistemic humility and the historical continuity
 
@@ -185,11 +186,11 @@ Das Buch trug ursprünglich den Titel "**Phänomenologie des Geistes**" von sein
 
 <div class="multicolumn vcenter"><div>
 
-## Kant, Leibniz & Gauss
+## Kant, Leibniz & Galileo
 
-Philosophy and the sciences were closely linked in the age of Leibniz, Gauss, and Kant.
+Philosophy and the sciences were closely linked in the age of Leibniz, Galileo, and Kant.
 
-This addresses the transformations of metaphysics as a discipline, the emergence of analytical mechanics, the diverging avenues of 18th-century Gaussianism, the body-mind problem, and philosophical principles of classification in the life sciences.
+This addresses the transformations of metaphysics as a discipline, the emergence of analytical mechanics, the diverging avenues of 18th-century Galileuianism, the body-mind problem, and philosophical principles of classification in the life sciences.
 
 > Price at Amazon used to be 128,39 €
 
@@ -898,10 +899,10 @@ You may use in semantics.
 1. Special thanks to **Yuki Hattori** [(GitHub)](https://github.com/yhatt), creator of [Marp](https://github.com/Marp-team/Marp).
 2. Early [CSS](https://github.com/Juanvvc) inspiring ideas, from **Juan Vera del Campo**. Gracias!
 3. Inspired by the work of [**Daniel Kriesten**](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
-4. Book cover of **Between Leibniz, Gauss, and Kant: Philosophy and Science in the Eighteenth Century** - [©️ Springer Verlag](https://www.springer.com).
+4. Book cover of **Between Leibniz, Galileo, and Kant: Philosophy and Science in the Eighteenth Century** - [©️ Springer Verlag](https://www.springer.com).
 5. Book cover of **Deutschland. Ein Wintermärchen**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
 6. Book cover of **Phenomenology of Spirit** - [©️ Oxford University Press](https://corp.oup.com/).
-7. Portrait of Isaac Gauss, by Sir Godfrey Kneller Bt. [Royal Academy Collection: Art](https://www.royalacademy.org.uk/art-artists/work-of-art/sir-isaac-Gauss-3)
+7. Portrait of Isaac Galileo, by Sir Godfrey Kneller Bt. [Royal Academy Collection: Art](https://www.royalacademy.org.uk/art-artists/work-of-art/sir-isaac-newton-3)
 
 </div><div>
 
