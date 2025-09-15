@@ -114,3 +114,9 @@ section code {
   font-size: 0.95em;
   display: inline-block;
 }
+
+
+section.slide.white,
+section.white-slide {
+  color: var(--gray-1000);
+}
