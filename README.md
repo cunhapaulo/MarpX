@@ -83,7 +83,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | [![Style Socrates](./examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)     |
 | <h3> **copernicus** - In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
 | [![Style Copernicus](./examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
-| <h3> **Galileo** - In honor of Galileu Galilei (1577–1543) </h3>                                             |
+| <h3> **Galileo** - In honor of Galileu Galilei (1564–1542) </h3>                                             |
 | [![Style Galileo](./examples/front-slide/galileo.png)](https://cunhapaulo.github.io/marpx/examples/galileo.html) |
 | <h3> **newton** - In honor of Sir Isaac Newton (1642 - 1727) </h3>                                                            |
 | [![Style Newton](./examples/front-slide/newton.png)](https://cunhapaulo.github.io/marpx/examples/newton.html)     |
