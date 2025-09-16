@@ -19,6 +19,22 @@ Try the Reference Guide that shows most of the special canonical slide types in 
 **MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
 Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
 
+## Key Features in Tags
+
+| Item                                                                               | Marcador                                                         |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Boxes](https://cunhapaulo.github.io/marpx/examples/howto.html#12)                 | `<box></box>` or `<span class="box"></span>`                     |
+| [Black or White Slides](https://cunhapaulo.github.io/marpx/examples/howto.html#33) | `<!-- _class: black-slide -->` or `<!-- _class: white-slide -->` |
+| [Callouts](https://cunhapaulo.github.io/marpx/examples/howto.html#28)              | `<div class="callout"></div>`                                    |
+| [Multicolumn](https://cunhapaulo.github.io/marpx/examples/howto.html#17)           | `<div class="multicolumn" align="center"></div>`                 |
+| [Notes](https://cunhapaulo.github.io/marpx/examples/howto.html#34)                 | `<div class=notes></div>`                                        |
+| [Quotes](https://cunhapaulo.github.io/marpx/examples/howto.html#26)                | `<!-- _class: quote -->` or `<!-- _class: quote dark -->`        |
+| [References](https://cunhapaulo.github.io/marpx/examples/howto.html#31)            | `<!-- _class: references -->`                                    |
+| [Title](https://cunhapaulo.github.io/marpx/examples/howto.html#5)                  | `<!-- _class: title -->` or `<!-- _class: title-academic -->`    |
+| [TOC](https://cunhapaulo.github.io/marpx/examples/howto.html#8)                    | `<!-- _class: toc -->`                                           |
+| [Transition Slide](https://cunhapaulo.github.io/marpx/examples/howto.html#11)      | `<!-- _class: chapter -->`                                       |
+| [Videos](https://cunhapaulo.github.io/marpx/examples/howto.html#19)                | `<video controls height="400px"></video>`                        |
+
 
 ## 🚀 Key Features
 
