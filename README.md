@@ -11,6 +11,28 @@ This is Marp Style 2.0
 **MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
 Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
 
+## A very basic YAML header:
+```yaml
+---
+title: How to use MarpX Special Tags
+author: Paulo Cunha
+description: Canonical use of marpx theme
+keywords: [Marp, MarpX, Gödel, Paulo Cunha]
+
+header: 
+footer: "[`Back to Contents`](#2)"
+
+marp: true
+theme: gödel
+paginate: true
+transition: none
+
+size: 16:9
+lang: en
+math: mathjax
+---
+```
+
 ## Key Features in Tags (in alphabetic order)
 
 | Item                                                                               | Marcador                                                         |
