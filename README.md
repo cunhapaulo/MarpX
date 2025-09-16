@@ -6,18 +6,56 @@ This is Marp Style 2.0
 > **MarpX** — Beautiful, semantic, and powerful themes for Marp presentations.
 > MarpX is the result of an effort to expand, redesign, optimize and improve my first Marp slide theme composition initiative [Marpstyle](https://github.com/cunhapaulo/marpstyle). One may say MarpX is Marpstyle 2.0.
 
+## Overview
+
+**MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
+Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
+
+## A very basic YAML header:
+```yaml
+---
+title: How to use MarpX Special Tags
+author: Paulo Cunha
+description: Canonical use of marpx theme
+keywords: [Marp, MarpX, Gödel, Paulo Cunha]
+
+header: 
+footer: "[`Back to Contents`](#2)"
+
+marp: true
+theme: gödel
+paginate: true
+transition: none
+
+size: 16:9
+lang: en
+math: mathjax
+---
+```
+
+## Key Features in Tags (in alphabetic order)
+
+| Item                                                                               | Marcador                                                         |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Boxes](https://cunhapaulo.github.io/marpx/examples/howto.html#12)                 | `<box></box>` or `<span class="box"></span>`                     |
+| [Black or White Slides](https://cunhapaulo.github.io/marpx/examples/howto.html#32) | `<!-- _class: black-slide -->` or `<!-- _class: white-slide -->` |
+| [Callouts](https://cunhapaulo.github.io/marpx/examples/howto.html#28)              | `<div class="callout"></div>`                                    |
+| [Multicolumn](https://cunhapaulo.github.io/marpx/examples/howto.html#16)           | `<div class="multicolumn" align="center"></div>`                 |
+| [Notes](https://cunhapaulo.github.io/marpx/examples/howto.html#34)                 | `<div class=notes></div>`                                        |
+| [Quotes](https://cunhapaulo.github.io/marpx/examples/howto.html#26)                | `<!-- _class: quote -->` or `<!-- _class: quote dark -->`        |
+| [References](https://cunhapaulo.github.io/marpx/examples/howto.html#30)            | `<!-- _class: references -->`                                    |
+| [Title](https://cunhapaulo.github.io/marpx/examples/howto.html#4)                  | `<!-- _class: title -->` or `<!-- _class: title-academic -->`    |
+| [TOC](https://cunhapaulo.github.io/marpx/examples/howto.html#8)                    | `<!-- _class: toc -->`                                           |
+| [Transition Slide](https://cunhapaulo.github.io/marpx/examples/howto.html#10)      | `<!-- _class: chapter -->`                                       |
+| [Videos](https://cunhapaulo.github.io/marpx/examples/howto.html#18)                | `<video controls height="400px"></video>`                        |
+
+
 
 ## References (IMPORTANT!)
 
 Try the Reference Guide that shows most of the special canonical slide types in Marpx!
 
 [![Reference Guide](./examples/front-slide/howto.png)](https://cunhapaulo.github.io/marpx/examples/howto.html)
-
-
-## Overview
-
-**MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
-Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
 
 
 ## 🚀 Key Features
@@ -45,7 +83,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | [![Style Socrates](./examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)     |
 | <h3> **copernicus** - In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                                             |
 | [![Style Copernicus](./examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
-| <h3> **Galileo** - In honor of Galileu Galilei (1577–1543) </h3>                                             |
+| <h3> **Galileo** - In honor of Galileu Galilei (1564–1642) </h3>                                             |
 | [![Style Galileo](./examples/front-slide/galileo.png)](https://cunhapaulo.github.io/marpx/examples/galileo.html) |
 | <h3> **newton** - In honor of Sir Isaac Newton (1642 - 1727) </h3>                                                            |
 | [![Style Newton](./examples/front-slide/newton.png)](https://cunhapaulo.github.io/marpx/examples/newton.html)     |
