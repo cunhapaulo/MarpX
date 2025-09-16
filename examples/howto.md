@@ -31,7 +31,7 @@ math: mathjax
 
 </div><div>
 
-1. [Header](#3)
+1. [YAML Header](#3)
 2. [Title](#6)
 3. [Academic Title](#4)
 4. [TOC](#8)
@@ -56,9 +56,10 @@ math: mathjax
 
 ---
 
+
 <!-- _class: black-slide nobrand-->
 
-# The header is at the top of your Markdown file
+# The YAML Header is at the top of your Markdown file
 
 ```YAML
 ---
@@ -864,3 +865,33 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 ## <!-- fit --> [`To the beginning`](#2)
 
 </center>
+
+---
+
+<!-- _class: references nobrand -->
+
+# Tabela de Recursos do MarpX
+
+<center>
+
+| Item                                                                               | Marcador                                                         |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Boxes](https://cunhapaulo.github.io/marpx/examples/howto.html#12)                 | `<box></box>` or `<span class="box"></span>`                     |
+| [Black or White Slides](https://cunhapaulo.github.io/marpx/examples/howto.html#33) | `<!-- _class: black-slide -->` or `<!-- _class: white-slide -->` |
+| [Callouts](https://cunhapaulo.github.io/marpx/examples/howto.html#28)              | `<div class="callout"></div>`                                    |
+| [Multicolumn](https://cunhapaulo.github.io/marpx/examples/howto.html#17)           | `<div class="multicolumn" align="center"></div>`                 |
+| [Notes](https://cunhapaulo.github.io/marpx/examples/howto.html#34)                 | `<div class=notes></div>`                                        |
+| [Quotes](https://cunhapaulo.github.io/marpx/examples/howto.html#26)                | `<!-- _class: quote -->` or `<!-- _class: quote dark -->`        |
+| [References](https://cunhapaulo.github.io/marpx/examples/howto.html#31)            | `<!-- _class: references -->`                                    |
+| [Title](https://cunhapaulo.github.io/marpx/examples/howto.html#5)                  | `<!-- _class: title -->` or `<!-- _class: title-academic -->`    |
+| [TOC](https://cunhapaulo.github.io/marpx/examples/howto.html#8)                    | `<!-- _class: toc -->`                                           |
+| [Transition Slide](https://cunhapaulo.github.io/marpx/examples/howto.html#11)      | `<!-- _class: chapter -->`                                       |
+| [Videos](https://cunhapaulo.github.io/marpx/examples/howto.html#19)                | `<video controls height="400px"></video>`                        |
+
+<tabcaption>Tabela de funcionalidades do MarpX.
+
+</center>
+
+
+
+
