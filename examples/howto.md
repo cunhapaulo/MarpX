@@ -38,18 +38,19 @@ math: mathjax
 5. [Transition Slide](#10)
 6. [Boxes](#12)
 7. [One Image Slide](#14)
-
-</div><div>
-
-</div><div>
-
 8.  [Multicolumn](#16)
+
+</div><div>
+
+</div><div>
+
 9.  [Tables](#20)
 10. [Video](#18)
 11. [LaTeX Math](#22)
 12. [Quotes](#26)
 13. [Callouts](#28)
-14. [References, Appendix ](#30)
+14. [Notes](#34)
+15. [References, Appendix ](#30)
 
 </div></div>
 
@@ -781,7 +782,7 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 <!-- _class: black-slide nobrand -->
 
-# \<iframe>
+# \<!-- _class: black-slide -->
 
 ```md
 <!-- _class: black-slide -->
@@ -803,8 +804,57 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 </div></div>
 ---
 ```
+---
 
+# Note Boxes
 
+![bg opacity:.2](https://www.meisterdrucke.pt/kunstwerke/1260px/Unknown_Artist_-_Portrait_of_Galileo_Galilei_dit_Galileo_%281564_-_1642%29_-_%28MeisterDrucke-1000963%29.jpg)
+
+<div class=multicolumn>
+
+<div class=notes>
+
+### Anotações Numeradas:
+
+1. Primiera Tarefa;
+2. Segunda Tarefa;
+3. Terceira Tarefa.
+  
+</div>
+
+<div class=notes>
+
+### Anotações Itemizadas:
+
+- Primiera Tarefa;
+- Segunda Tarefa;
+- Terceira Tarefa.
+
+</div>
+
+---
+
+<!-- _class: black-slide nobrand -->
+
+# \<div class=notes>
+
+```md
+---
+
+# Note Boxes
+
+<div class=notes>
+
+# Anotações Itemizadas:
+
+- Primiera Tarefa;
+- Segunda Tarefa;
+- Terceira Tarefa.
+
+</div>
+
+---
+```
 
 ---
 <!-- _class: "blank" -->

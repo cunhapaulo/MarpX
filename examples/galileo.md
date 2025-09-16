@@ -45,19 +45,27 @@ math: mathjax
 
 <!-- _class: toc  -->
 
-0. [Title](#1)
-1. [Transition Slide](#4)
-2. [Normal Slide](#5)
-3. [Headers](#6)
-4. [Images](#7)
-5. [Animations and Videos](#15)
-6. [ Lists](#18)
-7. [Tables](#20)
-8. [Mathematics in LaTeX](#23)
-9. [Code](#28)
-10. [Quotes](#32)
-11. [Callouts](#35)
-12. [References, Appendix & Credits](#38)
+<div class=multicolumn>
+
+&nbsp;
+
+1. [Title](#1)
+2. [Transition Slide](#4)
+3. [Normal Slide](#5)
+4. [Headers](#6)
+5. [Images](#7)
+6. [Animations and Videos](#15)
+7. [Lists](#16)
+
+&nbsp;
+
+8. [Tables](#17)
+9.  [Mathematics in LaTeX](#19)
+10. [Code](#23)
+11. [Quotes](#26)
+12. [Callouts](#28)
+13. [Notes](#30)
+14. [References, Appendix & Credits](#31)
 
 ---
 
@@ -115,12 +123,6 @@ When the neet to make strong assertions becomes inevitable:
   - This is another _italic_ comment.
 
 </div></div>
-
----
-
-<!-- _class: chapter -->
-
-# Images
 
 ---
 
@@ -282,14 +284,6 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: chapter -->
-
-# Animations
-
-## Usually works in html only...
-
----
-
 <!-- _class: black-slide -->
 
 # Animations &nbsp;<span style="font-size:0.5em; color:yellow;">(works in HTML only)</span>
@@ -328,14 +322,6 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: chapter -->
-
-# Lists
-
-## Ordered and unordered
-
----
-
 # _Ordered_ and _unordered_ lists
 
 <div class="multicolumn"><div>
@@ -366,13 +352,6 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-<!-- _class: chapter -->
-
-# Tables
-
-## Organizing data with tables in Markdown
-
----
 
 # Renaissance painters
 
@@ -409,14 +388,6 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 <tabcaption>List of programming languages.</tabcaption>
 
 </center>
-
----
-
-<!-- _class: chapter -->
-
-# Mathematical Formulations
-
-## Writing equations with LaTeX
 
 ---
 
@@ -506,14 +477,6 @@ $$
         &\text{(Ampere-Maxwell Law)}
 \end{align}
 $$
-
----
-
-<!-- _class: chapter -->
-
-# Code
-
-## Computer programs source code
 
 ---
 
@@ -620,14 +583,6 @@ plt.show()
 
 ---
 
-<!-- _class: chapter -->
-
-# Quotes
-
-## Special text deserves special space
-
----
-
 <!-- _class: quote -->
 
 "There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
@@ -637,12 +592,6 @@ plt.show()
 <!-- _class: quote dark -->
 
 "There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
-
----
-
-<!-- _class: chapter -->
-
-# Callouts
 
 ---
 
@@ -810,13 +759,34 @@ You may use in semantics.
 
 ---
 
-<!-- class: "chapter" -->
+# Notes
 
-# Appendix
+![bg opacity:.2](https://www.meisterdrucke.pt/kunstwerke/1260px/Unknown_Artist_-_Portrait_of_Galileo_Galilei_dit_Galileo_%281564_-_1642%29_-_%28MeisterDrucke-1000963%29.jpg)
 
-## Bibliography, References, Appendix. etc.
+<div class=multicolumn>
+
+<div class=notes>
+
+### Anotações Numeradas:
+
+1. Primiera Tarefa;
+2. Segunda Tarefa;
+3. Terceira Tarefa.
+  
+</div>
+
+<div class=notes>
+
+### Anotações Itemizadas:
+
+- Primiera Tarefa;
+- Segunda Tarefa;
+- Terceira Tarefa.
+
+</div>
 
 ---
+
 
 <!-- class: references -->
 
