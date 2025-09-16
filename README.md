@@ -6,14 +6,6 @@ This is Marp Style 2.0
 > **MarpX** — Beautiful, semantic, and powerful themes for Marp presentations.
 > MarpX is the result of an effort to expand, redesign, optimize and improve my first Marp slide theme composition initiative [Marpstyle](https://github.com/cunhapaulo/marpstyle). One may say MarpX is Marpstyle 2.0.
 
-
-## References (IMPORTANT!)
-
-Try the Reference Guide that shows most of the special canonical slide types in Marpx!
-
-[![Reference Guide](./examples/front-slide/howto.png)](https://cunhapaulo.github.io/marpx/examples/howto.html)
-
-
 ## Overview
 
 **MarpX** is a comprehensive suite of advanced, visually appealing, and highly customizable themes and utilities for [Marp](https://marp.app/), the Markdown presentation ecosystem.  
@@ -34,6 +26,13 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 | [TOC](https://cunhapaulo.github.io/marpx/examples/howto.html#8)                    | `<!-- _class: toc -->`                                           |
 | [Transition Slide](https://cunhapaulo.github.io/marpx/examples/howto.html#11)      | `<!-- _class: chapter -->`                                       |
 | [Videos](https://cunhapaulo.github.io/marpx/examples/howto.html#19)                | `<video controls height="400px"></video>`                        |
+
+
+## References (IMPORTANT!)
+
+Try the Reference Guide that shows most of the special canonical slide types in Marpx!
+
+[![Reference Guide](./examples/front-slide/howto.png)](https://cunhapaulo.github.io/marpx/examples/howto.html)
 
 
 ## 🚀 Key Features
