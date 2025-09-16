@@ -4,8 +4,8 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
 
-header: 
-footer: "[`Back to Contents`](#2)"
+header: "[MarpX Github Site](https://github.com/cunhapaulo/MarpX)"
+footer: "[Back to TOC](#2)"
 
 marp: true
 theme: gödel
@@ -21,6 +21,8 @@ math: mathjax
 # Reference **Guide** - How to use **MarpX** special tags
 
 ## Paulo Cunha 
+
+### 
 
 ---
 
