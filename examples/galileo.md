@@ -869,28 +869,28 @@ You may use in semantics.
 1. Special thanks to **Yuki Hattori** [(GitHub)](https://github.com/yhatt), creator of [Marp](https://github.com/Marp-team/Marp).
 2. Early [CSS](https://github.com/Juanvvc) inspiring ideas, from **Juan Vera del Campo**. Gracias!
 3. Inspired by the work of [**Daniel Kriesten**](https://git.hs-mittweida.de/kriesten) at [marp-template-hsmw](https://git.hs-mittweida.de/marp/marp-template-hsmw). Herzlichen Dank!
-4. Book cover of **Between Leibniz, Galileo, and Kant: Philosophy and Science in the Eighteenth Century** - [©️ Springer Verlag](https://www.springer.com).
-5. Book cover of **Deutschland. Ein Wintermärchen**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
-6. Book cover of **Phenomenology of Spirit** - [©️ Oxford University Press](https://corp.oup.com/).
+4. Book cover of **Between Leibniz, Galileo, and Kant: Philosophy and Science in the Eighteenth Century** - [ Springer Verlag](https://www.springer.com).
+5. Book cover of **Deutschland. Ein Wintermärchen**, [Suhrkamp Verlag](https://www.suhrkamp.de/)
+6. Book cover of **Phenomenology of Spirit** - [ Oxford University Press](https://corp.oup.com/).
 7. Portrait of Isaac Galileo, by Sir Godfrey Kneller Bt. [Royal Academy Collection: Art](https://www.royalacademy.org.uk/art-artists/work-of-art/sir-isaac-newton-3)
 
 </div><div>
 
-10. Book cover of **Iphigenie auf Tauris**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
-11. Book cover of **König Ödipus**, [©️ Suhrkamp Verlag](https://www.suhrkamp.de/)
+10. Book cover of **Iphigenie auf Tauris**, [ Suhrkamp Verlag](https://www.suhrkamp.de/)
+11. Book cover of **König Ödipus**, [ Suhrkamp Verlag](https://www.suhrkamp.de/)
 12. Video of **Nikolay Sobolev** [from Pexels](https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/).
-13. Figure of **Shaun The Sheep** - [Courtesy of Aardman animations ltd. ©️2025](https://www.shaunthesheep.com/about/).
+13. Figure of **Shaun The Sheep** - [Courtesy of Aardman animations ltd. 2025](https://www.shaunthesheep.com/about/).
 14. Image of **Pixabay** [from Pexels](https://www.pexels.com/pt-br/foto/fotografia-de-baixo-angulo-do-partenon-durante-o-dia-164336/).
 15. **Faustina**. **Fira Sans** and **Fira Sans Light** fonts, imported from [Google Fonts](https://fonts.google.com/).
 16. **Charter ITC TT** and **Fira Sans Condensed** fonts, imported from [CDN Fonts](https://www.cdnfonts.com/).
-17. Mathematical diagrams from **Wolfram Mathematica**, from [©️2025 Wolfram](https://www.wolfram.com/mathematica/).
+17. Mathematical diagrams from **Wolfram Mathematica**, from [2025 Wolfram](https://www.wolfram.com/mathematica/).
 
 </div></div>
 
 ---
 
 <!-- _class: white-slide -->
-<!-- _footer: "Shaun The Sheep ©️ 2025 aardman animations ltd." -->
+<!-- _footer: "Shaun The Sheep  2025 aardman animations ltd." -->
 
 <div class="vcenter">
 

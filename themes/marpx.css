@@ -265,7 +265,7 @@
   --marpx-title_academic-border-color: #364269;
 
   /*------------< Parameters used in `REFERENCES` >---------------------------------*/
-
+  --marpx-references-color: #303235;
   --marpx-references-bold-color: #3e6ceb;
   --marpx-references-background-color: #eff4fa;
   --marpx-references-header-color: #539dd3;
@@ -892,14 +892,14 @@ section.toc li::marker {
 }
 
 section.toc a:hover {
-  font-size: 1em;
+  font-size: 0.95em;
   font-weight: bold;
 
   color: var(--marpx-calc-toc-hover-color) !important;
   background-color: var(--marpx-calc-toc-hoover-background-color);
 
   border-radius: 8px;
-  padding: 10px 10px;
+  padding: 5px 5px;
   text-decoration-line: none;
 }
 
@@ -911,12 +911,12 @@ section.toc::before {
   margin: 0px;
   padding-top: 30px;
 
-  width: 33%;
+  width: 30%;
   /* height: 86.11%; */
   height: 100%;
 
   text-align: center;
-  font-size: 48pt;
+  font-size: 42pt;
   font-weight: 700;
 
   color: white;
@@ -1450,7 +1450,7 @@ tr:hover {
 */
 section.references {
   background: var(--marpx-references-background-color);
-  color: #303235;
+  color: var(--marpx-references-color);
   font-family: "Fira Sans Light", sans-serif;
   padding: 150px 48px;
   line-height: 1.15;

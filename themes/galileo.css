@@ -26,6 +26,7 @@
   --blue-100: #e5eef4;
   --blue-200: #d3e3fd;
   --blue-300: #a8c7fa;
+  --blue-350: #74a9ff;
   --blue-400: #1e88e5;
   --blue-500: #0b57d0;
   --blue-600: #003875;
@@ -34,10 +35,11 @@
   --blue-900: #162e51;
   --blue-1000: #0c1e38;
 
-
   /* Khaki */
   --khaki-100: #fef7e0;
   --khaki-200: #fdca24;
+
+  
 
   --marpx-quote-background-color: var(--gray-300);
   --marpx-quote-bold-color: var(--blueViolet-100);
@@ -47,6 +49,11 @@
   --marpx-quote_dark-color-paragraph-background: var(--blue-400);
   --marpx-quote_dark-font-color: var(--gray-100);
 
+  
+  --marpx-references-color: #b9b9b9;
+  --marpx-references-bold-color: #6384e0;
+  --marpx-references-background-color: #283042;
+  --marpx-references-header-color: var(--khaki-500);
 
   --marpx-table-font-color: var(--blue-1000);
   --marpx-table-hover-background-color: var(--violet-100);
@@ -61,7 +68,7 @@
   --marpx-theme-color: var(--blueViolet-50);
   --marpx-theme-figure-captiontext-color: var(--blueViolet-50);
   --marpx-theme-figure-captiontext: "Fig. ";
-  --marpx-theme-font-color: var(--gray-200);
+  --marpx-theme-font-color: var(--gray-100);
   --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
   --marpx-theme-font-size: 24pt;
 
@@ -77,9 +84,8 @@
   --marpx-theme-letter-spacing: 0.1px;
   --marpx-theme-marker-color: var(--khaki-500);
   --marpx-theme-subtitle-color: var(--blue-600);
-  --marpx-theme-figure-captiontext-color: var(--khaki-600);
-  --marpx-theme-table-captiontext-color: var(--khaki-500);
-  --marpx-theme-toc-color: var(--blueViolet-500);
+  --marpx-theme-table-captiontext-color: var(--blueViolet-50);
+  --marpx-theme-toc-color: var(--blue-600);
 
 
   --marpx-title_academic-author-color: var(--blue-200);
@@ -106,12 +112,14 @@ section {
   line-height: 1.2em;
 }
 
-section code {
-  border: 1px solid #f3ec8f;
-  border-radius: 11px;
-  padding: 1px 3px;
-  background: #fffbe7;
-  font-size: 0.95em;
+section code:not(pre code) {
+  color: var(--khaki-500);
+  color: var(--blue-350);
+  background: var(--blueViolet-500) !important;
+  border: 0.5px solid var(--blue-600);
+  border-radius: 1px;
+  padding: 1px 5px;
+  font-size: 0.98em;
   display: inline-block;
 }
 
@@ -119,4 +127,9 @@ section code {
 section.slide.white,
 section.white-slide {
   color: var(--gray-1000);
+}
+
+section.references a {
+  color: #93b0ee;
+
 }
