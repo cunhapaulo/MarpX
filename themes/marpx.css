@@ -1609,21 +1609,16 @@ section.white-slide .figcaption::before {
 
 box {
 
-  border: 0px solid black;
-  /* cria a borda */
-  padding: 25px;
-  /* espaçamento interno */
-  margin: 50px auto;
-  /* espaçamento externo */
-  display: inline-block;
-  /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;
-  /* cantos arredondados (opcional) */
-  background-color: #d3d1d1;
+  border: 0px solid black;  /* cria a borda */
+  padding: 25px;              /* espaçamento interno */
+  margin: 50px auto;          /* espaçamento externo */
+  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;          /* cantos arredondados (opcional) */
+  background-color: #d3d3d3d0;
   /* cor de fundo (opcional) */
   text-align: center;
   /* centraliza o conteúdo dentro da caixa */
-  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
 }
 
 bbox {
