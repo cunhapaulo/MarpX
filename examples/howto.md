@@ -207,7 +207,7 @@ math: mathjax
 
 Another way:
 
-<box>Input</box> $\longrightarrow$ <box>Process</box> $\longrightarrow$ <box>Output</box>
+<box>Input Data</box> $\longrightarrow$ <box>Processing</box> $\longrightarrow$ <box>Output info</box>
 
 </center>
 
@@ -227,7 +227,7 @@ Another way:
 
 <span class="box">Input</span> 
 $\longrightarrow$ 
-<span class="box">Process</span> $
+<span class="box border">Process</span> $
 \longrightarrow$ 
 <span class="box">Output</span>
 
@@ -860,6 +860,39 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 ```
 
 ---
+
+# Boxes
+
+<center>
+
+<box>
+
+<bbox>Input Data</bbox> $\longrightarrow$ <bbox>Processing</bbox> $\longrightarrow$ <bbox>Output Info</bbox>
+
+</box>
+
+</center>
+
+---
+
+
+# Containers
+
+<div class=container>
+
+## Título 
+
+<center>
+
+<box><bbox>Input<br>Data</bbox> $\longrightarrow$ <bbox>Processing</bbox> $\longrightarrow$ <bbox>Output<br>info</bbox></box> $\longrightarrow$ <bbox> Consumer </bbox>
+
+</center>
+
+
+</div>
+
+---
+
 <!-- _class: "blank" -->
 
 <center>

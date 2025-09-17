@@ -97,16 +97,20 @@
   --marpx-references-background-color: var(--gray-100);
 }
 
+
 section {
   line-height: 1.2em;
 }
 
 .box {
   border: 2px solid #222;
-  border-radius: 6px; /* opcional: cantos arredondados */
-  padding: 2px 8px; /* espaço interno */
+  border-radius: 6px;
+  /* opcional: cantos arredondados */
+  padding: 2px 8px;
+  /* espaço interno */
   /* background: #fffbe7;   /* opcional: cor de fundo */
-  display: inline-block; /* garante o retângulo ao redor da palavra */
+  display: inline-block;
+  /* garante o retângulo ao redor da palavra */
 }
 
 section code {

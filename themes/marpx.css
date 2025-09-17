@@ -1558,48 +1558,7 @@ section.white-slide .figcaption::before {
 
 /*
 !================================================================================
-?-----------------------< BOX >----------------------- 
-!================================================================================
-*/
-
-box {
-
-  border: 1px solid black;
-  /* cria a borda */
-  padding: 25px;
-  /* espaçamento interno */
-  margin: 50px auto;
-  /* espaçamento externo */
-  display: inline-block;
-  /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 6px;
-  /* cantos arredondados (opcional) */
-  background-color: #f0f0f0;
-  /* cor de fundo (opcional) */
-  text-align: center;
-  /* centraliza o conteúdo dentro da caixa */
-}
-
-.box {
-
-  border: 1px solid black;
-  /* cria a borda */
-  padding: 10px;
-  /* espaçamento interno */
-  /* margin: 50px auto;          espaçamento externo */
-  display: inline-block;
-  /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 6px;
-  /* cantos arredondados (opcional) */
-  background-color: #f0f0f0;
-  /* cor de fundo (opcional) */
-  text-align: center;
-  /* centraliza o conteúdo dentro da caixa */
-}
-
-/*
-!================================================================================
-?-----------------------< notes >----------------------- 
+?-----------------------< NOTES >----------------------- 
 !================================================================================
 */
 .notes {
@@ -1624,3 +1583,82 @@ box {
 .notes li {
   margin-bottom: 15px;
 }
+
+
+/*
+!================================================================================
+?-----------------------< CONTAINER >----------------------- 
+!================================================================================
+*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  overflow-x: auto;
+}
+
+/*
+!================================================================================
+?-----------------------< BOX >----------------------- 
+!================================================================================
+*/
+
+box {
+
+  border: 0px solid black;
+  /* cria a borda */
+  padding: 25px;
+  /* espaçamento interno */
+  margin: 50px auto;
+  /* espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;
+  /* cantos arredondados (opcional) */
+  background-color: #d3d1d1;
+  /* cor de fundo (opcional) */
+  text-align: center;
+  /* centraliza o conteúdo dentro da caixa */
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.08);
+}
+
+bbox {
+
+  border: 1px solid black;
+  /* cria a borda */
+  padding: 25px;
+  /* espaçamento interno */
+  margin: 50px auto;
+  /* espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;
+  /* cantos arredondados (opcional) */
+  background-color: #ffffff;
+  /* cor de fundo (opcional) */
+  text-align: center;
+  /* centraliza o conteúdo dentro da caixa */
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.08);
+}
+
+.box {
+
+  border: 1px solid black;
+  /* cria a borda */
+  padding: 10px;
+  /* espaçamento interno */
+  /* margin: 50px auto;          espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 6px;
+  /* cantos arredondados (opcional) */
+  background-color: #f0f0f0;
+  /* cor de fundo (opcional) */
+  text-align: center;
+  /* centraliza o conteúdo dentro da caixa */
+}
+
