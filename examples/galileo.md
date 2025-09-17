@@ -4,7 +4,7 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Galileo, Paulo Cunha]
 
-header: Royal Society - London, 1687
+header: Firenze,  Toscana - Italia
 footer: "[Back to the TOC](#3)"
 
 marp: true
@@ -21,13 +21,12 @@ math: mathjax
 
 ![bg h:100% saturate:1.3 left:33%](./assets/images/thinkers/galileo01.jpg)
 
-<div class="title"         > If I have seen further it is by standing on the shoulders of Giants </div>
-<div class="subtitle"      > Epistemic humility and the historical continuity</div>
+<div class="title"         > E pur si muove! </div>
+<div class="subtitle"      > Dialogue Concerning the Two Chief World Systems</div>
  
 <div class="author"        > Galileo di Vincenzo Bonaulti de Galilei </div>
-<div class="organization"  > Philosophiæ Naturalis Principia Mathematica (1687) </div>
-<div class="date"          > Royal Society - London </div>
-<div class="organization"  > Annus Mirabilis (1665–1666) </div>
+<div class="organization"  > Discorsi e Dimostrazioni Matematiche, intorno a due nuove scienze (1638) </div>
+<div class="date"          > Firenze,  Toscana - Italia</div>
 
 ---
 
@@ -36,9 +35,9 @@ math: mathjax
 ![bg h:110% opacity:0.2](./assets/images/thinkers/galileo03.jpg)
 
 
-# If I have seen further it is by standing on the shoulders of Giants
+# E pur si muove!
 
-## Epistemic humility and the historical continuity
+## Dialogue Concerning the Two Chief World Systems
 
 ---
 

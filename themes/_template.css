@@ -1,9 +1,45 @@
-/* @theme gauss */
+/* @theme galileo */
 
 @import "marpx";
 
 /* Variáveis do tema que diferem do baseline */
 :root {
+
+
+  /* Gray */
+  --gray-100: #ffffff;
+  --gray-200: #f3f6fc;
+  --gray-300: #f1f4f8;
+  --gray-400: #f2f2f2;
+  --gray-500: #f0f0f0;
+  --gray-600: #e6e6e6;
+  --gray-700: #e0e0e0;
+  --gray-800: #c4c7c5;
+  --gray-900: #a0a0a0;
+  --gray-1000: #444746;
+  --gray-1100: #444444;
+  --gray-1200: #333333;
+  --gray-1300: #1f1f1f;
+  --gray-1400: #1e1e1e;
+
+  /* Blue */
+  --blue-100: #e5eef4;
+  --blue-200: #d3e3fd;
+  --blue-300: #a8c7fa;
+  --blue-350: #74a9ff;
+  --blue-400: #1e88e5;
+  --blue-500: #0b57d0;
+  --blue-600: #003875;
+  --blue-700: #06284c;
+  --blue-800: #041e49;
+  --blue-900: #162e51;
+  --blue-1000: #0c1e38;
+
+  /* Khaki */
+  --khaki-100: #fef7e0;
+  --khaki-200: #fdca24;
+
+  
 
   --marpx-quote-background-color: var(--gray-300);
   --marpx-quote-bold-color: var(--blueViolet-100);
@@ -12,50 +48,47 @@
   --marpx-quote_dark-color-background: var(--blue-400);
   --marpx-quote_dark-color-paragraph-background: var(--blue-400);
   --marpx-quote_dark-font-color: var(--gray-100);
-
-  --marpx-table-font-color: #2f3146;
+  --marpx-references-background-color: #283042;
+  --marpx-references-bold-color: #6384e0;
+  --marpx-references-color: #b9b9b9;
+  --marpx-references-header-color: var(--khaki-500);
+  --marpx-table-font-color: var(--blue-1000);
   --marpx-table-hover-background-color: var(--violet-100);
   --marpx-table-hover-color: var(--blueViolet-400);
-
-  --marpx-theme-background-color: #333352;
+  --marpx-theme-background-color: var(--blue-1000);
   --marpx-theme-bold-color: var(--khaki-500);
-  --marpx-theme-chapter-background-color: #123A53;
-  --marpx-theme-chapter-background-color: var(--khaki-500);
+  --marpx-theme-chapter-background-color: var(--khaki-200);
+  --marpx-theme-chapter-h1-font-color: #000f92;
+  --marpx-theme-chapter-h2-font-color: #000f92;
   --marpx-theme-color: var(--blueViolet-50);
   --marpx-theme-figure-captiontext-color: var(--blueViolet-50);
   --marpx-theme-figure-captiontext: "Fig. ";
-  --marpx-theme-font-color: var(--gray-1100);
+  --marpx-theme-font-color: var(--gray-100);
   --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
   --marpx-theme-font-size: 24pt;
-  
-  --marpx-theme-h1-bold-color: var(--khaki-500);
-  --marpx-theme-h1-color: var(--blueViolet-600);
   --marpx-theme-h1-bold-color: var(--blueViolet-600);
   --marpx-theme-h1-color: var(--khaki-500);
-  
   --marpx-theme-h2-color: var(--blueViolet-600);
-  --marpx-theme-highlight-color:  var(--blueViolet-500);
+  --marpx-theme-highlight-color: var(--blueViolet-500);
   --marpx-theme-letter-spacing: 0.1px;
   --marpx-theme-marker-color: var(--khaki-500);
   --marpx-theme-subtitle-color: var(--blue-600);
-  --marpx-theme-figure-captiontext-color: var(--khaki-600);
-  --marpx-theme-table-captiontext-color: var(--khaki-500);
-  --marpx-theme-toc-color: var(--blueViolet-500);
-
-  --marpx-title_academic-author-color: var(--khaki-500);
-  --marpx-title_academic-author-size: 105%;
-  --marpx-title_academic-background-color: #333352;
-  --marpx-title_academic-border-color: var(--khaki-900);
+  --marpx-theme-table-captiontext-color: var(--blueViolet-50);
+  --marpx-theme-toc-color: var(--blue-600);
+  --marpx-title_academic-author-color: var(--blue-200);
+  --marpx-title_academic-author-size: 100%;
+  --marpx-title_academic-background-color: var(--blue-900);
+  --marpx-title_academic-border-color: rgb(253, 253, 253);
+  --marpx-title_academic-font-color: var(--blueViolet-600);
   --marpx-title_academic-institute-size: 85%;
   --marpx-title_academic-letter-spacing: -0.07px;
-  --marpx-title_academic-subtitle-color: #a1a1a7;
-  --marpx-title_academic-subtitle-size: 95%;
-  --marpx-title_academic-title-color: var(--blue-550);
+  --marpx-title_academic-subtitle-color: var(--blueViolet-600);
+  --marpx-title_academic-subtitle-size: 85%;
+  --marpx-title_academic-title-color: var(--gray-100);
   --marpx-title_academic-title-font-weight: bold;
-  --marpx-title_academic-title-size: 130%;
+  --marpx-title_academic-title-size: 125%;
 
-  --marpx-title-header-color: #fdfdfd;
-
+  --marpx-title-header-color: var(--khaki-200);
 
 }
 
@@ -64,11 +97,24 @@ section {
   line-height: 1.2em;
 }
 
-section code {
-  border: 1px solid #f3ec8f;
-  border-radius: 11px;
-  padding: 1px 3px;
-  background: #fffbe7;
-  font-size: 0.95em;
+section code:not(pre code) {
+  color: var(--khaki-500);
+  color: var(--blue-350);
+  background: var(--blueViolet-500) !important;
+  border: 0.5px solid var(--blue-600);
+  border-radius: 1px;
+  padding: 1px 5px;
+  font-size: 0.98em;
   display: inline-block;
+}
+
+
+section.slide.white,
+section.white-slide {
+  color: var(--gray-1000);
+}
+
+section.references a {
+  color: #93b0ee;
+
 }

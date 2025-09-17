@@ -48,18 +48,13 @@
   --marpx-quote_dark-color-background: var(--blue-400);
   --marpx-quote_dark-color-paragraph-background: var(--blue-400);
   --marpx-quote_dark-font-color: var(--gray-100);
-
-  
-  --marpx-references-color: #b9b9b9;
-  --marpx-references-bold-color: #6384e0;
   --marpx-references-background-color: #283042;
+  --marpx-references-bold-color: #6384e0;
+  --marpx-references-color: #b9b9b9;
   --marpx-references-header-color: var(--khaki-500);
-
   --marpx-table-font-color: var(--blue-1000);
   --marpx-table-hover-background-color: var(--violet-100);
   --marpx-table-hover-color: var(--blueViolet-400);
-
-
   --marpx-theme-background-color: var(--blue-1000);
   --marpx-theme-bold-color: var(--khaki-500);
   --marpx-theme-chapter-background-color: var(--khaki-200);
@@ -71,14 +66,8 @@
   --marpx-theme-font-color: var(--gray-100);
   --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
   --marpx-theme-font-size: 24pt;
-
-
-  --marpx-theme-h1-bold-color: var(--khaki-500);
-  --marpx-theme-h1-color: var(--blueViolet-600);
   --marpx-theme-h1-bold-color: var(--blueViolet-600);
   --marpx-theme-h1-color: var(--khaki-500);
-
-
   --marpx-theme-h2-color: var(--blueViolet-600);
   --marpx-theme-highlight-color: var(--blueViolet-500);
   --marpx-theme-letter-spacing: 0.1px;
@@ -86,8 +75,6 @@
   --marpx-theme-subtitle-color: var(--blue-600);
   --marpx-theme-table-captiontext-color: var(--blueViolet-50);
   --marpx-theme-toc-color: var(--blue-600);
-
-
   --marpx-title_academic-author-color: var(--blue-200);
   --marpx-title_academic-author-size: 100%;
   --marpx-title_academic-background-color: var(--blue-900);
@@ -97,13 +84,11 @@
   --marpx-title_academic-letter-spacing: -0.07px;
   --marpx-title_academic-subtitle-color: var(--blueViolet-600);
   --marpx-title_academic-subtitle-size: 85%;
-  --marpx-title_academic-title-color: var(--khaki-200);
   --marpx-title_academic-title-color: var(--gray-100);
   --marpx-title_academic-title-font-weight: bold;
   --marpx-title_academic-title-size: 125%;
 
   --marpx-title-header-color: var(--khaki-200);
-
 
 }
 
