@@ -5,7 +5,7 @@ description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
 
 header: "[Go to MarpX Github Site](https://github.com/cunhapaulo/MarpX)"
-footer: "[Returno to TOC](#3)"
+footer: "[Returno to TOC](#2)"
 
 marp: true
 theme: gödel
