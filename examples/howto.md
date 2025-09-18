@@ -4,8 +4,8 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
 
-header: "[MarpX Github Site](https://github.com/cunhapaulo/MarpX)"
-footer: "[Back to TOC](#2)"
+header: "[Go to MarpX Github Site](https://github.com/cunhapaulo/MarpX)"
+footer: "[Returno to TOC](#3)"
 
 marp: true
 theme: gödel
@@ -17,49 +17,95 @@ lang: en
 math: mathjax
 ---
 
-<!-- _class: title -->
-# Reference **Guide** - How to use **MarpX** special tags
+<!-- _class: "title" -->
 
-## Paulo Cunha 
+# Reference **Guide** to MarpX <br> or How to use **MarpX** special tags
 
-### 
+## Paulo Cunha - 2025
+
+###
 
 ---
 
-<!-- _class: toc  -->
+<style scoped>
+
+section table {
+  letter-spacing: 0.0015rem;
+  line-height: .8;
+
+  --marpx-table-font-size: 14pt;
+  --marpx-table-hover-background-color: #ecf8ffff;
+  --marpx-table-font-family: "Fira Sans Condensed", arial, sans-serif;
+}
+
+</style>
+
+
+
+# MarpX Features Table
+
+<center>
+
+| Item                                                                               | Marcador                                                             |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Boxes](https://cunhapaulo.github.io/marpx/examples/howto.html#13)                 | `<box></box>` or `<span class="box"></span>`                         |
+| [Black or White Slides](https://cunhapaulo.github.io/marpx/examples/howto.html#35) | `<!-- _class: "black-slide" -->` or `<!-- _class: "white-slide" -->` |
+| [Callouts](https://cunhapaulo.github.io/marpx/examples/howto.html#31)              | `<div class="callout"></div>`                                        |
+| [Containers](https://cunhapaulo.github.io/marpx/examples/howto.html#39)            | `<div class="container"></div>`                                      |
+| [Multicolumn](https://cunhapaulo.github.io/marpx/examples/howto.html#19)           | `<div class="multicolumn" align="center"></div>`                     |
+| [Notes](https://cunhapaulo.github.io/marpx/examples/howto.html#37)                 | `<div class="notes"></div>`                                          |
+| [Quotes](https://cunhapaulo.github.io/marpx/examples/howto.html#29)                | `<!-- _class: "quote" -->` or `<!-- _class: "quote dark" -->`        |
+| [References](https://cunhapaulo.github.io/marpx/examples/howto.html#33)            | `<!-- _class: "references" -->`                                      |
+| [Title](https://cunhapaulo.github.io/marpx/examples/howto.html#5)                  | `<!-- _class: "title" -->` or `<!-- _class: "title-academic" -->`    |
+| [TOC](https://cunhapaulo.github.io/marpx/examples/howto.html#9)                    | `<!-- _class: "toc" -->`                                             |
+| [Transition Slide](https://cunhapaulo.github.io/marpx/examples/howto.html#11)      | `<!-- _class: "chapter" -->`                                         |
+| [Videos](https://cunhapaulo.github.io/marpx/examples/howto.html#21)                | `<video controls height="400px"></video>`                            |
+
+<tabcaption>Table of MarpX functionalities.
+
+---
+
+<!-- _class: "toc" -->
 
 <div class="multicolumn"><div>
 
+</div><div>
+
+`Slide items:`
+
+- [Header (YAML)](#4)
+- [Tables](#23)
+- [Videos](#21)
+- [Animations](#35)
+- [LaTeX Math](#25)
+- [Multicolumns](#19)
+
+`Box types:`
+
+- [Boxes](#13)
+- [Notes](#37)
+- [Callouts](#31)
+- [Containers](#39)
+</div><div>
 
 </div><div>
 
-1. [YAML Header](#3)
-2. [Title](#6)
-3. [Academic Title](#4)
-4. [TOC](#8)
-5. [Transition Slide](#10)
-6. [Boxes](#12)
-7. [One Image Slide](#14)
-8.  [Multicolumn](#16)
+`Slide types:`
 
-</div><div>
-
-</div><div>
-
-9.  [Tables](#20)
-10. [Video](#18)
-11. [LaTeX Math](#22)
-12. [Quotes](#26)
-13. [Callouts](#28)
-14. [Notes](#34)
-15. [References, Appendix ](#30)
+- [Title Slide](#7)
+- [Academic Title](#5)
+- [TOC Slide](#9)
+- [Transition Slide](#11)
+- [One Image Slide](#17)
+- [Quote Slide](#29)
+- [Black and White Slide](#35)
+- [Reference Slide ](#33)
 
 </div></div>
 
 ---
 
-
-<!-- _class: black-slide nobrand-->
+<!-- _class: "black-slide nobrand"  -->
 
 # The YAML Header is at the top of your Markdown file
 
@@ -83,9 +129,10 @@ lang: en
 math: mathjax
 ---
 ```
+
 ---
 
-<!-- _class: title-academic -->
+<!-- _class: "title-academic" -->
 <!-- _backgroundColor: white  -->
 
 ![bg left:33%](./assets/images/thinkers/godel-young.jpg)
@@ -98,14 +145,14 @@ math: mathjax
 
 ---
 
-<!-- _class: black-slide -->
+<!-- _class: "black-slide" -->
 
-# \<!-- _class: title-academic -->
+# \<!-- \_class: "title-academic" -->
 
 ```md
 ---
 
-<!-- _class: title-academic -->
+<!-- _class: "title-academic" -->
 <!-- _backgroundColor: white  -->
 
 ![bg left:33%](./<locaton>/godel-young.jpg)
@@ -119,9 +166,10 @@ math: mathjax
 
 ---
 ```
+
 ---
 
-<!-- _class: title -->
+<!-- _class: "title" -->
 
 # Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme
 
@@ -129,42 +177,37 @@ math: mathjax
 
 ---
 
-<!-- _class: black-slide -->
+<!-- _class: "black-slide" -->
 
-#  \<!-- _class: title -->
-
+# \<!-- \_class: "title" -->
 
 ```md
-
-<!-- _class: title -->
+<!-- _class: "title" -->
 
 # Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme
 
 ## On Formally Undecidable Propositions
-
 ```
 
 ---
 
-<!-- _class: toc  -->
+<!-- _class: "toc" -->
 
 0. [Title]()
 1. [Transition Slide]()
 2. [Normal Slide]()
 3. [Headers]()
 4. [Images]()
-5. [Animations and Videos]()
-
+5. [Animations and Videos](#35)
 
 ---
 
-<!-- _class: black-slide -->
+<!-- _class: "black-slide" -->
 
-# \<!-- _class: toc  -->
+# \<!-- \_class: "toc" -->
 
 ```md
-
-<!-- _class: toc  -->
+<!-- _class: "toc" -->
 
 0. [Title](#1)
 1. [Transition Slide](#4)
@@ -172,35 +215,37 @@ math: mathjax
 3. [Headers](#6)
 4. [Images](#7)
 5. [Animations and Videos](#15)
-
 ```
+
 ---
 
-<!-- _class: chapter -->
+<!-- _class: "chapter" -->
 
 # Transition Slide
 
 ## Aditional Text about what´s ahead
 
 ---
-<!-- _class: black-slide -->
 
-# \<!-- _class: chapter -->
+<!-- _class: "black-slide" -->
+
+# \<!-- \_class: "chapter" -->
 
 ```YAML
-<!-- _class: chapter -->
+<!-- _class: "chapter" -->
 
 # Transition Slide
 
 ## Aditional Text about what´s ahead
 
 ```
+
 ---
 
 # Boxes
 
-- Flow of <span class="box">**activities**</span> that use **resources**. 
-  
+- Flow of <span class="box">**activities**</span> that use **resources**.
+
 <center>
 
 <span class="box">Input</span> $\longrightarrow$ <span class="box">Process</span> $\longrightarrow$ <span class="box">Output</span>
@@ -217,7 +262,6 @@ Another way:
 
 # \<box> or \<span class="box">
 
-
 ```md
 # Boxes
 
@@ -225,16 +269,16 @@ Another way:
 
 <center>
 
-<span class="box">Input</span> 
-$\longrightarrow$ 
+<span class="box">Input</span>
+$\longrightarrow$
 <span class="box border">Process</span> $
-\longrightarrow$ 
+\longrightarrow$
 <span class="box">Output</span>
 
 Another way:
 
-<box>Input</box> $\longrightarrow$ 
-<box>Process</box> $\longrightarrow$ 
+<box>Input</box> $\longrightarrow$
+<box>Process</box> $\longrightarrow$
 <box>Output</box>
 
 </center>
@@ -242,7 +286,41 @@ Another way:
 
 ---
 
-<!-- _class: white-slide -->
+# Boxes
+
+<center>
+
+<box>
+
+<bbox>Input Data</bbox> $\longrightarrow$ <bbox>Processing</bbox> $\longrightarrow$ <bbox>Output Info</bbox>
+
+</box>
+
+</center>
+
+---
+
+<!-- _class: "black-slide" -->
+
+# \<box> or \<span class="box">
+
+```md
+# Boxes
+
+<center>
+
+<box>
+
+<bbox>Input Data</bbox> $\longrightarrow$ <bbox>Processing</bbox> $\longrightarrow$ <bbox>Output Info</bbox>
+
+</box>
+
+</center>
+```
+
+---
+
+<!-- _class: "white-slide" -->
 
 # One image slide
 
@@ -250,15 +328,14 @@ Another way:
 
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 
-
 ---
 
-<!-- _class: black-slide -->
+<!-- _class: "black-slide" -->
 
-# \<!-- _class: white-slide -->
+# \<!-- \_class: "white-slide" -->
 
 ```md
-<!-- _class: white-slide -->
+<!-- _class: "white-slide" -->
 
 # One image slide
 
@@ -267,8 +344,8 @@ Another way:
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 or
 <br><span class="figcaption">Object defined in terms of spherical coordinates.</span>
-
 ```
+
 ---
 
 # Images fit into columns
@@ -328,7 +405,7 @@ or
 
 ---
 
-<!-- _class: white-slide -->
+<!-- _class: "white-slide" -->
 <!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
 
 # Video
@@ -350,8 +427,7 @@ or
 # \<video controls height="400px">\</video>
 
 ```md
-
-<!-- _class: white-slide -->
+<!-- _class: "white-slide" -->
 <!-- _footer: Vídeo de Nikolay -->
 
 # Video
@@ -365,8 +441,8 @@ or
 <figcaption>Video playing in Marp available only in html export.
 
 </center>
+```
 
-``` 
 ---
 
 # Renaissance painters
@@ -392,7 +468,6 @@ or
 # Markdown Tables
 
 ```md
-
 # Renaissance painters
 
 <center>
@@ -405,16 +480,15 @@ or
 | Raphael           |  Italy  |    1483    |    1520    | _The School of Athens_     |
 | Titian            |  Italy  |   ~1488    |    1576    | _Assumption of the Virgin_ |
 
-<tabcaption>Renowned Renaissance painters with biographical data and masterpieces 
+<tabcaption>Renowned Renaissance painters with biographical data and masterpieces
 (alphabetical order).</tabcaption>
 
 <center>
-
 ```
 
-
 ---
-<!-- _class: white-slide -->
+
+<!-- _class: "white-slide" -->
 
 # Probability Distribution (1)
 
@@ -441,7 +515,7 @@ $$
 # LaTeX
 
 ```md
-<!-- _class: white-slide -->
+<!-- _class: "white-slide" -->
 
 # Probability Distribution (1)
 
@@ -460,7 +534,6 @@ $$
 <figcaption>Multivariate Normal Distribution.</figcaption>
 
 </div></div>
-
 ```
 
 ---
@@ -485,14 +558,14 @@ $$
 
 ---
 
-<!-- _class: black-slide nobrand--->
+<!-- _class: "black-slide nobrand"--->
 
 # LaTeX
 
 ```latex
 # Electromagnetic Field (Differential form)
 
-Below, in modern vector notation, in _differential form_, 
+Below, in modern vector notation, in _differential form_,
 are Maxwell's four equations governing the `electromagnetic field`.
 
 $$
@@ -513,7 +586,7 @@ $$
 
 ---
 
-<!-- _class: quote dark -->
+<!-- _class: "quote dark" -->
 
 "There is an **increasing** demand of current information systems to incorporate the use of a higher degree of formalism in the development process. **Formal Methods** consist of a set of tools and techniques based on mathematical model and formal logic that are used to **specify and verify** requirements and designs for hardware and software systems."
 
@@ -521,23 +594,22 @@ $$
 
 <!-- _class: black-slide nobrand--->
 
-# \<!-- _class: quote dark -->
+# \<!-- \_class: "quote dark" -->
 
 ```md
-<!-- _class: quote dark -->
+<!-- _class: "quote dark" -->
 
-"There is an **increasing** demand of current information 
-systems to incorporate the use of a higher degree of formalism 
-in the development process. **Formal Methods** consist of a set 
-of tools and techniques based on mathematical model and formal 
-logic that are used to **specify and verify** requirements and 
+"There is an **increasing** demand of current information
+systems to incorporate the use of a higher degree of formalism
+in the development process. **Formal Methods** consist of a set
+of tools and techniques based on mathematical model and formal
+logic that are used to **specify and verify** requirements and
 designs for hardware and software systems."
-
 ```
 
 ---
 
-<!-- _class: white-slide -->
+<!-- _class: "white-slide" -->
 
 # Callouts
 
@@ -587,8 +659,7 @@ Another text with <br> **Markdown** formatting.
 
 ---
 
-
-<!-- _class: white-slide -->
+<!-- _class: "white-slide" -->
 
 # Callouts types
 
@@ -702,10 +773,7 @@ You may use in semantics.
 
 ---
 
-
-
-
-<!-- _class: references -->
+<!-- _class: "references" -->
 
 # References
 
@@ -733,69 +801,69 @@ You may use in semantics.
 
 <!-- _class: black-slide nobrand--->
 
-# \<!-- _class: references -->
+# \<!-- \_class: "references" -->
 
 ```md
-<!-- _class: references -->
+<!-- _class: "references" -->
 
 # References
 
 <div class="multicolumn"><div>
 
-1. AMERIKS, Karl; HÖFFE, Otfried. **Kant’s Moral and Legal 
-Philosophy**. tradução: Nicholas Walker. Cambridge, Massachusetts: 
-Cambridge University Press, 2009-. ISSN 1878-6847.(The German Philosophical Tradition).
+1. AMERIKS, Karl; HÖFFE, Otfried. **Kant’s Moral and Legal
+   Philosophy**. tradução: Nicholas Walker. Cambridge, Massachusetts:
+   Cambridge University Press, 2009-. ISSN 1878-6847.(The German Philosophical Tradition).
 2. ARISTOTELES. **Nikomachische Ethik**. Berlin: Akademie Verlag, 2010. (Klassiker Auslegen).v. 2
 3. CASSIRER, Ernst. **The Myth of the State**. New Haven, USA: Yale University Press, 1946.
 
 </div><div>
 
-7. HEIDEGGER, Martin. **Sein und Zeit**. 11. ed. Tübingen: 
-Max Niemeyer Verlag, 1967.
-8. HUSSERL, Edmund. **The Crisis of European Sciences and 
-Transcendental Phenomenology**. Evanston, USA: Northwestern University Press, 1970.
-9. KANT, Immanuel. **Kritik der Praktischen Vernunft**. 
-Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
+7. HEIDEGGER, Martin. **Sein und Zeit**. 11. ed. Tübingen:
+   Max Niemeyer Verlag, 1967.
+8. HUSSERL, Edmund. **The Crisis of European Sciences and
+   Transcendental Phenomenology**. Evanston, USA: Northwestern University Press, 1970.
+9. KANT, Immanuel. **Kritik der Praktischen Vernunft**.
+   Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 </div></div>
-
 ```
 
 ---
 
-<!-- _class: black-slide -->
+<!-- _class: "black-slide" -->
 
 # Animations &nbsp;<span style="font-size:0.5em;  color:yellow;">(works in HTML only)</span>
 
-<div class=multicolumn vcenter><div align=center>
+<div class="multicolumn vcenter"><div align="center">
 
-![h:390 center](./assets/images/animations/sphere.gif)
-
-<figcaption> First animation. 
+![h:400 center](./assets/images/animations/sphere.gif)
+<figcaption> First animation.</figcaption>
 
 </div><div align=center>
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318596012123" height="390" width="400" frameborder="0" scrolling="no" ></iframe>
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=77335318596012123" height="380" width="400" frameborder="0" scrolling="no" ></iframe>
 <p>
-<figcaption> Second animation.
+<figcaption> Second animation.</figcaption>
 
 </div></div>
 
 ---
 
-<!-- _class: black-slide nobrand -->
+<!-- _class: "black-slide nobrand" -->
 
-# \<!-- _class: black-slide -->
+# \<!-- \_class: "black-slide" -->
 
 ```md
-<!-- _class: black-slide -->
+<!-- _class: "black-slide" -->
 
 # Animations &nbsp;<span style="font-size:0.5em; color:yellow;">
+
 (works in HTML only)</span>
 
-<div class=multicolumn vcenter><div align=center>
+<div class="multicolumn vcenter><div align=center">
 
-  ![h:380px](https://<address>/<file.jpg>)
+![h:380px](https://<address>/<file.jpg>)
+
   <figcaption> Static picture.
 
 </div><div align=center>
@@ -804,28 +872,28 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
   height="390" width="400" frameborder="0" scrolling="no" ></iframe>
   <figcaption> Animation.
 
-</div></div>
----
+## </div></div>
 ```
+
 ---
 
 # Note Boxes
 
 ![bg opacity:.2](https://www.meisterdrucke.pt/kunstwerke/1260px/Unknown_Artist_-_Portrait_of_Galileo_Galilei_dit_Galileo_%281564_-_1642%29_-_%28MeisterDrucke-1000963%29.jpg)
 
-<div class=multicolumn>
+<div class="multicolumn">
 
-<div class=notes>
+<div class="notes">
 
 ### Anotações Numeradas:
 
 1. Primiera Tarefa;
 2. Segunda Tarefa;
 3. Terceira Tarefa.
-  
+
 </div>
 
-<div class=notes>
+<div class="notes">
 
 ### Anotações Itemizadas:
 
@@ -837,16 +905,16 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 ---
 
-<!-- _class: black-slide nobrand -->
+<!-- _class: "black-slide nobrand" -->
 
-# \<div class=notes>
+# \<div class="notes">
 
 ```md
 ---
 
 # Note Boxes
 
-<div class=notes>
+<div class="notes">
 
 # Anotações Itemizadas:
 
@@ -861,26 +929,11 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 ---
 
-# Boxes
-
-<center>
-
-<box>
-
-<bbox>Input Data</bbox> $\longrightarrow$ <bbox>Processing</bbox> $\longrightarrow$ <bbox>Output Info</bbox>
-
-</box>
-
-</center>
-
----
-
-
 # Containers
 
-<div class=container>
+<div class="container">
 
-## Título 
+## Título
 
 <center>
 
@@ -888,23 +941,43 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 </center>
 
+</div>
+
+---
+
+<!-- _class: "black-slide" -->
+
+# \<div class="container">\</div>
+
+```md
+# Containers
+
+<div class="container">
+
+## Título
+
+<center>
+
+<box><bbox>Input<br>Data</bbox>$\longrightarrow$ <bbox>Processing</bbox> $\longrightarrow$ <bbox>Output<br>info</bbox></box> $\longrightarrow$ <bbox> Consumer </bbox>
+
+</center>
 
 </div>
+```
 
 ---
 
 # Containers
 
-<div class=container>
+<div class="container">
 
-## Título 
+## Título
 
 <center>
 
 <bbox><box>Input<br>Data</box> $\longrightarrow$ <box>Processing</box> $\longrightarrow$<box>Output<br>info</box></bbox> $\longrightarrow$ <box> Consumer </box>
 
 </center>
-
 
 </div>
 
@@ -914,36 +987,8 @@ Berlin: Akademie Verlag, 2002. (Klassiker Auslegen).v. 26
 
 <center>
 
-## <!-- fit --> [`To the beginning`](#2)
+## <!-- fit --> [`Return to beginning`](#2) <br>  or <br> [`Go to MarpX at Github`](https://github.com/cunhapaulo/MarpX)
 
 </center>
-
----
-
-<!-- _class: references nobrand -->
-
-# Tabela de Recursos do MarpX
-
-<center>
-
-| Item                                                                               | Marcador                                                         |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [Boxes](https://cunhapaulo.github.io/marpx/examples/howto.html#12)                 | `<box></box>` or `<span class="box"></span>`                     |
-| [Black or White Slides](https://cunhapaulo.github.io/marpx/examples/howto.html#32) | `<!-- _class: black-slide -->` or `<!-- _class: white-slide -->` |
-| [Callouts](https://cunhapaulo.github.io/marpx/examples/howto.html#28)              | `<div class="callout"></div>`                                    |
-| [Multicolumn](https://cunhapaulo.github.io/marpx/examples/howto.html#16)           | `<div class="multicolumn" align="center"></div>`                 |
-| [Notes](https://cunhapaulo.github.io/marpx/examples/howto.html#34)                 | `<div class=notes></div>`                                        |
-| [Quotes](https://cunhapaulo.github.io/marpx/examples/howto.html#26)                | `<!-- _class: quote -->` or `<!-- _class: quote dark -->`        |
-| [References](https://cunhapaulo.github.io/marpx/examples/howto.html#30)            | `<!-- _class: references -->`                                    |
-| [Title](https://cunhapaulo.github.io/marpx/examples/howto.html#4)                  | `<!-- _class: title -->` or `<!-- _class: title-academic -->`    |
-| [TOC](https://cunhapaulo.github.io/marpx/examples/howto.html#8)                    | `<!-- _class: toc -->`                                           |
-| [Transition Slide](https://cunhapaulo.github.io/marpx/examples/howto.html#10)      | `<!-- _class: chapter -->`                                       |
-| [Videos](https://cunhapaulo.github.io/marpx/examples/howto.html#18)                | `<video controls height="400px"></video>`                        |
-
-<tabcaption>Tabela de funcionalidades do MarpX.
-
-</center>
-
-
 
 
