@@ -27,6 +27,46 @@ math: mathjax
 
 ---
 
+<!-- _class: "toc" -->
+
+<div class="multicolumn"><div>
+
+</div><div>
+
+`Slide items:`
+
+- [Header (YAML)](#4)
+- [Tables](#23)
+- [Videos](#21)
+- [Animations](#35)
+- [LaTeX Math](#25)
+- [Multicolumns](#19)
+
+`Box types:`
+
+- [Boxes](#13)
+- [Notes](#37)
+- [Callouts](#31)
+- [Containers](#39)
+</div><div>
+
+</div><div>
+
+`Slide types:`
+
+- [Title Slide](#7)
+- [Academic Title](#5)
+- [TOC Slide](#9)
+- [Transition Slide](#11)
+- [One Image Slide](#17)
+- [Quote Slide](#29)
+- [Black and White Slide](#35)
+- [References Slide ](#33)
+
+</div></div>
+
+---
+
 <style scoped>
 
 section table {
@@ -65,45 +105,6 @@ section table {
 
 ---
 
-<!-- _class: "toc" -->
-
-<div class="multicolumn"><div>
-
-</div><div>
-
-`Slide items:`
-
-- [Header (YAML)](#4)
-- [Tables](#23)
-- [Videos](#21)
-- [Animations](#35)
-- [LaTeX Math](#25)
-- [Multicolumns](#19)
-
-`Box types:`
-
-- [Boxes](#13)
-- [Notes](#37)
-- [Callouts](#31)
-- [Containers](#39)
-</div><div>
-
-</div><div>
-
-`Slide types:`
-
-- [Title Slide](#7)
-- [Academic Title](#5)
-- [TOC Slide](#9)
-- [Transition Slide](#11)
-- [One Image Slide](#17)
-- [Quote Slide](#29)
-- [Black and White Slide](#35)
-- [Reference Slide ](#33)
-
-</div></div>
-
----
 
 <!-- _class: "black-slide nobrand"  -->
 
