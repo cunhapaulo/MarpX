@@ -3,6 +3,7 @@
 @import "marpx";
 
 /* Variáveis do tema que diferem do baseline */
+
 :root {
 
 
@@ -102,7 +103,7 @@ section code:not(pre code) {
   color: var(--blue-350);
   background: var(--blueViolet-500) !important;
   border: 0.5px solid var(--blue-600);
-  border-radius: 1px;
+  border-radius: 8px;
   padding: 1px 5px;
   font-size: 0.98em;
   display: inline-block;
