@@ -11,7 +11,7 @@
   --theme-font: #2e2e2e;
   --theme-font-h1: #242060;
   --theme-bold: #a2a0a0;
-  /* --theme-background1: hsl(35, 16%, 85%); */
+  /* --theme-background1: #dfdad3; */
   --theme-background1: #dcded3;
   --theme-background2: #131920;
   --theme-marker: #f0a211;
@@ -30,10 +30,18 @@
   --khaki-d1100: #d1002a;
 
   /* Blue */
-  --blue-d900: #6880a0;
-  --blue-d1000: #93b0ee;
-  --blue-d1100: #6e85b8;
+  --blue-d100: #bee5ff;
+  --blue-d200: #93b0ee;
+  --blue-d400: #5d9cfa;
+  --blue-d500: #5871a7;
+  --blue-d600: #6e85b8;
+  --blue-d700: #6880a0;
+  --blue-d2000: #023977;
   --blue-d1200: #253d72;
+  --blue-d1500: #111622;
+
+  /* Green */
+  --green-d100: #eeff00;
 
 
   /* MAIN GLOBAL PARAMETERS of THEME */
@@ -46,7 +54,7 @@
   --marpx-theme-marker-color: var(--theme-marker);
   --marpx-theme-h1-color: var(--theme-font-h1);
   --marpx-theme-h1-bold-color: var(--theme-bold);
-  --marpx-theme-h2-color: var(--blue-d900);
+  --marpx-theme-h2-color: var(--blue-d700);
 
   /* SECONDARY GLOBAL PARAMETERS of THEME */
   --marpx-theme-color: var(--theme-font);
@@ -55,10 +63,10 @@
   --marpx-theme-highlight-color: var(--blueViolet-500);
   --marpx-theme-table-captiontext: "Table. ";
   --marpx-theme-table-captiontext-color: var(--khaki-d1100);
-  --marpx-theme-toc-color: var(--blue-d900);
+  --marpx-theme-toc-color: var(--blue-d700);
 
   /* CHAPTER */
-  --marpx-theme-chapter-background-color: var(--blue-d1000);
+  --marpx-theme-chapter-background-color: var(--blue-d200);
   --marpx-theme-chapter-h1-font-color: var(--khaki-d500);
   --marpx-theme-chapter-h2-font-color: var(--khaki-d500);
 
@@ -67,7 +75,7 @@
   --marpx-title_academic-background-color: var(--theme-background2);
   --marpx-title_academic-title-color: var(--theme-background1);
   --marpx-title_academic-subtitle-color: var(--khaki-d700);
-  --marpx-title_academic-border-color: var(--blue-d1000);
+  --marpx-title_academic-border-color: var(--blue-d200);
   --marpx-title_academic-author-color: var(--theme-marker);
   --marpx-title_academic-font-color: var(--khaki-d700);
   --marpx-title_academic-title-size: 125%;
@@ -83,15 +91,14 @@
   /* --marpx-quote-bold-color: var(--blueViolet-100); */
   --marpx-quote-bold-color: var(--khaki-d1100);
   --marpx-quote-paragraph-background-color: inherit;
-  --marpx-quote_dark-font-color: var(--khaki-d700);
+  --marpx-quote_dark-font-color: var(--theme-background1);
   --marpx-quote_dark-bold-color: var(--khaki-d300);
   --marpx-quote_dark-color-background: var(--khaki-d800);
   --marpx-quote_dark-color-paragraph-background: inherit;
 
   /* REFERENCES */
   --marpx-references-background-color: var(--theme-background1);
-  --marpx-references-header-color: var(--blue-d900);
-  /* --marpx-references-bold-color: var(--blueViolet-100); */
+  --marpx-references-header-color: var(--blue-d700);
   --marpx-references-bold-color: var(--theme-font-h1);
   --marpx-references-color: var(--theme-font);
 
@@ -126,7 +133,9 @@ section.white-slide {
 }
 
 section.references a {
-  color: #93b0ee;
+  color: var(--blue-d2000);
+  font-weight: 100;
+  text-decoration: underline;
 
 }
 
@@ -137,17 +146,16 @@ section.chapter {
 }
 
 section.quote {
-
-  /* background-image: linear-gradient(to  bottom right , #fdfd7b, #f8a545); */
-  /* background-image: url("./pattern01.jpg"); */
-  --marpx-quote-font-color: rgb(190, 229, 255);
-  --marpx-quote-background-color: rgb(93, 156, 250);
-  --marpx-quote-bold-color: rgb(238, 255, 0);
-  background-image: radial-gradient(#141414 0%, transparent 0%, #023977 83%);
+  
+  --marpx-quote-font-color: var(--blue-d100);
+  --marpx-quote-background-color: var(--blue-d400);
+  --marpx-quote-bold-color: var(--green-d100);
+  background-image: radial-gradient(#141414 0%, transparent 0%, var(--blue-d2000) 83%);
 }
 
 section.quote.dark {
 
-  background-image: linear-gradient(to top, #5871a7, #111622);
+  --marpx-quote_dark-font-color: white;
+  background-image: linear-gradient(to top, var(--blue-d500), var(--blue-d1500));
   /* background-image: url("./pattern01.jpg"); */
 }

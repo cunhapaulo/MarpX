@@ -530,7 +530,7 @@ from mpl_toolkits.mplot3d import Axes3D   # registra o proj. 3-D
 # --------------------- parâmetros físicos ----------------------
 c   = 3.0e8                      # velocidade da luz (m s⁻¹)
 E0  = 1.0                        # amplitude arbitrária do campo elétrico (V m⁻¹)
-lam = 1.0                        # comprimento de onda (m)
+lam = 1.0                        # comprimeira de onda (m)
 k = 2*np.pi/lam                  # número de onda
 ω = 2*np.pi*c/lam                # frequência angular
 # domínios espacial e temporal
@@ -768,9 +768,9 @@ You may use in semantics.
 
 <div class=notes>
 
-### Anotações Numeradas:
+#### Anotações Numeradas:
 
-1. Primiera Tarefa;
+1. Primeira Tarefa;
 2. Segunda Tarefa;
 3. Terceira Tarefa.
   
@@ -778,9 +778,9 @@ You may use in semantics.
 
 <div class=notes>
 
-### Anotações Itemizadas:
+#### Anotações Itemizadas:
 
-- Primiera Tarefa;
+- Primeira Tarefa;
 - Segunda Tarefa;
 - Terceira Tarefa.
 
