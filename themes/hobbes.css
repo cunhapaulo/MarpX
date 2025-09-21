@@ -8,91 +8,68 @@
 :root {
 
 
+  --theme-font: #2e2e2e;
+  --theme-font-h1: #242060;
+  --theme-bold: #a2a0a0;
+  /* --theme-background1: hsl(35, 16%, 85%); */
+  --theme-background1: #dcded3;
+  --theme-background2: #131920;
+  --theme-marker: #f0a211;
+
   /* Khaki */
-  --khaki-font: #2e2e2e;
-  --khaki-bold: #a09f9f;
-  --khaki-background1: #e1dad1;
-  --khaki-background2: #706d63;
   --khaki-d100: #fef7e0;
   --khaki-d150: #fad762;
   --khaki-d200: #fdca24;
   --khaki-d300: #ffab10;
-  --khaki-d400: #f0a211;
   --khaki-d500: #e9e3d1;
-  --khaki-d600: #bbb7a9;
-  --khaki-d650: #3c3f3b;
-  --khaki-d700: #706d63;
-  --khaki-d750: #b8b8b8;
-  --khaki-d800: #2e2626;
-  --khaki-d900: #6880a0;
-  --khaki-d1000: #93b0ee;
-  --khaki-d1100: #6e85b8;
-  
-  --khaki-100: #ffe08a;
-  --khaki-200: #fee16d;
-  --khaki-300: #ffc524;
-  --khaki-400: #fdcc08;
-  --khaki-500: #ffbf00;
-  --khaki-600: #daa60b;
-  --khaki-700: #e77b00;
-  --khaki-800: #3e3f42;
-  --khaki-850: #848482;
-  --khaki-900: #ff3300;
+  --khaki-d600: #b8b8b8;
+  --khaki-d700: #bbb7a9;
+  --khaki-d800: #3c3f3b;
+  --khaki-d900: #706d63;
+  --khaki-d1000: #2e2626;
+  --khaki-d1100: #d1002a;
+
+  /* Blue */
+  --blue-d900: #6880a0;
+  --blue-d1000: #93b0ee;
+  --blue-d1100: #6e85b8;
+  --blue-d1200: #253d72;
 
 
-
-
+  /* MAIN GLOBAL PARAMETERS of THEME */
   --marpx-theme-font-size: 22pt;
   --marpx-theme-letter-spacing: .01px;
   --marpx-theme-font-family: Bitter, Faustina, Bookerly, Lora, serif;
-  --marpx-theme-background-color: var(--khaki-background1);
-  --marpx-theme-font-color: var(--khaki-font);
-  --marpx-theme-bold-color: var(--khaki-bold);
-  --marpx-theme-marker-color: var(--khaki-d400);
-  --marpx-theme-h1-color: var(--khaki-font);
-  --marpx-theme-h1-bold-color: var(--khaki-bold);
-  --marpx-theme-h2-color: var(--khaki-d900); 
-  
-  --marpx-theme-color: var(--khaki-font);
-  --marpx-theme-figure-captiontext-color: var(--khaki-900);
+  --marpx-theme-background-color: var(--theme-background1);
+  --marpx-theme-font-color: var(--theme-font);
+  --marpx-theme-bold-color: var(--theme-bold);
+  --marpx-theme-marker-color: var(--theme-marker);
+  --marpx-theme-h1-color: var(--theme-font-h1);
+  --marpx-theme-h1-bold-color: var(--theme-bold);
+  --marpx-theme-h2-color: var(--blue-d900);
+
+  /* SECONDARY GLOBAL PARAMETERS of THEME */
+  --marpx-theme-color: var(--theme-font);
+  --marpx-theme-figure-captiontext-color: var(--khaki-d1100);
   --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-highlight-color: var(--blueViolet-500);
-  --marpx-theme-table-captiontext-color: var(--khaki-900);
-  --marpx-theme-toc-color: var(--khaki-d900);
+  --marpx-theme-table-captiontext: "Table. ";
+  --marpx-theme-table-captiontext-color: var(--khaki-d1100);
+  --marpx-theme-toc-color: var(--blue-d900);
 
-
-
-  --marpx-quote-font-color: var(--khaki-d700);
-  --marpx-quote-background-color: var(--khaki-d500); 
-  --marpx-quote-bold-color: var(--khaki-d900);
-  --marpx-quote-bold-color: var(--blueViolet-100);
-  --marpx-quote-paragraph-background-color: inherit;
-
-  --marpx-quote_dark-font-color: var(--khaki-d600);
-  --marpx-quote_dark-bold-color: var(--khaki-d300);
-  --marpx-quote_dark-color-background: var(--khaki-d650);
-  --marpx-quote_dark-color-paragraph-background: inherit;
-
-  --marpx-references-background-color: var(--khaki-background1);
-  --marpx-references-header-color: var(--khaki-d900);
-  --marpx-references-bold-color: var(--khaki-d900);
-  --marpx-references-color: var(--khaki-font);
-    
-  --marpx-table-font-color: var(--khaki-font);
-  --marpx-table-hover-background-color: var(--violet-100);
-  --marpx-table-hover-color: var(--blueViolet-400);
-
-  --marpx-theme-chapter-background-color: var(--khaki-d700);
-  --marpx-theme-chapter-background-color: var(--khaki-d1000);
+  /* CHAPTER */
+  --marpx-theme-chapter-background-color: var(--blue-d1000);
   --marpx-theme-chapter-h1-font-color: var(--khaki-d500);
-  --marpx-theme-chapter-h2-font-color: var(--khaki-d600);
+  --marpx-theme-chapter-h2-font-color: var(--khaki-d500);
 
-  --marpx-title_academic-background-color: var(--khaki-background2);
-  --marpx-title_academic-title-color: var(--khaki-d200);
-  --marpx-title_academic-subtitle-color: var(--khaki-d600);
-  --marpx-title_academic-border-color: var(--khaki-d400);
-  --marpx-title_academic-author-color: var(--khaki-background1);
-  --marpx-title_academic-font-color: var(--khaki-d600);
+  /* TITLE ACADEMIC */
+  --marpx-title-header-color: var(--theme-marker);
+  --marpx-title_academic-background-color: var(--theme-background2);
+  --marpx-title_academic-title-color: var(--theme-background1);
+  --marpx-title_academic-subtitle-color: var(--khaki-d700);
+  --marpx-title_academic-border-color: var(--blue-d1000);
+  --marpx-title_academic-author-color: var(--theme-marker);
+  --marpx-title_academic-font-color: var(--khaki-d700);
   --marpx-title_academic-title-size: 125%;
   --marpx-title_academic-subtitle-size: 85%;
   --marpx-title_academic-author-size: 100%;
@@ -100,7 +77,30 @@
   --marpx-title_academic-title-font-weight: bold;
   --marpx-title_academic-letter-spacing: -0.07px;
 
-  --marpx-title-header-color: var(--khaki-d400);
+  /*  QUOTE */
+  --marpx-quote-font-color: var(--theme-font);
+  --marpx-quote-background-color: var(--khaki-d500);
+  /* --marpx-quote-bold-color: var(--blueViolet-100); */
+  --marpx-quote-bold-color: var(--khaki-d1100);
+  --marpx-quote-paragraph-background-color: inherit;
+  --marpx-quote_dark-font-color: var(--khaki-d700);
+  --marpx-quote_dark-bold-color: var(--khaki-d300);
+  --marpx-quote_dark-color-background: var(--khaki-d800);
+  --marpx-quote_dark-color-paragraph-background: inherit;
+
+  /* REFERENCES */
+  --marpx-references-background-color: var(--theme-background1);
+  --marpx-references-header-color: var(--blue-d900);
+  /* --marpx-references-bold-color: var(--blueViolet-100); */
+  --marpx-references-bold-color: var(--theme-font-h1);
+  --marpx-references-color: var(--theme-font);
+
+  /* TABLE */
+  --marpx-table-font-color: var(--theme-font);
+  --marpx-table-hover-background-color: var(--violet-100);
+  --marpx-table-hover-color: var(--blueViolet-400);
+
+
 
 }
 
@@ -110,9 +110,9 @@ section {
 }
 
 section code:not(pre code) {
-  color: var(--khaki-font);
+  color: var(--theme-font);
   background: var(--khaki-d200) !important;
-  border: 0px solid var(--khaki-font);
+  border: 0px solid var(--theme-font);
   border-radius: 8px;
   padding: 1px 5px;
   font-size: 0.98em;
@@ -122,7 +122,7 @@ section code:not(pre code) {
 
 section.slide.white,
 section.white-slide {
-  color: var(--khaki-font);
+  color: var(--theme-font);
 }
 
 section.references a {
@@ -132,7 +132,22 @@ section.references a {
 
 section.chapter {
 
-  background-image: linear-gradient(to right bottom, #4e6699, #3e5383);
+  background-image: linear-gradient(to right bottom, #4e6699, #111622);
   /* background-image: url("./pattern01.jpg"); */
 }
 
+section.quote {
+
+  /* background-image: linear-gradient(to  bottom right , #fdfd7b, #f8a545); */
+  /* background-image: url("./pattern01.jpg"); */
+  --marpx-quote-font-color: rgb(190, 229, 255);
+  --marpx-quote-background-color: rgb(93, 156, 250);
+  --marpx-quote-bold-color: rgb(238, 255, 0);
+  background-image: radial-gradient(#141414 0%, transparent 0%, #023977 83%);
+}
+
+section.quote.dark {
+
+  background-image: linear-gradient(to top, #5871a7, #111622);
+  /* background-image: url("./pattern01.jpg"); */
+}

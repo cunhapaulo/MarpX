@@ -8,6 +8,7 @@
 - [x] Socrates (470 a.C.-399 a.C.)
 - [x] Copernico, Nicolau (1473 - 1543)
 - [x] Galileu Galilei (1564 - 1642)
+- [x] Hobbes, Thomas	(1588 -	1679)
 - [x] Newton, Isaac (1642 - 1727)
 - [x] Einstein, Albert (1879-1955)
 - [x] Gropius, Walter (1883 - 1969)
@@ -15,7 +16,6 @@
 
 # Under construction 
 - [x] Gauss, Carl Friedrich (1777 - 1855)
-- [x] Hobbes, Thomas	(1588 -	1679)
 - [ ] Turing, Alan (1912-1954)
 - [ ] Hume, David (1711 - 1776)
 - [ ] Pascal, Blaise (1623-1662)

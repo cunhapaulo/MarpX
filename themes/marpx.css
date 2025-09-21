@@ -1380,7 +1380,7 @@ section.quote p {
   padding-right: 100px;
 }
 
-section.quote strong {
+section.quote strong{
   font-style: italic;
   color: var(--marpx-quote-bold-color) !important;
 }
@@ -1411,8 +1411,8 @@ section.quote.dark p {
 }
 
 section.quote.dark strong {
+  font-style: italic;
   color: var(--marpx-quote_dark-bold-color) !important;
-  font-style: normal;
 }
 
 /*

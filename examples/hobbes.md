@@ -4,7 +4,7 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Thomas Hobbes, Paulo Cunha]
 
-header: Firenze,  Toscana - Italia
+header: London - England
 footer: "[Back to the TOC](#3)"
 
 marp: true
@@ -21,12 +21,12 @@ math: mathjax
 
 ![bg h:100% saturate:1.3 left:33%](./assets/images/thinkers/hobbes01.jpg)
 
-<div class="title"         > E pur si muove! </div>
-<div class="subtitle"      > Dialogue Concerning the Two Chief World Systems</div>
+<div class="title"         > Homo homini lupus? </div>
+<div class="subtitle"      > A great leap in the dark</div>
  
 <div class="author"        > Thomas Hobbes </div>
-<div class="organization"  > Discorsi e Dimostrazioni Matematiche, intorno a due nuove scienze (1638) </div>
-<div class="date"          > Firenze,  Toscana - Italia</div>
+<div class="organization"  > Leviathan, or The Matter, Forme and Power of a Commonwealth Ecclesiasticall and Civil (1651) </div>
+<div class="date"          > London - England</div>
 
 ---
 
@@ -35,9 +35,9 @@ math: mathjax
 ![bg h:110% opacity:0.2](./assets/images/thinkers/Hobbes03.jpg)
 
 
-# E pur si muove!
+# Homo homini lupus?
 
-## Dialogue Concerning the Two Chief World Systems
+## A great leap in the dark
 
 ---
 
@@ -308,7 +308,6 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 ---
 
 
-<!-- _class: white-slide -->
 <!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->
 
 # Video
@@ -325,7 +324,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-# _Ordered_ and _unordered_ lists
+# Ordered and unordered _lists_
 
 <div class="multicolumn"><div>
 
@@ -483,7 +482,6 @@ $$
 
 ---
 
-<!-- _class: white-slide -->
 
 # Python programs
 
