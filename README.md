@@ -124,6 +124,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
          "./themes/galileo.css",
          "./themes/gödel.css",
          "./themes/gropius.css",
+         "./themes/hobbes.css",
          "./themes/newton.css",
          "./themes/socrates.css",
          "./themes/sparta.css"
@@ -153,6 +154,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
             "https://cunhapaulo.github.io/marpx/themes/galileo.css",
             "https://cunhapaulo.github.io/marpx/themes/gödel.css",
             "https://cunhapaulo.github.io/marpx/themes/gropius.css",
+            "https://cunhapaulo.github.io/marpx/themes/hobbes.css",
             "https://cunhapaulo.github.io/marpx/themes/newton.css",
             "https://cunhapaulo.github.io/marpx/themes/socrates.css",
             "https://cunhapaulo.github.io/marpx/themes/sparta.css"
