@@ -4,17 +4,19 @@
 
 /* Font: Bitter */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Font: "Source Sans Pro" */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Zilla+Slab:wght@300;400;600&display=swap");
 
 :root {
 
 
-  --theme-font: #2e2e2e;
-  --theme-font-h1: #242060;
-  --theme-bold: #a2a0a0;
-  /* --theme-background1: #dfdad3; */
-  --theme-background1: #dcded3;
-  --theme-background2: #131920;
-  --theme-marker: #f0a211;
+  --theme-color-font: #2e2e2e;
+  --theme-color-font-h1: #242060;
+  --theme-color-bold: #a2a0a0;
+  /* --theme-color-background1: #dfdad3; */
+  --theme-color-background1: #dcded3;
+  --theme-color-background2: #131920;
+  --theme-color-marker: #f0a211;
 
   /* Khaki */
   --khaki-d100: #fef7e0;
@@ -48,16 +50,16 @@
   --marpx-theme-font-size: 22pt;
   --marpx-theme-letter-spacing: .01px;
   --marpx-theme-font-family: Bitter, Faustina, Bookerly, Lora, serif;
-  --marpx-theme-background-color: var(--theme-background1);
-  --marpx-theme-font-color: var(--theme-font);
-  --marpx-theme-bold-color: var(--theme-bold);
-  --marpx-theme-marker-color: var(--theme-marker);
-  --marpx-theme-h1-color: var(--theme-font-h1);
-  --marpx-theme-h1-bold-color: var(--theme-bold);
+  --marpx-theme-background-color: var(--theme-color-background1);
+  --marpx-theme-font-color: var(--theme-color-font);
+  --marpx-theme-bold-color: var(--theme-color-bold);
+  --marpx-theme-marker-color: var(--theme-color-marker);
+  --marpx-theme-h1-color: var(--theme-color-font-h1);
+  --marpx-theme-h1-bold-color: var(--theme-color-bold);
   --marpx-theme-h2-color: var(--blue-d700);
 
   /* SECONDARY GLOBAL PARAMETERS of THEME */
-  --marpx-theme-color: var(--theme-font);
+  --marpx-theme-color: var(--theme-color-font);
   --marpx-theme-figure-captiontext-color: var(--khaki-d1100);
   --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-highlight-color: var(--blueViolet-500);
@@ -71,12 +73,12 @@
   --marpx-theme-chapter-h2-font-color: var(--khaki-d500);
 
   /* TITLE ACADEMIC */
-  --marpx-title-header-color: var(--theme-marker);
-  --marpx-title_academic-background-color: var(--theme-background2);
-  --marpx-title_academic-title-color: var(--theme-background1);
+  --marpx-title-header-color: var(--theme-color-marker);
+  --marpx-title_academic-background-color: var(--theme-color-background2);
+  --marpx-title_academic-title-color: var(--theme-color-background1);
   --marpx-title_academic-subtitle-color: var(--khaki-d700);
   --marpx-title_academic-border-color: var(--blue-d200);
-  --marpx-title_academic-author-color: var(--theme-marker);
+  --marpx-title_academic-author-color: var(--theme-color-marker);
   --marpx-title_academic-font-color: var(--khaki-d700);
   --marpx-title_academic-title-size: 125%;
   --marpx-title_academic-subtitle-size: 85%;
@@ -86,24 +88,26 @@
   --marpx-title_academic-letter-spacing: -0.07px;
 
   /*  QUOTE */
-  --marpx-quote-font-color: var(--theme-font);
+  --marpx-quote-font-color: var(--theme-color-font);
   --marpx-quote-background-color: var(--khaki-d500);
   /* --marpx-quote-bold-color: var(--blueViolet-100); */
   --marpx-quote-bold-color: var(--khaki-d1100);
   --marpx-quote-paragraph-background-color: inherit;
-  --marpx-quote_dark-font-color: var(--theme-background1);
+  --marpx-quote_dark-font-color: var(--theme-color-background1);
   --marpx-quote_dark-bold-color: var(--khaki-d300);
   --marpx-quote_dark-color-background: var(--khaki-d800);
   --marpx-quote_dark-color-paragraph-background: inherit;
 
   /* REFERENCES */
-  --marpx-references-background-color: var(--theme-background1);
+  --marpx-references-background-color: var(--theme-color-background1);
   --marpx-references-header-color: var(--blue-d700);
-  --marpx-references-bold-color: var(--theme-font-h1);
-  --marpx-references-color: var(--theme-font);
+  --marpx-references-bold-color: var(--theme-color-font-h1);
+  --marpx-references-color: var(--theme-color-font);
+  --marpx-references-font-family: arial, "source sans pro", arial;
+
 
   /* TABLE */
-  --marpx-table-font-color: var(--theme-font);
+  --marpx-table-font-color: var(--theme-color-font);
   --marpx-table-hover-background-color: var(--violet-100);
   --marpx-table-hover-color: var(--blueViolet-400);
 
@@ -117,9 +121,9 @@ section {
 }
 
 section code:not(pre code) {
-  color: var(--theme-font);
+  color: var(--theme-color-font);
   background: var(--khaki-d200) !important;
-  border: 0px solid var(--theme-font);
+  border: 0px solid var(--theme-color-font);
   border-radius: 8px;
   padding: 1px 5px;
   font-size: 0.98em;
@@ -129,7 +133,7 @@ section code:not(pre code) {
 
 section.slide.white,
 section.white-slide {
-  color: var(--theme-font);
+  color: var(--theme-color-font);
 }
 
 section.references a {

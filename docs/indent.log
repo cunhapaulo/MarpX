@@ -1,0 +1,32 @@
+INFO:  latexindent.pl version 3.24.2, 2024-06-15, a script to indent .tex files
+       latexindent.pl lives here: C:/Users/paulo.cunha/AppData/Local/Programs/MiKTeX/scripts/latexindent/
+       Mon Sep 22 15:31:21 2025
+       Filename: c:\Users\paulo.cunha\OneDrive\__GITHUB\MarpX\docs\temp.tex
+INFO:  Processing switches:
+INFO:  Directory for backup files and log file indent.log:
+       c:\Users\paulo.cunha\OneDrive\__GITHUB\MarpX\docs
+INFO:  Perl modules are being loaded from the following directories:
+       C:/Strawberry/perl/lib/FindBin.pm
+       C:/Strawberry/perl/vendor/lib/YAML/Tiny.pm
+       C:/Strawberry/perl/lib/File/Copy.pm
+       C:/Strawberry/perl/lib/File/Basename.pm
+       C:/Strawberry/perl/lib/Getopt/Long.pm
+       C:/Strawberry/perl/vendor/lib/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       C:/Users/paulo.cunha/AppData/Local/Programs/MiKTeX/scripts/latexindent/LatexIndent/Document.pm
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from C:/Users/paulo.cunha/AppData/Local/Programs/MiKTeX/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML reading settings
+       Home directory is C:\Users\paulo.cunha
+       latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
+       see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
+INFO:  Phase 1: searching for objects
+       No objects found.
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Not outputting to file; see -w and -o switches for more options.
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl
