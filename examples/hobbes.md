@@ -19,7 +19,7 @@ math: mathjax
 
 <!-- _class: title-academic -->
 
-![bg h:100% saturate:1.3 left:33%](./assets/images/thinkers/hobbes01.jpg)
+![bg h:100% saturate:1.1 left:33% brightness:1.4](./assets/images/thinkers/hobbes01.jpg)
 
 <div class="title"         > Homo homini lupus? </div>
 <div class="subtitle"      > A great leap in the dark</div>

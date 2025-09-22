@@ -19,7 +19,7 @@ math: mathjax
 
 <!-- _class: title-academic -->
 
-![bg h:100% saturate:1.3 left:33%](./assets/images/thinkers/galileo01.jpg)
+![bg h:100% saturate:1.3 left:33% brightness:1](./assets/images/thinkers/galileo01.jpg)
 
 <div class="title"         > E pur si muove! </div>
 <div class="subtitle"      > Dialogue Concerning the Two Chief World Systems</div>
