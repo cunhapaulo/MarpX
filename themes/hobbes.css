@@ -140,15 +140,15 @@ section.references a {
 }
 
 section.chapter {
-  background-image: url("https://cunhapaulo.github.io/assets/pattern05.png"); /* Caminho relativo para o arquivo */
   background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
   background-repeat: no-repeat; /* Evita repetição da imagem */
   background-position: center; /* Centraliza a imagem no fundo */
-
-
-  /* background-image: linear-gradient(to right bottom, #4e6699, #111622); */
+  background-color: rgb(0, 25, 46);
+  filter: grayscale(0.3) brightness(0.9);
+  background-image: linear-gradient(to right bottom, #4e6699, #010c24);
   /* background-image: url("./pattern01.jpg"); */
 }
+
 
 section.quote {
   

@@ -119,3 +119,13 @@ section.references a {
   color: #93b0ee;
 
 }
+
+section.chapter {
+  background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-position: center; /* Centraliza a imagem no fundo */
+  background-color: rgb(0, 25, 46);
+  filter: grayscale(0.3) brightness(0.9);
+  background-image: linear-gradient(to right bottom, var(--khaki-200), var(--khaki-100));
+  /* background-image: url("./pattern01.jpg"); */
+}
