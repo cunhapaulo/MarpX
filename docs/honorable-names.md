@@ -15,6 +15,7 @@
 - [x] Gödel, Kurt (1906-1978)
 
 # Under construction 
+- [x] Cantor, Georg (1845 - 1918)
 - [x] Gauss, Carl Friedrich (1777 - 1855)
 - [ ] Turing, Alan (1912-1954)
 - [ ] Hume, David (1711 - 1776)
@@ -50,7 +51,6 @@
 - [ ] Berlin, Isaiah
 - [ ] Boole, Charles
 - [ ] Bretano, Franz
-- [ ] Cantor, Georg (1845 - 1918)
 - [ ] Carnap
 - [ ] Cassirer, Ernst (1874 - 1945)
 - [ ] Church, Alonzo
@@ -109,7 +109,7 @@
 | Pitágoras              | c. 570 a.C.   | c. 495 a.C.   | Grego         | Filosofia matemática, transmigração das almas              |
 | Heráclito              | c. 535 a.C.   | c. 475 a.C.   | Grego         | "Tudo flui", doutrina do devenir constante                 |
 | Parmênides             | c. 515 a.C.   | c. 450 a.C.   | Grego         | Fundador da Escola Eleata, ser e não-ser                   |
-| Anaxágoras             | c. 500 a.C.   | c. 428 a.C.   | Grego         | Doutrina do *nous* (mente cósmica)                           |
+| Anaxágoras             | c. 500 a.C.   | c. 428 a.C.   | Grego         | Doutrina do *nous* (mente cósmica)                         |
 | Empédocles             | c. 495 a.C.   | c. 435 a.C.   | Grego         | Teoria dos quatro elementos                                |
 | Protágoras             | c. 485 a.C.   | c. 415 a.C.   | Grego         | Sofista, "O homem é a medida de todas as coisas"           |
 | Sócrates               | 470 a.C.      | 399 a.C.      | Grego         | Método socrático, filosofia moral                          |
@@ -121,7 +121,7 @@
 | Cícero                 | 106 a.C.      | 43 a.C.       | Romano        | Ecletismo, filosofia política                              |
 | Sêneca                 | 4 a.C.        | 65 d.C.       | Romano        | Estoicismo, ética                                          |
 | Plotino                | 205           | 270           | Greco-egípcio | Fundador do neoplatonismo                                  |
-| Santo Agostinho        | 354           | 430           | Romano        | Filosofia cristã, teologia                                 |
+| Agostinho              | 354           | 430           | Romano        | Filosofia cristã, teologia                                 |
 | Avicena                | 980           | 1037          | Persa         | Filosofia islâmica, integração com aristotelismo           |
 | Averróis               | 1126          | 1198          | Andalusiano   | Comentários de Aristóteles, filosofia islâmica             |
 | Maimônides             | 1135          | 1204          | Andalusiano   | Filosofia judaica, aristotelismo                           |

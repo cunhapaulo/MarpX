@@ -1,20 +1,50 @@
-/* @theme hobbes */
+/* @theme cantor */
 
 @import "marpx";
 
 /* Font: Bitter */
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
 /* Font: "Source Sans Pro" */
-/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Zilla+Slab:wght@300;400;600&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Zilla+Slab:wght@300;400;600&display=swap");
 
 :root {
 
-  --color-background1: #dcded3;
-  --color-background2: #131920;
+  --color-background1: hsl(0, 0%, 97%);
+  --color-background2: hsl(0, 0%, 91%);
   --color-bold: #041a2c;
   --color-font-h1: #242060;
   --color-font: #2e2e2e;
   --color-marker: #f0a211;
+
+
+    /* Gray */
+  --gray-100: #ffffff;
+  --gray-200: #f3f6fc;
+  --gray-300: #f1f4f8;
+  --gray-400: #f2f2f2;
+  --gray-500: #f0f0f0;
+  --gray-600: #e6e6e6;
+  --gray-700: #e0e0e0;
+  --gray-800: #c4c7c5;
+  --gray-900: #a0a0a0;
+  --gray-1000: #444746;
+  --gray-1100: #444444;
+  --gray-1200: #333333;
+  --gray-1300: #1f1f1f;
+  --gray-1400: #1e1e1e;
+
+  /* Blue */
+  --blue-100: #e5eef4;
+  --blue-200: #d3e3fd;
+  --blue-300: #a8c7fa;
+  --blue-350: #74a9ff;
+  --blue-400: #1e88e5;
+  --blue-500: #0b57d0;
+  --blue-600: #003875;
+  --blue-700: #06284c;
+  --blue-800: #041e49;
+  --blue-900: #162e51;
+  --blue-1000: #0c1e38;
 
   /* Khaki */
   --khaki-d100: #fef7e0;
@@ -30,16 +60,6 @@
   --khaki-d1100: #2e2626;
   --khaki-d1200: #d1002a;
 
-  /* Blue */
-  --blue-d100: #bee5ff;
-  --blue-d200: #5d9cfa;
-  --blue-d300: #93b0ee;
-  --blue-d400: #6e85b8;
-  --blue-d500: #6880a0;
-  --blue-d600: #5871a7;
-  --blue-d700: #023977;
-  --blue-d800: #253d72;
-  --blue-d900: #111622;
 
   /* Green */
   --green-d100: #eeff00;
@@ -47,9 +67,9 @@
 
 
   /* MAIN GLOBAL PARAMETERS of THEME */
-  --marpx-theme-font-size: 22pt;
-  --marpx-theme-letter-spacing: .01px;
-  --marpx-theme-font-family: Bitter, Faustina, Bookerly, Lora, serif;
+  --marpx-theme-font-size: 26pt;
+  --marpx-theme-letter-spacing: -.75px;
+  --marpx-theme-font-family: "Source Sans Pro", sans-serif;
   --marpx-theme-background-color: var(--color-background1);
   --marpx-theme-font-color: var(--color-font);
   --marpx-theme-bold-color: var(--color-bold);
@@ -77,17 +97,18 @@
   /* TITLE ACADEMIC */
   --marpx-title-header-color: var(--color-marker);
   --marpx-title_academic-background-color: var(--color-background2);
-  --marpx-title_academic-title-color: var(--color-background1);
+  --marpx-title_academic-title-color: var(--gray-1300);
   --marpx-title_academic-subtitle-color: var(--khaki-d700);
   --marpx-title_academic-border-color: var(--blue-d300);
   --marpx-title_academic-author-color: var(--color-marker);
   --marpx-title_academic-font-color: var(--khaki-d700);
-  --marpx-title_academic-title-size: 125%;
-  --marpx-title_academic-subtitle-size: 85%;
-  --marpx-title_academic-author-size: 100%;
-  --marpx-title_academic-institute-size: 85%;
+
+  --marpx-title_academic-title-size: 130%;
   --marpx-title_academic-title-font-weight: bold;
-  --marpx-title_academic-letter-spacing: -0.07px;
+  --marpx-title_academic-subtitle-size: 90%;
+  --marpx-title_academic-author-size: 90%;
+  --marpx-title_academic-institute-size: 75%;
+  --marpx-title_academic-letter-spacing: -0.7px;
 
   /*  QUOTE */
   --marpx-quote-font-color: var(--color-font);
@@ -104,7 +125,7 @@
   --marpx-references-header-color: var(--blue-d500);
   --marpx-references-bold-color: var(--color-font-h1);
   --marpx-references-color: var(--color-font);
-  --marpx-references-font-family: inherit;
+  --marpx-references-font-family: arial, "source sans pro", arial;
 
   /* TABLE */
   --marpx-table-font-color: var(--color-font);
