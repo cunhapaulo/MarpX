@@ -9,76 +9,78 @@
 
 :root {
 
-
-  --theme-color-font: #2e2e2e;
-  --theme-color-font-h1: #242060;
-  --theme-color-bold: #a2a0a0;
-  /* --theme-color-background1: #dfdad3; */
-  --theme-color-background1: #dcded3;
-  --theme-color-background2: #131920;
-  --theme-color-marker: #f0a211;
+  --color-background1: #dcded3;
+  --color-background2: #131920;
+  --color-bold: #041a2c;
+  --color-font-h1: #242060;
+  --color-font: #2e2e2e;
+  --color-marker: #f0a211;
 
   /* Khaki */
   --khaki-d100: #fef7e0;
-  --khaki-d150: #fad762;
-  --khaki-d200: #fdca24;
-  --khaki-d300: #ffab10;
+  --khaki-d200: #fad762;
+  --khaki-d300: #fdca24;
+  --khaki-d400: #ffab10;
   --khaki-d500: #e9e3d1;
   --khaki-d600: #b8b8b8;
   --khaki-d700: #bbb7a9;
-  --khaki-d800: #3c3f3b;
-  --khaki-d900: #706d63;
-  --khaki-d1000: #2e2626;
-  --khaki-d1100: #d1002a;
+  --khaki-d800: #a2a0a0;
+  --khaki-d900: #3c3f3b;
+  --khaki-d1000: #706d63;
+  --khaki-d1100: #2e2626;
+  --khaki-d1200: #d1002a;
 
   /* Blue */
   --blue-d100: #bee5ff;
-  --blue-d200: #93b0ee;
-  --blue-d400: #5d9cfa;
-  --blue-d500: #5871a7;
-  --blue-d600: #6e85b8;
-  --blue-d700: #6880a0;
-  --blue-d2000: #023977;
-  --blue-d1200: #253d72;
-  --blue-d1500: #111622;
+  --blue-d200: #5d9cfa;
+  --blue-d300: #93b0ee;
+  --blue-d400: #6e85b8;
+  --blue-d500: #6880a0;
+  --blue-d600: #5871a7;
+  --blue-d700: #023977;
+  --blue-d800: #253d72;
+  --blue-d900: #111622;
 
   /* Green */
   --green-d100: #eeff00;
+
 
 
   /* MAIN GLOBAL PARAMETERS of THEME */
   --marpx-theme-font-size: 22pt;
   --marpx-theme-letter-spacing: .01px;
   --marpx-theme-font-family: Bitter, Faustina, Bookerly, Lora, serif;
-  --marpx-theme-background-color: var(--theme-color-background1);
-  --marpx-theme-font-color: var(--theme-color-font);
-  --marpx-theme-bold-color: var(--theme-color-bold);
-  --marpx-theme-marker-color: var(--theme-color-marker);
-  --marpx-theme-h1-color: var(--theme-color-font-h1);
-  --marpx-theme-h1-bold-color: var(--theme-color-bold);
-  --marpx-theme-h2-color: var(--blue-d700);
+  --marpx-theme-background-color: var(--color-background1);
+  --marpx-theme-font-color: var(--color-font);
+  --marpx-theme-bold-color: var(--color-bold);
+  --marpx-theme-marker-color: var(--color-marker);
+  --marpx-theme-h1-color: var(--color-font-h1);
+  --marpx-theme-h1-bold-color: var(--khaki-d800);
+  --marpx-theme-h2-color: var(--blue-d500);
 
   /* SECONDARY GLOBAL PARAMETERS of THEME */
-  --marpx-theme-color: var(--theme-color-font);
-  --marpx-theme-figure-captiontext-color: var(--khaki-d1100);
+  --marpx-theme-color: var(--color-font);
+  --marpx-theme-figure-captiontext-color: var(--khaki-d1200);
   --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-highlight-color: var(--blueViolet-500);
   --marpx-theme-table-captiontext: "Table. ";
-  --marpx-theme-table-captiontext-color: var(--khaki-d1100);
-  --marpx-theme-toc-color: var(--blue-d700);
+  --marpx-theme-table-captiontext-color: var(--khaki-d1200);
+  --marpx-theme-toc-color: var(--blue-d500);
+
+
 
   /* CHAPTER */
-  --marpx-theme-chapter-background-color: var(--blue-d200);
+  --marpx-theme-chapter-background-color: var(--blue-d300);
   --marpx-theme-chapter-h1-font-color: var(--khaki-d500);
   --marpx-theme-chapter-h2-font-color: var(--khaki-d500);
 
   /* TITLE ACADEMIC */
-  --marpx-title-header-color: var(--theme-color-marker);
-  --marpx-title_academic-background-color: var(--theme-color-background2);
-  --marpx-title_academic-title-color: var(--theme-color-background1);
+  --marpx-title-header-color: var(--color-marker);
+  --marpx-title_academic-background-color: var(--color-background2);
+  --marpx-title_academic-title-color: var(--color-background1);
   --marpx-title_academic-subtitle-color: var(--khaki-d700);
-  --marpx-title_academic-border-color: var(--blue-d200);
-  --marpx-title_academic-author-color: var(--theme-color-marker);
+  --marpx-title_academic-border-color: var(--blue-d300);
+  --marpx-title_academic-author-color: var(--color-marker);
   --marpx-title_academic-font-color: var(--khaki-d700);
   --marpx-title_academic-title-size: 125%;
   --marpx-title_academic-subtitle-size: 85%;
@@ -88,26 +90,24 @@
   --marpx-title_academic-letter-spacing: -0.07px;
 
   /*  QUOTE */
-  --marpx-quote-font-color: var(--theme-color-font);
+  --marpx-quote-font-color: var(--color-font);
   --marpx-quote-background-color: var(--khaki-d500);
-  /* --marpx-quote-bold-color: var(--blueViolet-100); */
-  --marpx-quote-bold-color: var(--khaki-d1100);
+  --marpx-quote-bold-color: var(--khaki-d1200);
   --marpx-quote-paragraph-background-color: inherit;
-  --marpx-quote_dark-font-color: var(--theme-color-background1);
-  --marpx-quote_dark-bold-color: var(--khaki-d300);
-  --marpx-quote_dark-color-background: var(--khaki-d800);
+  --marpx-quote_dark-font-color: var(--color-background1);
+  --marpx-quote_dark-bold-color: var(--khaki-d400);
+  --marpx-quote_dark-color-background: var(--khaki-d900);
   --marpx-quote_dark-color-paragraph-background: inherit;
 
   /* REFERENCES */
-  --marpx-references-background-color: var(--theme-color-background1);
-  --marpx-references-header-color: var(--blue-d700);
-  --marpx-references-bold-color: var(--theme-color-font-h1);
-  --marpx-references-color: var(--theme-color-font);
+  --marpx-references-background-color: var(--color-background1);
+  --marpx-references-header-color: var(--blue-d500);
+  --marpx-references-bold-color: var(--color-font-h1);
+  --marpx-references-color: var(--color-font);
   --marpx-references-font-family: arial, "source sans pro", arial;
 
-
   /* TABLE */
-  --marpx-table-font-color: var(--theme-color-font);
+  --marpx-table-font-color: var(--color-font);
   --marpx-table-hover-background-color: var(--violet-100);
   --marpx-table-hover-color: var(--blueViolet-400);
 
@@ -121,9 +121,9 @@ section {
 }
 
 section code:not(pre code) {
-  color: var(--theme-color-font);
-  background: var(--khaki-d200) !important;
-  border: 0px solid var(--theme-color-font);
+  color: var(--color-font);
+  background: var(--khaki-d300) !important;
+  border: 0px solid var(--color-font);
   border-radius: 8px;
   padding: 1px 5px;
   font-size: 0.98em;
@@ -133,11 +133,11 @@ section code:not(pre code) {
 
 section.slide.white,
 section.white-slide {
-  color: var(--theme-color-font);
+  color: var(--color-font);
 }
 
 section.references a {
-  color: var(--blue-d2000);
+  color: var(--blue-d700);
   font-weight: 100;
   text-decoration: underline;
 
@@ -157,14 +157,14 @@ section.chapter {
 section.quote {
   
   --marpx-quote-font-color: var(--blue-d100);
-  --marpx-quote-background-color: var(--blue-d400);
+  --marpx-quote-background-color: var(--blue-d200);
   --marpx-quote-bold-color: var(--green-d100);
-  background-image: radial-gradient(#141414 0%, transparent 0%, var(--blue-d2000) 83%);
+  background-image: radial-gradient(#141414 0%, transparent 0%, var(--blue-d700) 83%);
 }
 
 section.quote.dark {
 
   --marpx-quote_dark-font-color: white;
-  background-image: linear-gradient(to top, var(--blue-d500), var(--blue-d1500));
+  background-image: linear-gradient(to top, var(--blue-d600), var(--blue-d900));
   /* background-image: url("./pattern01.jpg"); */
 }

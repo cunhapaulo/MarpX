@@ -70,8 +70,8 @@ math: mathjax
 
 <!-- _class: chapter  -->
 
-<!-- ![bg opacity:.3 grayscale:1](./pattern01.jpg) -->
-![bg opacity:.2 grayscale:1 ](./pattern01.jpg)
+![bg opacity:.3 grayscale:1](https://cunhapaulo.github.io/assets/pattern05.png)
+<!-- ![bg opacity:.2 grayscale:1 ](https://cunhapaulo.github.io/assets/pattern01.jpg) -->
 
 # Transition Slide
 
@@ -79,7 +79,7 @@ math: mathjax
 
 ---
 
-![bg opacity:.5 grayscale:1 blur:3px](./pattern01.jpg)
+![bg opacity:.5 grayscale:1 blur:3px](https://cunhapaulo.github.io/assets/pattern01.jpg)
 
 
 # Is Algebraic Graph Knowledge a **Possibility**?
@@ -917,10 +917,3 @@ h2>a{
 ## <!-- fit --> [Beginning](#1)
 
 </div>
-
----
-
-<!-- _class: "chapter"  -->
-
-# This is a new Chapter
-## A brand new beginning
