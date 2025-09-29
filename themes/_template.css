@@ -4,8 +4,6 @@
 
 /* Font: Bitter */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* Font: "Source Sans Pro" */
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Zilla+Slab:wght@300;400;600&display=swap");
 
 :root {
 
@@ -47,13 +45,14 @@
 
 
   /* MAIN GLOBAL PARAMETERS of THEME */
-  --marpx-theme-font-size: 22pt;
+  --marpx-theme-font-size: 24pt; /* paulo.cunha */
   --marpx-theme-letter-spacing: .01px;
   --marpx-theme-font-family: Bitter, Faustina, Bookerly, Lora, serif;
   --marpx-theme-background-color: var(--color-background1);
   --marpx-theme-font-color: var(--color-font);
   --marpx-theme-bold-color: var(--color-bold);
   --marpx-theme-marker-color: var(--color-marker);
+  --marpx-theme-h1-font-size: 34pt;
   --marpx-theme-h1-color: var(--color-font-h1);
   --marpx-theme-h1-bold-color: var(--khaki-d800);
   --marpx-theme-h2-color: var(--blue-d500);
@@ -75,6 +74,13 @@
   --marpx-theme-chapter-h2-font-color: var(--khaki-d500);
 
   /* TITLE ACADEMIC */
+  --marpx-title_academic-title-size: 125%;
+  --marpx-title_academic-subtitle-size: 85%;
+  --marpx-title_academic-author-size: 100%;
+  --marpx-title_academic-institute-size: 85%;
+  --marpx-title_academic-title-font-weight: bold;
+  --marpx-title_academic-letter-spacing: -0.07px;
+
   --marpx-title-header-color: var(--color-marker);
   --marpx-title_academic-background-color: var(--color-background2);
   --marpx-title_academic-title-color: var(--color-background1);
@@ -82,12 +88,6 @@
   --marpx-title_academic-border-color: var(--blue-d300);
   --marpx-title_academic-author-color: var(--color-marker);
   --marpx-title_academic-font-color: var(--khaki-d700);
-  --marpx-title_academic-title-size: 125%;
-  --marpx-title_academic-subtitle-size: 85%;
-  --marpx-title_academic-author-size: 100%;
-  --marpx-title_academic-institute-size: 85%;
-  --marpx-title_academic-title-font-weight: bold;
-  --marpx-title_academic-letter-spacing: -0.07px;
 
   /*  QUOTE */
   --marpx-quote-font-color: var(--color-font);
@@ -104,7 +104,7 @@
   --marpx-references-header-color: var(--blue-d500);
   --marpx-references-bold-color: var(--color-font-h1);
   --marpx-references-color: var(--color-font);
-  --marpx-references-font-family: arial, "source sans pro", arial;
+  --marpx-references-font-family: inherit;
 
   /* TABLE */
   --marpx-table-font-color: var(--color-font);

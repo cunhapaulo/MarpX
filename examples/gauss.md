@@ -19,7 +19,7 @@ math: mathjax
 
 <!-- _class: title-academic -->
 
-![bg h:100% saturate:2.2 right:45%](./assets/images/thinkers/gauss02.png)
+![bg h:100% saturate:2.2 right:33%](./assets/images/thinkers/gauss02.png)
 
 <div class="title"         > If I have seen further it is by standing on the shoulders of Giants </div>
 <div class="subtitle"      > Epistemic humility and the historical continuity</div>

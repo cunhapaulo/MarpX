@@ -45,13 +45,14 @@
 
 
   /* MAIN GLOBAL PARAMETERS of THEME */
-  --marpx-theme-font-size: 22pt;
+  --marpx-theme-font-size: 24pt;
   --marpx-theme-letter-spacing: .01px;
   --marpx-theme-font-family: Bitter, Faustina, Bookerly, Lora, serif;
   --marpx-theme-background-color: var(--color-background1);
   --marpx-theme-font-color: var(--color-font);
   --marpx-theme-bold-color: var(--color-bold);
   --marpx-theme-marker-color: var(--color-marker);
+  --marpx-theme-h1-font-size: 34pt;
   --marpx-theme-h1-color: var(--color-font-h1);
   --marpx-theme-h1-bold-color: var(--khaki-d800);
   --marpx-theme-h2-color: var(--blue-d500);
@@ -65,14 +66,19 @@
   --marpx-theme-table-captiontext-color: var(--khaki-d1200);
   --marpx-theme-toc-color: var(--blue-d500);
 
-
-
   /* CHAPTER */
   --marpx-theme-chapter-background-color: var(--blue-d300);
   --marpx-theme-chapter-h1-font-color: var(--khaki-d500);
   --marpx-theme-chapter-h2-font-color: var(--khaki-d500);
 
   /* TITLE ACADEMIC */
+  --marpx-title_academic-title-size: 125%;
+  --marpx-title_academic-subtitle-size: 85%;
+  --marpx-title_academic-author-size: 100%;
+  --marpx-title_academic-institute-size: 85%;
+  --marpx-title_academic-title-font-weight: bold;
+  --marpx-title_academic-letter-spacing: -0.07px;
+
   --marpx-title-header-color: var(--color-marker);
   --marpx-title_academic-background-color: var(--color-background2);
   --marpx-title_academic-title-color: var(--color-background1);
@@ -80,12 +86,6 @@
   --marpx-title_academic-border-color: var(--blue-d300);
   --marpx-title_academic-author-color: var(--color-marker);
   --marpx-title_academic-font-color: var(--khaki-d700);
-  --marpx-title_academic-title-size: 125%;
-  --marpx-title_academic-subtitle-size: 85%;
-  --marpx-title_academic-author-size: 100%;
-  --marpx-title_academic-institute-size: 85%;
-  --marpx-title_academic-title-font-weight: bold;
-  --marpx-title_academic-letter-spacing: -0.07px;
 
   /*  QUOTE */
   --marpx-quote-font-color: var(--color-font);
@@ -108,8 +108,6 @@
   --marpx-table-font-color: var(--color-font);
   --marpx-table-hover-background-color: var(--violet-100);
   --marpx-table-hover-color: var(--blueViolet-400);
-
-
 
 }
 
@@ -142,9 +140,12 @@ section.references a {
 }
 
 section.chapter {
-  background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
-  background-repeat: no-repeat; /* Evita repetição da imagem */
-  background-position: center; /* Centraliza a imagem no fundo */
+  background-size: cover;
+  /* Ajusta a imagem para cobrir todo o fundo */
+  background-repeat: no-repeat;
+  /* Evita repetição da imagem */
+  background-position: center;
+  /* Centraliza a imagem no fundo */
   background-color: rgb(0, 25, 46);
   filter: grayscale(0.3) brightness(0.9);
   background-image: linear-gradient(to right bottom, #4e6699, #010c24);
@@ -153,7 +154,7 @@ section.chapter {
 
 
 section.quote {
-  
+
   --marpx-quote-font-color: var(--blue-d100);
   --marpx-quote-background-color: var(--blue-d200);
   --marpx-quote-bold-color: var(--green-d100);
@@ -165,4 +166,14 @@ section.quote.dark {
   --marpx-quote_dark-font-color: white;
   background-image: linear-gradient(to top, var(--blue-d600), var(--blue-d900));
   /* background-image: url("./pattern01.jpg"); */
+}
+
+
+box {
+
+  border: 0.5px solid black;    /* cria a borda */
+  background-color: #d9ff0025;  /* cor de fundo (opcional) */
+  text-align: center;             /* centraliza o conteúdo dentro da caixa */
+  box-shadow: 0 8px 15px rgba(8, 8, 8, 0.37);
+  
 }

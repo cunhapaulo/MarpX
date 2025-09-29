@@ -56,7 +56,8 @@
 /* Font: "Fira Sans Condensed" */
 @import url("https://fonts.cdnfonts.com/css/fira-sans-condensed?styles=19730");
 
-@import url("https://fonts.cdnfonts.com/css/charter-itc-tt");
+/* Charter */
+/* @import url("https://fonts.cdnfonts.com/css/charter-itc-tt"); */
 
 /* Font: Fautina, "Fira Sans", "Source Sans 3" */
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
@@ -72,7 +73,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800'); */
 
 /* "Bitter" */
-/* @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap'); */
+
 
 :root {
 
@@ -181,10 +183,6 @@
   --greenishCyan-200: #00d1b2;
   --greenishCyan-300: #006b5b;
 
-  /* Purple */
-  --purple-100: #b86bff;
-  --purple-200: #8605ff;
-
   /* Teal */
   --teal-100: #48c78e;
 
@@ -208,6 +206,10 @@
   /* Lime */
   --lime-100: #d4ee9b;
 
+    /* Purple */
+  --purple-100: #b86bff;
+  --purple-200: #8605ff;
+
   /* Purple magenta */
   --purpleMagenta-100: #a44eca;
 
@@ -217,6 +219,8 @@
   /* Red */
   --red-100: #f95347;
 
+  --scarlet-100: #5e5bfc;
+
   /*------------< Overall theme parameters >---------------------------------*/
 
   --marpx-theme-font-family: "Fira Sans Light", Faustina, Bookerly, Lora, sans-serif;
@@ -224,11 +228,11 @@
   --marpx-theme-letter-spacing: -0.0125px;
   --marpx-theme-figure-captiontext: "Figure ";
   --marpx-theme-figure-captiontext-color: var(--scarletRed-500);
-
+  --marpx-theme-h1-font-size: 34pt;
   --marpx-theme-table-captiontext: "Table ";
   --marpx-theme-table-captiontext-color: var(--scarletRed-500);
 
-  --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
+  --marpx-theme-brandlogo: " (2025).";
 
   --marpx-theme-color: #3e6ceb;
   --marpx-theme-h1-color: var(--blueViolet-500);
@@ -417,13 +421,13 @@ footer::after {
 }
 
 h1 {
+  max-width: calc(100% - 10px);
   top: 20px;
   position: absolute;
   color: var(--marpx-theme-h1-color);
-  font-size: 36pt;
+    font-size: var(--marpx-theme-h1-font-size);
   font-weight: 700;
   height: 130px;
-  max-width: calc(100% - 160px);
 
   /* border-bottom: 1px solid #fd0d0d; */
   display: flex;
@@ -473,13 +477,16 @@ h5>strong,
 h5>em,
 h6>strong,
 h6>em {
+  padding: 0.1em 0.22em;
   color: var(--marpx-theme-h1-bold-color);
   font-weight: bold !important;
-  margin-left: 0.125em;
+
+  /* paulo.cunha */
+  /* margin-left: 0.125em; */
   /* ajuste conforme necessário */
-  margin-right: 0.125 em;
+  /* margin-right: 0.125 em; */
   /* ajuste conforme necessário */
-  display: inline-block;
+  /* display: inline-block; */
   /* assegura que margin-right funcione previsivelmente */
 
 }
@@ -631,6 +638,7 @@ section.title-bg {
   background-color: var(--marpx-title_academic-background-color);
 }
 
+
 section.title>h1,
 section.title-bg>h1 {
   position: absolute;
@@ -645,8 +653,7 @@ section.title-bg>h1 {
   color: var(--marpx-title_academic-title-color);
   font-weight: 700;
 
-  /* display: flex; */
-  /* paulo.cunha */
+  /* display: flex; */ /* paulo.cunha */
   display: block;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1079,11 +1086,11 @@ section.logos>div.additional-logos>p {
   justify-content: left;
   text-align: left;
   margin: 0;
-  max-width: inherit;
   height: 100%;
   max-height: inherit;
   align-items: center;
   align-content: center;
+  max-width: inherit;
 }
 
 section.logos>div.additional-logos>p>img {
@@ -1091,10 +1098,10 @@ section.logos>div.additional-logos>p>img {
   padding: 0;
   margin: 0;
   border: 0;
-  max-width: inherit;
   max-height: inherit;
   object-fit: contain;
   background-color: #ffffff;
+  max-width: inherit;
 }
 
 /* 
@@ -1371,11 +1378,11 @@ section.quote {
 
 section.quote p {
   color: var(--marpx-quote-font-color);
-  background-color: var(--marpx-quote-paragraph-background-color);
+  /* background-color: var(--marpx-quote-paragraph-background-color); */ /* paulo.cunha */
   letter-spacing: -0.23pt;
   font-size: 1.4em !important;
   text-align: center;
-  line-height: 1.15em;
+  line-height: 1.05em;
   font-family: var(--marpx-quote-font-family) !important;
   /*  font-style: oblique; */
   padding-top: auto;
@@ -1626,8 +1633,8 @@ section.white-slide .figcaption::before {
 box {
 
   border: 0px solid black;  /* cria a borda */
-  padding: 25px;              /* espaçamento interno */
-  margin: 50px auto;          /* espaçamento externo */
+  padding: 15px;              /* espaçamento interno */
+  margin: 15px auto;          /* espaçamento externo */
   display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
   border-radius: 10px;          /* cantos arredondados (opcional) */
   background-color: #d3d3d3d0;
@@ -1639,20 +1646,13 @@ box {
 
 bbox {
 
-  border: 1px solid black;
-  /* cria a borda */
-  padding: 25px;
-  /* espaçamento interno */
-  margin: 50px auto;
-  /* espaçamento externo */
-  display: inline-block;
-  /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;
-  /* cantos arredondados (opcional) */
-  background-color: #ffffff;
-  /* cor de fundo (opcional) */
-  text-align: center;
-  /* centraliza o conteúdo dentro da caixa */
+  border: 1px solid black;  /* cria a borda */
+  padding: 25px;              /* espaçamento interno */
+  margin: 50px auto;          /* espaçamento externo */
+  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;        /* cantos arredondados (opcional) */
+  background-color: #ffffff;/* cor de fundo (opcional) */
+  text-align: center;         /* centraliza o conteúdo dentro da caixa */
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.08);
 }
 
