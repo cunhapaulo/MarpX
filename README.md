@@ -12,6 +12,7 @@ This is Marp Style 2.0
 Designed for educators, researchers, and professionals, MarpX enables the creation of visually stunning, semantically rich, and accessible presentations with minimal effort.
 
 ## A very basic YAML header:
+
 ```yaml
 ---
 title: How to use MarpX Special Tags
@@ -19,7 +20,7 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Gödel, Paulo Cunha]
 
-header: 
+header:
 footer: "[`Back to Contents`](#2)"
 
 marp: true
@@ -50,13 +51,11 @@ math: mathjax
 | [Transition Slide](https://cunhapaulo.github.io/marpx/examples/howto.html#11)      | `<!-- _class: "chapter" -->`                                         |
 | [Videos](https://cunhapaulo.github.io/marpx/examples/howto.html#21)                | `<video controls height="400px"></video>`                            |
 
-
 ## References (IMPORTANT!)
 
 Try the Reference Guide that shows most of the special canonical slide types in Marpx!
 
 [![Reference Guide](./examples/front-slide/howto.png)](https://cunhapaulo.github.io/marpx/examples/howto.html)
-
 
 ## 🚀 Key Features
 
@@ -81,14 +80,12 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | [![Style Sparta](./examples/front-slide/sparta.png)](https://cunhapaulo.github.io/marpx/examples/sparta.html)             |
 | <h3> **Socrates** - In honor of Σωκράτης - Socrates (469–399 B.C.E.) </h3>                                                |
 | [![Style Socrates](./examples/front-slide/socrates.png)](https://cunhapaulo.github.io/marpx/examples/socrates.html)       |
-| <h3> **copernicus** - In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                               |
+| <h3> **Copernicus** - In honor of Niklas Koppernigk - Nicolaus Copernicus (1473–1543) </h3>                               |
 | [![Style Copernicus](./examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
 | <h3> **Galileo** - In honor of Galileu Galilei (1564–1642) </h3>                                                          |
 | [![Style Galileo](./examples/front-slide/galileo.png)](https://cunhapaulo.github.io/marpx/examples/galileo.html)          |
-| <h3> **Hobbes** - In honor of Thomas Hobbes	(1588 -	1679) </h3>                                                           |
+| <h3> **Hobbes** - In honor of Thomas Hobbes (1588 - 1679) </h3>                                                           |
 | [![Style Hobbes](./examples/front-slide/hobbes.png)](https://cunhapaulo.github.io/marpx/examples/hobbes.html)             |
-| <h3> **Lorca** - In honor of Federico García Lorca (1898 - 1936) </h3>                                                           |
-| [![Style Lorca](./examples/front-slide/lorca.png)](https://cunhapaulo.github.io/marpx/examples/lorca.html)             |
 | <h3> **Newton** - In honor of Sir Isaac Newton (1642 - 1727) </h3>                                                        |
 | [![Style Newton](./examples/front-slide/newton.png)](https://cunhapaulo.github.io/marpx/examples/newton.html)             |
 | <h3> **Einstein** - In honor of Albert Einstein (1879–1955) </h3>                                                         |
@@ -100,15 +97,23 @@ Here you´ll find examples of the available themes. Click on the picture to open
 
 
 
+# Hall of Contributions from Collaborators
+
+|                                                                                                            |
+| :--------------------------------------------------------------------------------------------------------- |
+| <h3> **Lorca** - In honor of Federico García Lorca (1898 - 1936)  <br> By [Ernesto Serrano](https://github.com/erseco) (Las Palmas de Gran Canaria, Spain) </h3>                                    |
+| [![Style Lorca](./examples/front-slide/lorca.png)](https://cunhapaulo.github.io/marpx/examples/lorca.html) |
+
 ## 📦 Getting Started
 
 ### 1. Config your environment to use MarpX themes
 
 1. In case you want to install the theme files locally, for possible use without internet access, proceed as follow:
+
    - **Clone or Download** this repository, specially the the files in the `themes` directory (folder), to your local drive, in a very well know directory (folder);
    - When using `VScode`, configure the code-workspace file to indicate exactly where the theme files are. Remember that there is always the possibility of these theme files being downloaded from the Internet:
 
-    Example of a locally stored theme `code-workspace` config file:
+   Example of a locally stored theme `code-workspace` config file:
 
    ```json
    {
@@ -136,89 +141,100 @@ Here you´ll find examples of the available themes. Click on the picture to open
      }
    }
    ```
-  1. In case you don´t want the burden of downloading anything and use the themes directly from the Internet, proceed as follows.
-   
-      - Config your VScode code-workspace config file to indicate exactly where the theme files are (Internet).
-  
-      Internet stored themes `code-workspace` config:
-      
-      ```json
-      {
-        "folders": [
-          {
-            "path": "."
-          }
-        ],
-        "settings": {
-          "markdown.marp.themes": [
-            "https://cunhapaulo.github.io/marpx/themes/marpx.css",
-            "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
-            "https://cunhapaulo.github.io/marpx/themes/einstein.css",
-            "https://cunhapaulo.github.io/marpx/themes/frankfurt.css",
-            "https://cunhapaulo.github.io/marpx/themes/galileo.css",
-            "https://cunhapaulo.github.io/marpx/themes/gauss.css",
-            "https://cunhapaulo.github.io/marpx/themes/gödel.css",
-            "https://cunhapaulo.github.io/marpx/themes/gropius.css",
-            "https://cunhapaulo.github.io/marpx/themes/lorca.css",
-            "https://cunhapaulo.github.io/marpx/themes/hobbes.css",
-            "https://cunhapaulo.github.io/marpx/themes/newton.css",
-            "https://cunhapaulo.github.io/marpx/themes/socrates.css",
-            "https://cunhapaulo.github.io/marpx/themes/sparta.css"
-          ]
-        }
-      }
-      ```
+
+1. In case you don´t want the burden of downloading anything and use the themes directly from the Internet, proceed as follows.
+
+   - Config your VScode code-workspace config file to indicate exactly where the theme files are (Internet).
+
+   Internet stored themes `code-workspace` config:
+
+   ```json
+   {
+     "folders": [
+       {
+         "path": "."
+       }
+     ],
+     "settings": {
+       "markdown.marp.themes": [
+         "https://cunhapaulo.github.io/marpx/themes/marpx.css",
+         "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
+         "https://cunhapaulo.github.io/marpx/themes/einstein.css",
+         "https://cunhapaulo.github.io/marpx/themes/frankfurt.css",
+         "https://cunhapaulo.github.io/marpx/themes/galileo.css",
+         "https://cunhapaulo.github.io/marpx/themes/gauss.css",
+         "https://cunhapaulo.github.io/marpx/themes/gödel.css",
+         "https://cunhapaulo.github.io/marpx/themes/gropius.css",
+         "https://cunhapaulo.github.io/marpx/themes/lorca.css",
+         "https://cunhapaulo.github.io/marpx/themes/hobbes.css",
+         "https://cunhapaulo.github.io/marpx/themes/newton.css",
+         "https://cunhapaulo.github.io/marpx/themes/socrates.css",
+         "https://cunhapaulo.github.io/marpx/themes/sparta.css"
+       ]
+     }
+   }
+   ```
 
 ### 2. **Reference** one of the available themes in your slide deck in Markdown:
-  Once you've configured the location of the theme files, the next step is to create your slidedeck.
 
-  The first thing to do in your file is to create the header section in YAML:
-   
-   ```markdown
-   ---
-   title: Western Philosophy from Athens
-   author: Socarates
-   size: 16:9
-   lang: en-US
-   math: mathjax
-   marp: true
-   theme: socrates
-   ---
-   ```
+Once you've configured the location of the theme files, the next step is to create your slidedeck.
+
+The first thing to do in your file is to create the header section in YAML:
+
+```markdown
+---
+title: How to use MarpX Special Tags
+author: Paulo Cunha
+description: Canonical use of marpx theme
+keywords: [Marp, MarpX, Gödel, Paulo Cunha]
+
+header:
+footer: "[`Back to Contents`](#2)"
+
+marp: true
+theme: gödel
+paginate: true
+transition: none
+
+size: 16:9
+lang: en
+math: mathjax
+---
+```
+
 ### 3. **Create** a Title slide like this:
 
-   ```html
-   ---
-   <!-- _class: title-academic -->
-   <!-- _backgroundColor: white  -->
-   
-   ![bg left:33%](Socrates_Louvre.jpg)
-   
-   <div class="title">Western Philosophy from Athens</div>
-   <div class="subtitle">From nature to the being</div>
-   <div class="author">Socrates (Σωκράτης)</div>
-   <div class="date">Athenas, 390 b.C.</div>
-   <div class="organization">Ágora, the Assembly of the Polis</div>
-   ---
-   ```
+```html
+---
+<!-- _class: title-academic -->
+<!-- _backgroundColor: white  -->
+
+![bg left:33%](Socrates_Louvre.jpg)
+
+<div class="title">Western Philosophy from Athens</div>
+<div class="subtitle">From nature to the being</div>
+<div class="author">Socrates (Σωκράτης)</div>
+<div class="date">Athenas, 390 b.C.</div>
+<div class="organization">Ágora, the Assembly of the Polis</div>
+---
+```
+
 ### 4. **Use semantic classes** in your slides to unlock advanced layouts:
 
-   ```html
-   ---
-   <!-- _class: chapter -->
-   # Chapter Title
-   ---
+```html
+---
+<!-- _class: chapter -->
+# Chapter Title
+---
 
-   <!-- _class: quote dark -->
+<!-- _class: quote dark -->
 
-   > "A beautiful quote." ---
-   ```
+> "A beautiful quote." ---
+```
 
 ### 5. **Export** your presentation using Marp CLI, VS Code extension, or Marp web tools.
 
 When all has been said and done, export your slide-deck to one of the available formats (PDF, HTML, PowerPoint, PNG, etc. )
-
-
 
 ## 🛠️ Customization
 
@@ -247,7 +263,6 @@ When all has been said and done, export your slide-deck to one of the available 
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/82f587c9-61a6-428b-9625-1baee419300a" /> | <img width="427" height="240" alt="image" src="https://github.com/user-attachments/assets/7587a71e-018e-4577-89a2-f7373dfefa00" /> |
 
-
 ## 🙏 Credits
 
 - Inspired by the [Marp](https://marp.app/) project and its contributors.
@@ -256,13 +271,11 @@ When all has been said and done, export your slide-deck to one of the available 
 - Thanks to the open-source community for feedback, inspiration, and contributions.
 - Special thanks to all educators, researchers, and professionals who value clarity and beauty in their presentations.
 
-
 ## 👤 Authorship
 
 **MarpX** is authored and maintained by [Paulo Cunha](https://github.com/cunhapaulo), 2025.
 
 For questions, suggestions, or contributions, please open an issue or pull request on GitHub.
-
 
 ## 📄 License
 
