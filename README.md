@@ -85,8 +85,10 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | [![Style Copernicus](./examples/front-slide/copernicus.png)](https://cunhapaulo.github.io/marpx/examples/copernicus.html) |
 | <h3> **Galileo** - In honor of Galileu Galilei (1564–1642) </h3>                                                          |
 | [![Style Galileo](./examples/front-slide/galileo.png)](https://cunhapaulo.github.io/marpx/examples/galileo.html)          |
-| <h3> **Hobbes** - In honor of Thomas Hobbes	(1588 -	1679) </h3>                                                          |
-| [![Style Hobbes](./examples/front-slide/hobbes.png)](https://cunhapaulo.github.io/marpx/examples/hobbes.html)          |
+| <h3> **Hobbes** - In honor of Thomas Hobbes	(1588 -	1679) </h3>                                                           |
+| [![Style Hobbes](./examples/front-slide/hobbes.png)](https://cunhapaulo.github.io/marpx/examples/hobbes.html)             |
+| <h3> **Lorca** - In honor of Federico García Lorca (1898 - 1936) </h3>                                                           |
+| [![Style Lorca](./examples/front-slide/lorca.png)](https://cunhapaulo.github.io/marpx/examples/lorca.html)             |
 | <h3> **Newton** - In honor of Sir Isaac Newton (1642 - 1727) </h3>                                                        |
 | [![Style Newton](./examples/front-slide/newton.png)](https://cunhapaulo.github.io/marpx/examples/newton.html)             |
 | <h3> **Einstein** - In honor of Albert Einstein (1879–1955) </h3>                                                         |
@@ -126,6 +128,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
          "./themes/gödel.css",
          "./themes/gropius.css",
          "./themes/hobbes.css",
+         "./themes/lorca.css",
          "./themes/newton.css",
          "./themes/socrates.css",
          "./themes/sparta.css"
@@ -156,6 +159,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
             "https://cunhapaulo.github.io/marpx/themes/gauss.css",
             "https://cunhapaulo.github.io/marpx/themes/gödel.css",
             "https://cunhapaulo.github.io/marpx/themes/gropius.css",
+            "https://cunhapaulo.github.io/marpx/themes/lorca.css",
             "https://cunhapaulo.github.io/marpx/themes/hobbes.css",
             "https://cunhapaulo.github.io/marpx/themes/newton.css",
             "https://cunhapaulo.github.io/marpx/themes/socrates.css",
