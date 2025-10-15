@@ -8,7 +8,7 @@ header: "[Go to MarpX Github Site](https://github.com/cunhapaulo/MarpX)"
 footer: "[Returno to TOC](#2)"
 
 marp: true
-theme: sparta
+theme: gödel
 paginate: true
 transition: none
 
