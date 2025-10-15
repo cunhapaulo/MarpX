@@ -8,7 +8,7 @@ header: "[Go to MarpX Github Site](https://github.com/cunhapaulo/MarpX)"
 footer: "[Returno to TOC](#2)"
 
 marp: true
-theme: gödel
+theme: sparta
 paginate: true
 transition: none
 
@@ -610,7 +610,6 @@ designs for hardware and software systems."
 
 ---
 
-<!-- _class: "white-slide" -->
 
 # Callouts
 
@@ -659,8 +658,6 @@ Another text with <br> **Markdown** formatting.
 </div>
 
 ---
-
-<!-- _class: "white-slide" -->
 
 # Callouts types
 

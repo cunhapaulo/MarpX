@@ -1151,7 +1151,7 @@ div.callout {
   margin: 12px 0;
   /* top+bottom right+left */
   padding: 1px 8px 8px 16px;
-  mix-blend-mode: darken;
+  mix-blend-mode: normal;
 }
 
 div.callout>h1 {
