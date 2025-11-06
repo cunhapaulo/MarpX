@@ -1450,6 +1450,7 @@ section table td {
   border: 1px solid var(--marpx-table-border-bottom-color);
   border-left: 0;
   border-right: 0;
+  line-height: 1.15;
 }
 
 section table tr:nth-child(even) {
@@ -1672,4 +1673,3 @@ bbox {
   text-align: center;
   /* centraliza o conteúdo dentro da caixa */
 }
-
