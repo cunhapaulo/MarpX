@@ -116,17 +116,6 @@ section {
   /* garante o retângulo ao redor da palavra */
 }
 
-section code {
-  border: 2px solid #222;
-  border-radius: 12px;
-  padding: 2px 8px;
-  /* background: initial; */
-  background: #fffbe7;
-  /* color: #222222; */
-  font-size: 1em;
-  display: inline-block;
-}
-
 blockquote {
   font-family: "Source Sans Pro";
   font-weight: normal;
@@ -148,7 +137,7 @@ blockquote em {
   font-weight: normal;
 }
 
-section code {
+section code:not(pre code) {
   /* color: #222222; */
   border: 0px solid #0a0a00ff;
   background: #ffd044ff !important;
