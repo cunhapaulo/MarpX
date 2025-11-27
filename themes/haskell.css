@@ -13,7 +13,7 @@
   --marpx-theme-color: #31406b;
   --marpx-theme-background-color: white;
   --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
-  --marpx-theme-font-size: 25pt;
+  --marpx-theme-font-size: 24pt;
 
 
   /* Text colors */
@@ -102,7 +102,7 @@
 
 
 section {
-  line-height: 1.2em;
+  line-height: 1.1;
 }
 
 .box {

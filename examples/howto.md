@@ -19,7 +19,7 @@ math: mathjax
 
 <!-- _class: "title" -->
 
-# Reference **Guide** to MarpX <br> or How to use **MarpX** special tags
+# Reference **Guide** to MarpX <br> or How to use MarpX **Special Tags**
 
 ## Paulo Cunha - 2025
 
