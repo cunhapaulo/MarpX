@@ -31,15 +31,14 @@ paginate: true
 ---
 
 <!-- _class: title -->
-![bg w:180% opacity:0.18](./assets/images/thinkers/newton02.webp)
 
+![bg w:180% opacity:0.18](./assets/images/thinkers/newton02.webp)
 
 # If I have seen further it is by standing on the shoulders of Giants
 
 ## Epistemic humility and the historical continuity
 
 ---
-
 
 <!-- _class: toc  -->
 
@@ -303,7 +302,6 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 </div></div>
 
 ---
-
 
 <!-- _class: white-slide -->
 <!-- _footer: Vídeo de Nikolay Sobolev no Pexels: https://www.pexels.com/pt-br/video/ar-aviao-aeronave-aeroporto-16127349/ -->

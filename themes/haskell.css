@@ -11,7 +11,7 @@
 
   /* General theme settings */
   --marpx-theme-color: #31406b;
-  --marpx-theme-background-color: white;
+  --marpx-theme-background-color: var(--violet-100);
   --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
   --marpx-theme-font-size: 24pt;
 
@@ -22,9 +22,10 @@
   --marpx-theme-marker-color: var(--scarletRed-600);
 
   /* Headings */
-  --marpx-theme-h1-color: #003686ff;
+  --marpx-theme-h1-color: hsl(216, 100%, 32%);
   --marpx-theme-h1-bold-color: var(--scarletRed-500);
-  --marpx-theme-h2-color: var(--blueViolet-200);
+  --marpx-theme-h2-color: var(--blueViolet-400);
+
 
   /* Specific elements */
   --marpx-theme-chapter-background-color: var(--blueViolet-600);
@@ -97,7 +98,7 @@
 
   --marpx-references-header-color: var(--blueViolet-100);
   --marpx-references-bold-color: var(--blue-400);
-  --marpx-references-background-color: var(--gray-100);
+  --marpx-references-background-color: var(--violet-100);
 }
 
 
