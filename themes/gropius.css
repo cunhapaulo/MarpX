@@ -102,17 +102,6 @@ section {
   line-height: 1.2em;
 }
 
-.box {
-  border: 2px solid #222;
-  border-radius: 6px;
-  /* opcional: cantos arredondados */
-  padding: 2px 8px;
-  /* espaço interno */
-  /* background: #fffbe7;   /* opcional: cor de fundo */
-  display: inline-block;
-  /* garante o retângulo ao redor da palavra */
-}
-
 section code {
   border: 2px solid #222;
   border-radius: 12px;
@@ -122,4 +111,47 @@ section code {
   /* color: #222222; */
   font-size: 1em;
   display: inline-block;
+}
+
+box {
+
+  border: 0px solid black;  /* cria a borda */
+  padding: 15px;              /* espaçamento interno */
+  margin: 15px auto;          /* espaçamento externo */
+  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;          /* cantos arredondados (opcional) */
+  background-color: #dff2fad0;
+  /* cor de fundo (opcional) */
+  text-align: center;
+  /* centraliza o conteúdo dentro da caixa */
+  box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
+}
+
+bbox {
+
+  border: 1px solid black;  /* cria a borda */
+  padding: 25px;              /* espaçamento interno */
+  margin: 50px auto;          /* espaçamento externo */
+  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;        /* cantos arredondados (opcional) */
+  background-color: #ffffff;/* cor de fundo (opcional) */
+  text-align: center;         /* centraliza o conteúdo dentro da caixa */
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.08);
+}
+
+.box {
+
+  border: 1px solid black;
+  /* cria a borda */
+  padding: 10px;
+  /* espaçamento interno */
+  /* margin: 50px auto;          espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 6px;
+  /* cantos arredondados (opcional) */
+  background-color: #f0f0f0;
+  /* cor de fundo (opcional) */
+  text-align: center;
+  /* centraliza o conteúdo dentro da caixa */
 }
