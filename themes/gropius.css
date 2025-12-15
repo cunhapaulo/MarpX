@@ -115,15 +115,13 @@ section code {
 
 box {
 
-  border: 0px solid black;  /* cria a borda */
-  padding: 15px;              /* espaçamento interno */
-  margin: 15px auto;          /* espaçamento externo */
-  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;          /* cantos arredondados (opcional) */
-  background-color: #dff2fad0;
-  /* cor de fundo (opcional) */
-  text-align: center;
-  /* centraliza o conteúdo dentro da caixa */
+  border: 0px solid black;      /* cria a borda */
+  padding: 15px;                  /* espaçamento interno */
+  margin: 15px auto;              /* espaçamento externo */
+  display: inline-block;          /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;            /* cantos arredondados (opcional) */
+  background-color: #cfebf7d0;  /* cor de fundo (opcional) */
+  text-align: center;             /* centraliza o conteúdo dentro da caixa */
   box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
 }
 
