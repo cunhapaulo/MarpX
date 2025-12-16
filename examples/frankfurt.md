@@ -104,11 +104,11 @@ theme: frankfurt
 
 - ## **"Vontades de segunda ordem"** são vontades que determinam vontades;
 
-- ## Contraposição às **vontades que determinam a ação**;
+- ## Contraposição às **vontades** que determinam a **ação**;
 
 ---
 
-# Vontade Livre Genuina
+# Vontade Livre **Genuína**
 
 <center>
 
@@ -134,19 +134,12 @@ $\Downarrow$
 
 ## É exigido também que os seus **desejos comuns** sejam eles mesmos **determinados** por **desejos de “segunda ordem”**: 
 
-</center>
+<br>
 
-#
 
-<center>
+`Desejos mais reflexivos` <br> <small>(vontade de segunda-ordem)</small> <br> $\Downarrow$
 
-`Desejos mais reflexivos`<br> <small>(vontade de segunda-ordem)</small>
-$\Downarrow$
-
-`Vontades ou Desejos`<br> <small>(vontade de primeira-ordem)</small>
-$\Downarrow$
-
-**Ações**
+`Vontades ou Desejos`<br> <small>(vontade de primeira-ordem)</small>  <br> $\Downarrow$  <br> **Ações**
 
 </center>
 
@@ -187,11 +180,11 @@ $\Downarrow$
 
 # Argumentação 01:
 
-* ### `(Premissa 1)` <br> **“Pessoa”** pode ter um **sentido** puramente **biológico**;
+* ### `Premissa 1:` **“Pessoa”** pode ter um **sentido** puramente **biológico**;
 
-*	### `(Premissa 2)` <br> Do ponto de  vista **filosófico**, a questão **“o que é Pessoa?”** não se resolve apenas pelos laços de espécie;
+*	### `Premissa 2:` Do ponto de  vista **filosófico**, a questão **“o que é Pessoa?”** não se resolve apenas pelos laços de espécie;
 
-*	### `(Premissa 3)` <br> Os critérios para definir **“Pessoa”**, em sentido filosófico, devem abordar **propriedades** e **capacidades** que consideramos **centrais** para nossas preocupações humanas profundas (valores morais, existência, dignidade etc.);
+*	### `Premissa 3:`  Os critérios para definir **“Pessoa”**, em sentido filosófico, devem abordar **propriedades** e **capacidades** que consideramos **centrais** para nossas preocupações humanas profundas (valores morais, existência, dignidade etc.);
 
 --- 
 

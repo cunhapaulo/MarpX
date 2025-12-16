@@ -206,7 +206,7 @@
   /* Lime */
   --lime-100: #d4ee9b;
 
-    /* Purple */
+  /* Purple */
   --purple-100: #b86bff;
   --purple-200: #8605ff;
 
@@ -256,6 +256,7 @@
   --marpx-theme-chapter-background-color: #9aade2;
   --marpx-theme-chapter-h1-font-color: #ffffff;
   --marpx-theme-chapter-h2-font-color: #ffffff;
+  
 
   /*-------------------< TITLE SLIDE >-----------------------------*/
 
@@ -425,7 +426,7 @@ h1 {
   top: 20px;
   position: absolute;
   color: var(--marpx-theme-h1-color);
-    font-size: var(--marpx-theme-h1-font-size);
+  font-size: var(--marpx-theme-h1-font-size);
   font-weight: 700;
   height: 130px;
 
@@ -477,7 +478,7 @@ h5>strong,
 h5>em,
 h6>strong,
 h6>em {
-  padding: 0.1em 0.22em;
+  padding: 0.01em 0.01em 0em 0.01em;
   color: var(--marpx-theme-h1-bold-color);
   font-weight: bold !important;
 
@@ -488,7 +489,12 @@ h6>em {
   /* ajuste conforme necessário */
   /* display: inline-block; */
   /* assegura que margin-right funcione previsivelmente */
+}
 
+h1>strong,
+h1>em {
+
+  margin-left: 0.125em;
 }
 
 li::marker {
@@ -653,7 +659,8 @@ section.title-bg>h1 {
   color: var(--marpx-title_academic-title-color);
   font-weight: 700;
 
-  /* display: flex; */ /* paulo.cunha */
+  /* display: flex; */
+  /* paulo.cunha */
   display: block;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1378,7 +1385,8 @@ section.quote {
 
 section.quote p {
   color: var(--marpx-quote-font-color);
-  /* background-color: var(--marpx-quote-paragraph-background-color); */ /* paulo.cunha */
+  /* background-color: var(--marpx-quote-paragraph-background-color); */
+  /* paulo.cunha */
   letter-spacing: -0.23pt;
   font-size: 1.4em !important;
   text-align: center;
@@ -1391,7 +1399,7 @@ section.quote p {
   padding-right: 100px;
 }
 
-section.quote strong{
+section.quote strong {
   font-style: italic;
   color: var(--marpx-quote-bold-color) !important;
 }
@@ -1600,7 +1608,8 @@ section.white-slide .figcaption::before {
   color: #2c3e50;
 }
 
-.notes ul, ol {
+.notes ul,
+ol {
   padding-left: 50px;
 }
 
@@ -1633,11 +1642,16 @@ section.white-slide .figcaption::before {
 
 box {
 
-  border: 0px solid black;  /* cria a borda */
-  padding: 15px;              /* espaçamento interno */
-  margin: 15px auto;          /* espaçamento externo */
-  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;          /* cantos arredondados (opcional) */
+  border: 0px solid black;
+  /* cria a borda */
+  padding: 15px;
+  /* espaçamento interno */
+  margin: 15px auto;
+  /* espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;
+  /* cantos arredondados (opcional) */
   background-color: #d3d3d3d0;
   /* cor de fundo (opcional) */
   text-align: center;
@@ -1647,13 +1661,20 @@ box {
 
 bbox {
 
-  border: 1px solid black;  /* cria a borda */
-  padding: 25px;              /* espaçamento interno */
-  margin: 50px auto;          /* espaçamento externo */
-  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;        /* cantos arredondados (opcional) */
-  background-color: #ffffff;/* cor de fundo (opcional) */
-  text-align: center;         /* centraliza o conteúdo dentro da caixa */
+  border: 1px solid black;
+  /* cria a borda */
+  padding: 25px;
+  /* espaçamento interno */
+  margin: 50px auto;
+  /* espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;
+  /* cantos arredondados (opcional) */
+  background-color: #ffffff;
+  /* cor de fundo (opcional) */
+  text-align: center;
+  /* centraliza o conteúdo dentro da caixa */
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.08);
 }
 

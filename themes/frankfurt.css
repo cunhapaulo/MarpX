@@ -24,14 +24,18 @@
     
     --marpx-theme-color: #3e6ceb;
     --marpx-theme-toc-color: #0aa5ff;
-    --marpx-theme-chapter-color: #5962b4;
+    --marpx-theme-chapter-background-color: #7171b9;
     --marpx-theme-background-color: #e9e9e9;
     --marpx-theme-bold-color: #0314aa;
 
     --marpx-theme-subtitle-color: #545e7c;
     --marpx-theme-h1-color: #02000a;
     --marpx-theme-h2-color: #30374d;
-    --marpx-theme-h1-bold-color: #1a70f1;
+
+    --marpx-theme-h1-bold-color: hsl(210, 66%, 41%);
+    --marpx-theme-h1-bold-color: #f15e1a;
+    --marpx-theme-h1-bold-color: #ad2424;
+
     --marpx-theme-footnote-mark-color: #ff0000;
     --marpx-theme-code-color: #ffff00;
     --marpx-theme-highlight-color: #ffff00;
@@ -74,8 +78,8 @@
 
 section {
     
-    line-height: 1.3em;
-    font-size: 24pt;
+    line-height: 1.1em;
+    font-size: 23pt;
 }
 
 .boxed {
@@ -87,9 +91,9 @@ section {
 }
 
 section code {
-  border: 2px solid #222;
-  border-radius: 12px;
-  padding: 2px 8px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  /* padding: 2px 8px; */
   /* background: initial; */
   background: #fffbe7;
   /* color: #222222; */
