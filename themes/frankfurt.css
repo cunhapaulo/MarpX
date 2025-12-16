@@ -24,10 +24,9 @@
     
     --marpx-theme-color: #3e6ceb;
     --marpx-theme-toc-color: #0aa5ff;
-    --marpx-theme-chapter-background-color: #f77a7a;
-    --marpx-theme-chapter-background-color: hsl(84, 2%, 50%);
-    --marpx-theme-background-color: #e9e9e9;
-    --marpx-theme-bold-color: #0314aa;
+    --marpx-theme-chapter-background-color: #ffbf00;
+    --marpx-theme-background-color: #f5f4ef;
+    --marpx-theme-bold-color: #2E45B8;
 
     --marpx-theme-subtitle-color: #545e7c;
     --marpx-theme-h1-color: #02000a;
@@ -90,11 +89,10 @@ section {
 }
 
 section code {
-  border: 1px solid #222;
+  border: 0.5px solid #222;
   border-radius: 8px;
-  /* padding: 2px 8px; */
-  /* background: initial; */
-  background: #fffbe7;
+  /* top, right, bottom, left,  */
+  padding: 1px 10px 8px 12px !important;
   /* color: #222222; */
   font-size: 1em;
   display: inline-block;
