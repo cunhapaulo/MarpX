@@ -67,7 +67,7 @@ paginate: true
 
 ---
 
-# Is Algebraic Graph Knowledge a **Possibility**?
+# Is **Algebraic Graph** Knowledge a Possibility?
 
 `Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
 
