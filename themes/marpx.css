@@ -1537,6 +1537,7 @@ section.references .multicolumn>div * {
 section.slide.black,
 section.black-slide {
   background-color: black !important;
+  color: white !important;
 }
 
 section.slide.black>h1,
