@@ -328,6 +328,8 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
+<!-- _class: -slide -->
+
 # _Ordered_ and _unordered_ lists
 
 <div class="multicolumn"><div>
