@@ -352,6 +352,11 @@ img[alt~="title-bg"] {
   z-index: -2;
 }
 
+li {
+  /* Espaço de 20 pixels entre cada item */
+  margin-bottom: 20px; 
+}
+
 section {
   /* Until aug.2025 it works only with Chrome */
   --page-number: attr(data-marpit-pagination);
@@ -413,7 +418,7 @@ footer {
 }
 
 footer::before {
-  content: "©️ ";
+  content: " ";
 }
 
 /* BRAND LOGO */
@@ -1132,7 +1137,7 @@ section.blank {
 }
 
 section.blank>h1 {
-  visibility: hidden;
+  visibility: visible; /* 19.dez.2025 */
 }
 
 section.blank>header,
@@ -1369,8 +1374,10 @@ tabcaption::before,
 
 section code:not(pre code) {
   font-family: inherit;
+  font-size: 0.95em;
   background-color: var(--marpx-theme-highlight-color);
   font-weight: bold;
+  /* color: white; */
   border-radius: 11px 11px 11px 11px;
 }
 
@@ -1494,8 +1501,8 @@ section.references {
 }
 
 section.references li {
-  margin-bottom: 0.7em !important;
   /* ajuste o valor conforme desejar */
+  margin-bottom: 0.7em !important;
 }
 
 section.references strong {
