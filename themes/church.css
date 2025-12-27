@@ -1,0 +1,192 @@
+/* @theme church */
+
+@import "marpx";
+
+:root {
+  /*------------< COLOR PALETTE >---------------------------------*/
+  --marpx-color-light-grey: #a6a6a6;
+  --marpx-color-dark-grey: #000000;
+
+  /*------------< CORE THEME PARAMETERS >---------------------------------*/
+  
+  /* General theme settings */
+  --marpx-theme-color: #31406b;
+  /* --marpx-theme-font-family: "Sentinel-Book", cursive, Faustina, Bookerly, Lora, sans-serif; */
+  --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
+  --marpx-theme-font-size: 24pt;
+  --marpx-theme-background-color: #ebebeb;
+
+  /* Text colors */
+  --marpx-theme-font-color: var(--blueViolet-500);
+  --marpx-theme-bold-color: var(--scarletRed-500);
+  --marpx-theme-marker-color: var(--scarletRed-600);
+
+  /* Headings */
+  --marpx-theme-h1-color: hsl(218, 100%, 19%);
+  --marpx-theme-h1-bold-color: var(--scarletRed-500);
+  --marpx-theme-h2-color: var(--blueViolet-400);
+
+
+  /* Specific elements */
+  --marpx-theme-chapter-background-color: var(--blueViolet-600);
+  --marpx-theme-chapter-background-color: orangered;
+  --marpx-theme-subtitle-color: #41434e;
+  --marpx-theme-code-color: #e9e9e9;
+  --marpx-theme-highlight-color: var(--yellow-300);
+
+  /* Captions and reference texts */
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
+  --marpx-theme-table-captiontext: "Table ";
+  --marpx-theme-table-captiontext-color: var(--blueViolet-100);
+
+  /* Navigation and reference elements */
+  --marpx-theme-toc-color: var(--blueViolet-400);
+  --marpx-theme-toc-background-color: #f6f6f6;
+  --marpx-theme-footnote-mark-color: #ff0000;
+
+  /* Branding */
+  --marpx-theme-brandlogo: " - Created with Marp e MarpX.";
+
+  /*------------< TITLE SLIDE PARAMETERS >-----------------------------*/
+
+  /* Font sizes */
+  --marpx-title_academic-title-size: 130%;
+  --marpx-title_academic-title-font-weight: bold;
+  --marpx-title_academic-subtitle-size: 90%;
+  --marpx-title_academic-author-size: 100%;
+  --marpx-title_academic-date-size: 95%;
+  --marpx-title_academic-institute-size: 85%;
+  --marpx-title_academic-letter-spacing: 0.075px;
+
+  /* Colors */
+  --marpx-title_academic-font-color: #242d31;
+  --marpx-title_academic-background-color: var(--gray-100);
+  --marpx-title_academic-title-color: var(--blue-400);
+  --marpx-title_academic-subtitle-color: #ababac;
+  --marpx-title_academic-author-color: var(--scarletRed-500);
+  --marpx-title_academic-border-color: var(--orange-500);
+
+  /*------------< TABLE COMPONENT PARAMETERS >---------------------------------*/
+
+  --marpx-table-font-size: 22px;
+  --marpx-table-font-family: ;
+  --marpx-table-header-background-color: #151d33;
+  --marpx-table-header-color-color: white;
+  --marpx-table-border-top-color: rgb(255, 73, 1);
+  --marpx-table-border-bottom-color: #cac9c5f8;
+  --marpx-table-nth-child-color-color: #f5f5f5;
+  --marpx-table-hover-color: var(--blueViolet-400);
+  --marpx-table-hover-background-color: var(--violet-100);
+
+  /*------------< QUOTE COMPONENT PARAMETERS >---------------------------------*/
+
+  /* Light quote variant */
+  --marpx-quote-font-family: Faustina, Bookerly, Times, serif;
+  --marpx-quote-background-color: white;
+  --marpx-quote-paragraph-background-color: white;
+  /* --marpx-quote-bold-color: var(--scarletRed-500); */
+
+  /* Dark quote variant */
+  --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
+  --marpx-quote_dark-font-color: var(--gray-200);
+  --marpx-quote_dark-color-background: var(--blue-500);
+  --marpx-quote_dark-color-paragraph-background: var(--blue-500);
+  --marpx-quote_dark-bold-color: var(--blue-100);
+
+  /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
+
+  --marpx-references-header-color: var(--blueViolet-100);
+  --marpx-references-bold-color: var(--blue-400);
+  --marpx-references-background-color: var(--violet-100);
+}
+
+
+section {
+  line-height: 1.07;
+}
+
+.box {
+  border: 2px solid #222;
+  border-radius: 6px;
+  /* opcional: cantos arredondados */
+  padding: 2px 8px;
+  /* espaço interno */
+  /* background: #fffbe7;   /* opcional: cor de fundo */
+  display: inline-block;
+  /* garante o retângulo ao redor da palavra */
+}
+
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  /* letter-spacing: -0.5pt */
+  letter-spacing: -0.0125em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: -0.4pt
+}
+
+blockquote {
+  font-family: "Source Sans Pro";
+  font-weight: normal;
+  font-size: 16pt;
+  line-height: 18pt;
+  margin-top: 16pt;
+  color: black;
+}
+
+blockquote strong {
+  color: navy;
+  font-weight: 900 !important;
+  font-family: bookerly;
+}
+
+blockquote em {
+  color: rgb(88, 112, 218) !important;
+  font-family: bookerly, Faustina, times;
+  font-weight: normal;
+}
+
+section code:not(pre code) {
+  /* color: #222222; */
+  border: 0px solid #0a0a00ff;
+  background: #ffd044ff !important;
+  /* background: initial; */
+  border-radius: 10px;
+  padding: 6px 10px;
+  /* font-size: 1em; */
+  display: inline-block;
+}
+
+box {
+
+  border: 1px solid black;  /* cria a borda */
+  padding: 10px;              /* espaçamento interno */
+  margin: 10px auto;          /* espaçamento externo */
+  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;          /* cantos arredondados (opcional) */
+  background-color: #fdfdfdd0;
+  /* cor de fundo (opcional) */
+  text-align: center;
+  /* centraliza o conteúdo dentro da caixa */
+  box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
+}
+
+bbox {
+
+  border: 0.5px solid black;  /* cria a borda */
+  padding: 10px;              /* espaçamento interno */
+  margin: 10px auto;          /* espaçamento externo */
+  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;          /* cantos arredondados (opcional) */
+  background-color: #cfeafad0;
+  /* cor de fundo (opcional) */
+  text-align: center;
+  /* centraliza o conteúdo dentro da caixa */
+  box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
+}

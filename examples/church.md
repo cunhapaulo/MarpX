@@ -8,7 +8,7 @@ header: Royal Society - London, 1687
 footer: "[Back to the TOC](#3)"
 
 marp: true
-theme: haskell
+theme: church
 transition: fade
 
 size: 16:9
@@ -19,11 +19,11 @@ paginate: true
 
 <!-- _class: title-academic -->
 
-![bg left:33% h:100% brightness:1.1 grayscale:1](./assets/images/thinkers/curry01.jpg)
+![bg left:33% h:100% brightness:1.1 grayscale:1](./assets/images/thinkers/church01.jpg)
 
-<div class="title"         > Combinatory Logic </div>
+<div class="title"         > Lambda Calculus </div>
 <div class="subtitle"      > Epistemic humility and the historical continuity</div>
-<div class="author"        > Haskell Brooks Curry</div>
+<div class="author"        > Alonzo Church </div>
 <div class="organization"  > Philosophiæ Naturalis Principia Mathematica (1687) </div>
 <div class="date"          > Royal Society - London </div>
 <div class="organization"  > Annus Mirabilis (1665–1666) </div>
