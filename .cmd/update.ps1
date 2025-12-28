@@ -103,7 +103,7 @@ try {
     $changes = git status --porcelain
     if (-Not [string]::IsNullOrWhiteSpace($changes)) {
         git add .
-        $timestamp = Get-Date -Format "dd.MMMyyyy - HH:mm:ss"
+        $timestamp = Get-Date -Format "dd.MMM.yyyy - HH:mm:ss"
         $commitMessage = "Update of HTML/CSS - date: $timestamp"
         git commit -m $commitMessage
         git push origin main
@@ -135,7 +135,7 @@ try {
     $changes = git status --porcelain
     if (-Not [string]::IsNullOrWhiteSpace($changes)) {
         git add .
-        $timestamp = Get-Date -Format "dd.MMMyyyy - HH:mm:ss"
+        $timestamp = Get-Date -Format "dd.MMM.yyyy - HH:mm:ss"
         $commitMessage = "Update of HTML/CSS - date: $timestamp"
         git commit -m $commitMessage
         git push origin main

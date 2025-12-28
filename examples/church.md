@@ -21,7 +21,7 @@ paginate: true
 
 ![bg left:33% h:100% brightness:1.1 grayscale:1](./assets/images/thinkers/church01.jpg)
 
-<div class="title"         > Lambda Calculus </div>
+<div class="title"         > Lambda Calculus and Functional Programming Languages</div>
 <div class="subtitle"      > Epistemic humility and the historical continuity</div>
 <div class="author"        > Alonzo Church </div>
 <div class="organization"  > Philosophiæ Naturalis Principia Mathematica (1687) </div>
