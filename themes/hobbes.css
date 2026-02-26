@@ -19,6 +19,8 @@
   --khaki-d200: #fad762;
   --khaki-d300: #fdca24;
   --khaki-d400: #ffab10;
+  --khaki-d450: hsl(35, 100%, 48%);
+
   --khaki-d500: #e9e3d1;
   --khaki-d600: #b8b8b8;
   --khaki-d700: #bbb7a9;
@@ -54,7 +56,7 @@
   --marpx-theme-marker-color: var(--color-marker);
   --marpx-theme-h1-font-size: 34pt;
   --marpx-theme-h1-color: var(--color-font-h1);
-  --marpx-theme-h1-bold-color: var(--khaki-d800);
+  --marpx-theme-h1-bold-color: var(--khaki-d450);
   --marpx-theme-h2-color: var(--blue-d500);
 
   /* SECONDARY GLOBAL PARAMETERS of THEME */
