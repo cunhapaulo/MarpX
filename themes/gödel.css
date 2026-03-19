@@ -32,7 +32,7 @@
   /* Captions and branding */
   --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-table-captiontext: "Table ";
-  --marpx-theme-brandlogo: " - [Back to top](#1)";
+  --marpx-theme-brandlogo: " ";
 
   /*------------< TABLE OF CONTENTS PARAMETERS >---------------------------------*/
   --marpx-theme-toc-color: #4562bb;
