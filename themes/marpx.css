@@ -248,9 +248,7 @@
   --marpx-theme-h1-color: var(--blueViolet-500);
   --marpx-theme-h1-bold-color: #ff3c00;
   --marpx-theme-h2-color: var(--blueViolet-300);
-  --marpx-theme-marker-color: color-mix(in srgb,
-      var(--marpx-theme-color),
-      white 25%);
+  --marpx-theme-marker-color: color-mix(in srgb, var(--marpx-theme-color), white 25%);
   --marpx-theme-font-color: #000000;
   --marpx-theme-background-color: #ffffff;
   --marpx-theme-bold-color: #f8150d;

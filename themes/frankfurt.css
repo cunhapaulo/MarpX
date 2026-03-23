@@ -24,7 +24,19 @@
     
     --marpx-theme-color: #3e6ceb;
     --marpx-theme-toc-color: #0aa5ff;
-    --marpx-theme-chapter-background-color: #ffbf00;
+  
+    /* --marpx-theme-chapter-background-color: #1e2022;
+    --marpx-theme-chapter-h1-font-color: #758cfa;
+    --marpx-theme-chapter-h2-font-color: #9bbaf5;
+   
+    --marpx-theme-chapter-background-color: #11212d;
+    --marpx-theme-chapter-h1-font-color: #7aadbe;
+    --marpx-theme-chapter-h2-font-color: #55818b; */
+   
+    --marpx-theme-chapter-background-color: #363e44;
+    --marpx-theme-chapter-h1-font-color: #a9cbd8;
+    --marpx-theme-chapter-h2-font-color: #819297;
+
     --marpx-theme-background-color: #f5f4ef;
     --marpx-theme-bold-color: #2E45B8;
 
