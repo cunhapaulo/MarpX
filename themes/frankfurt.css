@@ -34,7 +34,8 @@
     --marpx-theme-chapter-h2-font-color: #55818b; */
    
     --marpx-theme-chapter-background-color: hsl(215, 36%, 24%);
-    --marpx-theme-chapter-h1-font-color: #96a4e9;
+    --marpx-theme-chapter-background-color: hsl(215, 37%, 12%);
+    --marpx-theme-chapter-h1-font-color: #778bf0;
     --marpx-theme-chapter-h2-font-color: hsl(214, 5%, 73%);
 
     --marpx-theme-background-color: #f5f4ef;
