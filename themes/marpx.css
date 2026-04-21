@@ -881,7 +881,7 @@ section.chapter>h1 {
   position: absolute;
   top: 38px;
   color: var(--marpx-theme-chapter-h1-font-color);
-  font-size: 54pt;
+  font-size: 52pt;
   font-weight: 700;
   height: 47.5%;
 
@@ -907,7 +907,7 @@ section.chapter>h2 {
   position: absolute;
   top: 53.5%;
   color: var(--marpx-theme-chapter-h2-font-color);
-  font-size: 28pt;
+  font-size: 27pt;
   font-weight: 700;
 }
 
