@@ -13,12 +13,13 @@
   --marpx-theme-color: #31406b;
   /* --marpx-theme-font-family: "Sentinel-Book", cursive, Faustina, Bookerly, Lora, sans-serif; */
   --marpx-theme-font-family: Faustina, Bookerly, Lora, sans-serif;
-  --marpx-theme-font-size: 24pt;
+  --marpx-theme-font-size: 23pt;
   --marpx-theme-background-color: #ebebeb;
 
   /* Text colors */
   --marpx-theme-font-color: var(--blueViolet-500);
-  --marpx-theme-bold-color: var(--scarletRed-500);
+  /* --marpx-theme-bold-color: var(--scarletRed-500); */
+  --marpx-theme-bold-color: hsl(218, 89%, 39%);
   --marpx-theme-marker-color: var(--scarletRed-600);
 
   /* Headings */
@@ -28,8 +29,9 @@
 
 
   /* Specific elements */
-  --marpx-theme-chapter-background-color: var(--blueViolet-600);
-  --marpx-theme-chapter-background-color: orangered;
+  --marpx-theme-chapter-background-color: #ffb600;
+  --marpx-theme-chapter-h1-font-color: #000000;
+  --marpx-theme-chapter-h2-font-color: #000000;
   --marpx-theme-subtitle-color: #41434e;
   --marpx-theme-code-color: #e9e9e9;
   --marpx-theme-highlight-color: var(--yellow-300);
