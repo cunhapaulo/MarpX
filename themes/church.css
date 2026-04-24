@@ -129,15 +129,15 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing: -0.4pt;
   line-height: 1.16;
   margin-bottom: 28px;
 }
 
 h3 {
-  line-height: 1.05;
-  margin-bottom: 28px;
+  line-height: 1.02;
+  margin-bottom: 1.1em;
 }
 
 blockquote {
@@ -201,9 +201,18 @@ bbox {
 }
 
 ul li {
-  list-style-type: square;
+    list-style-type: square;
+    margin-bottom: 0.925em;
 } 
 
 ul ul li {
   list-style-type: circle;
+} 
+
+ol li {
+  margin-bottom: 1.0em !important;
+} 
+
+ol ol li {
+  list-style-type:lower-alpha
 } 
