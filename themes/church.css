@@ -131,11 +131,13 @@ h2 {
   font-size: 1.2em;
   font-weight: bold;
   letter-spacing: -0.4pt;
-  line-height: 1.15;
+  line-height: 1.16;
+  margin-bottom: 28px;
 }
 
 h3 {
-  line-height: 1.12;
+  line-height: 1.05;
+  margin-bottom: 28px;
 }
 
 blockquote {
@@ -205,4 +207,3 @@ ul li {
 ul ul li {
   list-style-type: circle;
 } 
-
