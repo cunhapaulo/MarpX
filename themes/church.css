@@ -123,14 +123,15 @@ h1 {
   font-family: "Fira Sans", sans-serif;
   font-size: 1.5em;
   font-weight: bold;
-  /* letter-spacing: -0.5pt */
-  letter-spacing: -0.0125em;
+  letter-spacing: -0.4pt;
+  line-height: 1.2;
 }
 
 h2 {
   font-size: 1.2em;
   font-weight: bold;
-  letter-spacing: -0.4pt
+  letter-spacing: -0.4pt;
+  line-height: 1.15;
 }
 
 blockquote {
@@ -192,3 +193,11 @@ bbox {
   /* centraliza o conteúdo dentro da caixa */
   box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
 }
+
+ul li {
+  list-style-type: square;
+} 
+
+ul ul li {
+  list-style-type: circle;
+} 
