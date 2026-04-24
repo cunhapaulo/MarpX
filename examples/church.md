@@ -945,9 +945,3 @@ h2>a{
 ## <!-- fit --> [Beginning](#1)
 
 </div>
-
----
-
-<!-- _class: none -->
-
-- ## Este é um texto em tipo h2 com mais de uma linha em tipo h2 com mais de uma linha em tipo h2 com mais de uma linha em tipo h2 com mais de uma linha em tipo h2 com mais de uma linha em tipo h2 com mais de uma linha em tipo h2 com mais de uma linha em tipo h2 com mais de uma linha
