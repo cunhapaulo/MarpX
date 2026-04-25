@@ -206,6 +206,10 @@ ul li {
 } 
 
 ul ul li {
+  list-style-type: disc;
+} 
+
+ul ul ul li {
   list-style-type: circle;
 } 
 
@@ -214,5 +218,9 @@ ol li {
 } 
 
 ol ol li {
-  list-style-type:lower-alpha
+  list-style-type:lower-alpha;
+} 
+
+ol ol ol li {
+  list-style-type:lower-roman;
 } 
