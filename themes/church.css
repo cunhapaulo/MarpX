@@ -210,13 +210,9 @@ ul ul li {
 } 
 
 ol li {
-  margin-bottom: 1.0em !important;
+  margin-bottom: 1.0em;
 } 
 
 ol ol li {
   list-style-type:lower-alpha
-} 
-
-ol ol ol li {
-  list-style-type:lower-roman
 } 
