@@ -31,7 +31,7 @@ paginate: true
 
 <!-- _class: title -->
 
-# **Absolute**- Only the Speed of Light!
+# **Absolute** - Only the Speed of Light!
 
 ## Modern Physics and the Space-Time Hypothesis
 
@@ -57,7 +57,7 @@ paginate: true
 
 <!-- _class: chapter -->
 
-![bg opacity:0.2](./assets/images/thinkers/einstein-haus-bern.jpg)
+![bg opacity:0.12](./assets/images/thinkers/einstein-haus-bern.jpg)
 
 # Transition Slide
 
@@ -113,7 +113,7 @@ When the neet to make strong assertions becomes inevitable:
 
 <!-- _class: chapter -->
 
-![bg opacity:0.2](./assets/images/thinkers/einstein02.webp)
+![bg opacity:0.12](./assets/images/thinkers/einstein02.webp)
 
 # Images
 
@@ -329,7 +329,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 ---
 
-# _Ordered_ and _unordered_ lists
+# Ordered and unordered lists
 
 <div class="multicolumn"><div>
 
@@ -459,7 +459,7 @@ $$
 
 # Electromagnetic Field (Differential form)
 
-Below, in modern vector notation, in _differential form_, are Maxwell's four equations governing the `electromagnetic field`.
+Below, in modern vector notation, in _differential form_, are **Maxwell's** four equations governing the **electromagnetic field**.
 
 $$
 \begin{align}
@@ -479,7 +479,7 @@ $$
 
 # Electromagnetic Field (Integral form)
 
-Below, in modern vector notation, in _integral form_, are Maxwell's four equations governing the electromagnetic field.
+Below, in modern vector notation, in integral form, are **Maxwell's** four equations governing the **electromagnetic field**.
 
 $$
 \begin{align}

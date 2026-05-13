@@ -1175,7 +1175,7 @@ div.callout {
   overflow: hidden;
   border-style: solid;
   border-width: 1.25px;
-  border-radius: 8px;
+  border-radius: 10px;
   margin: 12px 0;
   /* top+bottom right+left */
   padding: 1px 8px 8px 16px;
@@ -1183,11 +1183,11 @@ div.callout {
 }
 
 div.callout>h1 {
-  position: relative;
+  position: static; /* Paulo Cunha - modified in 13.05.2026 */
   font-size: 18pt;
   font-weight: 700;
-  padding: 0px 0px 8pt 0px;
-  margin-top: 0px;
+  padding: 0px 0px 10pt 0px;
+  margin-top: 10px;
   margin-bottom: 12px;
   justify-content: flex-start;
   height: unset;
