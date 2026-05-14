@@ -68,10 +68,13 @@
 
 
 
-  /* CHAPTER */
-  --marpx-theme-chapter-background-color: var(--blue-d300);
-  --marpx-theme-chapter-h1-font-color: var(--khaki-d500);
-  --marpx-theme-chapter-h2-font-color: var(--khaki-d500);
+  /*-------------------< CHAPTER SLIDE >-----------------------------*/
+
+  --marpx-theme-chapter-background-color: hsl(224, 65%, 75%);
+  --marpx-theme-chapter-h1-font-color: #ffffff;
+  --marpx-theme-chapter-h2-font-color: #ffffff;
+  --marpx-theme-chapter-font-family: "Fira Sans", Faustina, Bookerly, sans-serif;
+  --marpx-theme-chapter-bar-color: #ffffff;
 
   /* TITLE ACADEMIC */
   --marpx-title_academic-title-size: 125%;

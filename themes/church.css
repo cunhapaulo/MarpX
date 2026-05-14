@@ -199,29 +199,3 @@ bbox {
   /* centraliza o conteúdo dentro da caixa */
   box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
 }
-
-ul li {
-    list-style-type: square;
-    margin-bottom: 0.925em;
-} 
-
-ul ul li {
-  list-style-type: disc;
-} 
-
-ul ul ul li {
-  list-style-type: circle;
-} 
-
-ol li {
-  margin-bottom: 1.0em;
-  letter-spacing: -0.02em;
-} 
-
-ol ol li {
-  list-style-type:lower-alpha;
-} 
-
-ol ol ol li {
-  list-style-type:lower-roman;
-} 

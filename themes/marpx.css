@@ -27,7 +27,7 @@
 *    marpx.css - MarpX base-theme configuration ORIGINAL
 *    Paulo Cunha (cunha.paulo@gmail.com)
 *    Created: jul.2025
-*    Last update: 12.jan.2026
+*    Last update: 14.mai.2026
 *
 * ================================================================================ */
 
@@ -262,8 +262,10 @@
   /*-------------------< CHAPTER SLIDE >-----------------------------*/
 
   --marpx-theme-chapter-background-color: hsl(224, 65%, 75%);
+  --marpx-theme-chapter-font-family: "Fira Sans Condensed", Faustina, Bookerly, Lora, sans-serif;
   --marpx-theme-chapter-h1-font-color: #ffffff;
   --marpx-theme-chapter-h2-font-color: #ffffff;
+  --marpx-theme-chapter-bar-color: #ffffff;
   
 
   /*-------------------< TITLE SLIDE >-----------------------------*/
@@ -833,6 +835,7 @@ section.chapter {
   padding-left: 80px;
   background-image: none;
   background-color: var(--marpx-theme-chapter-background-color);
+  font-family: var(--marpx-theme-chapter-font-family);
 }
 
 /* 
@@ -860,11 +863,6 @@ section.chapter-alt>h1 {
   align-items: flex-end;
 }
 
-/* 
-!================================================================================
-?-----------------------< CHAPTER AND SECTION >----------------------- 
-!================================================================================
-*/
 /* Autor, Akad. Grad */
 section.chapter-alt>header,
 section.chapter>header {
@@ -876,15 +874,19 @@ section.chapter-alt>footer,
 section.chapter>footer {
   opacity: 0;
 }
+/* 
+!================================================================================
+?-----------------------< CHAPTER AND SECTION >----------------------- 
+!================================================================================
+*/
 
 section.chapter>h1 {
-  position: absolute;
-  top: 38px;
   color: var(--marpx-theme-chapter-h1-font-color);
-  font-size: 52pt;
+  font-size: 44pt;
   font-weight: 700;
+  top: 37px;
   height: 47.5%;
-
+  position: absolute;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -892,23 +894,23 @@ section.chapter>h1 {
 
 section.chapter-alt>h1::after,
 section.chapter>h1::after {
-  background: none repeat scroll 0 0 white;
-  bottom: 10px;
-  left: -50px;
+  background: none repeat scroll 0 0 var(--marpx-theme-chapter-bar-color);
+  bottom: 5px;
+  left: -80px;
   content: "";
   display: block;
   position: absolute;
   height: 8px;
-  width: 200px;
+  width: 300px;
 }
 
 section.chapter-alt>h2,
 section.chapter>h2 {
   position: absolute;
-  top: 53.5%;
+  top: 53.75%;
   color: var(--marpx-theme-chapter-h2-font-color);
-  font-size: 27pt;
-  font-weight: 700;
+  font-size: 24pt;
+  font-weight: 500;
 }
 
 section.chapter-alt::after,
@@ -1732,3 +1734,28 @@ bbox {
   text-align: center;
   /* centraliza o conteúdo dentro da caixa */
 }
+
+ul li {
+    list-style-type: square;
+    margin-bottom: 0.85em;
+} 
+
+ul ul li {
+  list-style-type: disc;
+} 
+
+ul ul ul li {
+  list-style-type: circle;
+} 
+
+ol li {
+  margin-bottom: 0.85em;
+} 
+
+ol ol li {
+  list-style-type:lower-alpha;
+} 
+
+ol ol ol li {
+  list-style-type:lower-roman;
+} 

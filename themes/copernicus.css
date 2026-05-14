@@ -2,53 +2,59 @@
 
 @import "marpx";
 
+
 :root {
   /*------------ Overall theme parameters ---------------------------------*/
 
-  --marpx-theme-font-family: "Fira Sans", Faustina, Bookerly, sans-serif;
-  --marpx-theme-figure-captiontext: "Fig. ";
-  --marpx-theme-table-captiontext: "Table ";
-  --marpx-theme-brandlogo: " ";
-  --marpx-theme-marker-color: orangered;
-  --marpx-theme-color: #002b36;
-  --marpx-theme-chapter-background-color: #e6b737;
+  --marpx-theme-brandlogo:                 " ";
+  --marpx-theme-chapter-background-color: #fac01f;
+  --marpx-theme-chapter-h1-font-color:    #021d24;
+  --marpx-theme-chapter-h2-font-color:    #021d24;
+  --marpx-theme-color:                    #360200;
+  --marpx-theme-figure-captiontext:       "Fig. ";
+  --marpx-theme-figure-captiontext-color: #455b8a;
+  --marpx-theme-font-family:              "Fira Sans", Faustina, Bookerly, sans-serif;
+  --marpx-theme-marker-color:             #f16762;
+  --marpx-theme-table-captiontext:        "Table ";
+  --marpx-theme-chapter-h2-font-color:    #19441b;
+  --marpx-theme-h1-color:	                #3d4e9c;
+  --marpx-theme-h2-color:	                #465070;
+
+
   /* --marpx-theme-toc-color: #5b688b; */
-
-  --marpx-theme-background-color: #cad1e4;
-
-  --marpx-theme-bold-color: #ec2300;
-  --marpx-theme-font-color: #3b4963;
-
-  --marpx-theme-subtitle-color: #5d616d;
-  --marpx-theme-h1-bold-color: #e96363;
-
-  --marpx-theme-code-color: rgb(233, 233, 233);
-  --marpx-theme-highlight-color: #b9e4f1;
-
-  --marpx-theme-footnote-mark-color: #ff0000;
+  --marpx-theme-background-color:       #bbc7e7;
+  --marpx-theme-bold-color:             #6462f1;
+  --marpx-theme-bold-color:             #1a3952;
+  --marpx-theme-code-color:             rgb(233, 233, 233);
+  --marpx-theme-font-color:             #444a55;
+  --marpx-theme-footnote-mark-color:    #ff0000;
+  --marpx-theme-h1-bold-color:          #e96363;
+  --marpx-theme-highlight-color:        #b9e4f1;
+  --marpx-theme-subtitle-color:         #5d616d;
 
   /* ------------------- TITLE SLIDE -----------------------------*/
 
   /* fonts sizes */
-  --marpx-title_academic-title-size: 145%;
-  --marpx-title_academic-subtitle-size: 95%;
-  --marpx-title_academic-author-size: 110%;
-  --marpx-title_academic-date-size: 95%;
-  --marpx-title_academic-institute-size: 85%;
+  --marpx-title_academic-author-size:     110%;
+  --marpx-title_academic-date-size:       95%;
+  --marpx-title_academic-institute-size:  85%;
+  --marpx-title_academic-subtitle-size:   95%;
+  --marpx-title_academic-title-size:      145%;
 
   /* inter character space */
   --marpx-title_academic-letter-spacing: 0.075px;
 
   /* font weights */
+  --marpx-title_academic-subtitle-font-weight: 400;
   --marpx-title_academic-title-font-weight: bold;
-  --marpx-title_academic-subtitle-font-weight: 600;
+
   /* colors in style */
-  --marpx-title_academic-title-color: #002b36;
-  --marpx-title_academic-subtitle-color: #dcdee0;
-  --marpx-title_academic-author-color: #002b36;
-  --marpx-title_academic-font-color: #242d31;
-  --marpx-title_academic-background-color: #7790c7;
-  --marpx-title_academic-border-color: #aacce2;
+  --marpx-title_academic-title-color:     #002b36;
+  --marpx-title_academic-subtitle-color:  #dcdee0;
+  --marpx-title_academic-author-color:    #002b36;
+  --marpx-title_academic-font-color:      #242d31;
+  --marpx-title_academic-background-color:#7790c7;
+  --marpx-title_academic-border-color:    #aacce2;
 
   /*------------ Parameters used in `REFERENCES` ---------------------------------*/
 
@@ -93,6 +99,7 @@
 
 section {
   line-height: 1.153em;
+  letter-spacing: -1.1px;
 }
 
 .box {
@@ -103,13 +110,14 @@ section {
   display: inline-block; /* garante o retângulo ao redor da palavra */
 }
 
-section code {
-  border: 2px solid #222;
-  border-radius: 12px;
-  padding: 2px 8px;
-  /* background: initial; */
-  background: #fffbe7;
-  /* color: #222222; */
-  font-size: 1em;
+section code:not(pre code) {
+
+  background: #7790c759 !important;
+  border-radius: 6px !important;
+  border: 0x solid #222;
+  color: #1a3952;
   display: inline-block;
+  font-size: 1em;
+  font-weight: 600 !important;
+  padding: 1px 8px;
 }

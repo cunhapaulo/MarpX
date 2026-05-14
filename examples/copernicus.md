@@ -21,7 +21,7 @@ paginate: true
 <!-- _class: title-academic -->
 <!-- _backgroundColor: white  -->
 
-![bg left:33%](./assets/images/thinkers/copernicus.jpg)
+![bg left:33%](./assets/images/thinkers/copernicus2.jpg)
 
 <div class="title"         > De revolutionibus orbium coelestium </div>
 <div class="subtitle"      > On the Revolutions of the Heavenly Spheres </div>
@@ -33,9 +33,8 @@ paginate: true
 
 <!-- _class: title -->
 
-# Western Philosophy from Athens
-
-## From the problems of nature to the knowledge of being
+# De revolutionibus orbium coelestium
+## On the Revolutions of the Heavenly Spheres
 
 ---
 
@@ -59,21 +58,20 @@ paginate: true
 
 <!-- _class: chapter -->
 
-# Transition Slide
-
-## Aditional Text about what´s ahead
+# Opening Description of a Chapter
+## Some text about what´s ahead...
 
 ---
 
 # Is Algebraic Graph Knowledge a **Possibility**?
 
-`Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
+Research has been conducted in order to evaluate the possibility of reaching `meaningful` knowledge from Algebraic Graph transformations.
 
 - Model Cheking and theorem prooving are viable paths.
 
-When the neet to make strong assertions becomes inevitable:
+- This is the first way: **outstanding assertion**!
+- Even greater impact comes from: `hilight text`!
 
-- This is the first way: outstanding assertion!
 
 <footnote>
 * Note: This is a very long footnote line intended to test the layout of two.
@@ -87,15 +85,10 @@ When the neet to make strong assertions becomes inevitable:
 <div>
 
 # H1 - H1 level of header
-
 ## H2 - H2 level of header
-
 ### H3 - H3 level of header
-
 #### H4 - H4 level of header
-
 ##### H5 - H5 level of header
-
 ###### H6 - H6 level of header
 
 </div><div>
@@ -289,7 +282,8 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 <div class=multicolumn vcenter><div align=center>
 
-![h:380px](https://i.pinimg.com/736x/93/74/88/9374889616698d45adf1e911788665a4.jpg)
+![h:390 center](./assets/images/animations/sphere.gif)
+
 
 <figcaption> Static picture.
 
