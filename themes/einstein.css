@@ -82,20 +82,25 @@
   --marpx-title_academic-title-size: 140%;
   --marpx-title_academic-title-font-weight: 600;
   --marpx-title_academic-subtitle-size: 95%;
-  --marpx-title_academic-author-size: 110%;
+  --marpx-title_academic-author-size: 105%;
   --marpx-title_academic-date-size: 95%;
   --marpx-title_academic-institute-size: 85%;
-  --marpx-title_academic-letter-spacing: 0.05px;
+  --marpx-title_academic-letter-spacing: -0.03px;
 
   /* Colors */
-  /* --marpx-title_academic-font-color: #82bbd3; */
-  --marpx-title_academic-background-color: hsl(240, 29%, 8%);
-  --marpx-title_academic-background-color: hsl(240, 10%, 10%);
-  --marpx-title_academic-border-color: #694ffd;
 
+  /* --marpx-title_academic-border-color: #694ffd;
   --marpx-title_academic-title-color: hsl(240, 100%, 81%);
+  --marpx-title_academic-author-color: #79b6d4; */
+
+
+  --marpx-title_academic-border-color: #4e482e;
+  --marpx-title_academic-title-color: #f8793f;
+  --marpx-title_academic-author-color: #f3af81;
+
+  /* --marpx-title_academic-font-color: #82bbd3; */
+  --marpx-title_academic-background-color: hsl(240, 10%, 10%);
   --marpx-title_academic-subtitle-color: var(--marpx-theme-font-color);
-  --marpx-title_academic-author-color: hsl(24, 83%, 73%);
   --marpx-title_academic-date-color: var(--marpx-theme-font-color);
   --marpx-title_academic-organization-color: var(--marpx-theme-font-color);
 

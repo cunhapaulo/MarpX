@@ -87,15 +87,10 @@ When the neet to make strong assertions becomes inevitable:
 <div>
 
 # H1 - H1 level of header
-
 ## H2 - H2 level of header
-
 ### H3 - H3 level of header
-
 #### H4 - H4 level of header
-
 ##### H5 - H5 level of header
-
 ###### H6 - H6 level of header
 
 </div><div>
@@ -103,7 +98,6 @@ When the neet to make strong assertions becomes inevitable:
 - This is a fragment o normal text written here in order to exemplify the use of several features in CSS.
 
 - This is a fragment o normal text written here in order to exemplify the use of several features in CSS.
-
   - This is one **bold** comment.
   - This is another _italic_ comment.
 
@@ -177,10 +171,9 @@ Das Buch trug ursprünglich den Titel **"Phänomenologie des Geistes"** von sein
 
 ---
 
-# Image and text on the same slide (2)
-
 <div class="multicolumn vcenter"><div>
 
+# Image and text on the same slide (2)
 ## Kant, Leibniz & Newton
 
 Philosophy and the sciences were closely linked in the age of Leibniz, Newton, and Kant.
