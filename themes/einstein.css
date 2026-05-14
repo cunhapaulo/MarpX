@@ -44,13 +44,16 @@
   /* --marpx-theme-h1-color: #f3cf30; */
   --marpx-theme-h1-color: #fd9550;
   --marpx-theme-h1-bold-color: #fc9a58;
-  --marpx-theme-h1-bold-color: rgb(255, 94, 0);
+  --marpx-theme-h1-bold-color: hsl(22, 100%, 50%);
   --marpx-theme-h2-color: var(--orange-300);
 
   /* Specific elements */
-  --marpx-theme-chapter-background-color: var(--orange-300);
+  /* --marpx-theme-chapter-background-color: #ff640a; */
+  /* --marpx-theme-chapter-background-color: #ff8d0a; */
+  /* --marpx-theme-chapter-background-color: #ff9d0a; */
+  --marpx-theme-chapter-background-color: #f29e00;
   --marpx-theme-chapter-h1-font-color: #000000;
-  --marpx-theme-chapter-h2-font-color: #f1f1f1;
+  --marpx-theme-chapter-h2-font-color: #fff5d2;
   --marpx-theme-subtitle-color: #41434e;
   --marpx-theme-code-color: #f80d0d;
   --marpx-theme-highlight-color: var(--scarletRed-400);
@@ -68,7 +71,7 @@
   --marpx-theme-toc-color: hsl(249, 98%, 65%);
   --marpx-theme-toc-background-color: #02010a;
   --marpx-theme-toc-background-color: #fceed5;
-  --marpx-theme-footnote-mark-color: #ff0000;
+  --marpx-theme-footnote-mark-color: #f3e4c9;
 
   /* Branding */
   --marpx-theme-brandlogo: " ";
@@ -273,11 +276,10 @@ ul li {
   color: rgb(245, 232, 196) !important;
 }
 
-ul li h3,
-h2 {
+ul li h3, h2 {
   margin-bottom: 1.5em;
   line-height: 110%;
-  color: rgb(245, 232, 196) !important;
+  color: rgb(245, 232, 196); 
 }
 
 ul ul li {

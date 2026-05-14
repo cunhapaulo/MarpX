@@ -281,7 +281,7 @@ This addresses the transformations of metaphysics as a discipline, the emergence
 
 # Animations
 
-## Usually works in html only...
+## Works in HTML only...
 
 ---
 
