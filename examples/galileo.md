@@ -76,9 +76,6 @@ math: mathjax
 
 ---
 
-
-
-
 # Is Algebraic Graph Knowledge a **Possibility**?
 
 `Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
@@ -127,11 +124,21 @@ When the neet to make strong assertions becomes inevitable:
 
 <!-- _class: white-slide -->
 
-# One image slide
+<div class="multicolumn" align="center"><div>
+
+# Image slide
+
+![h:400 center](./assets/images/math/puebk2.png)
+
+<figcaption>Object defined in terms of spherical coordinates.</figcaption>
+
+</div><div>
 
 ![h:400 center](./assets/images/math/puebk.png)
 
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
+
+</div></div>
 
 ---
 

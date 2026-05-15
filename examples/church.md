@@ -32,8 +32,11 @@ paginate: true
 
 <style scoped>
 
+  h1 {
+    color: #28384d;
+  }
   h2 { 
-    font-size: 24pt;
+    font-size: 20pt;
     font-weight: 100;
   }
 
@@ -654,26 +657,26 @@ plt.show()
 
 ---
 
-<!-- _class: white-slide -->
-
 # Callouts
 
 <div class="multicolumn">
 
-  <div class="callout info">
+<div class="callout warning">
 
-# Info
+# Achtungn <br> Elektrische Gefahr!
 
-Text for information with <br> **Markdown** formatting.
+Hochspannung Lebensgefahr <br>
+Nicht durch die Wand bohren!
 
-  </div>
+</div>
 
 ```md
-<div class="callout">
+<div class="callout warning">
 
-# Info
+# Achtungn <br> Elektrische Gefahr!
 
-Text for information with <br> **Markdown** formatting.
+Hochspannung Lebensgefahr <br>
+Nicht durch die Wand bohren!
 
 </div>
 ```
@@ -704,7 +707,6 @@ Another text with <br> **Markdown** formatting.
 
 ---
 
-<!-- _class: white-slide -->
 
 # Callouts types
 

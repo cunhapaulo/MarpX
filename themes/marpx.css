@@ -1181,12 +1181,13 @@ section.nobrand::after {
 div.callout {
   overflow: hidden;
   border-style: solid;
-  border-width: 1.25px;
-  border-radius: 10px;
+  border-width: 6.25px;
+  border-radius: 15px;
   margin: 12px 0;
   /* top+bottom right+left */
   padding: 1px 8px 8px 16px;
   mix-blend-mode: normal;
+  font-size: 18pt;
 }
 
 div.callout>h1 {
@@ -1231,15 +1232,6 @@ div.callout,
 div.callout.info {
   background-color: #e9f2fc;
   border-color: #82a8d1;
-}
-
-div.callout.warning>h1 {
-  color: #e67300;
-}
-
-div.callout.warning {
-  background-color: #fff2e6;
-  border-color: #c99e73;
 }
 
 div.callout.note>h1 {
@@ -1296,34 +1288,46 @@ div.callout.question {
   border-color: #ccb875;
 }
 
+
+div.callout.warning>h1 {
+  color: #000000;
+}
+
+div.callout.warning {
+  background-color: #ffd200;
+  border-color: #000000;
+}
+
+
 div.callout.failure>h1 {
-  color: #ff001e;
+  color: #fc1010;
 }
 
 div.callout.failure {
-  background-color: #fde8ea;
-  border-color: #b14d4d;
+  background-color: #ffd200;
+  border-color: #fc1010;
+  color: #fc1010;
 }
 
 div.callout.danger>h1,
 div.callout.danger strong {
-  color: #ffd000;
+  color: #ffffff;
 }
 
 div.callout.danger {
-  background-color: #bd3540;
-  border-color: #b80202;
+  background-color: #fc1010 ;
+  border-color: #000000;
   color: #ffffff;
 }
 
 div.callout.bug>h1 {
-  color: #ff9100;
+  color: #030303;
 }
 
 div.callout.bug {
   color: #030303;
-  background-color: #f8fa91;
-  border-color: #c09e05;
+  background-color: #FFFFFF;
+  border-color: #fc1010;
 }
 
 div.callout.example>h1 {
