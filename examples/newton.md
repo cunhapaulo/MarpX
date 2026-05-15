@@ -21,7 +21,7 @@ paginate: true
 
 ![bg left:33% h:123% brightness:1.1 grayscale:1](./assets/images/thinkers/newton01.webp)
 
-<div class="title"         > If I have seen further it is by standing on the shoulders of Giants </div>
+<div class="title"         > If I have seen further it is by standing on the shoulders of Giants</div>
 <div class="subtitle"      > Epistemic humility and the historical continuity</div>
 <div class="author"        > Sir Isaac Newton </div>
 <div class="organization"  > Philosophiæ Naturalis Principia Mathematica (1687) </div>
@@ -61,8 +61,7 @@ paginate: true
 
 <!-- _class: chapter -->
 
-# Transition Slide
-
+# This is a Transition Slide
 ## Aditional Text about what´s ahead
 
 ---

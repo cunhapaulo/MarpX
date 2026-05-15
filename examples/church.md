@@ -4,7 +4,7 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Newton, Paulo Cunha]
 
-header: Royal Society - London, 1687
+header: Princeton University, 1936.
 footer: "[Back to the TOC](#3)"
 
 marp: true
@@ -19,24 +19,33 @@ paginate: true
 
 <!-- _class: title-academic -->
 
-![bg left:33% h:100% brightness:1.1 grayscale:1](./assets/images/thinkers/church01.jpg)
+![bg left:33% h:100% brightness:1.05 grayscale:1](./assets/images/thinkers/church01.jpg)
 
 <div class="title"         > Lambda Calculus and Functional Programming Languages</div>
-<div class="subtitle"      > Epistemic humility and the historical continuity</div>
+<div class="subtitle"      > An Unsolvable Problem of Elementary Number Theory</div>
 <div class="author"        > Alonzo Church </div>
-<div class="organization"  > Philosophiæ Naturalis Principia Mathematica (1687) </div>
-<div class="date"          > Royal Society - London </div>
-<div class="organization"  > Annus Mirabilis (1665–1666) </div>
+<div class="organization"  > The Calculi of Lambda-Conversion (1941) </div>
+<div class="date"          >  American Journal of Mathematics </div>
+<div class="organization"  > Princeton University </div>
 
 ---
 
+<style scoped>
+
+  h2 { 
+    font-size: 24pt;
+    font-weight: 100;
+  }
+
+</style>
+
 <!-- _class: title -->
 
-![bg w:180% opacity:0.18](./assets/images/thinkers/newton02.webp)
+![bg w:110% opacity:.12 invert grayscale](./assets/images/math/functional-code.webp)
 
-# If I have seen further it is by standing on the shoulders of Giants
+# "Never had any mathematical conversations with **anybody**, because there was **nobody** <br> else in my field."
 
-## Epistemic humility and the historical continuity
+## Church laid the foundations of theoretical computer science even before the field existed.
 
 ---
 
@@ -59,6 +68,8 @@ paginate: true
 ---
 
 <!-- _class: chapter -->
+
+![bg w:110% opacity:0.05](./assets/images/math/lambda.png)
 
 # Transition Slide
 
@@ -103,7 +114,6 @@ When the neet to make strong assertions becomes inevitable:
 - This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
 
 - This is a fragment o normal text written here in order to exemplify the use of several featrues in CSS.
-
   - This is one **bold** comment.
   - This is another _italic_ comment.
 
@@ -121,7 +131,7 @@ When the neet to make strong assertions becomes inevitable:
 
 # One image slide
 
-![h:400 center](./assets/images/math/puebk.png)
+![h:400 center](./assets/images/math/puebk2.png)
 
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 

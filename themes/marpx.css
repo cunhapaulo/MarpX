@@ -444,13 +444,9 @@ h1 {
   font-size: var(--marpx-theme-h1-font-size);
   font-weight: 700;
   height: 120px;
-
   /* border-bottom: 1px solid #fd0d0d; */
-
   /* Inhibited due to the form of italic and bold text linking - 19.dez.2025 */
   /* display: flex;  */
-
-
   justify-content: flex-end;
   align-items: center;
 }
@@ -742,11 +738,9 @@ section.title-academic {
 
 section.title-academic .title,
 section.title-academic>h1 {
-  width: 95%;
+  width: 100%;
   padding-bottom: 15px !important;
-  /* distance from the title to the underline below it */
-
-  line-height: 1.05 !important;
+  line-height: 1.1em !important;
   font-size: var(--marpx-title_academic-title-size);
   letter-spacing: var(--marpx-title_academic-letter-spacing);
   font-weight: var(--marpx-title_academic-title-font-weight);
@@ -881,15 +875,25 @@ section.chapter>footer {
 */
 
 section.chapter>h1 {
+  align-items: flex-end;
   color: var(--marpx-theme-chapter-h1-font-color);
+  display: flex;
   font-size: 44pt;
   font-weight: 700;
-  top: 37px;
   height: 47.5%;
-  position: absolute;
-  display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  position: absolute;
+  top: 37px;
+}
+
+/* Ensure strong/em inside chapter titles preserve spacing */
+section.chapter>h1 strong,
+section.chapter>h1 em,
+section.chapter-alt>h1 strong,
+section.chapter-alt>h1 em {
+  display: inline-block;
+  margin-right: 0.125em;
+  margin-left: 0.125em;
 }
 
 section.chapter-alt>h1::after,
@@ -906,11 +910,12 @@ section.chapter>h1::after {
 
 section.chapter-alt>h2,
 section.chapter>h2 {
-  position: absolute;
-  top: 53.75%;
   color: var(--marpx-theme-chapter-h2-font-color);
   font-size: 24pt;
   font-weight: 500;
+  letter-spacing: -0.15px;
+  position: absolute;
+  top: 53.75%;
 }
 
 section.chapter-alt::after,
