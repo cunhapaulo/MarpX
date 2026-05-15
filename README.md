@@ -92,6 +92,8 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | [![Style Einstein](./examples/front-slide/einstein.png)](https://cunhapaulo.github.io/marpx/examples/einstein.html)       |
 | <h3> **Gropius** - In honor of Walter Gropius (1883-1969) </h3>                                                           |
 | [![Style Gropius](./examples/front-slide/gropius.png)](https://cunhapaulo.github.io/marpx/examples/gropius.html)          |
+| <h3> **Church** - In honor of Alonzo Church (1903-1995) </h3>                                                             |
+| [![Style Church](./examples/front-slide/church.png)](https://cunhapaulo.github.io/marpx/examples/church.html)             |
 | <h3> **Gödel** - In honor of Kurt Gödel (1906-1978) </h3>                                                                 |
 | [![Style Gödel](./examples/front-slide/gödel.png)](https://cunhapaulo.github.io/marpx/examples/gödel.html)                |
 
