@@ -317,7 +317,7 @@ Another way:
 
 # One image slide
 
-![h:400 center](./assets/images/math/puebk.png)
+![h:400 center](./assets/images/math/puebk2.png)
 
 <figcaption>Object defined in terms of spherical coordinates.</figcaption>
 
@@ -606,42 +606,41 @@ designs for hardware and software systems."
 
 <div class="multicolumn">
 
-  <div class="callout info">
+  <div class="callout bug">
 
 # Info
 
-Text for information with <br> **Markdown** formatting.
+Text for information with <br> Markdown formatting.
 
   </div>
 
 ```md
-<div class="callout">
+<div class="callout bug">
 
 # Info
 
-Text for information with <br> **Markdown** formatting.
+Text for information with <br> Markdown formatting.
 
 </div>
 ```
-
-  </div>
+</div>
 
 <div class="multicolumn">
 
-  <div class="callout danger">
+  <div class="callout warning">
 
 # Danger
 
-Another text with <br> **Markdown** formatting.
+Another text with <br> Markdown formatting.
 
   </div>
 
 ```md
-<div class="callout danger">
+<div class="callout warning">
 
 # Danger
 
-Another text with <br> **Markdown** formatting.
+Another text with <br> Markdown formatting.
 
 </div>
 ```
