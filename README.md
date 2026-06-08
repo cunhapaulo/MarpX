@@ -42,7 +42,7 @@ math: mathjax
 | [Black or White Slides](https://cunhapaulo.github.io/marpx/examples/howto.html#35) | `<!-- _class: "black-slide" -->` or `<!-- _class: "white-slide" -->` |
 | [Callouts](https://cunhapaulo.github.io/marpx/examples/howto.html#31)              | `<div class="callout"></div>`                                        |
 | [Containers](https://cunhapaulo.github.io/marpx/examples/howto.html#39)            | `<div class="container"></div>`                                      |
-| [Multicolumn](https://cunhapaulo.github.io/marpx/examples/howto.html#19)           | `<div class="multicolumn" align="center"></div>`                     |
+| [Multicolumn](https://cunhapaulo.github.io/marpx/examples/howto.html#19)           | `<div class="multicolumn" valign="center" align="center">`           |
 | [Notes](https://cunhapaulo.github.io/marpx/examples/howto.html#37)                 | `<div class="notes"></div>`                                          |
 | [Quotes](https://cunhapaulo.github.io/marpx/examples/howto.html#29)                | `<!-- _class: "quote" -->` or `<!-- _class: "quote dark" -->`        |
 | [References](https://cunhapaulo.github.io/marpx/examples/howto.html#33)            | `<!-- _class: "references" -->`                                      |
