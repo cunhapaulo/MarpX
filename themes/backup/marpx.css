@@ -574,6 +574,13 @@ section.multicolumn.vcenter {
   align-items: center;
 }
 
+/* ATTENTION - MODIFIED IN 08.JUN.2026 - paulo.cunha  */
+/* There is the possibility of confusion with vcenter for <table> */
+section>div.multicolumn[valign="center"],
+section.multicolumn[valign="center"] {
+  align-items: center;
+}
+
 /* The layout for all slides is set to appear in column mode. */
 section.cols {
   display: flex;

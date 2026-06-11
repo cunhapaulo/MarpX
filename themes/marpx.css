@@ -266,7 +266,7 @@
   --marpx-theme-chapter-h1-font-color: #ffffff;
   --marpx-theme-chapter-h2-font-color: #ffffff;
   --marpx-theme-chapter-bar-color: #ffffff;
-  
+
 
   /*-------------------< TITLE SLIDE >-----------------------------*/
 
@@ -364,7 +364,7 @@ img[alt~="title-bg"] {
 
 li {
   /* Espaço de 20 pixels entre cada item */
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 section {
@@ -493,7 +493,8 @@ h5>strong,
 h5>em,
 h6>strong,
 h6>em {
-  /* padding: 0.01em 0.01em 0em 0.01em; */ /* 19.dez.2025 */
+  /* padding: 0.01em 0.01em 0em 0.01em; */
+  /* 19.dez.2025 */
   color: var(--marpx-theme-h1-bold-color);
   font-weight: bold !important;
 
@@ -875,6 +876,7 @@ section.chapter-alt>footer,
 section.chapter>footer {
   opacity: 0;
 }
+
 /* 
 !================================================================================
 ?-----------------------< CHAPTER AND SECTION >----------------------- 
@@ -951,7 +953,7 @@ section.toc a {
 /* paulo.cunha 12.01.2026 */
 section.toc li {
   /* Espaço de 20 pixels entre cada item */
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 section.toc li::marker {
@@ -1162,7 +1164,8 @@ section.nobrand {
 }
 
 section.blank>h1 {
-  visibility: visible; /* 19.dez.2025 */
+  visibility: visible;
+  /* 19.dez.2025 */
 }
 
 section.blank>header,
@@ -1198,7 +1201,8 @@ div.callout {
 }
 
 div.callout>h1 {
-  position: static; /* Paulo Cunha - modified in 13.05.2026 */
+  position: static;
+  /* Paulo Cunha - modified in 13.05.2026 */
   font-size: 18pt;
   font-weight: 700;
   padding: 0px 0px 10pt 0px;
@@ -1322,7 +1326,7 @@ div.callout.danger strong {
 }
 
 div.callout.danger {
-  background-color: #fc1010 ;
+  background-color: #fc1010;
   border-color: #000000;
   color: #ffffff;
 }
@@ -1430,7 +1434,7 @@ section.quote h1 {
   top: -100px;
   height: 0px;
   text-align: center;
-  
+
 }
 
 section.quote p {
@@ -1488,6 +1492,15 @@ section.quote.dark strong {
   font-style: italic;
   color: var(--marpx-quote_dark-bold-color) !important;
 }
+
+/* paulo.cunha 10.junho.2026 */
+/* Just change the title font color to white. */
+section.quote.light>h1 {
+  color: white;
+}
+
+
+
 
 /*
 !================================================================================
@@ -1752,26 +1765,71 @@ bbox {
 }
 
 ul li {
-    list-style-type: square;
-    margin-bottom: 0.85em;
-} 
+  list-style-type: square;
+  margin-bottom: 0.75em;
+  /* margin-top: 0.75em; */
+  font-size: 0.97em;
+}
 
 ul ul li {
-  list-style-type: disc;
-} 
+  list-style-type: circle;
+  margin-bottom: 0.45em;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
 
 ul ul ul li {
-  list-style-type: circle;
-} 
+  list-style-type: disc;
+}
 
 ol li {
   margin-bottom: 0.85em;
-} 
+  font-size: 0.9em;
+}
 
 ol ol li {
-  list-style-type:lower-alpha;
-} 
+  list-style-type: lower-alpha;
+}
 
 ol ol ol li {
-  list-style-type:lower-roman;
-} 
+  list-style-type: lower-roman;
+}
+
+
+/*
+!================================================================================
+?-----------------------< LATEX LOGO IN CSS >----------------------- 
+!================================================================================
+*/
+
+/* Container for the logo */
+.latex-logo {
+  font-family: "Latin Modern Roman", "CMU Serif", "Times New Roman", serif;
+  letter-spacing: -0.1em;
+  /* Pulls all characters closer together */
+  font-weight: 100
+}
+
+/* Styles for the raised "A" */
+.latex-logo sup {
+  font-size: 0.7em;
+  vertical-align: -0.25em;
+  /* Raises the A without disrupting line height */
+  line-height: 2;
+  margin-left: -0.26em;
+  /* Tucks A slightly over the L */
+  margin-right: -0.015em;
+  /* Tucks T slightly over the A */
+  color: black;
+}
+
+/* Styles for the dropped "E" */
+.latex-logo sub {
+  font-size: 1em;
+  /* Maintains standard capital size */
+  vertical-align: 0.02em;
+  /* Lowers the E */
+  line-height: 2;
+  margin-left: -0.05em;
+  margin-right: -0.02em;
+}
