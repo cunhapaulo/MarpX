@@ -29,8 +29,8 @@
 
 
   /* Specific elements */
-  /* --marpx-theme-chapter-background-color: #ffb600; */
-  --marpx-theme-chapter-background-color: #fdd000;
+  /* --marpx-theme-chapter-background-color: #fdd000; */
+  --marpx-theme-chapter-background-color: #ffb600;
   --marpx-theme-chapter-h1-font-color: #000000;
   --marpx-theme-chapter-h2-font-color: #000000;
   --marpx-theme-subtitle-color: #41434e;
@@ -166,7 +166,8 @@ blockquote em {
 section code:not(pre code) {
   /* color: #222222; */
   border: 0px solid #0a0a00ff;
-  background: #ffd044ff !important;
+  /* background: #ffd044ff !important; */
+  background: #fdd000 !important;
   /* background: initial; */
   border-radius: 10px;
   padding: 6px 10px;
