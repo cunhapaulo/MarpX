@@ -8,7 +8,7 @@
   --marpx-color-dark-grey: #000000;
 
   /*------------< CORE THEME PARAMETERS >---------------------------------*/
-  
+
   /* General theme settings */
   --marpx-theme-color: #31406b;
   /* --marpx-theme-font-family: "Sentinel-Book", cursive, Faustina, Bookerly, Lora, sans-serif; */
@@ -39,7 +39,7 @@
   /* Captions and reference texts */
   --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
-  --marpx-theme-table-captiontext: "Table ";
+  --marpx-theme-table-captiontext: "Tabela ";
   --marpx-theme-table-captiontext-color: var(--blueViolet-100);
 
   /* Navigation and reference elements */
@@ -141,23 +141,24 @@ h3 {
 }
 
 blockquote {
+  color: black;
   font-family: "Source Sans Pro";
-  font-weight: normal;
   font-size: 16pt;
+  font-weight: normal;
   line-height: 18pt;
   margin-top: 16pt;
-  color: black;
 }
 
 blockquote strong {
-  color: navy;
+  /* font-family: bookerly; */
+  color: rgb(5, 5, 209);
+  font-family: "Source Sans Pro" !important;
   font-weight: 900 !important;
-  font-family: bookerly;
 }
 
 blockquote em {
   color: rgb(88, 112, 218) !important;
-  font-family: bookerly, Faustina, times;
+  /* font-family: bookerly, Faustina, times; */
   font-weight: normal;
 }
 
@@ -174,11 +175,16 @@ section code:not(pre code) {
 
 box {
 
-  border: 1px solid black;  /* cria a borda */
-  padding: 10px;              /* espaçamento interno */
-  margin: 10px auto;          /* espaçamento externo */
-  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;          /* cantos arredondados (opcional) */
+  border: 1px solid black;
+  /* cria a borda */
+  padding: 10px;
+  /* espaçamento interno */
+  margin: 10px auto;
+  /* espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;
+  /* cantos arredondados (opcional) */
   background-color: #fdfdfdd0;
   /* cor de fundo (opcional) */
   text-align: center;
@@ -188,14 +194,47 @@ box {
 
 bbox {
 
-  border: 0.5px solid black;  /* cria a borda */
-  padding: 10px;              /* espaçamento interno */
-  margin: 10px auto;          /* espaçamento externo */
-  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;          /* cantos arredondados (opcional) */
+  border: 0.5px solid black;
+  /* cria a borda */
+  padding: 10px;
+  /* espaçamento interno */
+  margin: 10px auto;
+  /* espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;
+  /* cantos arredondados (opcional) */
   background-color: #cfeafad0;
   /* cor de fundo (opcional) */
   text-align: center;
   /* centraliza o conteúdo dentro da caixa */
   box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
 }
+
+ol li {
+  font-size: 0.9em;
+  list-style-type: decimal;
+  font-family: "Source Sans Pro", Nora, Arial !important;
+  font-weight: 500;
+  margin-top: 0.25em;
+  margin-bottom: 0.85em;
+}
+
+ol ol li {
+  list-style-type: lower-alpha;
+  margin-top: 0.25em;
+  margin-bottom: 0.35em;
+}
+
+ol ol ol li {
+  list-style-type: decimal;
+  margin-top: 0.25em;
+  margin-bottom: 0.35em;
+}
+
+.multicolumn {
+  position: relative;
+  z-index: 9999;
+  gap: 30px !important;
+}
+

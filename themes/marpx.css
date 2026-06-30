@@ -1783,12 +1783,14 @@ ul ul ul li {
 }
 
 ol li {
-  margin-bottom: 0.85em;
   font-size: 0.9em;
+  margin-bottom: 0.85em;
 }
 
 ol ol li {
   list-style-type: lower-alpha;
+  margin-top: 0.25em;
+  margin-bottom: 0.35em;
 }
 
 ol ol ol li {

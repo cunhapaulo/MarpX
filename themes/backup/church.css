@@ -3,7 +3,7 @@
 @import "marpx";
 
 :root {
-  /*------------< COLOR PALETTE >---------------------------------*/
+  /*---------------------< COLOR PALETTE >---------------------------------*/
   --marpx-color-light-grey: #a6a6a6;
   --marpx-color-dark-grey: #000000;
 
@@ -105,7 +105,7 @@
 
 
 section {
-  line-height: 1.07;
+  line-height: 1.1;
 }
 
 .box {
