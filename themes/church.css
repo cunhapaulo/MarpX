@@ -29,7 +29,8 @@
 
 
   /* Specific elements */
-  --marpx-theme-chapter-background-color: #ffb600;
+  /* --marpx-theme-chapter-background-color: #ffb600; */
+  --marpx-theme-chapter-background-color: #fdd000;
   --marpx-theme-chapter-h1-font-color: #000000;
   --marpx-theme-chapter-h2-font-color: #000000;
   --marpx-theme-subtitle-color: #41434e;
