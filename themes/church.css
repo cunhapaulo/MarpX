@@ -18,8 +18,8 @@
 
   /* Text colors */
   --marpx-theme-font-color: var(--blueViolet-500);
-  /* --marpx-theme-bold-color: var(--scarletRed-500); */
   --marpx-theme-bold-color: hsl(218, 89%, 39%);
+  /* --marpx-theme-bold-color: var(--scarletRed-500); */
   --marpx-theme-marker-color: var(--scarletRed-600);
 
   /* Headings */
@@ -35,13 +35,13 @@
   --marpx-theme-chapter-h2-font-color: #000000;
   --marpx-theme-subtitle-color: #41434e;
   --marpx-theme-code-color: #e9e9e9;
-  --marpx-theme-highlight-color: var(--yellow-300);
+  --marpx-theme-highlight-color: oklch(0.848 0.1962 84.63);
 
   /* Captions and reference texts */
-  --marpx-theme-figure-captiontext: "Fig. ";
-  --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
   --marpx-theme-table-captiontext: "Tabela ";
+  --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-table-captiontext-color: var(--blueViolet-100);
+  --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
 
   /* Navigation and reference elements */
   --marpx-theme-toc-color: var(--blueViolet-400);
@@ -126,6 +126,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.4pt;
   line-height: 1.2;
+  
 }
 
 h2 {
@@ -167,7 +168,7 @@ section code:not(pre code) {
   /* color: #222222; */
   border: 0px solid #0a0a00ff;
   /* background: #ffd044ff !important; */
-  background: #fdd000 !important;
+  /* background: #fdd000 !important; */
   /* background: initial; */
   border-radius: 10px;
   padding: 6px 10px;
