@@ -148,8 +148,19 @@ Here you´ll find examples of the available themes. Click on the picture to open
 > [!IMPORTANT]
 > In a multi-root workspace, put `markdown.marp.themes` in the `.code-workspace` file or user
 > settings, not a folder's `.vscode/settings.json`. Paths resolve from the workspace folder
-> containing the deck. Register `marpx.css` with each sub-theme, set `markdown.marp.html` to
-> `all`, and trust the workspace. `unknown-theme` means registration failed.
+> containing the deck. Register `marpx.css` once, along with each sub-theme you want to use.
+> Set `markdown.marp.html` to `all` and trust the workspace. `unknown-theme` means registration
+> failed.
+
+Minimum registration for `theme: galileo`:
+
+```jsonc
+"markdown.marp.themes": [
+  "./themes/marpx.css",
+  "./themes/galileo.css"
+],
+"markdown.marp.html": "all"
+```
 
 1. In case you don´t want the burden of downloading anything and use the themes directly from the Internet, proceed as follows.
 
