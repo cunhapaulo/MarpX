@@ -8,7 +8,7 @@
   --marpx-color-dark-grey: #000000;
 
   /*------------< CORE THEME PARAMETERS >---------------------------------*/
-  
+
   /* General theme settings */
   --marpx-theme-color: #31406b;
   /* --marpx-theme-font-family: "Sentinel-Book", cursive, Faustina, Bookerly, Lora, sans-serif; */
@@ -18,8 +18,8 @@
 
   /* Text colors */
   --marpx-theme-font-color: var(--blueViolet-500);
-  /* --marpx-theme-bold-color: var(--scarletRed-500); */
   --marpx-theme-bold-color: hsl(218, 89%, 39%);
+  /* --marpx-theme-bold-color: var(--scarletRed-500); */
   --marpx-theme-marker-color: var(--scarletRed-600);
 
   /* Headings */
@@ -29,18 +29,19 @@
 
 
   /* Specific elements */
+  /* --marpx-theme-chapter-background-color: #fdd000; */
   --marpx-theme-chapter-background-color: #ffb600;
   --marpx-theme-chapter-h1-font-color: #000000;
   --marpx-theme-chapter-h2-font-color: #000000;
   --marpx-theme-subtitle-color: #41434e;
   --marpx-theme-code-color: #e9e9e9;
-  --marpx-theme-highlight-color: var(--yellow-300);
+  --marpx-theme-highlight-color: oklch(0.848 0.1962 84.63);
 
   /* Captions and reference texts */
+  --marpx-theme-table-captiontext: "Tabela ";
   --marpx-theme-figure-captiontext: "Fig. ";
-  --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
-  --marpx-theme-table-captiontext: "Table ";
   --marpx-theme-table-captiontext-color: var(--blueViolet-100);
+  --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
 
   /* Navigation and reference elements */
   --marpx-theme-toc-color: var(--blueViolet-400);
@@ -125,6 +126,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.4pt;
   line-height: 1.2;
+  
 }
 
 h2 {
@@ -141,30 +143,32 @@ h3 {
 }
 
 blockquote {
+  color: black;
   font-family: "Source Sans Pro";
-  font-weight: normal;
   font-size: 16pt;
+  font-weight: normal;
   line-height: 18pt;
   margin-top: 16pt;
-  color: black;
 }
 
 blockquote strong {
-  color: navy;
+  /* font-family: bookerly; */
+  color: rgb(5, 5, 209);
+  font-family: "Source Sans Pro" !important;
   font-weight: 900 !important;
-  font-family: bookerly;
 }
 
 blockquote em {
   color: rgb(88, 112, 218) !important;
-  font-family: bookerly, Faustina, times;
+  /* font-family: bookerly, Faustina, times; */
   font-weight: normal;
 }
 
 section code:not(pre code) {
   /* color: #222222; */
   border: 0px solid #0a0a00ff;
-  background: #ffd044ff !important;
+  /* background: #ffd044ff !important; */
+  /* background: #fdd000 !important; */
   /* background: initial; */
   border-radius: 10px;
   padding: 6px 10px;
@@ -174,11 +178,16 @@ section code:not(pre code) {
 
 box {
 
-  border: 1px solid black;  /* cria a borda */
-  padding: 10px;              /* espaçamento interno */
-  margin: 10px auto;          /* espaçamento externo */
-  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;          /* cantos arredondados (opcional) */
+  border: 1px solid black;
+  /* cria a borda */
+  padding: 10px;
+  /* espaçamento interno */
+  margin: 10px auto;
+  /* espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;
+  /* cantos arredondados (opcional) */
   background-color: #fdfdfdd0;
   /* cor de fundo (opcional) */
   text-align: center;
@@ -188,14 +197,47 @@ box {
 
 bbox {
 
-  border: 0.5px solid black;  /* cria a borda */
-  padding: 10px;              /* espaçamento interno */
-  margin: 10px auto;          /* espaçamento externo */
-  display: inline-block;      /* garante que a caixa se ajuste ao conteúdo */
-  border-radius: 10px;          /* cantos arredondados (opcional) */
+  border: 0.5px solid black;
+  /* cria a borda */
+  padding: 10px;
+  /* espaçamento interno */
+  margin: 10px auto;
+  /* espaçamento externo */
+  display: inline-block;
+  /* garante que a caixa se ajuste ao conteúdo */
+  border-radius: 10px;
+  /* cantos arredondados (opcional) */
   background-color: #cfeafad0;
   /* cor de fundo (opcional) */
   text-align: center;
   /* centraliza o conteúdo dentro da caixa */
   box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
 }
+
+ol li {
+  font-size: 0.9em;
+  list-style-type: decimal;
+  font-family: "Source Sans Pro", Nora, Arial !important;
+  font-weight: 500;
+  margin-top: 0.25em;
+  margin-bottom: 0.85em;
+}
+
+ol ol li {
+  list-style-type: lower-alpha;
+  margin-top: 0.25em;
+  margin-bottom: 0.35em;
+}
+
+ol ol ol li {
+  list-style-type: decimal;
+  margin-top: 0.25em;
+  margin-bottom: 0.35em;
+}
+
+.multicolumn {
+  position: relative;
+  z-index: 9999;
+  gap: 30px !important;
+}
+
