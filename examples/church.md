@@ -84,11 +84,11 @@ paginate: true
 
 `Research` has been conducted in order to evaluate the possibility of reaching meaningful knowledge from Algebraic Graph transformations.
 
-- Model Cheking and theorem prooving are viable paths.
+1. Model Cheking and theorem prooving are viable paths.
 
 When the neet to make strong assertions becomes inevitable:
 
-- This is the first way: outstanding assertion!
+2. This is the first way: outstanding assertion!
 
 <footnote>
 * Note: This is a very long footnote line intended to test the layout of two.

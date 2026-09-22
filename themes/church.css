@@ -206,6 +206,13 @@ bbox {
   box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
 }
 
+ul li {
+  /* font-size: 1.0em; */
+  font-family: "Source Sans Pro", Nora, Arial !important;
+  /* font-weight: 900; */
+
+}
+
 ol li {
   /* font-size: 1.0em; */
   list-style-type: decimal;

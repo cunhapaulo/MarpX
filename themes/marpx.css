@@ -920,7 +920,7 @@ section.chapter>h1::after {
 section.chapter-alt>h2,
 section.chapter>h2 {
   color: var(--marpx-theme-chapter-h2-font-color);
-  font-size: 28pt;
+  font-size: 30pt;
   font-weight: 500;
   letter-spacing: -0.165px;
   position: absolute;
@@ -1783,7 +1783,7 @@ ul ul ul li {
 }
 
 ol li {
-  font-size: 0.9em;
+  font-size: .9em;
   margin-bottom: 0.85em;
 }
 
