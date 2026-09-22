@@ -1,3 +1,5 @@
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 #-----------------------------------------------
 #--- Clear the screen 
 #-----------------------------------------------
