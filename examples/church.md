@@ -5,7 +5,7 @@ description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Newton, Paulo Cunha]
 
 header: Princeton University, 1936.
-footer: "[Back to the TOC](#3)"1
+footer: "[Back to the TOC](#3)"
 
 marp: true
 theme: church

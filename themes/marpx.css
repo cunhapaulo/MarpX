@@ -899,7 +899,7 @@ section.chapter>h1 {
 section.chapter>h1 strong,
 section.chapter>h1 em,
 section.chapter-alt>h1 strong,
-section.chapter-alt>h1 em {////////////////////////////////////////////
+section.chapter-alt>h1 em {
   display: inline-block;
   margin-right: 0.125em;
   margin-left: 0.125em;
