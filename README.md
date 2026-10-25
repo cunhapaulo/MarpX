@@ -238,6 +238,25 @@ math: mathjax
 
 When all has been said and done, export your slide-deck to one of the available formats (PDF, HTML, PowerPoint, PNG, etc. )
 
+## ✍️ Lecture note-taker for HTML exports
+
+Optionally, an HTML export can be turned into a note-taking surface: write on
+the slides and on inserted blank pages with pen, highlighter, selector, laser
+and eraser, save the notes to a file and load them back, or print the annotated
+deck to PDF. It is plain JavaScript and CSS inlined into the HTML file, works
+offline from `file://` and has no runtime dependencies.
+
+```bash
+marp deck.md --html -o deck.html
+node .cmd/inject-annotator.mjs deck.html   # or: ... deck.html deck.notes.html
+```
+
+Open the HTML file and press `A` (or the pencil button, top right) to switch
+annotate mode on. Notes are never stored automatically: save them with the save
+button or `Ctrl/Cmd+S` (`<deck-title>-notes.json`), and the page warns before
+closing with unsaved notes. Shortcuts, file format and design:
+[docs/note-taker.md](docs/note-taker.md).
+
 ## 🛠️ Customization
 
 - **Theme Variables:**  
