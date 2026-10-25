@@ -1,0 +1,12 @@
+{
+  "name": "marp-notes-tests",
+  "private": true,
+  "description": "Unit tests (node --test) and browser smoke test for the Marp lecture note-taker",
+  "scripts": {
+    "test": "node --test ./*.test.js",
+    "smoke": "SMOKE=1 node --test smoke/browser-smoke.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}
