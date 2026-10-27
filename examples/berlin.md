@@ -19,9 +19,9 @@ paginate: true
 
 <!-- _class: title-academic -->
 
-![bg left:33% h:100% brightness:1.05](./assets/images/thinkers/isaiahberlin01.png)
+![bg left:32% h:100% brightness:1.05](./assets/images/thinkers/isaiahberlin01.png)
 
-<div class="title"         > The fox knows many things, but the hedgehog knows one big thing.</div>
+<div class="title"         > The fox knows many things, but the hedgehog knows  one big thing</div>
 <div class="subtitle"      > An aphorism by the poet Archilochus</div>
 <div class="author"        > Sir Isaiah Berlin </div>
 <div class="organization"  > The Hedgehog and the Fox (1952) </div>
