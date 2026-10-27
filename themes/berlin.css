@@ -1,0 +1,177 @@
+/* @theme berlin */
+
+@import "marpx";
+
+/* Berlin: azul-noturno, azul-ardósia e destaques em azul pastel. */
+:root {
+  /* Paleta local: do tom mais claro ao mais escuro. */
+  --berlin-blue-100: #edf3fa;
+  --berlin-blue-200: #d5e3f2;
+  --berlin-blue-300: #b6cde6;
+  --berlin-blue-350: #a6caf8;
+  --berlin-blue-400: #96b5d6;
+  --berlin-blue-500: #7395b9;
+  --berlin-blue-600: #536f90;
+  --berlin-blue-700: #3c526e;
+  --berlin-blue-800: #2b3d56;
+  --berlin-blue-900: #202f45;
+  --berlin-blue-950: #182538;
+  --berlin-orange-950: #ffb600;
+
+  /* Texto e elementos gerais. */
+  --marpx-theme-font-family: "Fira Sans", "Source Sans Pro", Arial, sans-serif;
+  --marpx-theme-font-size: 24pt;
+  --marpx-theme-letter-spacing: 0;
+  --marpx-theme-background-color: var(--berlin-blue-950);
+  --marpx-theme-font-color: var(--berlin-blue-100);
+  --marpx-theme-color: var(--berlin-blue-300);
+  --marpx-theme-bold-color: var(--berlin-blue-300);
+  --marpx-theme-marker-color: var(--berlin-blue-400);
+  /* --marpx-theme-h1-color: var(--berlin-blue-200); */
+  /* --marpx-theme-h1-color: var(--berlin-orange-950); */
+  --marpx-theme-h1-color: var(--berlin-blue-350);
+  /* --marpx-theme-h1-bold-color: var(--berlin-blue-500); */
+  --marpx-theme-h1-bold-color: var(--berlin-orange-950);
+  --marpx-theme-h2-color: var(--berlin-blue-300);
+  --marpx-theme-highlight-color: var(--berlin-blue-300);
+  --marpx-theme-footnote-mark-color: var(--berlin-blue-300);  --marpx-color-light-grey: var(--berlin-blue-300);
+  --marpx-theme-brandlogo: " ";
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-table-captiontext: "Tabela ";
+  --marpx-theme-figure-captiontext-color: var(--berlin-blue-300);
+  --marpx-theme-table-captiontext-color: var(--berlin-blue-300);
+
+  /* Capítulos e sumário. */
+  --marpx-theme-chapter-background-color: var(--berlin-blue-800);
+  --marpx-theme-chapter-font-family: var(--marpx-theme-font-family);
+  --marpx-theme-chapter-h1-font-color: var(--berlin-blue-100);
+  --marpx-theme-chapter-h2-font-color: var(--berlin-blue-300);
+  --marpx-theme-chapter-bar-color: var(--berlin-blue-400);
+  --marpx-theme-toc-background-color: var(--berlin-blue-900);
+  --marpx-theme-toc-color: var(--berlin-blue-300);
+  --marpx-calc-toc-font-color: var(--berlin-blue-200);
+  --marpx-calc-toc-marker-color: var(--berlin-blue-400);
+  --marpx-calc-toc-hover-color: var(--berlin-blue-100);
+  --marpx-calc-toc-hoover-background-color: var(--berlin-blue-700);
+
+  /* Capas simples e acadêmicas. */
+  --marpx-title-header-color: var(--berlin-blue-300);
+  --marpx-title_academic-background-color: var(--berlin-blue-950);
+  --marpx-title_academic-font-color: var(--berlin-blue-200);
+  --marpx-title_academic-title-color: var(--berlin-blue-100);
+  --marpx-title_academic-title-size: 140%;
+  --marpx-title_academic-title-font-weight: 600;
+  --marpx-title_academic-subtitle-color: var(--berlin-blue-300);
+  --marpx-title_academic-subtitle-size: 95%;
+  --marpx-title_academic-subtitle-font-weight: 400;
+  --marpx-title_academic-author-color: var(--berlin-blue-500);
+  --marpx-title_academic-author-size: 105%;
+  --marpx-title_academic-date-size: 90%;
+  --marpx-title_academic-institute-size: 90%;
+  --marpx-title_academic-letter-spacing: 0;
+  --marpx-title_academic-border-color: var(--berlin-blue-600);
+
+  /* Citações claras e escuras. */
+  --marpx-quote-font-family: Faustina, Georgia, serif;
+  --marpx-quote-background-color: var(--berlin-blue-200);
+  --marpx-quote-font-color: var(--berlin-blue-950);
+  --marpx-quote-bold-color: var(--berlin-blue-700);
+  --marpx-quote_dark-font: var(--marpx-quote-font-family);
+  --marpx-quote_dark-color-background: var(--berlin-blue-950);
+  --marpx-quote_dark-color-paragraph-background: transparent;
+  --marpx-quote_dark-font-color: var(--berlin-blue-100);
+  --marpx-quote_dark-bold-color: var(--berlin-blue-300);
+
+  /* Tabelas e referências. */
+  --marpx-table-font-family: var(--marpx-theme-font-family);
+  --marpx-table-font-size: 22px;
+  --marpx-table-font-color: var(--berlin-blue-950);
+  --marpx-table-header-background-color: var(--berlin-blue-700);
+  --marpx-table-header-color-color: var(--berlin-blue-100);
+  --marpx-table-border-top-color: var(--berlin-blue-400);
+  --marpx-table-border-bottom-color: var(--berlin-blue-500);
+  --marpx-table-nth-child-color-color: var(--berlin-blue-200);
+  --marpx-table-hover-background-color: var(--berlin-blue-300);
+  --marpx-table-hover-color: var(--berlin-blue-950);
+  --marpx-references-background-color: var(--berlin-blue-950);
+  --marpx-references-color: var(--berlin-blue-200);
+  --marpx-references-header-color: var(--berlin-blue-300);
+  --marpx-references-bold-color: var(--berlin-blue-400);
+}
+
+section {
+  line-height: 1.2;
+  /* background-image: linear-gradient(135deg, var(--berlin-blue-700), var(--berlin-blue-800), var(--berlin-blue-950)); */
+
+}
+
+section.title,
+section.title-bg,
+section.title-academic,
+section.chapter {
+  background-image: linear-gradient(135deg, var(--berlin-blue-950), var(--berlin-blue-500));
+  background-image: linear-gradient(135deg, var(--berlin-blue-600), var(--berlin-blue-800), var(--berlin-blue-950));
+  background-image: linear-gradient(130deg, var(--berlin-blue-950), var(--berlin-blue-800), var(--berlin-blue-600));
+}
+
+/* A base fixa estas cores; as exceções ficam restritas às capas. */
+section.title-academic .title strong {
+  color: var(--berlin-blue-300) !important;
+}
+
+section.quote:not(.dark) h1 {
+  color: var(--berlin-blue-800);
+}
+
+section.quote.dark h1 {
+  color: var(--berlin-blue-300) !important;
+}
+
+section code:not(pre code) {
+  /* color: var(--berlin-blue-200);
+  background-color: var(--berlin-blue-700); */
+  /* color: var(--berlin-orange-950);
+  background-color: black; */
+  color: var(--berlin-blue-950);
+  background-color: var(--berlin-orange-950);
+  
+  /* border: 1px solid var(--berlin-blue-500); */
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+
+section mark,
+section highlight {
+  color: var(--berlin-blue-950);
+}
+
+section table tbody tr {
+  background-color: var(--berlin-blue-100);
+}
+
+section table tbody tr:nth-child(even) {
+  background-color: var(--berlin-blue-200);
+}
+
+section table strong,
+section.quote:not(.dark) a {
+  color: var(--berlin-blue-700);
+}
+
+section .box,
+section box,
+section bbox {
+  color: var(--berlin-blue-950);
+  background-color: var(--berlin-blue-200);
+  border-color: var(--berlin-blue-500);
+}
+
+section::after {
+  color: var(--berlin-blue-950);
+  background-color: var(--berlin-blue-200);
+}
+
+section.white-slide mjx-container,
+section.slide.white mjx-container {
+  color: #000;
+}
