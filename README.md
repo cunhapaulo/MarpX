@@ -96,6 +96,8 @@ Here you´ll find examples of the available themes. Click on the picture to open
 | [![Style Church](./examples/front-slide/church.png)](https://cunhapaulo.github.io/marpx/examples/church.html)             |
 | <h3> **Gödel** - In honor of Kurt Gödel (1906-1978) </h3>                                                                 |
 | [![Style Gödel](./examples/front-slide/gödel.png)](https://cunhapaulo.github.io/marpx/examples/gödel.html)                |
+| <h3> **Berlin** - In honor of Isaiah Berlin (1909–1997) </h3>                                                                 |
+| [![Style Gödel](./examples/front-slide/berlin.png)](https://cunhapaulo.github.io/marpx/examples/berlin.html)                |
 
 
 
@@ -127,6 +129,8 @@ Here you´ll find examples of the available themes. Click on the picture to open
      "settings": {
        "markdown.marp.themes": [
          "./themes/marpx.css",
+         "./themes/berlin.css",
+         "./themes/church.css",
          "./themes/copernicus.css",
          "./themes/einstein.css",
          "./themes/frankfurt.css",
@@ -144,7 +148,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
    }
    ```
 
-1. In case you don´t want the burden of downloading anything and use the themes directly from the Internet, proceed as follows.
+2. In case you don´t want the burden of downloading anything and use the themes directly from the Internet, proceed as follows.
 
    - Config your VScode code-workspace config file to indicate exactly where the theme files are (Internet).
 
@@ -160,6 +164,8 @@ Here you´ll find examples of the available themes. Click on the picture to open
      "settings": {
        "markdown.marp.themes": [
          "https://cunhapaulo.github.io/marpx/themes/marpx.css",
+         "https://cunhapaulo.github.io/marpx/themes/berlin.css",
+         "https://cunhapaulo.github.io/marpx/themes/church.css",
          "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
          "https://cunhapaulo.github.io/marpx/themes/einstein.css",
          "https://cunhapaulo.github.io/marpx/themes/frankfurt.css",
