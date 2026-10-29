@@ -18,6 +18,8 @@
   --berlin-blue-900: #202f45;
   --berlin-blue-950: #182538;
   --berlin-blue-1000: #080C12;
+  --berlin-blue-1100: #0d1331;
+  --berlin-blue-1200: #070b1b;
 
   --berlin-violet-100: #6f00ff;
   --berlin-violet-200: #5800cc;
@@ -39,6 +41,7 @@
   --marpx-theme-bold-color: var(--berlin-blue-300);
   --marpx-theme-marker-color: var(--berlin-blue-400);
   --marpx-theme-h1-color: var(--berlin-blue-650);
+  --marpx-theme-h1-color: var(--berlin-orange-100);
   --marpx-theme-h1-bold-color: var(--berlin-orange-100);
   --marpx-theme-h2-color: var(--berlin-blue-300);
   --marpx-theme-highlight-color: var(--berlin-blue-300);
@@ -51,7 +54,7 @@
   --marpx-theme-table-captiontext-color: var(--berlin-blue-300);
 
   /* Capítulos e sumário. */
-  --marpx-theme-chapter-background-color: var(--berlin-blue-800);
+  --marpx-theme-chapter-background-color: var(--berlin-blue-900);
   --marpx-theme-chapter-font-family: var(--marpx-theme-font-family);
   --marpx-theme-chapter-h1-font-color: var(--berlin-blue-100);
   --marpx-theme-chapter-h2-font-color: var(--berlin-blue-300);
@@ -118,7 +121,8 @@ section.title,
 section.title-bg,
 /* section.title-academic, */
 section.chapter {
-  background-image: linear-gradient(120deg, var(--berlin-violet-100), var(--berlin-violet-400), black);
+  /* background-image: linear-gradient(120deg, var(--berlin-violet-100), black); */
+  background-color: var(--berlin-blue-1200);
 }
 
 

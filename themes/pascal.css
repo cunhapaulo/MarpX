@@ -2,186 +2,190 @@
 
 @import "marpx";
 
-/* Berlin: azul-noturno, azul-ardósia e destaques em azul pastel. */
+/* Pascal: azul-noturno, azul-ardósia e destaques em azul pastel. */
 :root {
   /* Paleta local: do tom mais claro ao mais escuro. */
-  --berlin-blue-100: #edf3fa;
-  --berlin-blue-200: #d5e3f2;
-  --berlin-blue-300: #b6cde6;
-  --berlin-blue-350: #a6caf8;
-  --berlin-blue-400: #96b5d6;
-  --berlin-blue-500: #7395b9;
-  --berlin-blue-600: #536f90;
-  --berlin-blue-650: #7e9af7;
-  --berlin-blue-700: #3c526e;
-  --berlin-blue-800: #2b3d56;
-  --berlin-blue-900: #202f45;
-  --berlin-blue-950: #182538;
-  --berlin-blue-1000: #080C12;
+  --pascal-blue-100: #edf3fa;
+  --pascal-blue-200: #d5e3f2;
+  --pascal-blue-300: #b6cde6;
+  --pascal-blue-350: #a6caf8;
+  --pascal-blue-400: #96b5d6;
+  --pascal-blue-500: #7395b9;
+  --pascal-blue-600: #536f90;
+  --pascal-blue-650: #7e9af7;
+  --pascal-blue-700: #3c526e;
+  --pascal-blue-800: #2b3d56;
+  --pascal-blue-900: #202f45;
+  --pascal-blue-950: #182538;
+  --pascal-blue-1000: #080C12;
+  --pascal-blue-1100: #161b25;
 
-  --berlin-orange-100: #ffb600;
-  --berlin-violet-100: #6f00ff;
-  --berlin-violet-200: hsl(266, 100%, 30%);
-  --berlin-violet-300: hsl(266, 100%, 20%);
+  --pascal-violet-100: #6f00ff;
+  --pascal-violet-200: #5800cc;
+  --pascal-violet-300: #420099;
+  --pascal-violet-400: #2c0066;
+  --pascal-violet-500: #22004e;
+  
+  --pascal-orange-100: #ffb600;
+  --pascal-orange-200: #ff9029;
+  --pascal-orange-300: #f76042;
+  --pascal-orange-400: #f24b28;
 
 
   /* Texto e elementos gerais. */
-  --marpx-theme-font-family: Faustina, Georgia, serif;
   --marpx-theme-font-family: "Source Sans Pro", Arial, sans-serif;
   --marpx-theme-font-family: "Fira Sans", "Source Sans Pro", Arial, sans-serif;
+  --marpx-theme-font-family: Faustina, Georgia, serif;
 
   --marpx-theme-font-size: 23pt;
   --marpx-theme-letter-spacing: 0;
-  --marpx-theme-background-color: var(--berlin-blue-950);
-  --marpx-theme-font-color: var(--berlin-blue-100);
-  --marpx-theme-color: var(--berlin-blue-300);
-  --marpx-theme-bold-color: var(--berlin-blue-300);
-  --marpx-theme-marker-color: var(--berlin-blue-400);
-  --marpx-theme-h1-color: var(--berlin-blue-650);
-  --marpx-theme-h1-bold-color: var(--berlin-orange-100);
-  --marpx-theme-h2-color: var(--berlin-blue-300);
-  --marpx-theme-highlight-color: var(--berlin-blue-300);
-  --marpx-theme-footnote-mark-color: var(--berlin-blue-300);
-  --marpx-color-light-grey: var(--berlin-blue-300);
+  --marpx-theme-background-color: var(--pascal-blue-1100);
+  --marpx-theme-font-color: var(--pascal-blue-100);
+  --marpx-theme-color: var(--pascal-blue-300);
+  --marpx-theme-bold-color: var(--pascal-blue-300);
+  --marpx-theme-marker-color: var(--pascal-blue-400);
+  --marpx-theme-h1-color: var(--pascal-orange-300);
+  --marpx-theme-h1-bold-color: var(--pascal-orange-100);
+  --marpx-theme-h2-color: var(--pascal-blue-500);
+  --marpx-theme-highlight-color: var(--pascal-blue-300);
+  --marpx-theme-footnote-mark-color: var(--pascal-blue-300);
+  --marpx-color-light-grey: var(--pascal-blue-300);
   --marpx-theme-brandlogo: " ";
   --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-table-captiontext: "Tabela ";
-  --marpx-theme-figure-captiontext-color: var(--berlin-blue-300);
-  --marpx-theme-table-captiontext-color: var(--berlin-blue-300);
+  --marpx-theme-figure-captiontext-color: var(--pascal-blue-650);
+  --marpx-theme-table-captiontext-color: var(--pascal-blue-300);
 
   /* Capítulos e sumário. */
-  --marpx-theme-chapter-background-color: var(--berlin-blue-800);
+  --marpx-theme-chapter-background-color: var(--pascal-blue-800);
   --marpx-theme-chapter-font-family: var(--marpx-theme-font-family);
-  --marpx-theme-chapter-h1-font-color: var(--berlin-blue-100);
-  --marpx-theme-chapter-h2-font-color: var(--berlin-blue-300);
-  --marpx-theme-chapter-bar-color: var(--berlin-blue-400);
-  --marpx-theme-toc-background-color: var(--berlin-blue-600);
-  --marpx-theme-toc-color: var(--berlin-blue-900);
-  --marpx-calc-toc-font-color: var(--berlin-blue-200);
-  --marpx-calc-toc-marker-color: var(--berlin-blue-400);
-  --marpx-calc-toc-hover-color: var(--berlin-blue-100);
-  --marpx-calc-toc-hoover-background-color: var(--berlin-blue-700);
+  --marpx-theme-chapter-h1-font-color: var(--pascal-orange-100);
+  --marpx-theme-chapter-h2-font-color: var(--pascal-blue-300);
+  --marpx-theme-chapter-bar-color: var(--pascal-blue-400);
+  --marpx-theme-toc-background-color: var(--pascal-blue-600);
+  --marpx-theme-toc-color: var(--pascal-blue-900);
+  --marpx-calc-toc-font-color: var(--pascal-blue-200);
+  --marpx-calc-toc-marker-color: var(--pascal-blue-400);
+  --marpx-calc-toc-hover-color: var(--pascal-blue-100);
+  --marpx-calc-toc-hoover-background-color: var(--pascal-blue-700);
 
   /* Capas simples e acadêmicas. */
-  --marpx-title-header-color: var(--berlin-blue-300);
-  --marpx-title_academic-background-color: var(--berlin-blue-950);
-  --marpx-title_academic-font-color: var(--berlin-blue-200);
-  --marpx-title_academic-title-color: var(--berlin-blue-100);
+  --marpx-title-header-color: var(--pascal-blue-300);
+  --marpx-title_academic-background-color: var(--pascal-blue-1000);
+  --marpx-title_academic-font-color: var(--pascal-blue-200);
+  --marpx-title_academic-title-color: var(--pascal-blue-100);
   --marpx-title_academic-title-size: 140%;
   --marpx-title_academic-title-font-weight: 500;
-  --marpx-title_academic-subtitle-color: var(--berlin-blue-400);
+  --marpx-title_academic-subtitle-color: var(--pascal-orange-300);
   --marpx-title_academic-subtitle-size: 95%;
   --marpx-title_academic-subtitle-font-weight: 400;
-  --marpx-title_academic-author-color: var(--berlin-blue-500);
+  --marpx-title_academic-author-color: var(--pascal-blue-400);
   --marpx-title_academic-author-size: 105%;
   --marpx-title_academic-date-size: 90%;
   --marpx-title_academic-institute-size: 70%;
   --marpx-title_academic-letter-spacing: 0;
-  --marpx-title_academic-border-color: var(--berlin-blue-600);
+  --marpx-title_academic-border-color: var(--pascal-blue-600);
 
   /* Citações claras e escuras. */
   --marpx-quote-font-family: Faustina, Georgia, serif;
-  --marpx-quote-background-color: var(--berlin-blue-400);
-  --marpx-quote-font-color: var(--berlin-blue-950);
-  --marpx-quote-bold-color: var(--berlin-blue-100);
+  --marpx-quote-background-color: var(--pascal-blue-400);
+  --marpx-quote-font-color: var(--pascal-blue-950);
+  --marpx-quote-bold-color: var(--pascal-blue-100);
   --marpx-quote_dark-font: var(--marpx-quote-font-family);
-  --marpx-quote_dark-color-background: var(--berlin-blue-1000);
+  --marpx-quote_dark-color-background: var(--pascal-blue-1000);
   --marpx-quote_dark-color-paragraph-background: transparent;
-  --marpx-quote_dark-font-color: var(--berlin-blue-100);
-  --marpx-quote_dark-bold-color: var(--berlin-blue-500);
+  --marpx-quote_dark-font-color: var(--pascal-blue-100);
+  --marpx-quote_dark-bold-color: var(--pascal-blue-500);
 
   /* Tabelas e referências. */
   --marpx-table-font-family: var(--marpx-theme-font-family);
   --marpx-table-font-size: 22px;
-  --marpx-table-font-color: var(--berlin-blue-950);
-  --marpx-table-header-background-color: var(--berlin-blue-700);
-  --marpx-table-header-color-color: var(--berlin-blue-100);
-  --marpx-table-border-top-color: var(--berlin-blue-400);
-  --marpx-table-border-bottom-color: var(--berlin-blue-500);
-  --marpx-table-nth-child-color-color: var(--berlin-blue-200);
-  --marpx-table-hover-background-color: var(--berlin-blue-300);
-  --marpx-table-hover-color: var(--berlin-blue-950);
-  --marpx-references-background-color: var(--berlin-blue-950);
-  --marpx-references-color: var(--berlin-blue-200);
-  --marpx-references-header-color: var(--berlin-blue-300);
-  --marpx-references-bold-color: var(--berlin-blue-400);
+  --marpx-table-font-color: var(--pascal-blue-950);
+  --marpx-table-header-background-color: var(--pascal-blue-700);
+  --marpx-table-header-color-color: var(--pascal-blue-100);
+  --marpx-table-border-top-color: var(--pascal-blue-400);
+  --marpx-table-border-bottom-color: var(--pascal-blue-500);
+  --marpx-table-nth-child-color-color: var(--pascal-blue-200);
+  --marpx-table-hover-background-color: var(--pascal-blue-300);
+  --marpx-table-hover-color: var(--pascal-blue-950);
+  --marpx-references-background-color: var(--pascal-blue-1000);
+  --marpx-references-color: var(--pascal-blue-200);
+  --marpx-references-header-color: var(--pascal-blue-300);
+  --marpx-references-bold-color: var(--pascal-blue-650);
 }
 
 section {
   line-height: 1.2;
-  /* background-image: linear-gradient(135deg, var(--berlin-blue-700), var(--berlin-blue-800), var(--berlin-blue-950)); */
+  /* background-image: linear-gradient(135deg, var(--pascal-blue-700), var(--pascal-blue-800), var(--pascal-blue-950)); */
 
 }
 
-/* section.title,
+section.title,
 section.title-bg,
-section.title-academic,
+/* section.title-academic, */
 section.chapter {
-  background-image: linear-gradient(135deg, var(--berlin-blue-950), var(--berlin-blue-800));
-  background-image: linear-gradient(0deg, var(--berlin-blue-950), var(--berlin-blue-800), var(--berlin-blue-950));
-  background-image: linear-gradient(300deg, var(--berlin-violet-100), black);
-} */
-
-
-section {
-  background-image: linear-gradient(310deg, var(--berlin-violet-100), var(--berlin-violet-200), var(--berlin-violet-300), black);
+  background: linear-gradient(130deg, #07010f, #6270e6);
+  background-image: linear-gradient(130deg, var(--pascal-violet-100), var(--pascal-violet-400), black, black);
 }
+
+
+
 
 /* A base fixa estas cores; as exceções ficam restritas às capas. */
 section.title-academic .title strong {
-  color: var(--berlin-blue-300) !important;
+  color: var(--pascal-blue-300) !important;
 }
 
 section.quote:not(.dark) h1 {
-  color: var(--berlin-blue-800);
+  color: var(--pascal-blue-800);
 }
 
 section.quote.dark h1 {
-  color: var(--berlin-blue-300) !important;
+  color: var(--pascal-blue-300) !important;
 }
 
 section code:not(pre code) {
-  /* color: var(--berlin-blue-200);
-  background-color: var(--berlin-blue-700); */
-  /* color: var(--berlin-orange-100);
+  /* color: var(--pascal-blue-200);
+  background-color: var(--pascal-blue-700); */
+  /* color: var(--pascal-orange-100);
   background-color: black; */
-  color: var(--berlin-blue-950);
-  background-color: var(--berlin-orange-100);
+  color: var(--pascal-blue-950);
+  background-color: var(--pascal-orange-100);
 
-  /* border: 1px solid var(--berlin-blue-500); */
+  /* border: 1px solid var(--pascal-blue-500); */
   border-radius: 6px;
   padding: 1px 6px;
 }
 
 section mark,
 section highlight {
-  color: var(--berlin-blue-950);
+  color: var(--pascal-blue-950);
 }
 
 section table tbody tr {
-  background-color: var(--berlin-blue-100);
+  background-color: var(--pascal-blue-100);
 }
 
 section table tbody tr:nth-child(even) {
-  background-color: var(--berlin-blue-200);
+  background-color: var(--pascal-blue-200);
 }
 
 section table strong,
 section.quote:not(.dark) a {
-  color: var(--berlin-blue-700);
+  color: var(--pascal-blue-700);
 }
 
 section .box,
 section box,
 section bbox {
-  color: var(--berlin-blue-950);
-  background-color: var(--berlin-blue-200);
-  border-color: var(--berlin-blue-500);
+  color: var(--pascal-blue-950);
+  background-color: var(--pascal-blue-200);
+  border-color: var(--pascal-blue-500);
 }
 
 section::after {
-  color: var(--berlin-blue-950);
-  background-color: var(--berlin-blue-200);
+  color: var(--pascal-blue-950);
+  background-color: var(--pascal-blue-200);
 }
 
 section.white-slide mjx-container,
