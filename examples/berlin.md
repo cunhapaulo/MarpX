@@ -15,7 +15,6 @@ paginate: true
 header: Oxford University.
 footer: "[Back to the TOC](#3)"
 ---
-
 <!-- _class: title-academic -->
 
 ![bg left:32% h:100% brightness:1.05](./assets/images/thinkers/isaiahberlin01.png)
@@ -32,12 +31,14 @@ footer: "[Back to the TOC](#3)"
 <style scoped>
 
   h1 {
-    color: var(--berlin-blue-650);
+    color: var(--berlin-blue-100);
+    font-weight: 500;
+
   }
   h2 { 
     font-size: 20pt;
     font-weight: 200;
-    color: var(--berlin-blue-100);
+    color: var(--berlin-orange-100);
   }
 
 </style>
@@ -70,7 +71,7 @@ footer: "[Back to the TOC](#3)"
 
 <!-- _class: chapter -->
 
-![bg w:100% opacity:0.1 invert](./assets/images/cartoon/hedgehogfox.png)
+![bg w:100% opacity:0.5 invert](./assets/images/cartoon/hedgehogfox.png)
 
 # Transition Slide
 
