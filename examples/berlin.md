@@ -4,17 +4,16 @@ author: Paulo Cunha
 description: Canonical use of marpx theme
 keywords: [Marp, MarpX, Isaiah Berlin, Paulo Cunha]
 
-header: Oxford University.
-footer: "[Back to the TOC](#3)"
-
 marp: true
 theme: berlin
 transition: fade
-
 size: 16:9
 lang: en
 math: mathjax
 paginate: true
+
+header: Oxford University.
+footer: "[Back to the TOC](#3)"
 ---
 
 <!-- _class: title-academic -->
