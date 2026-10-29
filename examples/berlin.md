@@ -33,20 +33,17 @@ paginate: true
 <style scoped>
 
   h1 {
-    color: #a6caf8;
+    color: var(--berlin-blue-650);
   }
   h2 { 
     font-size: 20pt;
-    font-weight: 100;
+    font-weight: 200;
+    color: var(--berlin-blue-100);
   }
 
 </style>
 
 <!-- _class: title -->
-
-<!-- ![bg w:110% opacity:.512 invert grayscale](./assets/images/math/functional-code.webp) -->
-
-<!-- # "Liberty for wolves is death to the lambs." (or "Freedom for the wolves has often meant death to the sheep") <p>  -->
 
 # “Science cannot destroy the consciousness of freedom, without which there is no morality and no art, but it can refute it.”
 
@@ -74,7 +71,7 @@ paginate: true
 
 <!-- _class: chapter -->
 
-![bg w:100% opacity:0.1](./assets/images/cartoon/hedgehogfox.png)
+![bg w:100% opacity:0.1 invert](./assets/images/cartoon/hedgehogfox.png)
 
 # Transition Slide
 

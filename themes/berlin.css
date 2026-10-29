@@ -12,29 +12,33 @@
   --berlin-blue-400: #96b5d6;
   --berlin-blue-500: #7395b9;
   --berlin-blue-600: #536f90;
+  --berlin-blue-650: #7e9af7;
   --berlin-blue-700: #3c526e;
   --berlin-blue-800: #2b3d56;
   --berlin-blue-900: #202f45;
   --berlin-blue-950: #182538;
-  --berlin-orange-950: #ffb600;
+  --berlin-blue-1000: #080C12;
+  --berlin-orange-100: #ffb600;
+
 
   /* Texto e elementos gerais. */
+  --marpx-theme-font-family: Faustina, Georgia, serif;
+  --marpx-theme-font-family: "Source Sans Pro", Arial, sans-serif;
   --marpx-theme-font-family: "Fira Sans", "Source Sans Pro", Arial, sans-serif;
-  --marpx-theme-font-size: 24pt;
+
+  --marpx-theme-font-size: 23pt;
   --marpx-theme-letter-spacing: 0;
   --marpx-theme-background-color: var(--berlin-blue-950);
   --marpx-theme-font-color: var(--berlin-blue-100);
   --marpx-theme-color: var(--berlin-blue-300);
   --marpx-theme-bold-color: var(--berlin-blue-300);
   --marpx-theme-marker-color: var(--berlin-blue-400);
-  /* --marpx-theme-h1-color: var(--berlin-blue-200); */
-  /* --marpx-theme-h1-color: var(--berlin-orange-950); */
-  --marpx-theme-h1-color: var(--berlin-blue-350);
-  /* --marpx-theme-h1-bold-color: var(--berlin-blue-500); */
-  --marpx-theme-h1-bold-color: var(--berlin-orange-950);
+  --marpx-theme-h1-color: var(--berlin-blue-650);
+  --marpx-theme-h1-bold-color: var(--berlin-orange-100);
   --marpx-theme-h2-color: var(--berlin-blue-300);
   --marpx-theme-highlight-color: var(--berlin-blue-300);
-  --marpx-theme-footnote-mark-color: var(--berlin-blue-300);  --marpx-color-light-grey: var(--berlin-blue-300);
+  --marpx-theme-footnote-mark-color: var(--berlin-blue-300);
+  --marpx-color-light-grey: var(--berlin-blue-300);
   --marpx-theme-brandlogo: " ";
   --marpx-theme-figure-captiontext: "Fig. ";
   --marpx-theme-table-captiontext: "Tabela ";
@@ -47,8 +51,8 @@
   --marpx-theme-chapter-h1-font-color: var(--berlin-blue-100);
   --marpx-theme-chapter-h2-font-color: var(--berlin-blue-300);
   --marpx-theme-chapter-bar-color: var(--berlin-blue-400);
-  --marpx-theme-toc-background-color: var(--berlin-blue-900);
-  --marpx-theme-toc-color: var(--berlin-blue-300);
+  --marpx-theme-toc-background-color: var(--berlin-blue-800);
+  --marpx-theme-toc-color: var(--berlin-blue-900);
   --marpx-calc-toc-font-color: var(--berlin-blue-200);
   --marpx-calc-toc-marker-color: var(--berlin-blue-400);
   --marpx-calc-toc-hover-color: var(--berlin-blue-100);
@@ -60,27 +64,27 @@
   --marpx-title_academic-font-color: var(--berlin-blue-200);
   --marpx-title_academic-title-color: var(--berlin-blue-100);
   --marpx-title_academic-title-size: 140%;
-  --marpx-title_academic-title-font-weight: 600;
-  --marpx-title_academic-subtitle-color: var(--berlin-blue-300);
+  --marpx-title_academic-title-font-weight: 500;
+  --marpx-title_academic-subtitle-color: var(--berlin-blue-400);
   --marpx-title_academic-subtitle-size: 95%;
   --marpx-title_academic-subtitle-font-weight: 400;
   --marpx-title_academic-author-color: var(--berlin-blue-500);
   --marpx-title_academic-author-size: 105%;
   --marpx-title_academic-date-size: 90%;
-  --marpx-title_academic-institute-size: 90%;
+  --marpx-title_academic-institute-size: 70%;
   --marpx-title_academic-letter-spacing: 0;
   --marpx-title_academic-border-color: var(--berlin-blue-600);
 
   /* Citações claras e escuras. */
   --marpx-quote-font-family: Faustina, Georgia, serif;
-  --marpx-quote-background-color: var(--berlin-blue-200);
+  --marpx-quote-background-color: var(--berlin-blue-400);
   --marpx-quote-font-color: var(--berlin-blue-950);
-  --marpx-quote-bold-color: var(--berlin-blue-700);
+  --marpx-quote-bold-color: var(--berlin-blue-100);
   --marpx-quote_dark-font: var(--marpx-quote-font-family);
-  --marpx-quote_dark-color-background: var(--berlin-blue-950);
+  --marpx-quote_dark-color-background: var(--berlin-blue-1000);
   --marpx-quote_dark-color-paragraph-background: transparent;
   --marpx-quote_dark-font-color: var(--berlin-blue-100);
-  --marpx-quote_dark-bold-color: var(--berlin-blue-300);
+  --marpx-quote_dark-bold-color: var(--berlin-blue-500);
 
   /* Tabelas e referências. */
   --marpx-table-font-family: var(--marpx-theme-font-family);
@@ -107,11 +111,11 @@ section {
 
 section.title,
 section.title-bg,
-section.title-academic,
+/* section.title-academic, */
 section.chapter {
-  background-image: linear-gradient(135deg, var(--berlin-blue-950), var(--berlin-blue-500));
   background-image: linear-gradient(135deg, var(--berlin-blue-600), var(--berlin-blue-800), var(--berlin-blue-950));
-  background-image: linear-gradient(130deg, var(--berlin-blue-950), var(--berlin-blue-800), var(--berlin-blue-600));
+  background-image: linear-gradient(135deg, var(--berlin-blue-950), var(--berlin-blue-800));
+  background-image: linear-gradient(0deg, var(--berlin-blue-950), var(--berlin-blue-800), var(--berlin-blue-950));
 }
 
 /* A base fixa estas cores; as exceções ficam restritas às capas. */
@@ -130,11 +134,11 @@ section.quote.dark h1 {
 section code:not(pre code) {
   /* color: var(--berlin-blue-200);
   background-color: var(--berlin-blue-700); */
-  /* color: var(--berlin-orange-950);
+  /* color: var(--berlin-orange-100);
   background-color: black; */
   color: var(--berlin-blue-950);
-  background-color: var(--berlin-orange-950);
-  
+  background-color: var(--berlin-orange-100);
+
   /* border: 1px solid var(--berlin-blue-500); */
   border-radius: 6px;
   padding: 1px 6px;

@@ -1,0 +1,167 @@
+/* @theme berkeley */
+
+@import "marpx";
+
+/* Berkeley: fundos bege pastel, areia e texto em marrom escuro. */
+:root {
+  /* Paleta local: do tom mais claro ao mais escuro. */
+  --berkeley-beige-100: #fbf8f2;
+  --berkeley-beige-200: #f2e9da;
+  --berkeley-beige-300: #e4d3b9;
+  --berkeley-beige-400: #d0b995;
+  --berkeley-beige-500: #b29873;
+  --berkeley-beige-600: #887052;
+  --berkeley-beige-700: #69533e;
+  --berkeley-beige-800: #503f30;
+  --berkeley-beige-900: #3e3026;
+  --berkeley-beige-950: #2e1e17;
+
+  /* Texto e elementos gerais. */
+  --marpx-theme-font-family: "Fira Sans", "Source Sans Pro", Arial, sans-serif;
+  --marpx-theme-font-size: 24pt;
+  --marpx-theme-letter-spacing: 0;
+  --marpx-theme-background-color: var(--berkeley-beige-100);
+  --marpx-theme-font-color: var(--berkeley-beige-900);
+  --marpx-theme-color: var(--berkeley-beige-700);
+  --marpx-theme-bold-color: var(--berkeley-beige-800);
+  --marpx-theme-marker-color: var(--berkeley-beige-700);
+  --marpx-theme-h1-color: var(--berkeley-beige-900);
+  --marpx-theme-h1-bold-color: var(--berkeley-beige-700);
+  --marpx-theme-h2-color: var(--berkeley-beige-700);
+  --marpx-theme-highlight-color: var(--berkeley-beige-300);
+  --marpx-theme-footnote-mark-color: var(--berkeley-beige-700);
+  --marpx-color-light-grey: var(--berkeley-beige-700);
+  --marpx-theme-brandlogo: " ";
+  --marpx-theme-figure-captiontext: "Fig. ";
+  --marpx-theme-table-captiontext: "Tabela ";
+  --marpx-theme-figure-captiontext-color: var(--berkeley-beige-700);
+  --marpx-theme-table-captiontext-color: var(--berkeley-beige-700);
+
+  /* Capítulos e sumário. */
+  --marpx-theme-chapter-background-color: var(--berkeley-beige-200);
+  --marpx-theme-chapter-font-family: var(--marpx-theme-font-family);
+  --marpx-theme-chapter-h1-font-color: var(--berkeley-beige-950);
+  --marpx-theme-chapter-h2-font-color: var(--berkeley-beige-700);
+  --marpx-theme-chapter-bar-color: var(--berkeley-beige-600);
+  --marpx-theme-toc-background-color: var(--berkeley-beige-100);
+  --marpx-theme-toc-color: var(--berkeley-beige-700);
+  --marpx-calc-toc-font-color: var(--berkeley-beige-800);
+  --marpx-calc-toc-marker-color: var(--berkeley-beige-700);
+  --marpx-calc-toc-hover-color: var(--berkeley-beige-950);
+  --marpx-calc-toc-hoover-background-color: var(--berkeley-beige-200);
+
+  /* Capas simples e acadêmicas. */
+  --marpx-title-header-color: var(--berkeley-beige-700);
+  --marpx-title_academic-background-color: var(--berkeley-beige-200);
+  --marpx-title_academic-font-color: var(--berkeley-beige-800);
+  --marpx-title_academic-title-color: var(--berkeley-beige-950);
+  --marpx-title_academic-title-size: 140%;
+  --marpx-title_academic-title-font-weight: 600;
+  --marpx-title_academic-subtitle-color: var(--berkeley-beige-700);
+  --marpx-title_academic-subtitle-size: 95%;
+  --marpx-title_academic-subtitle-font-weight: 400;
+  --marpx-title_academic-author-color: var(--berkeley-beige-700);
+  --marpx-title_academic-author-size: 105%;
+  --marpx-title_academic-date-size: 90%;
+  --marpx-title_academic-institute-size: 90%;
+  --marpx-title_academic-letter-spacing: 0;
+  --marpx-title_academic-border-color: var(--berkeley-beige-500);
+
+  /* Citações claras e escuras. */
+  --marpx-quote-font-family: Faustina, Georgia, serif;
+  --marpx-quote-background-color: var(--berkeley-beige-200);
+  --marpx-quote-font-color: var(--berkeley-beige-950);
+  --marpx-quote-bold-color: var(--berkeley-beige-700);
+  --marpx-quote_dark-font: var(--marpx-quote-font-family);
+  --marpx-quote_dark-color-background: var(--berkeley-beige-950);
+  --marpx-quote_dark-color-paragraph-background: transparent;
+  --marpx-quote_dark-font-color: var(--berkeley-beige-100);
+  --marpx-quote_dark-bold-color: var(--berkeley-beige-300);
+
+  /* Tabelas e referências. */
+  --marpx-table-font-family: var(--marpx-theme-font-family);
+  --marpx-table-font-size: 22px;
+  --marpx-table-font-color: var(--berkeley-beige-950);
+  --marpx-table-header-background-color: var(--berkeley-beige-700);
+  --marpx-table-header-color-color: var(--berkeley-beige-100);
+  --marpx-table-border-top-color: var(--berkeley-beige-400);
+  --marpx-table-border-bottom-color: var(--berkeley-beige-500);
+  --marpx-table-nth-child-color-color: var(--berkeley-beige-200);
+  --marpx-table-hover-background-color: var(--berkeley-beige-300);
+  --marpx-table-hover-color: var(--berkeley-beige-950);
+  --marpx-references-background-color: var(--berkeley-beige-200);
+  --marpx-references-color: var(--berkeley-beige-900);
+  --marpx-references-header-color: var(--berkeley-beige-700);
+  --marpx-references-bold-color: var(--berkeley-beige-800);
+}
+
+section {
+  line-height: 1.2;
+}
+
+section.title,
+section.title-bg,
+section.title-academic,
+section.chapter {
+  background-image: linear-gradient(135deg, var(--berkeley-beige-100), var(--berkeley-beige-300));
+}
+
+/* A base fixa estas cores; as exceções ficam restritas às capas. */
+section.title-academic .title strong {
+  color: var(--berkeley-beige-700) !important;
+}
+
+section.quote:not(.dark) h1 {
+  color: var(--berkeley-beige-800);
+}
+
+section.quote.dark h1 {
+  color: var(--berkeley-beige-300) !important;
+}
+
+section code:not(pre code) {
+  color: var(--berkeley-beige-100);
+  background-color: var(--berkeley-beige-700);
+  border: 1px solid var(--berkeley-beige-500);
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+
+section mark,
+section highlight {
+  color: var(--berkeley-beige-950);
+}
+
+section table tbody tr {
+  background-color: var(--berkeley-beige-100);
+}
+
+section table tbody tr:nth-child(even) {
+  background-color: var(--berkeley-beige-200);
+}
+
+section table strong,
+section.quote:not(.dark) a {
+  color: var(--berkeley-beige-700);
+}
+
+section .box,
+section box,
+section bbox {
+  color: var(--berkeley-beige-950);
+  background-color: var(--berkeley-beige-200);
+  border-color: var(--berkeley-beige-500);
+}
+
+section::after {
+  color: var(--berkeley-beige-950);
+  background-color: var(--berkeley-beige-200);
+}
+
+/* Equações herdam o texto; slides brancos usam preto explícito. */
+section.white-slide mjx-container,
+section.slide.white mjx-container,
+section.white-slide .katex,
+section.slide.white .katex {
+  color: #000;
+}
