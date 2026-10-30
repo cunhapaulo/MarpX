@@ -126,6 +126,7 @@ When the neet to make strong assertions becomes inevitable:
 <!-- _class: chapter -->
 
 # Images
+## How to use images?
 
 ---
 

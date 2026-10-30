@@ -54,9 +54,9 @@
   --marpx-theme-table-captiontext-color: var(--berlin-blue-300);
 
   /* Capítulos e sumário. */
-  --marpx-theme-chapter-background-color: var(--berlin-blue-900);
+  --marpx-theme-chapter-background-color: var(--berlin-violet-100);
   --marpx-theme-chapter-font-family: var(--marpx-theme-font-family);
-  --marpx-theme-chapter-h1-font-color: var(--berlin-orange-100);
+  --marpx-theme-chapter-h1-font-color: var(--berlin-blue-100);
   --marpx-theme-chapter-h2-font-color: var(--berlin-blue-300);
   --marpx-theme-chapter-bar-color: var(--berlin-blue-400);
   --marpx-theme-toc-background-color: var(--berlin-blue-600);
@@ -122,7 +122,7 @@ section.title-bg,
 /* section.title-academic, */
 section.chapter {
   /* background-image: linear-gradient(120deg, var(--berlin-violet-100), black); */
-  background-color: var(--berlin-blue-1200);
+  /* background-color: var(--berlin-blue-1200); */
 }
 
 
