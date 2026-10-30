@@ -56,7 +56,7 @@
   /* Capítulos e sumário. */
   --marpx-theme-chapter-background-color: var(--berlin-blue-900);
   --marpx-theme-chapter-font-family: var(--marpx-theme-font-family);
-  --marpx-theme-chapter-h1-font-color: var(--berlin-blue-100);
+  --marpx-theme-chapter-h1-font-color: var(--berlin-orange-100);
   --marpx-theme-chapter-h2-font-color: var(--berlin-blue-300);
   --marpx-theme-chapter-bar-color: var(--berlin-blue-400);
   --marpx-theme-toc-background-color: var(--berlin-blue-600);
