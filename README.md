@@ -18,19 +18,18 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 title: How to use MarpX Special Tags
 author: Paulo Cunha
 description: Canonical use of marpx theme
-keywords: [Marp, MarpX, Gödel, Paulo Cunha]
-
-header:
-footer: "[`Back to Contents`](#2)"
+keywords: [Marp, MarpX, Isaiah Berlin]
 
 marp: true
-theme: gödel
-paginate: true
-transition: none
-
+theme: berlin
+transition: fade
 size: 16:9
 lang: en
 math: mathjax
+paginate: true
+
+header: Oxford University.
+footer: "[Back to the Table of Contents](#3)"
 ---
 ```
 
