@@ -167,7 +167,6 @@ Here you´ll find examples of the available themes. Click on the picture to open
      ],
      "settings": {
        "markdown.marp.themes": [
-   
 			"https://cunhapaulo.github.io/marpx/themes/marpx.css",
 			"https://cunhapaulo.github.io/marpx/themes/berkeley.css",
 			"https://cunhapaulo.github.io/marpx/themes/berlin.css",
@@ -186,9 +185,7 @@ Here you´ll find examples of the available themes. Click on the picture to open
 			"https://cunhapaulo.github.io/marpx/themes/newton.css",
 			"https://cunhapaulo.github.io/marpx/themes/pascal.css",
 			"https://cunhapaulo.github.io/marpx/themes/socrates.css",
-			"https://cunhapaulo.github.io/marpx/themes/sparta.css",
-			"https://cunhapaulo.github.io/marpx/themes/temp.css"
-   
+			"https://cunhapaulo.github.io/marpx/themes/sparta.css",   
        ]
      }
    }
