@@ -96,11 +96,12 @@
 
   /* Dark quote variant */
   --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
-  --marpx-quote_dark-font-color: var(--gray-200);
+  --marpx-quote_dark-font-color: rgb(255, 255, 255);
   /* --marpx-quote_dark-color-background: rgb(86, 137, 182); */
-  --marpx-quote_dark-color-background: rgb(172, 182, 86);
-  --marpx-quote_dark-color-paragraph-background: rgb(172, 182, 86);
-  --marpx-quote_dark-bold-color: rgb(2, 54, 80);
+  --marpx-quote_dark-color-background: rgb(115, 128, 248);
+  --marpx-quote_dark-color-background: rgb(103, 115, 214);
+  --marpx-quote_dark-color-paragraph-background: rgb(103, 115, 214);
+  --marpx-quote_dark-bold-color: rgb(22, 22, 61);
 
   /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
 
