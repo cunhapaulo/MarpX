@@ -18,9 +18,10 @@
 
   /* Text colors */
   --marpx-theme-font-color: var(--blueViolet-500);
+  --marpx-theme-bold-color: black;
   /* --marpx-theme-bold-color: var(--scarletRed-500); */
-  --marpx-theme-bold-color: hsl(214, 100%, 24%);
-  --marpx-theme-bold-color: hsl(239, 95%, 37%);
+  /* --marpx-theme-bold-color: hsl(214, 100%, 24%); */
+  /* --marpx-theme-bold-color: hsl(239, 95%, 37%); */
   
   /* --marpx-theme-marker-color: hsl(27, 100%, 50%); */
   /* --marpx-theme-marker-color: hsl(46, 100%, 50%); */
