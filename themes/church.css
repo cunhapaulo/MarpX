@@ -97,9 +97,9 @@
   /* Dark quote variant */
   --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
   --marpx-quote_dark-font-color: var(--gray-200);
-  --marpx-quote_dark-color-background: var(--blue-500);
-  --marpx-quote_dark-color-paragraph-background: var(--blue-500);
-  --marpx-quote_dark-bold-color: var(--blue-100);
+  --marpx-quote_dark-color-background: rgb(86, 137, 182);
+  --marpx-quote_dark-color-paragraph-background: rgb(86, 137, 182);
+  --marpx-quote_dark-bold-color: rgb(9, 45, 63);
 
   /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
 
