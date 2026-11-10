@@ -307,11 +307,13 @@
   --marpx-quote-paragraph-background-color: #ffffff;
   --marpx-quote-font-color: #222230;
   --marpx-quote-bold-color: #6462f1;
-
+  
+  
   /*-< quote dark >-*/
-
+  
   --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
   --marpx-quote_dark-font-color: #222230;
+  --marpx-quote_dark-h1-font-color: white;
   --marpx-quote_dark-color-background: #9aade2;
   --marpx-quote_dark-color-paragraph-background: #9aade2;
   --marpx-quote_dark-bold-color: #f8f8f7;
@@ -1470,7 +1472,8 @@ section.quote.dark {
 
 /* Alternative style (used to be quote2, now quote dark) */
 section.quote.dark h1 {
-  color: var(--bluishCyan-100) !important;
+  color: var(--marpx-quote_dark-h1-font-color) !important;
+  
 }
 
 section.quote.dark p {

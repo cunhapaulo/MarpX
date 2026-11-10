@@ -18,9 +18,14 @@
 
   /* Text colors */
   --marpx-theme-font-color: var(--blueViolet-500);
-  --marpx-theme-bold-color: hsl(218, 89%, 39%);
+  --marpx-theme-bold-color: black;
   /* --marpx-theme-bold-color: var(--scarletRed-500); */
-  --marpx-theme-marker-color: var(--scarletRed-600);
+  /* --marpx-theme-bold-color: hsl(214, 100%, 24%); */
+  /* --marpx-theme-bold-color: hsl(239, 95%, 37%); */
+  
+  /* --marpx-theme-marker-color: hsl(27, 100%, 50%); */
+  /* --marpx-theme-marker-color: hsl(46, 100%, 50%); */
+  --marpx-theme-marker-color: rgb(255, 64, 0);
 
   /* Headings */
   --marpx-theme-h1-color: hsl(218, 100%, 19%);
@@ -29,19 +34,18 @@
 
 
   /* Specific elements */
-  /* --marpx-theme-chapter-background-color: #fdd000; */
   --marpx-theme-chapter-background-color: #ffb600;
   --marpx-theme-chapter-h1-font-color: #000000;
-  --marpx-theme-chapter-h2-font-color: #000000;
+  --marpx-theme-chapter-h2-font-color: #ffffff;
   --marpx-theme-subtitle-color: #41434e;
   --marpx-theme-code-color: #e9e9e9;
-  --marpx-theme-highlight-color: oklch(0.848 0.1962 84.63);
+  --marpx-theme-highlight-color: var(--yellow-300);
 
   /* Captions and reference texts */
-  --marpx-theme-table-captiontext: "Tabela ";
   --marpx-theme-figure-captiontext: "Fig. ";
-  --marpx-theme-table-captiontext-color: var(--blueViolet-100);
   --marpx-theme-figure-captiontext-color: var(--blueViolet-100);
+  --marpx-theme-table-captiontext: "Tabela ";
+  --marpx-theme-table-captiontext-color: var(--blueViolet-100);
 
   /* Navigation and reference elements */
   --marpx-theme-toc-color: var(--blueViolet-400);
@@ -92,10 +96,12 @@
 
   /* Dark quote variant */
   --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
-  --marpx-quote_dark-font-color: var(--gray-200);
-  --marpx-quote_dark-color-background: var(--blue-500);
-  --marpx-quote_dark-color-paragraph-background: var(--blue-500);
-  --marpx-quote_dark-bold-color: var(--blue-100);
+  --marpx-quote_dark-font-color: rgb(255, 255, 255);
+  /* --marpx-quote_dark-color-background: rgb(86, 137, 182); */
+  --marpx-quote_dark-color-background: rgb(115, 128, 248);
+  --marpx-quote_dark-color-background: rgb(103, 115, 214);
+  --marpx-quote_dark-color-paragraph-background: rgb(103, 115, 214);
+  --marpx-quote_dark-bold-color: rgb(22, 22, 61);
 
   /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
 
@@ -106,19 +112,10 @@
 
 
 section {
-  line-height: 1.1;
+  line-height: 1.05;
 }
 
-.box {
-  border: 2px solid #222;
-  border-radius: 6px;
-  /* opcional: cantos arredondados */
-  padding: 2px 8px;
-  /* espaço interno */
-  /* background: #fffbe7;   /* opcional: cor de fundo */
-  display: inline-block;
-  /* garante o retângulo ao redor da palavra */
-}
+
 
 h1 {
   font-family: "Fira Sans", sans-serif;
@@ -126,7 +123,6 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.4pt;
   line-height: 1.2;
-  
 }
 
 h2 {
@@ -167,8 +163,7 @@ blockquote em {
 section code:not(pre code) {
   /* color: #222222; */
   border: 0px solid #0a0a00ff;
-  /* background: #ffd044ff !important; */
-  /* background: #fdd000 !important; */
+  background: #ffd044ff !important;
   /* background: initial; */
   border-radius: 10px;
   padding: 6px 10px;
@@ -214,13 +209,26 @@ bbox {
   box-shadow: 0 8px 15px rgba(8, 8, 8, 0.192);
 }
 
+ul li {
+  /* font-size: 1.0em; */
+  font-family: "Source Sans Pro", Nora, Arial !important;
+  /* font-weight: 900; */
+
+}
+
 ol li {
-  font-size: 0.9em;
+  /* font-size: 1.0em; */
   list-style-type: decimal;
   font-family: "Source Sans Pro", Nora, Arial !important;
-  font-weight: 500;
+  /* font-weight: 900; */
   margin-top: 0.25em;
   margin-bottom: 0.85em;
+}
+
+ol li::marker {
+    font-size: 1.15em;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
 }
 
 ol ol li {
@@ -241,3 +249,13 @@ ol ol ol li {
   gap: 30px !important;
 }
 
+.box {
+  border: 2px solid #222;
+  border-radius: 6px;
+  /* opcional: cantos arredondados */
+  padding: 2px 8px;
+  /* espaço interno */
+  /* background: #fffbe7;   /* opcional: cor de fundo */
+  display: inline-block;
+  /* garante o retângulo ao redor da palavra */
+}

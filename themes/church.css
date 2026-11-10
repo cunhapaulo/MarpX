@@ -22,7 +22,7 @@
   /* --marpx-theme-bold-color: var(--scarletRed-500); */
   /* --marpx-theme-bold-color: hsl(214, 100%, 24%); */
   /* --marpx-theme-bold-color: hsl(239, 95%, 37%); */
-  
+
   /* --marpx-theme-marker-color: hsl(27, 100%, 50%); */
   /* --marpx-theme-marker-color: hsl(46, 100%, 50%); */
   --marpx-theme-marker-color: rgb(255, 64, 0);
@@ -85,6 +85,8 @@
   --marpx-table-nth-child-color-color: #f5f5f5;
   --marpx-table-hover-color: var(--blueViolet-400);
   --marpx-table-hover-background-color: var(--violet-100);
+  --marpx-table-font-family: "Source Sans Pro", Nora, Arial !important;
+
 
   /*------------< QUOTE COMPONENT PARAMETERS >---------------------------------*/
 
@@ -97,10 +99,12 @@
   /* Dark quote variant */
   --marpx-quote_dark-font: Faustina, Bookerly, Times, serif;
   --marpx-quote_dark-font-color: rgb(255, 255, 255);
-  /* --marpx-quote_dark-color-background: rgb(86, 137, 182); */
   --marpx-quote_dark-color-background: rgb(115, 128, 248);
-  --marpx-quote_dark-color-background: rgb(103, 115, 214);
-  --marpx-quote_dark-color-paragraph-background: rgb(103, 115, 214);
+  --marpx-quote_dark-h1-font-color: rgb(10, 59, 133);
+  --marpx-quote_dark-color-background-all: rgb(194, 201, 245);
+  --marpx-quote_dark-color-background: var(--marpx-quote_dark-color-background-all);
+  --marpx-quote_dark-color-paragraph-background: var(--marpx-quote_dark-color-background-all);
+  --marpx-quote_dark-font-color: #222230;
   --marpx-quote_dark-bold-color: rgb(22, 22, 61);
 
   /*------------< REFERENCES COMPONENT PARAMETERS >---------------------------------*/
@@ -226,9 +230,9 @@ ol li {
 }
 
 ol li::marker {
-    font-size: 1.15em;
-    font-weight: bold;
-    background-color: rgb(0, 0, 0);
+  font-size: 1.15em;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
 }
 
 ol ol li {
