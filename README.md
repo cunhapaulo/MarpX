@@ -18,19 +18,18 @@ Designed for educators, researchers, and professionals, MarpX enables the creati
 title: How to use MarpX Special Tags
 author: Paulo Cunha
 description: Canonical use of marpx theme
-keywords: [Marp, MarpX, Gödel, Paulo Cunha]
-
-header:
-footer: "[`Back to Contents`](#2)"
+keywords: [Marp, MarpX, Isaiah Berlin]
 
 marp: true
-theme: gödel
-paginate: true
-transition: none
-
+theme: berlin
+transition: fade
 size: 16:9
 lang: en
 math: mathjax
+paginate: true
+
+header: Oxford University.
+footer: "[Back to the Table of Contents](#3)"
 ---
 ```
 
@@ -128,21 +127,26 @@ Here you´ll find examples of the available themes. Click on the picture to open
      ],
      "settings": {
        "markdown.marp.themes": [
-         "./themes/marpx.css",
-         "./themes/berlin.css",
-         "./themes/church.css",
-         "./themes/copernicus.css",
-         "./themes/einstein.css",
-         "./themes/frankfurt.css",
-         "./themes/galileo.css",
-         "./themes/gauss.css",
-         "./themes/gödel.css",
-         "./themes/gropius.css",
-         "./themes/hobbes.css",
-         "./themes/lorca.css",
-         "./themes/newton.css",
-         "./themes/socrates.css",
-         "./themes/sparta.css"
+			"./themes/marpx.css",
+			"./themes/berkeley.css",
+			"./themes/berlin.css",
+			"./themes/cantor.css",
+			"./themes/copernicus.css",
+			"./themes/church.css",
+			"./themes/einstein.css",
+			"./themes/frankfurt.css",
+			"./themes/galileo.css",
+			"./themes/gauss.css",
+			"./themes/gödel.css",
+			"./themes/gropius.css",
+			"./themes/haskell.css",
+			"./themes/hobbes.css",
+			"./themes/lorca.css",
+			"./themes/newton.css",
+			"./themes/pascal.css",
+			"./themes/socrates.css",
+			"./themes/sparta.css",
+			"./themes/temp.css",
        ]
      }
    }
@@ -163,21 +167,25 @@ Here you´ll find examples of the available themes. Click on the picture to open
      ],
      "settings": {
        "markdown.marp.themes": [
-         "https://cunhapaulo.github.io/marpx/themes/marpx.css",
-         "https://cunhapaulo.github.io/marpx/themes/berlin.css",
-         "https://cunhapaulo.github.io/marpx/themes/church.css",
-         "https://cunhapaulo.github.io/marpx/themes/copernicus.css",
-         "https://cunhapaulo.github.io/marpx/themes/einstein.css",
-         "https://cunhapaulo.github.io/marpx/themes/frankfurt.css",
-         "https://cunhapaulo.github.io/marpx/themes/galileo.css",
-         "https://cunhapaulo.github.io/marpx/themes/gauss.css",
-         "https://cunhapaulo.github.io/marpx/themes/gödel.css",
-         "https://cunhapaulo.github.io/marpx/themes/gropius.css",
-         "https://cunhapaulo.github.io/marpx/themes/lorca.css",
-         "https://cunhapaulo.github.io/marpx/themes/hobbes.css",
-         "https://cunhapaulo.github.io/marpx/themes/newton.css",
-         "https://cunhapaulo.github.io/marpx/themes/socrates.css",
-         "https://cunhapaulo.github.io/marpx/themes/sparta.css"
+			"https://cunhapaulo.github.io/marpx/themes/marpx.css",
+			"https://cunhapaulo.github.io/marpx/themes/berkeley.css",
+			"https://cunhapaulo.github.io/marpx/themes/berlin.css",
+			"https://cunhapaulo.github.io/marpx/themes/cantor.css",
+			"https://cunhapaulo.github.io/marpx/themes/copernicus.css",
+			"https://cunhapaulo.github.io/marpx/themes/church.css",
+			"https://cunhapaulo.github.io/marpx/themes/einstein.css",
+			"https://cunhapaulo.github.io/marpx/themes/frankfurt.css",
+			"https://cunhapaulo.github.io/marpx/themes/galileo.css",
+			"https://cunhapaulo.github.io/marpx/themes/gauss.css",
+			"https://cunhapaulo.github.io/marpx/themes/gödel.css",
+			"https://cunhapaulo.github.io/marpx/themes/gropius.css",
+			"https://cunhapaulo.github.io/marpx/themes/haskell.css",
+			"https://cunhapaulo.github.io/marpx/themes/hobbes.css",
+			"https://cunhapaulo.github.io/marpx/themes/lorca.css",
+			"https://cunhapaulo.github.io/marpx/themes/newton.css",
+			"https://cunhapaulo.github.io/marpx/themes/pascal.css",
+			"https://cunhapaulo.github.io/marpx/themes/socrates.css",
+			"https://cunhapaulo.github.io/marpx/themes/sparta.css",   
        ]
      }
    }
