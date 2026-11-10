@@ -28,6 +28,10 @@ footer: "[Back to the TOC](#3)"
 
 ---
 
+# “Science cannot destroy the consciousness of freedom, without which there is no morality and no art, but it can refute it.”
+
+## ― Isaiah Berlin, The Hedgehog and the Fox: An Essay on Tolstoy's View of History
+
 <style scoped>
 
   h1 {
@@ -44,10 +48,6 @@ footer: "[Back to the TOC](#3)"
 </style>
 
 <!-- _class: title -->
-
-# “Science cannot destroy the consciousness of freedom, without which there is no morality and no art, but it can refute it.”
-
-## ― Isaiah Berlin, The Hedgehog and the Fox: An Essay on Tolstoy's View of History
 
 ---
 
