@@ -242,17 +242,25 @@ math: mathjax
 
 ### \<box\> or \<fillbox>
 
-<box> Text inside "\<box\>" or "\<fillbox\>"</box>
+<box> Text inside **"\<box\>"** or **"\<fillbox\>"**</box>
 
 ### \<bbox\> or \<emptybox\>
 
-<bbox> Text inside "\<bbox\>"</bbox>
+<bbox> Text inside **"\<bbox\>"**</bbox>
 
 </div><div>
 
 ### \<leftbox\>
 
-<leftbox> Text inside "\<leftbox\>" </leftbox>
+<leftbox> 
+
+  Text inside **"\<leftbox\>"** <br>
+
+  Especialmente interessante <br> quando usado com textos <br> mais longos. <p>
+
+  Útil tambpem  com textos <br> com mais de um  parágrafo.
+  
+</leftbox>
 
 </div></div>
 
