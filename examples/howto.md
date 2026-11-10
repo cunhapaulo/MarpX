@@ -236,7 +236,29 @@ math: mathjax
 
 ---
 
-# Boxes
+# Boxes 1
+
+<div class="multicolumn"><div>
+
+### \<box\> or \<fillbox>
+
+<box> Text inside "\<box\>" or "\<fillbox\>"</box>
+
+### \<bbox\> or \<emptybox\>
+
+<bbox> Text inside "\<bbox\>"</bbox>
+
+</div><div>
+
+### \<leftbox\>
+
+<leftbox> Text inside "\<leftbox\>" </leftbox>
+
+</div></div>
+
+---
+
+# Boxes 2
 
 - Flow of <span class="box">**activities**</span> that use **resources**.
 
@@ -280,7 +302,7 @@ Another way:
 
 ---
 
-# Boxes
+# Boxes 3
 
 <center>
 

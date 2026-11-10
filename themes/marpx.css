@@ -1737,7 +1737,9 @@ bbox, emptybox, leftbox {
 }
 
 leftbox {
-  text-align: left;           /* centraliza o conteúdo dentro da caixa */
+
+  text-align:  left !important;  
+    
 }
 
 .box {
